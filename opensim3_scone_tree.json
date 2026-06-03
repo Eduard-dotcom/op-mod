@@ -1,0 +1,19 @@
+{
+  "code": 200,
+  "data": {
+    "description": "",
+    "html": "<html><head><meta name=\"color-scheme\" content=\"light dark\"></head><body><pre style=\"word-wrap: break-word; white-space: pre-wrap;\">{\n  \"sha\": \"ffa32e4e098ef364948781444e4ea7f3bab2e845\",\n  \"url\": \"https://api.github.com/repos/tgeijten/opensim3-scone/git/trees/ffa32e4e098ef364948781444e4ea7f3bab2e845\",\n  \"tree\": [\n    {\n      \"path\": \".gitignore\",\n      \"mode\": \"100644\",\n      \"type\": \"blob\",\n      \"sha\": \"259148fa18f9fb7ef58563f4ff15fc7b172339fb\",\n      \"size\": 270,\n      \"url\": \"https://api.github.com/repos/tgeijten/opensim3-scone/git/blobs/259148fa18f9fb7ef58563f4ff15fc7b172339fb\"\n    },\n    {\n      \"path\": \"Applications\",\n      \"mode\": \"040000\",\n      \"type\": \"tree\",\n      \"sha\": \"0edcb73f9222f911d1c6e9e14010525b0a1fc2cb\",\n      \"url\": \"https://api.github.com/repos/tgeijten/opensim3-scone/git/trees/0edcb73f9222f911d1c6e9e14010525b0a1fc2cb\"\n    },\n    {\n      \"path\": \"CMakeLists.txt\",\n      \"mode\": \"100644\",\n      \"type\": \"blob\",\n      \"sha\": \"856680e6a0ab93e39f1308df6506ac3ea723e9d0\",\n      \"size\": 20144,\n      \"url\": \"https://api.github.com/repos/tgeijten/opensim3-scone/git/blobs/856680e6a0ab93e39f1308df6506ac3ea723e9d0\"\n    },\n    {\n      \"path\": \"CTestConfig.cmake\",\n      \"mode\": \"100644\",\n      \"type\": \"blob\",\n      \"sha\": \"2d0d9bf98d80c1cdfde6df6b0159f400d6857939\",\n      \"size\": 539,\n      \"url\": \"https://api.github.com/repos/tgeijten/opensim3-scone/git/blobs/2d0d9bf98d80c1cdfde6df6b0159f400d6857939\"\n    },\n    {\n      \"path\": \"Copyright.txt\",\n      \"mode\": \"100644\",\n      \"type\": \"blob\",\n      \"sha\": \"4a47917e400d9c7cf5a06e4ad94f20cd65766127\",\n      \"size\": 2144,\n      \"url\": \"https://api.github.com/repos/tgeijten/opensim3-scone/git/blobs/4a47917e400d9c7cf5a06e4ad94f20cd65766127\"\n    },\n    {\n      \"path\": \"FindOpenSim.cmake\",\n      \"mode\": \"100644\",\n      \"type\": \"blob\",\n      \"sha\": \"9040c068fef5f61b10c9d4de50a65de7c38ea83e\",\n      \"size\": 9946,\n      \"url\": \"https://api.github.com/repos/tgeijten/opensim3-scone/git/blobs/9040c068fef5f61b10c9d4de50a65de7c38ea83e\"\n    },\n    {\n      \"path\": \"NOTICE\",\n      \"mode\": \"100644\",\n      \"type\": \"blob\",\n      \"sha\": \"35b15cb17c63ec3e1e07e53719ed1586f7a936ec\",\n      \"size\": 3709,\n      \"url\": \"https://api.github.com/repos/tgeijten/opensim3-scone/git/blobs/35b15cb17c63ec3e1e07e53719ed1586f7a936ec\"\n    },\n    {\n      \"path\": \"OpenSim\",\n      \"mode\": \"040000\",\n      \"type\": \"tree\",\n      \"sha\": \"fa433ff0d7237631abda0a87c5e65e43b999e561\",\n      \"url\": \"https://api.github.com/repos/tgeijten/opensim3-scone/git/trees/fa433ff0d7237631abda0a87c5e65e43b999e561\"\n    },\n    {\n      \"path\": \"ReadMe.txt\",\n      \"mode\": \"100644\",\n      \"type\": \"blob\",\n      \"sha\": \"646212f277cde70bd23f03046057f42a8522c20b\",\n      \"size\": 1629,\n      \"url\": \"https://api.github.com/repos/tgeijten/opensim3-scone/git/blobs/646212f277cde70bd23f03046057f42a8522c20b\"\n    },\n    {\n      \"path\": \"Vendors\",\n      \"mode\": \"040000\",\n      \"type\": \"tree\",\n      \"sha\": \"dd0ea14730ecb60d0d894e89dfd466c6991504f3\",\n      \"url\": \"https://api.github.com/repos/tgeijten/opensim3-scone/git/trees/dd0ea14730ecb60d0d894e89dfd466c6991504f3\"\n    }\n  ],\n  \"truncated\": false\n}\n</pre></body></html>",
+    "publishedTime": "Tue, 08 Aug 2023 11:35:14 GMT",
+    "title": "",
+    "url": "https://api.github.com/repos/tgeijten/opensim3-scone/git/trees/master",
+    "usage": {
+      "tokens": 1251
+    }
+  },
+  "meta": {
+    "usage": {
+      "tokens": 1251
+    }
+  },
+  "status": 20000
+}

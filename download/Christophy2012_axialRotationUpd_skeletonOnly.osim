@@ -1,0 +1,1392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSimDocument Version="20101">
+	<Model name="Lumbar_C_210">c
+		<credits> Unassigned </credits>
+		<publications> Unassigned </publications>		
+		<length_units> meters </length_units>
+		<force_units> N </force_units>
+		<!--Acceleration due to gravity.-->
+		<gravity>       0.00000000000000000000      -9.80664999999999940000       0.00000000000000000000 </gravity>
+		<!--Bodies in the model.-->
+		<BodySet name="">
+			<objects>
+				<Body name="ground">
+					<mass>       0.00000000000000000000 </mass>
+					<mass_center>       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </mass_center>
+					<inertia_xx>       0.00000000000000000000 </inertia_xx>
+					<inertia_yy>       0.00000000000000000000 </inertia_yy>
+					<inertia_zz>       0.00000000000000000000 </inertia_zz>
+					<inertia_xy>       0.00000000000000000000 </inertia_xy>
+					<inertia_xz>       0.00000000000000000000 </inertia_xz>
+					<inertia_yz>       0.00000000000000000000 </inertia_yz>
+					<!--Joint that connects this body with the parent body.-->
+					<Joint/>
+					<VisibleObject name="">
+						<!--Set of geometry files and associated attributes, allow .vtp, .stl,
+						    .obj-->
+						<GeometrySet name="">
+							<objects/>
+							<groups/>
+						</GeometrySet>
+						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+						<scale_factors>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </scale_factors>
+						<!--transform relative to owner specified as 3 rotations (rad) followed by
+						    3 translations rX rY rZ tx ty tz-->
+						<transform>      -0.00000000000000000000       0.00000000000000000000      -0.00000000000000000000       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </transform>
+						<!--Whether to show a coordinate frame-->
+						<show_axes> false </show_axes>
+						<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for
+						    individual geometries-->
+						<display_preference> 4 </display_preference>
+					</VisibleObject>
+				</Body>
+				<Body name="pelvis">
+					<mass>       0.00000000000000000000 </mass>
+					<mass_center>       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </mass_center>
+					<inertia_xx>       0.00000000000000000000 </inertia_xx>
+					<inertia_yy>       0.00000000000000000000 </inertia_yy>
+					<inertia_zz>       0.00000000000000000000 </inertia_zz>
+					<inertia_xy>       0.00000000000000000000 </inertia_xy>
+					<inertia_xz>       0.00000000000000000000 </inertia_xz>
+					<inertia_yz>       0.00000000000000000000 </inertia_yz>
+					<!--Joint that connects this body with the parent body.-->
+					<Joint>
+						<WeldJoint name="gndpelvis">
+							<parent_body> ground </parent_body>
+							<location_in_parent>       0.00000000000000000000       0.97899999999999998000       0.00000000000000000000 </location_in_parent>
+							<orientation_in_parent>       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </orientation_in_parent>
+							<location>       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </location>
+							<orientation>       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </orientation>
+							<!--Generalized coordinates parameterizing this joint.-->
+							<CoordinateSet name="">
+								<objects/>
+								<groups/>
+							</CoordinateSet>
+							<reverse> false </reverse>
+						</WeldJoint>
+					</Joint>
+					<VisibleObject name="">
+						<!--Set of geometry files and associated attributes, allow .vtp, .stl,
+						    .obj-->
+						<GeometrySet name="">
+							<objects>
+								<DisplayGeometry name="">
+									<!--Name of geometry file .vtp, .stl, .obj-->
+									<geometry_file> pelvis_rv.vtp </geometry_file>
+									<!--Color used to display the geometry when visible-->
+									<color>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </color>
+									<!--Name of texture file .jpg, .bmp-->
+									<texture_file>  </texture_file>
+									<!--in body transform specified as 3 rotations (rad) followed by 3
+									    translations rX rY rZ tx ty tz-->
+									<transform>      -0.00000000000000000000       0.00000000000000000000      -0.00000000000000000000       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </transform>
+									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+									<scale_factors>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </scale_factors>
+									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
+									<display_preference> 4 </display_preference>
+									<!--Display opacity between 0.0 and 1.0-->
+									<opacity>       1.00000000000000000000 </opacity>
+								</DisplayGeometry>
+								<DisplayGeometry name="">
+									<!--Name of geometry file .vtp, .stl, .obj-->
+									<geometry_file> pelvis_lv.vtp </geometry_file>
+									<!--Color used to display the geometry when visible-->
+									<color>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </color>
+									<!--Name of texture file .jpg, .bmp-->
+									<texture_file>  </texture_file>
+									<!--in body transform specified as 3 rotations (rad) followed by 3
+									    translations rX rY rZ tx ty tz-->
+									<transform>      -0.00000000000000000000       0.00000000000000000000      -0.00000000000000000000       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </transform>
+									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+									<scale_factors>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </scale_factors>
+									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
+									<display_preference> 4 </display_preference>
+									<!--Display opacity between 0.0 and 1.0-->
+									<opacity>       1.00000000000000000000 </opacity>
+								</DisplayGeometry>
+							</objects>
+							<groups/>
+						</GeometrySet>
+						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+						<scale_factors>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </scale_factors>
+						<!--transform relative to owner specified as 3 rotations (rad) followed by
+						    3 translations rX rY rZ tx ty tz-->
+						<transform>      -0.00000000000000000000       0.00000000000000000000      -0.00000000000000000000       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </transform>
+						<!--Whether to show a coordinate frame-->
+						<show_axes> false </show_axes>
+						<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for
+						    individual geometries-->
+						<display_preference> 4 </display_preference>
+					</VisibleObject>
+				</Body>
+				<Body name="sacrum">
+					<mass>       7.48599999999999980000 </mass>
+					<mass_center>       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </mass_center>
+					<inertia_xx>       0.07499999999999999700 </inertia_xx>
+					<inertia_yy>       0.08000000000000000200 </inertia_yy>
+					<inertia_zz>       0.02999999999999999900 </inertia_zz>
+					<inertia_xy>       0.00000000000000000000 </inertia_xy>
+					<inertia_xz>       0.00000000000000000000 </inertia_xz>
+					<inertia_yz>       0.00000000000000000000 </inertia_yz>
+					<!--Joint that connects this body with the parent body.-->
+					<Joint>
+						<WeldJoint name="gndsacrum">
+							<parent_body> ground </parent_body>
+							<location_in_parent>       0.00000000000000000000       0.93000000000000005000       0.00000000000000000000 </location_in_parent>
+							<orientation_in_parent>       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </orientation_in_parent>
+							<location>       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </location>
+							<orientation>       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </orientation>
+							<!--Generalized coordinates parameterizing this joint.-->
+							<CoordinateSet name="">
+								<objects/>
+								<groups/>
+							</CoordinateSet>
+							<reverse> false </reverse>
+						</WeldJoint>
+					</Joint>
+					<VisibleObject name="">
+						<!--Set of geometry files and associated attributes, allow .vtp, .stl,
+						    .obj-->
+						<GeometrySet name="">
+							<objects>
+								<DisplayGeometry name="">
+									<!--Name of geometry file .vtp, .stl, .obj-->
+									<geometry_file> sacrum.vtp </geometry_file>
+									<!--Color used to display the geometry when visible-->
+									<color>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </color>
+									<!--Name of texture file .jpg, .bmp-->
+									<texture_file>  </texture_file>
+									<!--in body transform specified as 3 rotations (rad) followed by 3
+									    translations rX rY rZ tx ty tz-->
+									<transform>      -0.00000000000000000000       0.00000000000000000000      -0.00000000000000000000       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </transform>
+									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+									<scale_factors>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </scale_factors>
+									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
+									<display_preference> 4 </display_preference>
+									<!--Display opacity between 0.0 and 1.0-->
+									<opacity>       1.00000000000000000000 </opacity>
+								</DisplayGeometry>
+							</objects>
+							<groups/>
+						</GeometrySet>
+						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+						<scale_factors>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </scale_factors>
+						<!--transform relative to owner specified as 3 rotations (rad) followed by
+						    3 translations rX rY rZ tx ty tz-->
+						<transform>      -0.00000000000000000000       0.00000000000000000000      -0.00000000000000000000       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </transform>
+						<!--Whether to show a coordinate frame-->
+						<show_axes> false </show_axes>
+						<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for
+						    individual geometries-->
+						<display_preference> 4 </display_preference>
+					</VisibleObject>
+				</Body>
+				<Body name="lumbar5">
+					<mass>       1.82400000000000010000 </mass>
+					<mass_center>       0.05374400000000000000       0.02000000000000000000       0.00000000000000000000 </mass_center>
+					<inertia_xx>       0.01218999999999999900 </inertia_xx>
+					<inertia_yy>       0.01764999999999999900 </inertia_yy>
+					<inertia_zz>       0.00545999999999999960 </inertia_zz>
+					<inertia_xy>       0.00000000000000000000 </inertia_xy>
+					<inertia_xz>       0.00000000000000000000 </inertia_xz>
+					<inertia_yz>       0.00000000000000000000 </inertia_yz>
+					<!--Joint that connects this body with the parent body.-->
+					<Joint>
+						<CustomJoint name="L5_S1_IVDjnt">
+							<parent_body> sacrum </parent_body>
+							<location_in_parent>      -0.09800000000000000400       0.07099999999999999400      -0.00000000000000000000 </location_in_parent>
+							<orientation_in_parent>       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </orientation_in_parent>
+							<location>       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </location>
+							<orientation>       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </orientation>
+							<!--Generalized coordinates parameterizing this joint.-->
+							<CoordinateSet name="">
+								<objects>
+									<Coordinate name="flex_extension">
+										<!--Cooridnate can describe rotational, translational, or coupled values.
+										    Defaults to rotational.-->
+										<motion_type> rotational </motion_type>
+										<default_value>       0.00000000000000000000 </default_value>
+										<default_speed_value>       0.00000000000000000000 </default_speed_value>
+										<initial_value>       0.00000000000000000000 </initial_value>
+										<range>      -1.22173048000000000000       0.45378561000000001000 </range>
+										<clamped> false </clamped>
+										<locked> false </locked>
+										<prescribed_function/>
+									</Coordinate>
+									<Coordinate name="lat_bending">
+										<!--Cooridnate can describe rotational, translational, or coupled values.
+										    Defaults to rotational.-->
+										<motion_type> rotational </motion_type>
+										<default_value>       0.00000000000000000000 </default_value>
+										<default_speed_value>       0.00000000000000000000 </default_speed_value>
+										<initial_value>       0.00000000000000000000 </initial_value>
+										<range>      -0.43633231000000000000       0.43633231000000000000 </range>
+										<clamped> false </clamped>
+										<locked> false </locked>
+										<prescribed_function/>
+									</Coordinate>
+									<Coordinate name="axial_rotation">
+										<!--Cooridnate can describe rotational, translational, or coupled values.
+										    Defaults to rotational.-->
+										<motion_type> rotational </motion_type>
+										<default_value>       0.00000000000000000000 </default_value>
+										<default_speed_value>       0.00000000000000000000 </default_speed_value>
+										<initial_value>       0.00000000000000000000 </initial_value>
+										<range>      -0.78539816299999998000       0.78539816299999998000 </range>
+										<clamped> false </clamped>
+										<locked> false </locked>
+										<prescribed_function/>
+									</Coordinate>
+								</objects>
+								<groups/>
+							</CoordinateSet>
+							<reverse> false </reverse>
+							<SpatialTransform name="">
+								<!--3 Axes for rotations are listed first.-->
+								<TransformAxis name="rotation1">
+									<function>
+										<LinearFunction name="">
+											<coefficients>       0.12500000000000000000       0.00000000000000000000 </coefficients>
+										</LinearFunction>
+									</function>
+									<coordinates> flex_extension </coordinates>
+									<axis>       0.00000000000000000000       0.00000000000000000000       1.00000000000000000000 </axis>
+								</TransformAxis>
+								<TransformAxis name="rotation2">
+									<function>
+										<LinearFunction name="">
+											<coefficients>       0.13560000000000000000       0.00000000000000000000 </coefficients>
+										</LinearFunction>
+									</function>
+									<coordinates> lat_bending </coordinates>
+									<axis>       1.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </axis>
+								</TransformAxis>
+								<TransformAxis name="rotation3">
+									<function>
+										<LinearFunction name="">
+											<coefficients>       0.207792207792208       0.00000000000000000000 </coefficients>
+										</LinearFunction>
+									</function>
+									<coordinates> axial_rotation </coordinates>
+									<axis>       0.00000000000000000000       1.00000000000000000000       0.00000000000000000000 </axis>
+								</TransformAxis>
+								<!--3 Axes for translations are listed next.-->
+								<TransformAxis name="translation1">
+									<function>
+										<Constant name="">
+											<value>       0.00000000000000000000 </value>
+										</Constant>
+									</function>
+									<coordinates> </coordinates>
+									<axis>       1.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </axis>
+								</TransformAxis>
+								<TransformAxis name="translation2">
+									<function>
+										<Constant name="">
+											<value>       0.00000000000000000000 </value>
+										</Constant>
+									</function>
+									<coordinates> </coordinates>
+									<axis>       0.00000000000000000000       1.00000000000000000000       0.00000000000000000000 </axis>
+								</TransformAxis>
+								<TransformAxis name="translation3">
+									<function>
+										<Constant name="">
+											<value>       0.00000000000000000000 </value>
+										</Constant>
+									</function>
+									<coordinates> </coordinates>
+									<axis>       0.00000000000000000000       0.00000000000000000000       1.00000000000000000000 </axis>
+								</TransformAxis>
+							</SpatialTransform>
+						</CustomJoint>
+					</Joint>
+					<VisibleObject name="">
+						<!--Set of geometry files and associated attributes, allow .vtp, .stl,
+						    .obj-->
+						<GeometrySet name="">
+							<objects>
+								<DisplayGeometry name="">
+									<!--Name of geometry file .vtp, .stl, .obj-->
+									<geometry_file> lumbar5.vtp </geometry_file>
+									<!--Color used to display the geometry when visible-->
+									<color>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </color>
+									<!--Name of texture file .jpg, .bmp-->
+									<texture_file>  </texture_file>
+									<!--in body transform specified as 3 rotations (rad) followed by 3
+									    translations rX rY rZ tx ty tz-->
+									<transform>      -0.00000000000000000000       0.00000000000000000000      -0.00000000000000000000       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </transform>
+									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+									<scale_factors>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </scale_factors>
+									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
+									<display_preference> 4 </display_preference>
+									<!--Display opacity between 0.0 and 1.0-->
+									<opacity>       1.00000000000000000000 </opacity>
+								</DisplayGeometry>
+							</objects>
+							<groups/>
+						</GeometrySet>
+						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+						<scale_factors>       0.87000000000000000000       0.87000000000000000000       0.87000000000000000000 </scale_factors>
+						<!--transform relative to owner specified as 3 rotations (rad) followed by
+						    3 translations rX rY rZ tx ty tz-->
+						<transform>      -0.00000000000000000000       0.00000000000000000000      -0.00000000000000000000       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </transform>
+						<!--Whether to show a coordinate frame-->
+						<show_axes> false </show_axes>
+						<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for
+						    individual geometries-->
+						<display_preference> 4 </display_preference>
+					</VisibleObject>
+				</Body>
+				<Body name="lumbar4">
+					<mass>       1.79899999999999990000 </mass>
+					<mass_center>       0.01702959999999999900       0.01799999999999999900       0.00000000000000000000 </mass_center>
+					<inertia_xx>       0.01123000000000000000 </inertia_xx>
+					<inertia_yy>       0.01643000000000000000 </inertia_yy>
+					<inertia_zz>       0.00519999999999999980 </inertia_zz>
+					<inertia_xy>       0.00000000000000000000 </inertia_xy>
+					<inertia_xz>       0.00000000000000000000 </inertia_xz>
+					<inertia_yz>       0.00000000000000000000 </inertia_yz>
+					<!--Joint that connects this body with the parent body.-->
+					<Joint>
+						<CustomJoint name="L4_L5_IVDjnt">
+							<parent_body> lumbar5 </parent_body>
+							<location_in_parent>       0.01000000000000000000       0.02960000000000000100       0.00000000000000000000 </location_in_parent>
+							<orientation_in_parent>       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </orientation_in_parent>
+							<location>       0.00100000000000000000      -0.00250000000000000010       0.00000000000000000000 </location>
+							<orientation>       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </orientation>
+							<!--Generalized coordinates parameterizing this joint.-->
+							<CoordinateSet name="">
+								<objects>
+									<Coordinate name="L4_L5_FE">
+										<!--Cooridnate can describe rotational, translational, or coupled values.
+										    Defaults to rotational.-->
+										<motion_type> rotational </motion_type>
+										<default_value>       0.00000000000000000000 </default_value>
+										<default_speed_value>       0.00000000000000000000 </default_speed_value>
+										<initial_value>       0.00000000000000000000 </initial_value>
+										<range>  -99999.89999999999400000000   99999.89999999999400000000 </range>
+										<clamped> false </clamped>
+										<locked> false </locked>
+										<prescribed_function/>
+									</Coordinate>
+									<Coordinate name="L4_L5_LB">
+										<!--Cooridnate can describe rotational, translational, or coupled values.
+										    Defaults to rotational.-->
+										<motion_type> rotational </motion_type>
+										<default_value>       0.00000000000000000000 </default_value>
+										<default_speed_value>       0.00000000000000000000 </default_speed_value>
+										<initial_value>       0.00000000000000000000 </initial_value>
+										<range>  -99999.89999999999400000000   99999.89999999999400000000 </range>
+										<clamped> false </clamped>
+										<locked> false </locked>
+										<prescribed_function/>
+									</Coordinate>
+									<Coordinate name="L4_L5_AR">
+										<!--Cooridnate can describe rotational, translational, or coupled values.
+										    Defaults to rotational.-->
+										<motion_type> rotational </motion_type>
+										<default_value>       0.00000000000000000000 </default_value>
+										<default_speed_value>       0.00000000000000000000 </default_speed_value>
+										<initial_value>       0.00000000000000000000 </initial_value>
+										<range>  -99999.89999999999400000000   99999.89999999999400000000 </range>
+										<clamped> false </clamped>
+										<locked> false </locked>
+										<prescribed_function/>
+									</Coordinate>
+								</objects>
+								<groups/>
+							</CoordinateSet>
+							<reverse> false </reverse>
+							<SpatialTransform name="">
+								<!--3 Axes for rotations are listed first.-->
+								<TransformAxis name="rotation1">
+									<function>
+										<LinearFunction name="">
+											<coefficients>       1.00000000000000000000       0.00000000000000000000 </coefficients>
+										</LinearFunction>
+									</function>
+									<coordinates> L4_L5_FE </coordinates>
+									<axis>       0.00000000000000000000       0.00000000000000000000       1.00000000000000000000 </axis>
+								</TransformAxis>
+								<TransformAxis name="rotation2">
+									<function>
+										<LinearFunction name="">
+											<coefficients>       1.00000000000000000000       0.00000000000000000000 </coefficients>
+										</LinearFunction>
+									</function>
+									<coordinates> L4_L5_LB </coordinates>
+									<axis>       1.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </axis>
+								</TransformAxis>
+								<TransformAxis name="rotation3">
+									<function>
+										<LinearFunction name="">
+											<coefficients>       1.00000000000000000000       0.00000000000000000000 </coefficients>
+										</LinearFunction>
+									</function>
+									<coordinates> L4_L5_AR </coordinates>
+									<axis>       0.00000000000000000000       1.00000000000000000000       0.00000000000000000000 </axis>
+								</TransformAxis>
+								<!--3 Axes for translations are listed next.-->
+								<TransformAxis name="translation1">
+									<function>
+										<Constant name="">
+											<value>       0.00000000000000000000 </value>
+										</Constant>
+									</function>
+									<coordinates> </coordinates>
+									<axis>       1.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </axis>
+								</TransformAxis>
+								<TransformAxis name="translation2">
+									<function>
+										<Constant name="">
+											<value>       0.00000000000000000000 </value>
+										</Constant>
+									</function>
+									<coordinates> </coordinates>
+									<axis>       0.00000000000000000000       1.00000000000000000000       0.00000000000000000000 </axis>
+								</TransformAxis>
+								<TransformAxis name="translation3">
+									<function>
+										<Constant name="">
+											<value>       0.00000000000000000000 </value>
+										</Constant>
+									</function>
+									<coordinates> </coordinates>
+									<axis>       0.00000000000000000000       0.00000000000000000000       1.00000000000000000000 </axis>
+								</TransformAxis>
+							</SpatialTransform>
+						</CustomJoint>
+					</Joint>
+					<VisibleObject name="">
+						<!--Set of geometry files and associated attributes, allow .vtp, .stl,
+						    .obj-->
+						<GeometrySet name="">
+							<objects>
+								<DisplayGeometry name="">
+									<!--Name of geometry file .vtp, .stl, .obj-->
+									<geometry_file> lumbar4.vtp </geometry_file>
+									<!--Color used to display the geometry when visible-->
+									<color>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </color>
+									<!--Name of texture file .jpg, .bmp-->
+									<texture_file>  </texture_file>
+									<!--in body transform specified as 3 rotations (rad) followed by 3
+									    translations rX rY rZ tx ty tz-->
+									<transform>      -0.00000000000000000000       0.00000000000000000000      -0.00000000000000000000       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </transform>
+									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+									<scale_factors>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </scale_factors>
+									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
+									<display_preference> 4 </display_preference>
+									<!--Display opacity between 0.0 and 1.0-->
+									<opacity>       1.00000000000000000000 </opacity>
+								</DisplayGeometry>
+							</objects>
+							<groups/>
+						</GeometrySet>
+						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+						<scale_factors>       0.87000000000000000000       0.87000000000000000000       0.87000000000000000000 </scale_factors>
+						<!--transform relative to owner specified as 3 rotations (rad) followed by
+						    3 translations rX rY rZ tx ty tz-->
+						<transform>      -0.00000000000000000000       0.00000000000000000000      -0.00000000000000000000       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </transform>
+						<!--Whether to show a coordinate frame-->
+						<show_axes> false </show_axes>
+						<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for
+						    individual geometries-->
+						<display_preference> 4 </display_preference>
+					</VisibleObject>
+				</Body>
+				<Body name="lumbar3">
+					<mass>       1.66999999999999990000 </mass>
+					<mass_center>       0.01368480000000000000       0.01799999999999999900       0.00000000000000000000 </mass_center>
+					<inertia_xx>       0.01065999999999999900 </inertia_xx>
+					<inertia_yy>       0.01608000000000000100 </inertia_yy>
+					<inertia_zz>       0.00551000000000000010 </inertia_zz>
+					<inertia_xy>       0.00000000000000000000 </inertia_xy>
+					<inertia_xz>       0.00000000000000000000 </inertia_xz>
+					<inertia_yz>       0.00000000000000000000 </inertia_yz>
+					<!--Joint that connects this body with the parent body.-->
+					<Joint>
+						<CustomJoint name="L3_L4_IVDjnt">
+							<parent_body> lumbar4 </parent_body>
+							<location_in_parent>       0.00000000000000000000       0.03200000000000000100       0.00000000000000000000 </location_in_parent>
+							<orientation_in_parent>       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </orientation_in_parent>
+							<location>      -0.00059999999999999995      -0.00119999999999999990       0.00000000000000000000 </location>
+							<orientation>       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </orientation>
+							<!--Generalized coordinates parameterizing this joint.-->
+							<CoordinateSet name="">
+								<objects>
+									<Coordinate name="L3_L4_FE">
+										<!--Cooridnate can describe rotational, translational, or coupled values.
+										    Defaults to rotational.-->
+										<motion_type> rotational </motion_type>
+										<default_value>       0.00000000000000000000 </default_value>
+										<default_speed_value>       0.00000000000000000000 </default_speed_value>
+										<initial_value>       0.00000000000000000000 </initial_value>
+										<range>  -99999.89999999999400000000   99999.89999999999400000000 </range>
+										<clamped> false </clamped>
+										<locked> false </locked>
+										<prescribed_function/>
+									</Coordinate>
+									<Coordinate name="L3_L4_LB">
+										<!--Cooridnate can describe rotational, translational, or coupled values.
+										    Defaults to rotational.-->
+										<motion_type> rotational </motion_type>
+										<default_value>       0.00000000000000000000 </default_value>
+										<default_speed_value>       0.00000000000000000000 </default_speed_value>
+										<initial_value>       0.00000000000000000000 </initial_value>
+										<range>  -99999.89999999999400000000   99999.89999999999400000000 </range>
+										<clamped> false </clamped>
+										<locked> false </locked>
+										<prescribed_function/>
+									</Coordinate>
+									<Coordinate name="L3_L4_AR">
+										<!--Cooridnate can describe rotational, translational, or coupled values.
+										    Defaults to rotational.-->
+										<motion_type> rotational </motion_type>
+										<default_value>       0.00000000000000000000 </default_value>
+										<default_speed_value>       0.00000000000000000000 </default_speed_value>
+										<initial_value>       0.00000000000000000000 </initial_value>
+										<range>  -99999.89999999999400000000   99999.89999999999400000000 </range>
+										<clamped> false </clamped>
+										<locked> false </locked>
+										<prescribed_function/>
+									</Coordinate>
+								</objects>
+								<groups/>
+							</CoordinateSet>
+							<reverse> false </reverse>
+							<SpatialTransform name="">
+								<!--3 Axes for rotations are listed first.-->
+								<TransformAxis name="rotation1">
+									<function>
+										<LinearFunction name="">
+											<coefficients>       1.00000000000000000000       0.00000000000000000000 </coefficients>
+										</LinearFunction>
+									</function>
+									<coordinates> L3_L4_FE </coordinates>
+									<axis>       0.00000000000000000000       0.00000000000000000000       1.00000000000000000000 </axis>
+								</TransformAxis>
+								<TransformAxis name="rotation2">
+									<function>
+										<LinearFunction name="">
+											<coefficients>       1.00000000000000000000       0.00000000000000000000 </coefficients>
+										</LinearFunction>
+									</function>
+									<coordinates> L3_L4_LB </coordinates>
+									<axis>       1.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </axis>
+								</TransformAxis>
+								<TransformAxis name="rotation3">
+									<function>
+										<LinearFunction name="">
+											<coefficients>       1.00000000000000000000       0.00000000000000000000 </coefficients>
+										</LinearFunction>
+									</function>
+									<coordinates> L3_L4_AR </coordinates>
+									<axis>       0.00000000000000000000       1.00000000000000000000       0.00000000000000000000 </axis>
+								</TransformAxis>
+								<!--3 Axes for translations are listed next.-->
+								<TransformAxis name="translation1">
+									<function>
+										<Constant name="">
+											<value>       0.00000000000000000000 </value>
+										</Constant>
+									</function>
+									<coordinates> </coordinates>
+									<axis>       1.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </axis>
+								</TransformAxis>
+								<TransformAxis name="translation2">
+									<function>
+										<Constant name="">
+											<value>       0.00000000000000000000 </value>
+										</Constant>
+									</function>
+									<coordinates> </coordinates>
+									<axis>       0.00000000000000000000       1.00000000000000000000       0.00000000000000000000 </axis>
+								</TransformAxis>
+								<TransformAxis name="translation3">
+									<function>
+										<Constant name="">
+											<value>       0.00000000000000000000 </value>
+										</Constant>
+									</function>
+									<coordinates> </coordinates>
+									<axis>       0.00000000000000000000       0.00000000000000000000       1.00000000000000000000 </axis>
+								</TransformAxis>
+							</SpatialTransform>
+						</CustomJoint>
+					</Joint>
+					<VisibleObject name="">
+						<!--Set of geometry files and associated attributes, allow .vtp, .stl,
+						    .obj-->
+						<GeometrySet name="">
+							<objects>
+								<DisplayGeometry name="">
+									<!--Name of geometry file .vtp, .stl, .obj-->
+									<geometry_file> lumbar3.vtp </geometry_file>
+									<!--Color used to display the geometry when visible-->
+									<color>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </color>
+									<!--Name of texture file .jpg, .bmp-->
+									<texture_file>  </texture_file>
+									<!--in body transform specified as 3 rotations (rad) followed by 3
+									    translations rX rY rZ tx ty tz-->
+									<transform>      -0.00000000000000000000       0.00000000000000000000      -0.00000000000000000000       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </transform>
+									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+									<scale_factors>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </scale_factors>
+									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
+									<display_preference> 4 </display_preference>
+									<!--Display opacity between 0.0 and 1.0-->
+									<opacity>       1.00000000000000000000 </opacity>
+								</DisplayGeometry>
+							</objects>
+							<groups/>
+						</GeometrySet>
+						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+						<scale_factors>       0.87000000000000000000       0.87000000000000000000       0.87000000000000000000 </scale_factors>
+						<!--transform relative to owner specified as 3 rotations (rad) followed by
+						    3 translations rX rY rZ tx ty tz-->
+						<transform>      -0.00000000000000000000       0.00000000000000000000      -0.00000000000000000000       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </transform>
+						<!--Whether to show a coordinate frame-->
+						<show_axes> false </show_axes>
+						<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for
+						    individual geometries-->
+						<display_preference> 4 </display_preference>
+					</VisibleObject>
+				</Body>
+				<Body name="lumbar2">
+					<mass>       1.68900000000000010000 </mass>
+					<mass_center>       0.02452719999999999900       0.01799999999999999900       0.00000000000000000000 </mass_center>
+					<inertia_xx>       0.01091000000000000000 </inertia_xx>
+					<inertia_yy>       0.01682000000000000200 </inertia_yy>
+					<inertia_zz>       0.00591000000000000030 </inertia_zz>
+					<inertia_xy>       0.00000000000000000000 </inertia_xy>
+					<inertia_xz>       0.00000000000000000000 </inertia_xz>
+					<inertia_yz>       0.00000000000000000000 </inertia_yz>
+					<!--Joint that connects this body with the parent body.-->
+					<Joint>
+						<CustomJoint name="L2_L3_IVDjnt">
+							<parent_body> lumbar3 </parent_body>
+							<location_in_parent>      -0.00800000000000000020       0.03119999999999999900       0.00000000000000000000 </location_in_parent>
+							<orientation_in_parent>       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </orientation_in_parent>
+							<location>      -0.00129999999999999990      -0.00389999999999999980       0.00000000000000000000 </location>
+							<orientation>       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </orientation>
+							<!--Generalized coordinates parameterizing this joint.-->
+							<CoordinateSet name="">
+								<objects>
+									<Coordinate name="L2_L3_FE">
+										<!--Cooridnate can describe rotational, translational, or coupled values.
+										    Defaults to rotational.-->
+										<motion_type> rotational </motion_type>
+										<default_value>       0.00000000000000000000 </default_value>
+										<default_speed_value>       0.00000000000000000000 </default_speed_value>
+										<initial_value>       0.00000000000000000000 </initial_value>
+										<range>  -99999.89999999999400000000   99999.89999999999400000000 </range>
+										<clamped> false </clamped>
+										<locked> false </locked>
+										<prescribed_function/>
+									</Coordinate>
+									<Coordinate name="L2_L3_LB">
+										<!--Cooridnate can describe rotational, translational, or coupled values.
+										    Defaults to rotational.-->
+										<motion_type> rotational </motion_type>
+										<default_value>       0.00000000000000000000 </default_value>
+										<default_speed_value>       0.00000000000000000000 </default_speed_value>
+										<initial_value>       0.00000000000000000000 </initial_value>
+										<range>  -99999.89999999999400000000   99999.89999999999400000000 </range>
+										<clamped> false </clamped>
+										<locked> false </locked>
+										<prescribed_function/>
+									</Coordinate>
+									<Coordinate name="L2_L3_AR">
+										<!--Cooridnate can describe rotational, translational, or coupled values.
+										    Defaults to rotational.-->
+										<motion_type> rotational </motion_type>
+										<default_value>       0.00000000000000000000 </default_value>
+										<default_speed_value>       0.00000000000000000000 </default_speed_value>
+										<initial_value>       0.00000000000000000000 </initial_value>
+										<range>  -99999.89999999999400000000   99999.89999999999400000000 </range>
+										<clamped> false </clamped>
+										<locked> false </locked>
+										<prescribed_function/>
+									</Coordinate>
+								</objects>
+								<groups/>
+							</CoordinateSet>
+							<reverse> false </reverse>
+							<SpatialTransform name="">
+								<!--3 Axes for rotations are listed first.-->
+								<TransformAxis name="rotation1">
+									<function>
+										<LinearFunction name="">
+											<coefficients>       1.00000000000000000000       0.00000000000000000000 </coefficients>
+										</LinearFunction>
+									</function>
+									<coordinates> L2_L3_FE </coordinates>
+									<axis>       0.00000000000000000000       0.00000000000000000000       1.00000000000000000000 </axis>
+								</TransformAxis>
+								<TransformAxis name="rotation2">
+									<function>
+										<LinearFunction name="">
+											<coefficients>       1.00000000000000000000       0.00000000000000000000 </coefficients>
+										</LinearFunction>
+									</function>
+									<coordinates> L2_L3_LB </coordinates>
+									<axis>       1.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </axis>
+								</TransformAxis>
+								<TransformAxis name="rotation3">
+									<function>
+										<LinearFunction name="">
+											<coefficients>       1.00000000000000000000       0.00000000000000000000 </coefficients>
+										</LinearFunction>
+									</function>
+									<coordinates> L2_L3_AR </coordinates>
+									<axis>       0.00000000000000000000       1.00000000000000000000       0.00000000000000000000 </axis>
+								</TransformAxis>
+								<!--3 Axes for translations are listed next.-->
+								<TransformAxis name="translation1">
+									<function>
+										<Constant name="">
+											<value>       0.00000000000000000000 </value>
+										</Constant>
+									</function>
+									<coordinates> </coordinates>
+									<axis>       1.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </axis>
+								</TransformAxis>
+								<TransformAxis name="translation2">
+									<function>
+										<Constant name="">
+											<value>       0.00000000000000000000 </value>
+										</Constant>
+									</function>
+									<coordinates> </coordinates>
+									<axis>       0.00000000000000000000       1.00000000000000000000       0.00000000000000000000 </axis>
+								</TransformAxis>
+								<TransformAxis name="translation3">
+									<function>
+										<Constant name="">
+											<value>       0.00000000000000000000 </value>
+										</Constant>
+									</function>
+									<coordinates> </coordinates>
+									<axis>       0.00000000000000000000       0.00000000000000000000       1.00000000000000000000 </axis>
+								</TransformAxis>
+							</SpatialTransform>
+						</CustomJoint>
+					</Joint>
+					<VisibleObject name="">
+						<!--Set of geometry files and associated attributes, allow .vtp, .stl,
+						    .obj-->
+						<GeometrySet name="">
+							<objects>
+								<DisplayGeometry name="">
+									<!--Name of geometry file .vtp, .stl, .obj-->
+									<geometry_file> lumbar2.vtp </geometry_file>
+									<!--Color used to display the geometry when visible-->
+									<color>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </color>
+									<!--Name of texture file .jpg, .bmp-->
+									<texture_file>  </texture_file>
+									<!--in body transform specified as 3 rotations (rad) followed by 3
+									    translations rX rY rZ tx ty tz-->
+									<transform>      -0.00000000000000000000       0.00000000000000000000      -0.00000000000000000000       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </transform>
+									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+									<scale_factors>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </scale_factors>
+									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
+									<display_preference> 4 </display_preference>
+									<!--Display opacity between 0.0 and 1.0-->
+									<opacity>       1.00000000000000000000 </opacity>
+								</DisplayGeometry>
+							</objects>
+							<groups/>
+						</GeometrySet>
+						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+						<scale_factors>       0.87000000000000000000       0.87000000000000000000       0.87000000000000000000 </scale_factors>
+						<!--transform relative to owner specified as 3 rotations (rad) followed by
+						    3 translations rX rY rZ tx ty tz-->
+						<transform>      -0.00000000000000000000       0.00000000000000000000      -0.00000000000000000000       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </transform>
+						<!--Whether to show a coordinate frame-->
+						<show_axes> false </show_axes>
+						<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for
+						    individual geometries-->
+						<display_preference> 4 </display_preference>
+					</VisibleObject>
+				</Body>
+				<Body name="lumbar1">
+					<mass>       1.67700000000000000000 </mass>
+					<mass_center>       0.03900000000000000000       0.01700000000000000100       0.00000000000000000000 </mass_center>
+					<inertia_xx>       0.01112999999999999900 </inertia_xx>
+					<inertia_yy>       0.01753000000000000000 </inertia_yy>
+					<inertia_zz>       0.00640000000000000030 </inertia_zz>
+					<inertia_xy>       0.00000000000000000000 </inertia_xy>
+					<inertia_xz>       0.00000000000000000000 </inertia_xz>
+					<inertia_yz>       0.00000000000000000000 </inertia_yz>
+					<!--Joint that connects this body with the parent body.-->
+					<Joint>
+						<CustomJoint name="L1_L2_IVDjnt">
+							<parent_body> lumbar2 </parent_body>
+							<location_in_parent>      -0.01000000000000000000       0.02500000000000000100       0.00000000000000000000 </location_in_parent>
+							<orientation_in_parent>       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </orientation_in_parent>
+							<location>       0.00140000000000000000      -0.00380000000000000000       0.00000000000000000000 </location>
+							<orientation>       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </orientation>
+							<!--Generalized coordinates parameterizing this joint.-->
+							<CoordinateSet name="">
+								<objects>
+									<Coordinate name="L1_L2_FE">
+										<!--Cooridnate can describe rotational, translational, or coupled values.
+										    Defaults to rotational.-->
+										<motion_type> rotational </motion_type>
+										<default_value>       0.00000000000000000000 </default_value>
+										<default_speed_value>       0.00000000000000000000 </default_speed_value>
+										<initial_value>       0.00000000000000000000 </initial_value>
+										<range>  -99999.89999999999400000000   99999.89999999999400000000 </range>
+										<clamped> false </clamped>
+										<locked> false </locked>
+										<prescribed_function/>
+									</Coordinate>
+									<Coordinate name="L1_L2_LB">
+										<!--Cooridnate can describe rotational, translational, or coupled values.
+										    Defaults to rotational.-->
+										<motion_type> rotational </motion_type>
+										<default_value>       0.00000000000000000000 </default_value>
+										<default_speed_value>       0.00000000000000000000 </default_speed_value>
+										<initial_value>       0.00000000000000000000 </initial_value>
+										<range>  -99999.89999999999400000000   99999.89999999999400000000 </range>
+										<clamped> false </clamped>
+										<locked> false </locked>
+										<prescribed_function/>
+									</Coordinate>
+									<Coordinate name="L1_L2_AR">
+										<!--Cooridnate can describe rotational, translational, or coupled values.
+										    Defaults to rotational.-->
+										<motion_type> rotational </motion_type>
+										<default_value>       0.00000000000000000000 </default_value>
+										<default_speed_value>       0.00000000000000000000 </default_speed_value>
+										<initial_value>       0.00000000000000000000 </initial_value>
+										<range>  -99999.89999999999400000000   99999.89999999999400000000 </range>
+										<clamped> false </clamped>
+										<locked> false </locked>
+										<prescribed_function/>
+									</Coordinate>
+								</objects>
+								<groups/>
+							</CoordinateSet>
+							<reverse> false </reverse>
+							<SpatialTransform name="">
+								<!--3 Axes for rotations are listed first.-->
+								<TransformAxis name="rotation1">
+									<function>
+										<LinearFunction name="">
+											<coefficients>       1.00000000000000000000       0.00000000000000000000 </coefficients>
+										</LinearFunction>
+									</function>
+									<coordinates> L1_L2_FE </coordinates>
+									<axis>       0.00000000000000000000       0.00000000000000000000       1.00000000000000000000 </axis>
+								</TransformAxis>
+								<TransformAxis name="rotation2">
+									<function>
+										<LinearFunction name="">
+											<coefficients>       1.00000000000000000000       0.00000000000000000000 </coefficients>
+										</LinearFunction>
+									</function>
+									<coordinates> L1_L2_LB </coordinates>
+									<axis>       1.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </axis>
+								</TransformAxis>
+								<TransformAxis name="rotation3">
+									<function>
+										<LinearFunction name="">
+											<coefficients>       1.00000000000000000000       0.00000000000000000000 </coefficients>
+										</LinearFunction>
+									</function>
+									<coordinates> L1_L2_AR </coordinates>
+									<axis>       0.00000000000000000000       1.00000000000000000000       0.00000000000000000000 </axis>
+								</TransformAxis>
+								<!--3 Axes for translations are listed next.-->
+								<TransformAxis name="translation1">
+									<function>
+										<Constant name="">
+											<value>       0.00000000000000000000 </value>
+										</Constant>
+									</function>
+									<coordinates> </coordinates>
+									<axis>       1.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </axis>
+								</TransformAxis>
+								<TransformAxis name="translation2">
+									<function>
+										<Constant name="">
+											<value>       0.00000000000000000000 </value>
+										</Constant>
+									</function>
+									<coordinates> </coordinates>
+									<axis>       0.00000000000000000000       1.00000000000000000000       0.00000000000000000000 </axis>
+								</TransformAxis>
+								<TransformAxis name="translation3">
+									<function>
+										<Constant name="">
+											<value>       0.00000000000000000000 </value>
+										</Constant>
+									</function>
+									<coordinates> </coordinates>
+									<axis>       0.00000000000000000000       0.00000000000000000000       1.00000000000000000000 </axis>
+								</TransformAxis>
+							</SpatialTransform>
+						</CustomJoint>
+					</Joint>
+					<VisibleObject name="">
+						<!--Set of geometry files and associated attributes, allow .vtp, .stl,
+						    .obj-->
+						<GeometrySet name="">
+							<objects>
+								<DisplayGeometry name="">
+									<!--Name of geometry file .vtp, .stl, .obj-->
+									<geometry_file> lumbar1.vtp </geometry_file>
+									<!--Color used to display the geometry when visible-->
+									<color>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </color>
+									<!--Name of texture file .jpg, .bmp-->
+									<texture_file>  </texture_file>
+									<!--in body transform specified as 3 rotations (rad) followed by 3
+									    translations rX rY rZ tx ty tz-->
+									<transform>      -0.00000000000000000000       0.00000000000000000000      -0.00000000000000000000       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </transform>
+									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+									<scale_factors>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </scale_factors>
+									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
+									<display_preference> 4 </display_preference>
+									<!--Display opacity between 0.0 and 1.0-->
+									<opacity>       1.00000000000000000000 </opacity>
+								</DisplayGeometry>
+							</objects>
+							<groups/>
+						</GeometrySet>
+						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+						<scale_factors>       0.87000000000000000000       0.87000000000000000000       0.87000000000000000000 </scale_factors>
+						<!--transform relative to owner specified as 3 rotations (rad) followed by
+						    3 translations rX rY rZ tx ty tz-->
+						<transform>      -0.00000000000000000000       0.00000000000000000000      -0.00000000000000000000       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </transform>
+						<!--Whether to show a coordinate frame-->
+						<show_axes> false </show_axes>
+						<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for
+						    individual geometries-->
+						<display_preference> 4 </display_preference>
+					</VisibleObject>
+				</Body>
+				<Body name="torso">
+					<mass>      18.61900000000000000000 </mass>
+					<mass_center>       0.00459999999999999990       0.24600000000000000000       0.00000000000000000000 </mass_center>
+					<inertia_xx>       0.16500000000000001000 </inertia_xx>
+					<inertia_yy>       0.14999999999999999000 </inertia_yy>
+					<inertia_zz>       0.12500000000000000000 </inertia_zz>
+					<inertia_xy>       0.00000000000000000000 </inertia_xy>
+					<inertia_xz>       0.00000000000000000000 </inertia_xz>
+					<inertia_yz>       0.00000000000000000000 </inertia_yz>
+					<!--Joint that connects this body with the parent body.-->
+					<Joint>
+						<WeldJoint name="torsojnt">
+							<parent_body> lumbar1 </parent_body>
+							<location_in_parent>       0.00250000000000000010      -0.08899999999999999600       0.00000000000000000000 </location_in_parent>
+							<orientation_in_parent>       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </orientation_in_parent>
+							<location>       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </location>
+							<orientation>       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </orientation>
+							<!--Generalized coordinates parameterizing this joint.-->
+							<CoordinateSet name="">
+								<objects/>
+								<groups/>
+							</CoordinateSet>
+							<reverse> false </reverse>
+						</WeldJoint>
+					</Joint>
+					<VisibleObject name="">
+						<!--Set of geometry files and associated attributes, allow .vtp, .stl,
+						    .obj-->
+						<GeometrySet name="">
+							<objects>
+								<DisplayGeometry name="">
+									<!--Name of geometry file .vtp, .stl, .obj-->
+									<geometry_file> thoracic12_s.vtp </geometry_file>
+									<!--Color used to display the geometry when visible-->
+									<color>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </color>
+									<!--Name of texture file .jpg, .bmp-->
+									<texture_file>  </texture_file>
+									<!--in body transform specified as 3 rotations (rad) followed by 3
+									    translations rX rY rZ tx ty tz-->
+									<transform>      -0.00000000000000000000       0.00000000000000000000      -0.00000000000000000000       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </transform>
+									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+									<scale_factors>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </scale_factors>
+									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
+									<display_preference> 4 </display_preference>
+									<!--Display opacity between 0.0 and 1.0-->
+									<opacity>       1.00000000000000000000 </opacity>
+								</DisplayGeometry>
+								<DisplayGeometry name="">
+									<!--Name of geometry file .vtp, .stl, .obj-->
+									<geometry_file> thoracic11_s.vtp </geometry_file>
+									<!--Color used to display the geometry when visible-->
+									<color>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </color>
+									<!--Name of texture file .jpg, .bmp-->
+									<texture_file>  </texture_file>
+									<!--in body transform specified as 3 rotations (rad) followed by 3
+									    translations rX rY rZ tx ty tz-->
+									<transform>      -0.00000000000000000000       0.00000000000000000000      -0.00000000000000000000       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </transform>
+									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+									<scale_factors>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </scale_factors>
+									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
+									<display_preference> 4 </display_preference>
+									<!--Display opacity between 0.0 and 1.0-->
+									<opacity>       1.00000000000000000000 </opacity>
+								</DisplayGeometry>
+								<DisplayGeometry name="">
+									<!--Name of geometry file .vtp, .stl, .obj-->
+									<geometry_file> thoracic10_s.vtp </geometry_file>
+									<!--Color used to display the geometry when visible-->
+									<color>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </color>
+									<!--Name of texture file .jpg, .bmp-->
+									<texture_file>  </texture_file>
+									<!--in body transform specified as 3 rotations (rad) followed by 3
+									    translations rX rY rZ tx ty tz-->
+									<transform>      -0.00000000000000000000       0.00000000000000000000      -0.00000000000000000000       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </transform>
+									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+									<scale_factors>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </scale_factors>
+									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
+									<display_preference> 4 </display_preference>
+									<!--Display opacity between 0.0 and 1.0-->
+									<opacity>       1.00000000000000000000 </opacity>
+								</DisplayGeometry>
+								<DisplayGeometry name="">
+									<!--Name of geometry file .vtp, .stl, .obj-->
+									<geometry_file> thoracic9_s.vtp </geometry_file>
+									<!--Color used to display the geometry when visible-->
+									<color>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </color>
+									<!--Name of texture file .jpg, .bmp-->
+									<texture_file>  </texture_file>
+									<!--in body transform specified as 3 rotations (rad) followed by 3
+									    translations rX rY rZ tx ty tz-->
+									<transform>      -0.00000000000000000000       0.00000000000000000000      -0.00000000000000000000       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </transform>
+									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+									<scale_factors>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </scale_factors>
+									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
+									<display_preference> 4 </display_preference>
+									<!--Display opacity between 0.0 and 1.0-->
+									<opacity>       1.00000000000000000000 </opacity>
+								</DisplayGeometry>
+								<DisplayGeometry name="">
+									<!--Name of geometry file .vtp, .stl, .obj-->
+									<geometry_file> thoracic8_s.vtp </geometry_file>
+									<!--Color used to display the geometry when visible-->
+									<color>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </color>
+									<!--Name of texture file .jpg, .bmp-->
+									<texture_file>  </texture_file>
+									<!--in body transform specified as 3 rotations (rad) followed by 3
+									    translations rX rY rZ tx ty tz-->
+									<transform>      -0.00000000000000000000       0.00000000000000000000      -0.00000000000000000000       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </transform>
+									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+									<scale_factors>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </scale_factors>
+									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
+									<display_preference> 4 </display_preference>
+									<!--Display opacity between 0.0 and 1.0-->
+									<opacity>       1.00000000000000000000 </opacity>
+								</DisplayGeometry>
+								<DisplayGeometry name="">
+									<!--Name of geometry file .vtp, .stl, .obj-->
+									<geometry_file> thoracic7_s.vtp </geometry_file>
+									<!--Color used to display the geometry when visible-->
+									<color>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </color>
+									<!--Name of texture file .jpg, .bmp-->
+									<texture_file>  </texture_file>
+									<!--in body transform specified as 3 rotations (rad) followed by 3
+									    translations rX rY rZ tx ty tz-->
+									<transform>      -0.00000000000000000000       0.00000000000000000000      -0.00000000000000000000       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </transform>
+									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+									<scale_factors>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </scale_factors>
+									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
+									<display_preference> 4 </display_preference>
+									<!--Display opacity between 0.0 and 1.0-->
+									<opacity>       1.00000000000000000000 </opacity>
+								</DisplayGeometry>
+								<DisplayGeometry name="">
+									<!--Name of geometry file .vtp, .stl, .obj-->
+									<geometry_file> thoracic6_s.vtp </geometry_file>
+									<!--Color used to display the geometry when visible-->
+									<color>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </color>
+									<!--Name of texture file .jpg, .bmp-->
+									<texture_file>  </texture_file>
+									<!--in body transform specified as 3 rotations (rad) followed by 3
+									    translations rX rY rZ tx ty tz-->
+									<transform>      -0.00000000000000000000       0.00000000000000000000      -0.00000000000000000000       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </transform>
+									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+									<scale_factors>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </scale_factors>
+									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
+									<display_preference> 4 </display_preference>
+									<!--Display opacity between 0.0 and 1.0-->
+									<opacity>       1.00000000000000000000 </opacity>
+								</DisplayGeometry>
+								<DisplayGeometry name="">
+									<!--Name of geometry file .vtp, .stl, .obj-->
+									<geometry_file> thoracic5_s.vtp </geometry_file>
+									<!--Color used to display the geometry when visible-->
+									<color>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </color>
+									<!--Name of texture file .jpg, .bmp-->
+									<texture_file>  </texture_file>
+									<!--in body transform specified as 3 rotations (rad) followed by 3
+									    translations rX rY rZ tx ty tz-->
+									<transform>      -0.00000000000000000000       0.00000000000000000000      -0.00000000000000000000       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </transform>
+									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+									<scale_factors>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </scale_factors>
+									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
+									<display_preference> 4 </display_preference>
+									<!--Display opacity between 0.0 and 1.0-->
+									<opacity>       1.00000000000000000000 </opacity>
+								</DisplayGeometry>
+								<DisplayGeometry name="">
+									<!--Name of geometry file .vtp, .stl, .obj-->
+									<geometry_file> thoracic4_s.vtp </geometry_file>
+									<!--Color used to display the geometry when visible-->
+									<color>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </color>
+									<!--Name of texture file .jpg, .bmp-->
+									<texture_file>  </texture_file>
+									<!--in body transform specified as 3 rotations (rad) followed by 3
+									    translations rX rY rZ tx ty tz-->
+									<transform>      -0.00000000000000000000       0.00000000000000000000      -0.00000000000000000000       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </transform>
+									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+									<scale_factors>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </scale_factors>
+									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
+									<display_preference> 4 </display_preference>
+									<!--Display opacity between 0.0 and 1.0-->
+									<opacity>       1.00000000000000000000 </opacity>
+								</DisplayGeometry>
+								<DisplayGeometry name="">
+									<!--Name of geometry file .vtp, .stl, .obj-->
+									<geometry_file> thoracic3_s.vtp </geometry_file>
+									<!--Color used to display the geometry when visible-->
+									<color>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </color>
+									<!--Name of texture file .jpg, .bmp-->
+									<texture_file>  </texture_file>
+									<!--in body transform specified as 3 rotations (rad) followed by 3
+									    translations rX rY rZ tx ty tz-->
+									<transform>      -0.00000000000000000000       0.00000000000000000000      -0.00000000000000000000       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </transform>
+									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+									<scale_factors>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </scale_factors>
+									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
+									<display_preference> 4 </display_preference>
+									<!--Display opacity between 0.0 and 1.0-->
+									<opacity>       1.00000000000000000000 </opacity>
+								</DisplayGeometry>
+								<DisplayGeometry name="">
+									<!--Name of geometry file .vtp, .stl, .obj-->
+									<geometry_file> thoracic2_s.vtp </geometry_file>
+									<!--Color used to display the geometry when visible-->
+									<color>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </color>
+									<!--Name of texture file .jpg, .bmp-->
+									<texture_file>  </texture_file>
+									<!--in body transform specified as 3 rotations (rad) followed by 3
+									    translations rX rY rZ tx ty tz-->
+									<transform>      -0.00000000000000000000       0.00000000000000000000      -0.00000000000000000000       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </transform>
+									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+									<scale_factors>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </scale_factors>
+									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
+									<display_preference> 4 </display_preference>
+									<!--Display opacity between 0.0 and 1.0-->
+									<opacity>       1.00000000000000000000 </opacity>
+								</DisplayGeometry>
+								<DisplayGeometry name="">
+									<!--Name of geometry file .vtp, .stl, .obj-->
+									<geometry_file> thoracic1_s.vtp </geometry_file>
+									<!--Color used to display the geometry when visible-->
+									<color>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </color>
+									<!--Name of texture file .jpg, .bmp-->
+									<texture_file>  </texture_file>
+									<!--in body transform specified as 3 rotations (rad) followed by 3
+									    translations rX rY rZ tx ty tz-->
+									<transform>      -0.00000000000000000000       0.00000000000000000000      -0.00000000000000000000       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </transform>
+									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+									<scale_factors>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </scale_factors>
+									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
+									<display_preference> 4 </display_preference>
+									<!--Display opacity between 0.0 and 1.0-->
+									<opacity>       1.00000000000000000000 </opacity>
+								</DisplayGeometry>
+								<DisplayGeometry name="">
+									<!--Name of geometry file .vtp, .stl, .obj-->
+									<geometry_file> ribcage_s.vtp </geometry_file>
+									<!--Color used to display the geometry when visible-->
+									<color>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </color>
+									<!--Name of texture file .jpg, .bmp-->
+									<texture_file>  </texture_file>
+									<!--in body transform specified as 3 rotations (rad) followed by 3
+									    translations rX rY rZ tx ty tz-->
+									<transform>      -0.00000000000000000000       0.00000000000000000000      -0.00000000000000000000       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </transform>
+									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+									<scale_factors>       1.00000000000000000000       1.00000000000000000000       1.00000000000000000000 </scale_factors>
+									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
+									<display_preference> 4 </display_preference>
+									<!--Display opacity between 0.0 and 1.0-->
+									<opacity>       1.00000000000000000000 </opacity>
+								</DisplayGeometry>
+							</objects>
+							<groups/>
+						</GeometrySet>
+						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+						<scale_factors>       0.87000000000000000000       0.87000000000000000000       0.87000000000000000000 </scale_factors>
+						<!--transform relative to owner specified as 3 rotations (rad) followed by
+						    3 translations rX rY rZ tx ty tz-->
+						<transform>      -0.00000000000000000000       0.00000000000000000000      -0.00000000000000000000       0.00000000000000000000       0.00000000000000000000       0.00000000000000000000 </transform>
+						<!--Whether to show a coordinate frame-->
+						<show_axes> false </show_axes>
+						<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for
+						    individual geometries-->
+						<display_preference> 4 </display_preference>
+					</VisibleObject>				
+				</Body>
+			</objects>
+			<groups>
+				<ObjectGroup name="Lumbar_Vertebrae">
+					<members> lumbar1 lumbar2 lumbar3 lumbar4 lumbar5 </members>
+				</ObjectGroup>
+			</groups>
+		</BodySet>
+		<!--Constraints in the model.-->
+		<ConstraintSet name="">
+			<objects>
+				<CoordinateCouplerConstraint name="L4_L5_FE_con">
+					<isDisabled> false </isDisabled>
+					<coupled_coordinates_function>
+						<LinearFunction name="">
+							<coefficients>       0.18500000000000000000       0.00000000000000000000 </coefficients>
+						</LinearFunction>
+					</coupled_coordinates_function>
+					<independent_coordinate_names> flex_extension </independent_coordinate_names>
+					<dependent_coordinate_name> L4_L5_FE </dependent_coordinate_name>
+					<scale_factor>       1.00000000000000000000 </scale_factor>
+				</CoordinateCouplerConstraint>
+				<CoordinateCouplerConstraint name="L4_L5_AR_con">
+					<isDisabled> false </isDisabled>
+					<coupled_coordinates_function>
+						<LinearFunction name="">
+							<coefficients>       0.220779220779221       0.00000000000000000000 </coefficients>
+						</LinearFunction>
+					</coupled_coordinates_function>
+					<independent_coordinate_names> axial_rotation </independent_coordinate_names>
+					<dependent_coordinate_name> L4_L5_AR </dependent_coordinate_name>
+					<scale_factor>       1.00000000000000000000 </scale_factor>
+				</CoordinateCouplerConstraint>
+				<CoordinateCouplerConstraint name="L4_L5_LB_con">
+					<isDisabled> false </isDisabled>
+					<coupled_coordinates_function>
+						<LinearFunction name="">
+							<coefficients>       0.18108617299999999000       0.00000000000000000000 </coefficients>
+						</LinearFunction>
+					</coupled_coordinates_function>
+					<independent_coordinate_names> lat_bending </independent_coordinate_names>
+					<dependent_coordinate_name> L4_L5_LB </dependent_coordinate_name>
+					<scale_factor>       1.00000000000000000000 </scale_factor>
+				</CoordinateCouplerConstraint>
+				<CoordinateCouplerConstraint name="L3_L4_FE_con">
+					<isDisabled> false </isDisabled>
+					<coupled_coordinates_function>
+						<LinearFunction name="">
+							<coefficients>       0.20399999999999999000       0.00000000000000000000 </coefficients>
+						</LinearFunction>
+					</coupled_coordinates_function>
+					<independent_coordinate_names> flex_extension </independent_coordinate_names>
+					<dependent_coordinate_name> L3_L4_FE </dependent_coordinate_name>
+					<scale_factor>       1.00000000000000000000 </scale_factor>
+				</CoordinateCouplerConstraint>
+				<CoordinateCouplerConstraint name="L3_L4_AR_con">
+					<isDisabled> false </isDisabled>
+					<coupled_coordinates_function>
+						<LinearFunction name="">
+							<coefficients>       0.220779220779221       0.00000000000000000000 </coefficients>
+						</LinearFunction>
+					</coupled_coordinates_function>
+					<independent_coordinate_names> axial_rotation </independent_coordinate_names>
+					<dependent_coordinate_name> L3_L4_AR </dependent_coordinate_name>
+					<scale_factor>       1.00000000000000000000 </scale_factor>
+				</CoordinateCouplerConstraint>
+				<CoordinateCouplerConstraint name="L3_L4_LB_con">
+					<isDisabled> false </isDisabled>
+					<coupled_coordinates_function>
+						<LinearFunction name="">
+							<coefficients>       0.24533196500000001000       0.00000000000000000000 </coefficients>
+						</LinearFunction>
+					</coupled_coordinates_function>
+					<independent_coordinate_names> lat_bending </independent_coordinate_names>
+					<dependent_coordinate_name> L3_L4_LB </dependent_coordinate_name>
+					<scale_factor>       1.00000000000000000000 </scale_factor>
+				</CoordinateCouplerConstraint>
+				<CoordinateCouplerConstraint name="L2_L3_FE_con">
+					<isDisabled> false </isDisabled>
+					<coupled_coordinates_function>
+						<LinearFunction name="">
+							<coefficients>       0.23100000000000001000       0.00000000000000000000 </coefficients>
+						</LinearFunction>
+					</coupled_coordinates_function>
+					<independent_coordinate_names> flex_extension </independent_coordinate_names>
+					<dependent_coordinate_name> L2_L3_FE </dependent_coordinate_name>
+					<scale_factor>       1.00000000000000000000 </scale_factor>
+				</CoordinateCouplerConstraint>
+				<CoordinateCouplerConstraint name="L2_L3_AR_con">
+					<isDisabled> false </isDisabled>
+					<coupled_coordinates_function>
+						<LinearFunction name="">
+							<coefficients>       0.181818181818182       0.00000000000000000000 </coefficients>
+						</LinearFunction>
+					</coupled_coordinates_function>
+					<independent_coordinate_names> axial_rotation </independent_coordinate_names>
+					<dependent_coordinate_name> L2_L3_AR </dependent_coordinate_name>
+					<scale_factor>       1.00000000000000000000 </scale_factor>
+				</CoordinateCouplerConstraint>
+				<CoordinateCouplerConstraint name="L2_L3_LB_con">
+					<isDisabled> false </isDisabled>
+					<coupled_coordinates_function>
+						<LinearFunction name="">
+							<coefficients>       0.25012849100000001000       0.00000000000000000000 </coefficients>
+						</LinearFunction>
+					</coupled_coordinates_function>
+					<independent_coordinate_names> lat_bending </independent_coordinate_names>
+					<dependent_coordinate_name> L2_L3_LB </dependent_coordinate_name>
+					<scale_factor>       1.00000000000000000000 </scale_factor>
+				</CoordinateCouplerConstraint>
+				<CoordinateCouplerConstraint name="L1_L2_FE_con">
+					<isDisabled> false </isDisabled>
+					<coupled_coordinates_function>
+						<LinearFunction name="">
+							<coefficients>       0.25500000000000000000       0.00000000000000000000 </coefficients>
+						</LinearFunction>
+					</coupled_coordinates_function>
+					<independent_coordinate_names> flex_extension </independent_coordinate_names>
+					<dependent_coordinate_name> L1_L2_FE </dependent_coordinate_name>
+					<scale_factor>       1.00000000000000000000 </scale_factor>
+				</CoordinateCouplerConstraint>
+				<CoordinateCouplerConstraint name="L1_L2_AR_con">
+					<isDisabled> false </isDisabled>
+					<coupled_coordinates_function>
+						<LinearFunction name="">
+							<coefficients>       0.168831168831169       0.00000000000000000000 </coefficients>
+						</LinearFunction>
+					</coupled_coordinates_function>
+					<independent_coordinate_names> axial_rotation </independent_coordinate_names>
+					<dependent_coordinate_name> L1_L2_AR </dependent_coordinate_name>
+					<scale_factor>       1.00000000000000000000 </scale_factor>
+				</CoordinateCouplerConstraint>
+				<CoordinateCouplerConstraint name="L1_L2_LB_con">
+					<isDisabled> false </isDisabled>
+					<coupled_coordinates_function>
+						<LinearFunction name="">
+							<coefficients>       0.18800000000000000000       0.00000000000000000000 </coefficients>
+						</LinearFunction>
+					</coupled_coordinates_function>
+					<independent_coordinate_names> lat_bending </independent_coordinate_names>
+					<dependent_coordinate_name> L1_L2_LB </dependent_coordinate_name>
+					<scale_factor>       1.00000000000000000000 </scale_factor>
+				</CoordinateCouplerConstraint>
+			</objects>
+			<groups/>
+		</ConstraintSet>
+		<!--Markers in the model.-->
+		<MarkerSet name=" ">
+			<objects/>
+			<groups/>
+		</MarkerSet>
+		<!--ContactGeometry objects in the model.-->
+		<ContactGeometrySet name="">
+			<objects/>
+			<groups/>
+		</ContactGeometrySet>
+	</Model>
+</OpenSimDocument>
+

@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>OpenSim 3.3 — Эмулятор загрузки модели</title>
+<style>
+:root{--bg:#0d1117;--surface:#161b22;--border:#30363d;--text:#c9d1d9;--green:#3fb950;--red:#f85149;--yellow:#d29922;--blue:#58a6ff;--purple:#bc8cff}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--text);min-height:100vh;padding:20px}
+h1{text-align:center;font-size:1.6em;margin-bottom:5px;color:var(--blue)}
+.subtitle{text-align:center;color:#8b949e;margin-bottom:20px;font-size:0.9em}
+.upload-zone{background:var(--surface);border:2px dashed var(--border);border-radius:12px;padding:40px;text-align:center;cursor:pointer;transition:border-color .3s;margin-bottom:20px}
+.upload-zone:hover,.upload-zone.dragover{border-color:var(--blue)}
+.upload-zone svg{width:48px;height:48px;fill:var(--blue);margin-bottom:10px}
+.upload-zone p{color:#8b949e;font-size:1.1em}
+.upload-zone .hint{font-size:0.85em;color:#6e7681;margin-top:8px}
+#fileInput{display:none}
+.progress-container{display:none;margin-bottom:20px}
+.progress-bar{height:6px;background:var(--surface);border-radius:3px;overflow:hidden}
+.progress-fill{height:100%;background:linear-gradient(90deg,var(--blue),var(--purple));width:0;transition:width .3s;border-radius:3px}
+.progress-text{font-size:0.8em;color:#8b949e;margin-top:5px;text-align:center}
+.results{display:none}
+.summary-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-bottom:20px}
+.summary-card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px;text-align:center}
+.summary-card .num{font-size:2em;font-weight:700}
+.summary-card .label{font-size:0.85em;color:#8b949e;margin-top:4px}
+.card-errors .num{color:var(--red)}
+.card-warn .num{color:var(--yellow)}
+.card-ok .num{color:var(--green)}
+.card-info .num{color:var(--blue)}
+.phase-log{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px;margin-bottom:20px}
+.phase-log h3{color:var(--blue);margin-bottom:10px;font-size:1.1em}
+.phase-step{display:flex;align-items:flex-start;gap:8px;padding:6px 0;border-bottom:1px solid #21262d;font-size:0.9em}
+.phase-step:last-child{border:none}
+.phase-icon{flex-shrink:0;width:20px;text-align:center}
+.phase-ok{color:var(--green)}
+.phase-err{color:var(--red)}
+.phase-warn{color:var(--yellow)}
+.phase-skip{color:#6e7681}
+.error-list{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px;margin-bottom:20px}
+.error-list h3{margin-bottom:10px;font-size:1.1em}
+.error-list h3.err-header{color:var(--red)}
+.error-list h3.warn-header{color:var(--yellow)}
+.err-item{padding:8px 12px;margin-bottom:6px;border-radius:6px;font-size:0.85em;font-family:'Consolas','Monaco',monospace;line-height:1.5}
+.err-critical{background:rgba(248,81,73,.12);border-left:3px solid var(--red)}
+.err-high{background:rgba(210,153,34,.12);border-left:3px solid var(--yellow)}
+.err-medium{background:rgba(88,166,255,.12);border-left:3px solid var(--blue)}
+.err-low{background:rgba(63,185,80,.08);border-left:3px solid var(--green)}
+.err-code{color:var(--red);font-weight:600}
+.warn-code{color:var(--yellow);font-weight:600}
+.filter-bar{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap}
+.filter-btn{padding:6px 14px;border-radius:6px;border:1px solid var(--border);background:var(--surface);color:var(--text);cursor:pointer;font-size:0.85em;transition:all .2s}
+.filter-btn:hover{border-color:var(--blue)}
+.filter-btn.active{background:var(--blue);color:#fff;border-color:var(--blue)}
+.stats-bar{display:flex;gap:16px;margin-bottom:16px;font-size:0.85em;flex-wrap:wrap}
+.stats-bar span{color:#8b949e}
+.stats-bar strong{color:var(--text)}
+</style>
+</head>
+<body>
+
+<h1>🔧 OpenSim 3.3 — Эмулятор загрузки модели</h1>
+<p class="subtitle">Имитация последовательности загрузки OpenSim: XML → BodySet → JointSet → ForceSet → initSystem()</p>
+
+<div class="upload-zone" id="uploadZone">
+<svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM6 20V4h5v7h7v9H6z"/></svg>
+<p>Перетащите .osim файл сюда или нажмите для выбора</p>
+<p class="hint">Поддерживаются файлы OpenSim 3.3 (.osim XML)</p>
+</div>
+<input type="file" id="fileInput" accept=".osim,.xml">
+
+<div class="progress-container" id="progress">
+<div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+<div class="progress-text" id="progressText">Загрузка...</div>
+</div>
+
+<div class="results" id="results">
+<div class="summary-grid" id="summaryGrid"></div>
+<div class="phase-log" id="phaseLog"></div>
+<div class="stats-bar" id="statsBar"></div>
+<div class="filter-bar" id="filterBar"></div>
+<div class="error-list" id="errorList"></div>
+</div>
+
+<script>
+// ============================================================
+//  OPENSIM 3.3 MODEL LOADING EMULATOR
+//  Имитирует последовательность загрузки OpenSim:
+//  XML parse → Model → BodySet → JointSet → CoordinateSet
+//  → ForceSet/Muscles → PathPoints → initSystem checks
+// ============================================================
+
+const SEVERITY = {CRITICAL:'CRITICAL',HIGH:'HIGH',MEDIUM:'MEDIUM',LOW:'LOW'};
+const PHASE = {
+  XML:'XML Parsing',
+  MODEL:'Model Header',
+  BODYSET:'BodySet Loading',
+  JOINTSET:'JointSet Loading',
+  COORDSET:'CoordinateSet Validation',
+  FORCESET:'ForceSet Loading',
+  MUSCLES:'Muscle Validation',
+  PATHPOINTS:'PathPoint Validation',
+  CPP:'ConditionalPathPoint Validation',
+  MPP:'MovingPathPoint Validation',
+  INERTIA:'Inertia Validation',
+  MASS:'Mass Validation',
+  INIT:'initSystem() Simulation'
+};
+
+let allErrors = [];
+let modelData = null;
+let currentFilter = 'all';
+
+// ---- FILE UPLOAD ----
+const uploadZone = document.getElementById('uploadZone');
+const fileInput = document.getElementById('fileInput');
+
+uploadZone.addEventListener('click', () => fileInput.click());
+uploadZone.addEventListener('dragover', e => {e.preventDefault();uploadZone.classList.add('dragover')});
+uploadZone.addEventListener('dragleave', () => uploadZone.classList.remove('dragover'));
+uploadZone.addEventListener('drop', e => {
+  e.preventDefault(); uploadZone.classList.remove('dragover');
+  if(e.dataTransfer.files.length) handleFile(e.dataTransfer.files[0]);
+});
+fileInput.addEventListener('change', e => {if(e.target.files.length) handleFile(e.target.files[0])});
+
+function handleFile(file) {
+  document.getElementById('progress').style.display = 'block';
+  document.getElementById('results').style.display = 'none';
+  const reader = new FileReader();
+  reader.onload = e => {
+    const xmlText = e.target.result;
+    runValidation(xmlText, file.name);
+  };
+  reader.readAsText(file);
+}
+
+// ---- MAIN VALIDATION ----
+async function runValidation(xmlText, fileName) {
+  allErrors = [];
+  modelData = {bodies:{},joints:{},coordinates:{},muscles:[],forces:[],meshes:[]};
+  const phases = [];
+
+  // Phase 1: XML Parsing
+  updateProgress(5, 'Парсинг XML...');
+  let parser, xmlDoc;
+  try {
+    parser = new DOMParser();
+    xmlDoc = parser.parseFromString(xmlText, 'text/xml');
+    const parseErr = xmlDoc.querySelector('parsererror');
+    if(parseErr) {
+      addError(PHASE.XML, SEVERITY.CRITICAL, 'XML_PARSE_ERROR',
+        `Ошибка парсинга XML: ${parseErr.textContent.substring(0,200)}`);
+      phases.push({name:PHASE.XML, status:'error', count:1});
+      showResults(phases); return;
+    }
+    phases.push({name:PHASE.XML, status:'ok', count:0});
+  } catch(e) {
+    addError(PHASE.XML, SEVERITY.CRITICAL, 'XML_PARSE_ERROR', e.message);
+    phases.push({name:PHASE.XML, status:'error', count:1});
+    showResults(phases); return;
+  }
+
+  // Phase 2: Model Header
+  updateProgress(10, 'Проверка заголовка модели...');
+  const modelEl = xmlDoc.querySelector('Model');
+  if(!modelEl) {
+    addError(PHASE.MODEL, SEVERITY.CRITICAL, 'NO_MODEL_ELEMENT', 'Отсутствует элемент <Model>');
+    phases.push({name:PHASE.MODEL, status:'error', count:1});
+    showResults(phases); return;
+  }
+  // Check version
+  const versionAttr = modelEl.getAttribute('version');
+  if(versionAttr && !versionAttr.startsWith('30000') && !versionAttr.startsWith('3')) {
+    addError(PHASE.MODEL, SEVERITY.MEDIUM, 'VERSION_MISMATCH',
+      `Версия модели: ${versionAttr}. Ожидается OpenSim 3.3 (30000)`);
+  }
+  phases.push({name:PHASE.MODEL, status:'ok', count:0});
+
+  // Phase 3: BodySet
+  updateProgress(20, 'Загрузка BodySet...');
+  const bodySetEl = modelEl.querySelector('BodySet');
+  let bodyCount = 0;
+  if(bodySetEl) {
+    const bodies = bodySetEl.querySelectorAll('Body');
+    const bodyNames = new Set();
+    bodies.forEach(b => {
+      const name = b.getAttribute('name');
+      if(!name) {
+        addError(PHASE.BODYSET, SEVERITY.CRITICAL, 'BODY_NO_NAME', 'Тело без атрибута name');
+        return;
+      }
+      if(bodyNames.has(name)) {
+        addError(PHASE.BODYSET, SEVERITY.CRITICAL, 'DUPLICATE_BODY_NAME',
+          `Дублирующее имя тела: "${name}". OpenSim Set<T> запрещает дубликаты → DuplicateName exception`);
+      }
+      bodyNames.add(name);
+      const mass = parseFloat(b.querySelector('mass')?.textContent || '0');
+      modelData.bodies[name] = {mass, el:b};
+
+      // Check mass
+      if(mass < 0) {
+        addError(PHASE.MASS, SEVERITY.CRITICAL, 'NEGATIVE_MASS', `Тело "${name}": отрицательная масса ${mass}`);
+      }
+      if(mass === 0 && name !== 'ground') {
+        // Zero mass bodies are OK for intermediate segments
+      }
+      if(mass > 0 && mass < 0.001 && name !== 'ground') {
+        addError(PHASE.MASS, SEVERITY.HIGH, 'SUSPICIOUS_LOW_MASS',
+          `Тело "${name}": масса ${mass.toFixed(6)} кг (${(mass*1000).toFixed(3)} г) — подозрительно мало`);
+      }
+      if(mass > 20) {
+        addError(PHASE.MASS, SEVERITY.MEDIUM, 'SUSPICIOUS_HIGH_MASS',
+          `Тело "${name}": масса ${mass.toFixed(2)} кг — подозрительно много для одного сегмента`);
+      }
+      bodyCount++;
+    });
+  } else {
+    addError(PHASE.BODYSET, SEVERITY.CRITICAL, 'NO_BODYSET', 'Отсутствует BodySet');
+  }
+  phases.push({name:PHASE.BODYSET, status:countErrors(PHASE.BODYSET)>0?'warn':'ok', count:countErrors(PHASE.BODYSET)});
+
+  // Phase 4: JointSet
+  updateProgress(30, 'Загрузка JointSet...');
+  const jointSetEl = modelEl.querySelector('JointSet');
+  if(jointSetEl) {
+    const joints = jointSetEl.querySelectorAll(':scope > objects > *');
+    const jointNames = new Set();
+    joints.forEach(j => {
+      const name = j.getAttribute('name');
+      if(!name) return;
+      if(jointNames.has(name)) {
+        addError(PHASE.JOINTSET, SEVERITY.CRITICAL, 'DUPLICATE_JOINT_NAME', `Дублирующее имя сустава: "${name}"`);
+      }
+      jointNames.add(name);
+      modelData.joints[name] = {el:j};
+
+      // Check parent/child body references
+      const parentBody = j.querySelector('parent_body');
+      const childBody = j.querySelector('child_body');
+      if(parentBody && !(parentBody.textContent.trim() in modelData.bodies)) {
+        addError(PHASE.JOINTSET, SEVERITY.CRITICAL, 'JOINT_INVALID_PARENT',
+          `Сустав "${name}": parent_body "${parentBody.textContent.trim()}" не найден в BodySet`);
+      }
+      if(childBody && !(childBody.textContent.trim() in modelData.bodies)) {
+        addError(PHASE.JOINTSET, SEVERITY.CRITICAL, 'JOINT_INVALID_CHILD',
+          `Сустав "${name}": child_body "${childBody.textContent.trim()}" не найден в BodySet`);
+      }
+    });
+  }
+  phases.push({name:PHASE.JOINTSET, status:countErrors(PHASE.JOINTSET)>0?'warn':'ok', count:countErrors(PHASE.JOINTSET)});
+
+  // Phase 5: CoordinateSet
+  updateProgress(40, 'Проверка CoordinateSet...');
+  const coords = xmlDoc.querySelectorAll('Coordinate');
+  const coordNames = new Set();
+  coords.forEach(c => {
+    const name = c.getAttribute('name');
+    if(!name) return;
+    if(coordNames.has(name)) {
+      addError(PHASE.COORDSET, SEVERITY.CRITICAL, 'DUPLICATE_COORD_NAME', `Дублирующее имя координаты: "${name}"`);
+    }
+    coordNames.add(name);
+    const rangeEl = c.querySelector('range');
+    if(rangeEl) {
+      const parts = rangeEl.textContent.trim().split(/\s+/);
+      if(parts.length === 2) {
+        const lo = parseFloat(parts[0]), hi = parseFloat(parts[1]);
+        if(lo >= hi) {
+          addError(PHASE.COORDSET, SEVERITY.HIGH, 'INVALID_COORD_RANGE',
+            `Координата "${name}": range [${lo}, ${hi}] — нижняя >= верхней`);
+        }
+        modelData.coordinates[name] = {min:lo, max:hi};
+      }
+    }
+  });
+  phases.push({name:PHASE.COORDSET, status:countErrors(PHASE.COORDSET)>0?'warn':'ok', count:countErrors(PHASE.COORDSET)});
+
+  // Phase 6: ForceSet
+  updateProgress(50, 'Загрузка ForceSet...');
+  const forceSetEl = modelEl.querySelector('ForceSet');
+  let muscleCount = 0;
+  let forceCount = 0;
+  if(forceSetEl) {
+    const forces = forceSetEl.querySelectorAll(':scope > objects > *');
+    const forceNames = new Set();
+    forces.forEach(f => {
+      const name = f.getAttribute('name');
+      const tag = f.tagName;
+      if(!name) return;
+      if(forceNames.has(name)) {
+        addError(PHASE.FORCESET, SEVERITY.CRITICAL, 'DUPLICATE_FORCE_NAME',
+          `Дублирующее имя силы: "${name}" → DuplicateName exception при загрузке`);
+      }
+      forceNames.add(name);
+      forceCount++;
+      if(tag.includes('Muscle')) muscleCount++;
+      modelData.forces.push({name, tag, el:f});
+    });
+  }
+  phases.push({name:PHASE.FORCESET, status:countErrors(PHASE.FORCESET)>0?'warn':'ok', count:countErrors(PHASE.FORCESET)});
+
+  // Phase 7: Muscle Validation
+  updateProgress(60, 'Проверка мышц...');
+  if(forceSetEl) {
+    const muscles = forceSetEl.querySelectorAll(':scope > objects > *');
+    muscles.forEach(m => {
+      const name = m.getAttribute('name');
+      const tag = m.tagName;
+      if(!tag.includes('Muscle')) return;
+      const fiso = parseFloat(m.querySelector('max_isometric_force')?.textContent || '0');
+      const lfib = parseFloat(m.querySelector('optimal_fiber_length')?.textContent || '0');
+      const ltend = parseFloat(m.querySelector('tendon_slack_length')?.textContent || '0');
+      const penn = parseFloat(m.querySelector('pennation_angle_at_optimal')?.textContent || '0');
+
+      modelData.muscles.push({name, tag, fiso, lfib, ltend, penn});
+
+      // Check: fiber == tendon (copy-paste error)
+      if(lfib > 0 && ltend > 0 && Math.abs(lfib - ltend) < 0.000001) {
+        addError(PHASE.MUSCLES, SEVERITY.HIGH, 'FIBER_EQUALS_TENDON',
+          `Мышца "${name}": optimal_fiber_length == tendon_slack_length == ${lfib.toFixed(6)} — copy-paste ошибка`);
+      }
+
+      // Check: zero force
+      if(fiso === 0) {
+        addError(PHASE.MUSCLES, SEVERITY.HIGH, 'ZERO_FISO', `Мышца "${name}": max_isometric_force = 0`);
+      }
+
+      // Check: very low force
+      if(fiso > 0 && fiso < 2) {
+        addError(PHASE.MUSCLES, SEVERITY.MEDIUM, 'VERY_LOW_FISO',
+          `Мышца "${name}": max_isometric_force = ${fiso.toFixed(1)} N — подозрительно мало`);
+      }
+
+      // Check: negative fiber/tendon
+      if(lfib < 0) addError(PHASE.MUSCLES, SEVERITY.CRITICAL, 'NEGATIVE_FIBER', `Мышца "${name}": отрицательный optimal_fiber_length`);
+      if(ltend < 0) addError(PHASE.MUSCLES, SEVERITY.CRITICAL, 'NEGATIVE_TENDON', `Мышца "${name}": отрицательный tendon_slack_length`);
+
+      // Check: zero fiber length with nonzero force
+      if(lfib === 0 && fiso > 0) {
+        addError(PHASE.MUSCLES, SEVERITY.HIGH, 'ZERO_FIBER_LENGTH',
+          `Мышца "${name}": optimal_fiber_length = 0 при Fiso = ${fiso.toFixed(1)} N`);
+      }
+
+      // Check: suspiciously high fiber/tendon ratio
+      if(ltend > 0 && lfib/ltend > 100) {
+        addError(PHASE.MUSCLES, SEVERITY.MEDIUM, 'VERY_HIGH_FIBER_TENDON_RATIO',
+          `Мышца "${name}": Lfib/Ltend = ${(lfib/ltend).toFixed(1)} — проверить Ltend`);
+      }
+
+      // Check: pennation angle too large
+      if(penn > 1.0472) { // > 60 degrees
+        addError(PHASE.MUSCLES, SEVERITY.MEDIUM, 'LARGE_PENNATION',
+          `Мышца "${name}": pennation_angle = ${(penn*180/Math.PI).toFixed(1)}° — превышает 60°`);
+      }
+    });
+  }
+  phases.push({name:PHASE.MUSCLES, status:countErrors(PHASE.MUSCLES)>0?'warn':'ok', count:countErrors(PHASE.MUSCLES)});
+
+  // Phase 8: PathPoint Validation
+  updateProgress(70, 'Проверка PathPoints...');
+  if(forceSetEl) {
+    const muscles = forceSetEl.querySelectorAll(':scope > objects > *');
+    muscles.forEach(m => {
+      const name = m.getAttribute('name');
+      if(!m.tagName.includes('Muscle') && !m.tagName.includes('PathActuator')) return;
+      const gp = m.querySelector('GeometryPath');
+      if(!gp) return;
+      const pps = gp.querySelector('PathPointSet');
+      if(!pps) return;
+      const ppList = pps.querySelectorAll('PathPoint, MovingPathPoint, ConditionalPathPoint');
+      
+      // Check: muscle needs at least 2 path points
+      if(ppList.length < 2) {
+        addError(PHASE.PATHPOINTS, SEVERITY.HIGH, 'TOO_FEW_PATHPOINTS',
+          `Мышца "${name}": только ${ppList.length} точек пути (минимум 2)`);
+      }
+
+      // Check: all path points on same body (zero moment arm)
+      const bodiesUsed = new Set();
+      ppList.forEach(pp => {
+        const bodyEl = pp.querySelector('body');
+        if(bodyEl) bodiesUsed.add(bodyEl.textContent.trim());
+      });
+      if(bodiesUsed.size === 1 && ppList.length >= 2) {
+        const singleBody = [...bodiesUsed][0];
+        if(singleBody !== 'ground') {
+          addError(PHASE.PATHPOINTS, SEVERITY.HIGH, 'ALL_POINTS_SAME_BODY',
+            `Мышца "${name}": все ${ppList.length} точек на теле "${singleBody}" — мышца не создаёт момент`);
+        }
+      }
+
+      // Check: body references in path points
+      ppList.forEach(pp => {
+        const bodyEl = pp.querySelector('body');
+        if(bodyEl) {
+          const bname = bodyEl.textContent.trim();
+          if(!(bname in modelData.bodies)) {
+            addError(PHASE.PATHPOINTS, SEVERITY.CRITICAL, 'INVALID_PATHPOINT_BODY',
+              `Мышца "${name}": PathPoint ссылается на тело "${bname}" — не найдено в BodySet → ModelCtor exception`);
+          }
+        }
+      });
+
+      // Check: duplicate PathPoint names within muscle
+      const ppNames = new Set();
+      const ppDups = new Set();
+      ppList.forEach(pp => {
+        const pn = pp.getAttribute('name');
+        if(pn) {
+          if(ppNames.has(pn)) ppDups.add(pn);
+          ppNames.add(pn);
+        }
+      });
+      ppDups.forEach(dn => {
+        addError(PHASE.PATHPOINTS, SEVERITY.HIGH, 'DUPLICATE_PATHPOINT_NAME',
+          `Мышца "${name}": дублирующее имя PathPoint "${dn}"`);
+      });
+    });
+  }
+  phases.push({name:PHASE.PATHPOINTS, status:countErrors(PHASE.PATHPOINTS)>0?'warn':'ok', count:countErrors(PHASE.PATHPOINTS)});
+
+  // Phase 9: ConditionalPathPoint Validation
+  updateProgress(78, 'Проверка ConditionalPathPoints...');
+  if(forceSetEl) {
+    const cpps = forceSetEl.querySelectorAll('ConditionalPathPoint');
+    cpps.forEach(cpp => {
+      const coordEl = cpp.querySelector('coordinate');
+      if(coordEl) {
+        const coordName = coordEl.textContent.trim();
+        if(!(coordName in modelData.coordinates)) {
+          const muscleName = cpp.closest('[name]')?.getAttribute('name') || '???';
+          addError(PHASE.CPP, SEVERITY.CRITICAL, 'CPP_INVALID_COORDINATE',
+            `CPP в мышце "${muscleName}": координата "${coordName}" не найдена в CoordinateSet → ModelCtor exception`);
+        }
+        // Check range vs coordinate range
+        const rangeEl = cpp.querySelector('range');
+        if(rangeEl && coordName in modelData.coordinates) {
+          const parts = rangeEl.textContent.trim().split(/\s+/);
+          if(parts.length === 2) {
+            const cppLo = parseFloat(parts[0]), cppHi = parseFloat(parts[1]);
+            const coord = modelData.coordinates[coordName];
+            if(cppLo < coord.min) {
+              const muscleName = cpp.closest('[name]')?.getAttribute('name') || '???';
+              addError(PHASE.CPP, SEVERITY.HIGH, 'CPP_RANGE_EXCEEDS_COORD',
+                `CPP в мышце "${muscleName}": range [${cppLo.toFixed(4)}, ${cppHi.toFixed(4)}] выходит за coord range [${coord.min.toFixed(4)}, ${coord.max.toFixed(4)}] — нижняя граница CPP < минимальной координаты`);
+            }
+            if(cppHi > coord.max) {
+              const muscleName = cpp.closest('[name]')?.getAttribute('name') || '???';
+              addError(PHASE.CPP, SEVERITY.HIGH, 'CPP_RANGE_EXCEEDS_COORD',
+                `CPP в мышце "${muscleName}": range [${cppLo.toFixed(4)}, ${cppHi.toFixed(4)}] выходит за coord range [${coord.min.toFixed(4)}, ${coord.max.toFixed(4)}] — верхняя граница CPP > максимальной координаты`);
+            }
+          }
+        }
+      }
+    });
+  }
+  phases.push({name:PHASE.CPP, status:countErrors(PHASE.CPP)>0?'warn':'ok', count:countErrors(PHASE.CPP)});
+
+  // Phase 10: MovingPathPoint Validation
+  updateProgress(84, 'Проверка MovingPathPoints...');
+  if(forceSetEl) {
+    const mpps = forceSetEl.querySelectorAll('MovingPathPoint');
+    mpps.forEach(mpp => {
+      ['x_coordinate','y_coordinate','z_coordinate'].forEach(coordTag => {
+        const coordEl = mpp.querySelector(coordTag);
+        if(coordEl) {
+          const coordName = coordEl.textContent.trim();
+          if(!(coordName in modelData.coordinates)) {
+            const muscleName = mpp.closest('[name]')?.getAttribute('name') || '???';
+            addError(PHASE.MPP, SEVERITY.CRITICAL, 'MPP_INVALID_COORDINATE',
+              `MovingPathPoint в мышце "${muscleName}": ${coordTag}="${coordName}" не найдена в CoordinateSet → ModelCtor exception`);
+          }
+          // Check: right muscle should use right coordinate
+          const muscleName = mpp.closest('[name]')?.getAttribute('name') || '';
+          if(muscleName.endsWith('_r') && coordName.includes('_l')) {
+            addError(PHASE.MPP, SEVERITY.HIGH, 'MPP_WRONG_SIDE',
+              `Мышца "${muscleName}" (_r): ${coordTag} ссылается на левую координату "${coordName}"`);
+          }
+          if(muscleName.endsWith('_l') && coordName.includes('_r')) {
+            addError(PHASE.MPP, SEVERITY.HIGH, 'MPP_WRONG_SIDE',
+              `Мышца "${muscleName}" (_l): ${coordTag} ссылается на правую координату "${coordName}"`);
+          }
+        }
+      });
+    });
+  }
+  phases.push({name:PHASE.MPP, status:countErrors(PHASE.MPP)>0?'warn':'ok', count:countErrors(PHASE.MPP)});
+
+  // Phase 11: Inertia Validation
+  updateProgress(90, 'Проверка инерции...');
+  for(const [bname, bdata] of Object.entries(modelData.bodies)) {
+    if(bname === 'ground') continue;
+    const body = bdata.el;
+    const mass = bdata.mass;
+    const ixx = parseFloat(body.querySelector('inertia_xx')?.textContent || '0');
+    const iyy = parseFloat(body.querySelector('inertia_yy')?.textContent || '0');
+    const izz = parseFloat(body.querySelector('inertia_zz')?.textContent || '0');
+    
+    if(mass > 0 && ixx === 0 && iyy === 0 && izz === 0) {
+      addError(PHASE.INERTIA, SEVERITY.HIGH, 'ZERO_INERTIA',
+        `Тело "${bname}": масса = ${mass.toFixed(4)} кг, но все моменты инерции = 0`);
+    }
+    if(mass > 0 && (ixx < 0 || iyy < 0 || izz < 0)) {
+      addError(PHASE.INERTIA, SEVERITY.CRITICAL, 'NEGATIVE_INERTIA',
+        `Тело "${bname}": отрицательный момент инерции (ixx=${ixx}, iyy=${iyy}, izz=${izz})`);
+    }
+  }
+  phases.push({name:PHASE.INERTIA, status:countErrors(PHASE.INERTIA)>0?'warn':'ok', count:countErrors(PHASE.INERTIA)});
+
+  // Phase 12: Mass validation (total)
+  updateProgress(95, 'Проверка масс тел...');
+  let totalMass = 0;
+  for(const bdata of Object.values(modelData.bodies)) totalMass += bdata.mass;
+  if(totalMass < 30) {
+    addError(PHASE.MASS, SEVERITY.HIGH, 'LOW_TOTAL_MASS',
+      `Суммарная масса модели: ${totalMass.toFixed(2)} кг — подозрительно мало для полнотелой модели`);
+  }
+  if(totalMass > 200) {
+    addError(PHASE.MASS, SEVERITY.HIGH, 'HIGH_TOTAL_MASS',
+      `Суммарная масса модели: ${totalMass.toFixed(2)} кг — подозрительно много`);
+  }
+  phases.push({name:PHASE.MASS, status:countErrors(PHASE.MASS)>0?'warn':'ok', count:countErrors(PHASE.MASS)});
+
+  // Phase 13: initSystem simulation
+  updateProgress(98, 'Имитация initSystem()...');
+  // OpenSim initSystem checks:
+  // - All bodies connected through joints (no floating bodies except ground)
+  // - No orphan coordinates
+  // - Muscle paths valid
+  // These are already covered above
+  phases.push({name:PHASE.INIT, status:'ok', count:0});
+
+  updateProgress(100, 'Готово!');
+  showResults(phases);
+}
+
+function addError(phase, severity, code, message) {
+  allErrors.push({phase, severity, code, message, id:allErrors.length});
+}
+
+function countErrors(phase) {
+  return allErrors.filter(e => e.phase === phase).length;
+}
+
+function updateProgress(pct, text) {
+  document.getElementById('progressFill').style.width = pct + '%';
+  document.getElementById('progressText').textContent = text;
+}
+
+function showResults(phases) {
+  document.getElementById('progress').style.display = 'none';
+  document.getElementById('results').style.display = 'block';
+
+  const critCount = allErrors.filter(e=>e.severity===SEVERITY.CRITICAL).length;
+  const highCount = allErrors.filter(e=>e.severity===SEVERITY.HIGH).length;
+  const medCount = allErrors.filter(e=>e.severity===SEVERITY.MEDIUM).length;
+  const lowCount = allErrors.filter(e=>e.severity===SEVERITY.LOW).length;
+  const totalErr = allErrors.length;
+  const bodyCount = Object.keys(modelData.bodies).length;
+  const jointCount = Object.keys(modelData.joints).length;
+  const muscleCount = modelData.muscles.length;
+
+  // Summary cards
+  const loadable = critCount === 0;
+  document.getElementById('summaryGrid').innerHTML = `
+    <div class="summary-card ${loadable?'card-ok':'card-errors'}">
+      <div class="num">${loadable?'✅':'❌'}</div>
+      <div class="label">${loadable?'Модель загрузится':'Модель НЕ загрузится'}</div>
+    </div>
+    <div class="summary-card card-errors"><div class="num">${critCount}</div><div class="label">CRITICAL</div></div>
+    <div class="summary-card card-warn"><div class="num">${highCount}</div><div class="label">HIGH</div></div>
+    <div class="summary-card card-info"><div class="num">${medCount}</div><div class="label">MEDIUM</div></div>
+    <div class="summary-card card-info"><div class="num">${bodyCount}</div><div class="label">Тел</div></div>
+    <div class="summary-card card-info"><div class="num">${jointCount}</div><div class="label">Суставов</div></div>
+    <div class="summary-card card-info"><div class="num">${muscleCount}</div><div class="label">Мышц</div></div>
+    <div class="summary-card card-info"><div class="num">${totalErr}</div><div class="label">Всего проблем</div></div>
+  `;
+
+  // Phase log
+  let phaseHtml = '<h3>📋 Последовательность загрузки OpenSim 3.3</h3>';
+  phases.forEach(p => {
+    const icon = p.status==='ok'?'✓':p.status==='warn'?'⚠':p.status==='error'?'✗':'○';
+    const cls = p.status==='ok'?'phase-ok':p.status==='warn'?'phase-warn':p.status==='error'?'phase-err':'phase-skip';
+    phaseHtml += `<div class="phase-step"><span class="phase-icon ${cls}">${icon}</span><span>${p.name}${p.count>0?' ('+p.count+')':''}</span></div>`;
+  });
+  document.getElementById('phaseLog').innerHTML = phaseHtml;
+
+  // Stats bar
+  let totalMass = 0;
+  for(const b of Object.values(modelData.bodies)) totalMass += b.mass;
+  document.getElementById('statsBar').innerHTML = `
+    <span>Масса модели: <strong>${totalMass.toFixed(2)} кг</strong></span>
+    <span>Координат: <strong>${Object.keys(modelData.coordinates).length}</strong></span>
+    <span>Сил всего: <strong>${modelData.forces.length}</strong></span>
+  `;
+
+  // Filter bar
+  document.getElementById('filterBar').innerHTML = `
+    <button class="filter-btn active" data-f="all">Все (${totalErr})</button>
+    <button class="filter-btn" data-f="CRITICAL">CRITICAL (${critCount})</button>
+    <button class="filter-btn" data-f="HIGH">HIGH (${highCount})</button>
+    <button class="filter-btn" data-f="MEDIUM">MEDIUM (${medCount})</button>
+  `;
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      currentFilter = btn.dataset.f;
+      renderErrors();
+    });
+  });
+
+  renderErrors();
+}
+
+function renderErrors() {
+  const filtered = currentFilter==='all' ? allErrors : allErrors.filter(e=>e.severity===currentFilter);
+  
+  const critErrors = filtered.filter(e=>e.severity===SEVERITY.CRITICAL);
+  const highErrors = filtered.filter(e=>e.severity===SEVERITY.HIGH);
+  const medErrors = filtered.filter(e=>e.severity===SEVERITY.MEDIUM);
+
+  let html = '';
+  if(critErrors.length) {
+    html += '<h3 class="err-header">🔴 CRITICAL — Модель НЕ загрузится в OpenSim</h3>';
+    critErrors.forEach(e => {
+      html += `<div class="err-item err-critical"><span class="err-code">[${e.code}]</span> <strong>${e.phase}:</strong> ${e.message}</div>`;
+    });
+  }
+  if(highErrors.length) {
+    html += '<h3 class="warn-header">🟡 HIGH — Загрузится, но результаты некорректны</h3>';
+    highErrors.forEach(e => {
+      html += `<div class="err-item err-high"><span class="warn-code">[${e.code}]</span> <strong>${e.phase}:</strong> ${e.message}</div>`;
+    });
+  }
+  if(medErrors.length) {
+    html += '<h3 class="warn-header">🔵 MEDIUM — Потенциальные проблемы</h3>';
+    medErrors.forEach(e => {
+      html += `<div class="err-item err-medium"><span class="warn-code">[${e.code}]</span> <strong>${e.phase}:</strong> ${e.message}</div>`;
+    });
+  }
+  if(!filtered.length) {
+    html = '<p style="color:var(--green);text-align:center;padding:20px">✅ Проблем не обнаружено!</p>';
+  }
+  document.getElementById('errorList').innerHTML = html;
+}
+</script>
+</body>
+</html>

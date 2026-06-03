@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://simtk.org/projects/sports_model",
+    "name": "Full-body model that improves upper body tracking for  - SimTK",
+    "snippet": "We achieved this goal by adding 3 joints in the spine and 2 joints between clavicles and sternum based on the existing models of various body ...",
+    "host_name": "simtk.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/fullbodylumbar",
+    "name": "Full-body Musculoskeletal Model of the Lumbar Spine: Project Home",
+    "snippet": "Develop a publicly available full-body model with extensive trunk musculature and degrees of freedom in the lumbar spine.",
+    "host_name": "simtk.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/spine-children",
+    "name": "Full-body models with detailed thoracolumbar spine for  - SimTK",
+    "snippet": "This project provides validated musculoskeletal full-body models including a detailed thoracolumbar spine for boys and girls aged 6-18 years.",
+    "host_name": "simtk.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://opensimconfluence.atlassian.net/wiki/spaces/OpenSim/pages/53090607/Musculoskeletal+Models",
+    "name": "Musculoskeletal Models - OpenSim",
+    "snippet": "Primarily lower extremity model with two legs and a lumped torso segment. Includes 23 degrees of freedom and 92 muscle-tendon actuators.\nGraphics-based musculoskeletal models are effective tools for visualizing human movement, analyzing the functional capacity of muscles, and designing improved ...",
+    "host_name": "opensimconfluence.atlassian.net",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/opensim",
+    "name": "OpenSim: Project Home - SimTK",
+    "snippet": "OpenSim is a freely available, user extensible software system that lets users develop models of musculoskeletal structures and create dynamic simulations ...",
+    "host_name": "simtk.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/upexdyn",
+    "name": "Upper Extremity Dynamic Model: Project Home - SimTK",
+    "snippet": "The project releases the MoBL-ARMS dynamic musculoskeletal model of the human upper extremity, implemented in SIMM/SDFast and OpenSIM.",
+    "host_name": "simtk.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7315467",
+    "name": "Musculoskeletal full-body models including a detailed  - PMC - NIH",
+    "snippet": "We therefore created OpenSim-based musculoskeletal full-body models including a detailed thoracolumbar spine for children and adolescents aged 6–18 years and ...",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/spine_ribcage",
+    "name": "Thoracolumbar spine and rib cage model in OpenSim: Project Home",
+    "snippet": "The aim of this project is to provide detailed and well-validated musculoskeletal models of the thoracolumbar spine and rib cage, ...",
+    "host_name": "simtk.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/full_body",
+    "name": "SimTK: Full Body Model for use in Dynamic Simulations of Human Gait",
+    "snippet": "Our paper describes a full body OpenSim model with musculotendon parameters derived from experimental measurements of 21 cadaver lower limbs.",
+    "host_name": "simtk.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/lfbmodel",
+    "name": "Lifting Full-Body Model: Project Home - SimTK",
+    "snippet": "The existing full-body-lumbar-spine (FBLS) model was adapted and validated for lifting motions to produce the lifting full-body (LFB) model ...",
+    "host_name": "simtk.org",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

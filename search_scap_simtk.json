@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11601422",
+    "name": "The Neuromusculoskeletal Modeling Pipeline: MATLAB-based",
+    "snippet": "This article introduces the Neuromusculoskeletal Modeling (NMSM) Pipeline, two MATLAB-based toolsets that add Model Personalization and Treatment Optimization ...",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/frs/?group_id=986",
+    "name": "Model of the Scapulothoracic Joint: Downloads - SimTK",
+    "snippet": "Provide an OpenSim Joint model that enables a more accurate representation of scapula mechanics in musculoskeletal simulations.",
+    "host_name": "simtk.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/scapulothoracic",
+    "name": "Model of the Scapulothoracic Joint: Project Home - SimTK",
+    "snippet": "Provide an OpenSim Joint model that enables a more accurate representation of scapula mechanics in musculoskeletal simulations. Download Latest ...",
+    "host_name": "simtk.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/category/communityPage.php?cat=1002&sort=date&page=0&srch=&",
+    "name": "Community - SimTK",
+    "snippet": "Model of the Scapulothoracic Joint. Provide an OpenSim Joint model that enables a more accurate representation of scapula mechanics in musculoskeletal ...",
+    "host_name": "simtk.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0141028",
+    "name": "A Biomechanical Model of the Scapulothoracic Joint to Accurately",
+    "snippet": "In this study, we developed a rigid-body model of a scapulothoracic joint to describe the kinematics of the scapula relative to the thorax.",
+    "host_name": "journals.plos.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  }
+]

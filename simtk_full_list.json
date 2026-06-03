@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://simtk.org/projects/upexdyn",
+    "name": "Upper Extremity Dynamic Model: Project Home - SimTK",
+    "snippet": "The project releases the MoBL-ARMS dynamic musculoskeletal model of the human upper extremity, implemented in SIMM/SDFast and OpenSIM.",
+    "host_name": "simtk.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/spine_upperbody",
+    "name": "Framingham Heart Study musculoskeletal models updated  - SimTK",
+    "snippet": "The Framingham Heart Study (FHS) dataset includes upper-body musculoskeletal models of 125 women and 125 men, each including thoracolumbar spine, ribcage, ...",
+    "host_name": "simtk.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/full_body",
+    "name": "SimTK: Full Body Model for use in Dynamic Simulations of Human Gait",
+    "snippet": "Our paper describes a full body OpenSim model with musculotendon parameters derived from experimental measurements of 21 cadaver lower limbs.",
+    "host_name": "simtk.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/bit",
+    "name": "A bilateral upper extremity trunk model for cross-country sit-skiing.",
+    "snippet": "The bilateral upper extremity trunk model was developed by combining three previously built OpenSim models: full-body lumbar spine for the base ...",
+    "host_name": "simtk.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.tandfonline.com/doi/full/10.1080/10255842.2021.1886284",
+    "name": "An open-source musculoskeletal model of the lumbar spine and",
+    "snippet": "It is freely available on https://simtk.org/projects/llsm/. Keywords: Musculoskeletal modelling · subject-specific · full-body · lumbar spine · subject-derived.",
+    "host_name": "www.tandfonline.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/torso_legs",
+    "name": "Torso + Lower Extremity Model: Project Home - SimTK",
+    "snippet": "This project contains an OpenSIM model file that includes a torso segment in addition to the lower extremity. The model contains 23 degrees ...",
+    "host_name": "simtk.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/nmblmodels",
+    "name": "Neuromuscular Models Library: Project Home - SimTK",
+    "snippet": "The goal of this site is to provide a resource for students, researchers, and clinicians to access, use, test, and develop models.",
+    "host_name": "simtk.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/lumbarspine",
+    "name": "Musculoskeletal Model of the Lumbar Spine: Project Home - SimTK",
+    "snippet": "The work here features a number of different OpenSim models of the lumbar spine developed to study lumbar kinematics and dynamics.",
+    "host_name": "simtk.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10538745",
+    "name": "Musculoskeletal model of osseointegrated transfemoral amputees in",
+    "snippet": "The model developed in this study has been uploaded and made publicly available here: https://simtk.org/projects/oi-tfp-model. For the other ...",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://link.springer.com/article/10.1007/s10439-025-03762-7",
+    "name": "An Augmented Full-Body Model that Improves Upper Body Tracking",
+    "snippet": "This augmented full-body model was implemented in OpenSim [1] and is freely available for research use through https://simtk.org/projects/ ...",
+    "host_name": "link.springer.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

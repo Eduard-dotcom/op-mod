@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://simtk.org/projects/fbmodpassivecal",
+    "name": "Full-body musculoskeletal model with calibrated passive muscle",
+    "snippet": "A full-body musculoskeletal model based on the model described by Rajagopal et al. (2016) with calibrated passive muscle force curves and improved hip abductor ...",
+    "host_name": "simtk.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/frs/?group_id=773",
+    "name": "SimTK: Full Body Model for use in Dynamic Simulations of Human Gait",
+    "snippet": "This package contains the full body model, geometry files for visualization, and sample data and set up files for creating muscle-driven simulations of gait.",
+    "host_name": "simtk.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11601422",
+    "name": "The Neuromusculoskeletal Modeling Pipeline: MATLAB-based",
+    "snippet": "To facilitate modeling and simulation of full-body walking motions, we recommend starting with the RCNL2023 OpenSim model (distributed with the NMSM Pipeline ...",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://opensimconfluence.atlassian.net/wiki/spaces/OpenSim/pages/53090607/Musculoskeletal+Models",
+    "name": "Musculoskeletal Models - OpenSim",
+    "snippet": "This model is a simplified model focused on the lower extremity. It demonstrates the use of the new Millard muscles in OpenSim. It is intended for education, ...",
+    "host_name": "opensimconfluence.atlassian.net",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/opensim",
+    "name": "OpenSim: Project Home - SimTK",
+    "snippet": "OpenSim is a freely available, user extensible software system that lets users develop models of musculoskeletal structures and create dynamic simulations ...",
+    "host_name": "simtk.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/full_body",
+    "name": "SimTK: Full Body Model for use in Dynamic Simulations of Human Gait",
+    "snippet": "The OpenSim model file is provided, along with data and setup files to produce a dynamic muscle-driven simulation of human walking and running.",
+    "host_name": "simtk.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=4OILUCgEGOg",
+    "name": "OpenSim for Open Source Musculoskeletal Modeling & Simulation",
+    "snippet": "OpenSim is an open source software platform for modeling the neuromusculoskeletal system and simulating muscle-driven motions.",
+    "host_name": "www.youtube.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://nmbl.stanford.edu/wp-content/uploads/07505900.pdf",
+    "name": "[PDF] Full-Body Musculoskeletal Model for Muscle-Driven Simulation of",
+    "snippet": "The model is freely available for download at https://simtk.org/home/full_body and is compatible with the open-source software package OpenSim, allowing the ...",
+    "host_name": "nmbl.stanford.edu",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/fullbodylumbar",
+    "name": "Full-body Musculoskeletal Model of the Lumbar Spine: Project Home",
+    "snippet": "The full-body lumbar spine (FBLS) model was created by combining other previously developed OpenSim models (https://simtk.org/home/lumbarspine, ...",
+    "host_name": "simtk.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://core.ac.uk/download/pdf/83530078.pdf",
+    "name": "[PDF] OpenSim New Full Body Model - CORE",
+    "snippet": "The muscle forces and joint moments from the exercises analyzed are consistent with the results from previous trials.",
+    "host_name": "core.ac.uk",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10565495",
+    "name": "Muscle-driven forward dynamic active hybrid model of the  - PMC",
+    "snippet": "... OpenSim skeleton “Lumbar_C_238” from Christophy et al. (2012) and 3) the “Twente Spine Model” skeleton by Bayoglu et al. (2017) both as reference models. To ...",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/374287529_Muscle-driven_forward_dynamic_active_hybrid_model_of_the_lumbosacral_spine_combined_FEM_and_multibody_simulation",
+    "name": "(PDF) Muscle-driven forward dynamic active hybrid model of the",
+    "snippet": "... OpenSim skeleton “Lumbar_C_238”from. Christophy et al. (2012) and 3) the “Twente Spine Model”. skeleton by Bayoglu et al. (2017) both as ...",
+    "host_name": "www.researchgate.net",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/mjhmilla/kinematicPassengerModel",
+    "name": "mjhmilla/kinematicPassengerModel: A kinematic model of a  - GitHub",
+    "snippet": "This repository contains the working OpenSim (https://simtk.org/projects/opensim) model files for a kinematic model of a human torso, neck, ...",
+    "host_name": "github.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/frs/?group_id=567",
+    "name": "Musculoskeletal Model of the Lumbar Spine: Downloads - SimTK",
+    "snippet": "This project holds three different OpenSim-based musculoskeletal model of the human lumbar spine. Please refer to the ReadMeFirst document for more detail.",
+    "host_name": "simtk.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/figure/Musculoskeletal-model-in-OPENSIM-left-based-on-the-lumbar-spine-model-of-Christophy-et_fig1_281227366",
+    "name": "Musculoskeletal model in OPENSIM (left), based on the lumbar spine",
+    "snippet": "A musculoskeletal model was created in OPENSIM, an open-source musculoskeletal modeling platform [1], based on the lumbar spine model of Christophy et al. [6].",
+    "host_name": "www.researchgate.net",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11138492",
+    "name": "Analysis of lumbar spine loading during walking in patients  - PMC",
+    "snippet": "The OpenSim musculoskeletal model was used to calculate lumbar, hip, knee and ankle joint angle variations, lumbar moments and loads, muscle ...",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=yJGK7JN7rTg",
+    "name": "A Thoracolumbar Spine and Rib Cage Model in OpenSim - YouTube",
+    "snippet": "There are multiple areas in biomechanics and rehabilitation research where a flexible, more realistic model of the thorax may be desirable ...",
+    "host_name": "www.youtube.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/opensim-org/opensim-gui",
+    "name": "opensim-org/opensim-gui: SimTK OpenSim graphical user  - GitHub",
+    "snippet": "OpenSim is software that lets users develop models of musculoskeletal structures and create dynamic simulations of movement.",
+    "host_name": "github.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/opensim-org/opensim-models/blob/master/Models/Arm26/arm26.osim",
+    "name": "opensim-models/Models/Arm26/arm26.osim at master - GitHub",
+    "snippet": "SimTK OpenSim models (.osim) and related example files that are distributed with OpenSim. - opensim-models/Models/Arm26/arm26.osim at master ...",
+    "host_name": "github.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/opensim-org/opensim-models/issues/187",
+    "name": "Develop a new OpenSim model for simulating athletic motion #187",
+    "snippet": "Athlete model repo: https://github ... Add a Joint type for modeling the lumbar, thoracic, and cervical spine ...",
+    "host_name": "github.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

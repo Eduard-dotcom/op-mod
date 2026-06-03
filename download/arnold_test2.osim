@@ -1,0 +1,344 @@
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html SYSTEM "http://evolvis.org/DTD/xhtml10t-rdfa10.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:planetforge="http://coclico-project.org/ontology/planetforge#" xmlns:sioc="http://rdfs.org/sioc/ns#">
+	<head>
+		<style id="topStyle">
+		body {
+			display:none !important;
+		}
+		</style>
+
+		<script type="text/javascript">
+		if (self === top) {
+			var elemTopStyle = document.getElementById("topStyle");
+			elemTopStyle.parentNode.removeChild(topStyle);
+		}
+		else {
+			top.location = self.location;
+		}
+		</script>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                                <meta name="viewport" content="width=device-width, initial-scale=1" />
+			<title>SimTK: Requested Page not Found (Error 404)</title>
+	<link rel="icon" type="image/png" href="/images/icon.png" />
+	<link rel="shortcut icon" type="image/png" href="/images/icon.png" />
+	<link rel="alternate" title="SimTK - Project News Highlights RSS" href="/export/rss20_news.php" type="application/rss+xml" />
+	<link rel="alternate" title="SimTK - New Projects RSS" href="/export/rss20_projects.php" type="application/rss+xml" />
+	<link rel="search" title="SimTK" href="/export/search_plugin.php" type="application/opensearchdescription+xml" />
+<script type="text/javascript" src="/js/common.js"></script>	<script type="text/javascript" src="/scripts/jquery/jquery-3.5.1.min.js?1591639933"></script>
+	<script type="text/javascript" src="/scripts/jquery/jquery-migrate-3.3.0.min.js?1591639944"></script>
+	<script type="text/javascript" src="/scripts/jquery-storage/jquery.Storage.js?1422635172"></script>
+		<script type="text/javascript">//<![CDATA[
+		jQuery(window).load(function(){
+			jQuery(".quicknews").hide();
+			setTimeout("jQuery('.feedback').hide('slow')", 5000);
+			setInterval(function() {
+					setTimeout("jQuery('.feedback').hide('slow')", 5000);
+				}, 5000);
+		});
+                $(function(){
+                    // hack to remove documents from the SELECT
+                    $(".search_select").find('[value=alldocs]').remove(); 
+                });
+		//]]></script>
+		<script type="text/javascript" src="https://simtk.org/themes/simtk/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://simtk.org/themes/simtk/js/help_ruler.js"></script>
+<script type="text/javascript" src="https://simtk.org/themes/simtk/js/dropdowns-enhancement.js"></script>
+<script type="text/javascript" src="https://simtk.org/themes/simtk/js/jquery.popupWindow.js"></script>
+<script type="text/javascript" src="https://simtk.org/themes/simtk/js/simple-expand.js"></script>
+		
+        	<link rel="stylesheet" type="text/css" href="/themes/css/fusionforge.css?1558221842" />
+	<link rel="stylesheet" type="text/css" href="/themes/simtk/css/theme.css?1700256018" />
+	<link rel="stylesheet" type="text/css" href="/themes/simtk/css/carousel.css?1558222073" />
+	<meta name="Forge-Identification" content="FusionForge:6.0.5+autobuilt201805241740-1" />
+	</head>
+			<body>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-76347930-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-76347930-1');
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-39MBRCX1ZS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-39MBRCX1ZS');
+</script>
+
+<div class='the_header'>
+<div class='cont_header'>
+
+<script type="text/javascript" src="/announcement.js"></script>
+
+<nav class="navbar navbar-simtk" role="navigation">
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" href="/">		<img alt="FusionForge Home" src="https://simtk.org/themes/simtk/images/header/logo.png" />
+</a>	</div>
+	
+	<!-- HAVE TWO ADDITIONAL CLASSES: intend and action --->
+	<div id="navbar" class="navbar-collapse collapse">
+	    <!-- Decreased width of Search Box and moved to this location --->
+		<ul class="nav navbar-nav navbar-right">
+<div class='the_search_box'>
+
+<form id='searchBox' action='/search/search.php' method='get'>
+	<div class='search_box_inputs'>
+		<input type='text' id='searchBox-words' 
+			placeholder='Search for' name='srch' 
+			value='' required='required' />
+		<input type='submit' name='Search' value='Search' />
+	</div>
+	<span class='search_box_select'>
+		<input type='radio' name='type_of_search' value='soft' checked='checked' />&nbsp;<label>Projects</label>&nbsp;&nbsp; <input type='radio' name='type_of_search' value='people'  />&nbsp;<label>People</label>
+	</span>
+</form>
+	</div>
+
+
+<li class="dropdown">
+	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Projects<span class="caret"></span></a>
+	<ul class="dropdown-menu" style='min-width:330px;' role="menu">
+		<li class="dropdown-submenu">
+			<a href="#" data-toggle="dropdown" style="padding-left:20px;" >Project categories</a>
+			<ul class="dropdown-menu">
+				<li class="dropdown-header">Biological applications</li>
+				<li class="intend"><a href="/category/category.php?cat=309&sort=date&page=0&srch=&" tabindex="-1">Cardiovascular system</a></li>
+				<li class="intend"><a href="/category/category.php?cat=421&sort=date&page=0&srch=&" tabindex="-1">Cell</a></li>
+				<li class="intend"><a href="/category/category.php?cat=308&sort=date&page=0&srch=&" tabindex="-1">Myosin</a></li>
+				<li class="intend"><a href="/category/category.php?cat=310&sort=date&page=0&srch=&" tabindex="-1">Neuromuscular system</a></li>
+				<li class="intend"><a href="/category/category.php?cat=406&sort=date&page=0&srch=&" tabindex="-1">Protein</a></li>
+				<li class="intend"><a href="/category/category.php?cat=307&sort=date&page=0&srch=&" tabindex="-1">RNA</a></li>
+				<li class="intend"><a href="/category/category.php?cat=420&sort=date&page=0&srch=&" tabindex="-1">Tissue</a></li>
+				<li class="dropdown-header">Biocomputational focus</li>
+				<li class="intend"><a href="/category/category.php?cat=411&sort=date&page=0&srch=&" tabindex="-1">Experimental analysis</a></li>
+				<li class="intend"><a href="/category/category.php?cat=412&sort=date&page=0&srch=&" tabindex="-1">Image processing</a></li>
+				<li class="intend"><a href="/category/category.php?cat=426&sort=date&page=0&srch=&" tabindex="-1">Network modeling and analysis</a></li>
+				<li class="intend"><a href="/category/category.php?cat=409&sort=date&page=0&srch=&" tabindex="-1">Physics-based simulation</a></li>
+				<li class="intend"><a href="/category/category.php?cat=416&sort=date&page=0&srch=&" tabindex="-1">Statistical analysis</a></li>
+				<li class="intend"><a href="/category/category.php?cat=415&sort=date&page=0&srch=&" tabindex="-1">Visualization</a></li>
+			</ul>
+		</li>
+
+		<li class="dropdown-submenu">
+			<a href="#" data-toggle="dropdown" style="padding-left:20px;" >Communities</a>
+			<ul class="dropdown-menu">
+<li class="intend"><a href="/category/communityPage.php?cat=1001&sort=date&page=0&srch=&" tabindex="-1">OpenSim</a></li><li class="intend"><a href="/category/communityPage.php?cat=1002&sort=date&page=0&srch=&" tabindex="-1">Shoulder Modeling</a></li><li class="intend"><a href="/category/communityPage.php?cat=1003&sort=date&page=0&srch=&" tabindex="-1">SimVascular</a></li><li class="intend"><a href="/category/communityPage.php?cat=1004&sort=date&page=0&srch=&" tabindex="-1">IMAG/MSM Consortium</a></li><li class="intend"><a href="/category/communityPage.php?cat=1005&sort=date&page=0&srch=&" tabindex="-1">IMAG-MSM Public Dissemination...</a></li><li class="intend"><a href="/category/communityPage.php?cat=1006&sort=date&page=0&srch=&" tabindex="-1">Biomechanics of Movement</a></li><li class="divider"></li><li class="intend"><a href="/communities.php" tabindex="-1">All Communities</a></li><li class="intend"><a href="/aboutCommunities.php" tabindex="-1">About Communities</a></li><li class="intend"><a href="/sendmessage.php?recipient=admin&subject=Community%20Request" tabindex="-1">Request Community</a></li>			</ul>
+		</li>
+		<li><a class="action" href="/search/search.php?srch=&search=search&type_of_search=soft&sort=date&page=0" style="color:black;padding-left:20px;" >See all projects</a></li>
+		<li><a class="action" href="/register" style="padding-left:20px;" >Create a new project</a></li>
+
+	</ul>
+</li>
+<li class="dropdown">
+	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About<span class="caret"></span></a>
+	<ul class="dropdown-menu" role="menu">
+<!--
+		<li role="presentation" class="dropdown-header">What is SimTK?</li>
+		<li class="intend"><a href='/history.html'>History</a></li>
+		<li class="intend"><a href='/features.html'>Features</a></li>
+		<li class="intend"><a href='/case_studies.html'>Case studies</a></li>
+		<li class="intend"><a href='/faq_simtk.html'>FAQ</a></li>
+
+		<li role="presentation" class="dropdown-header">Support</li>
+		<li class="intend"><a href='/how_to_use_simtk.html'>How to use SimTK</a></li>
+		<li class="intend"><a href='/sendmessage.php?recipient=admin'>Contact</a></li>
+-->
+		<li class="intend"><a href="/whatIsSimtk.php">What is SimTK?</a></li>
+		<li class="intend"><a href='/features.php'>Features</a></li>
+		<li class="intend"><a href='/faq.php'>FAQ</a></li>
+		<li class="intend"><a class="contact_href" href='/feedback.php'>Contact</a></li>
+	</ul>
+</li>
+
+<li><a href="/account/register.php">Sign Up</a></li> <li><a href="/account/login.php?return_to=%2Ffrs%2Fdownload.php%2Ffile%2F2707%2FArnoldHamner_LegsTorsoArms_v2.1.osim">Log In</a></li>		</ul>
+	</div>
+</nav>
+
+<script>
+// Safari page cache may cause user login/logout status to be not up-to-date.
+// See http://stackoverflow.com/questions/8788802/prevent-safari-loading-from-cache-when-back-button-is-clicked
+// Use the following to force a reload instead of using cache.
+$(window).bind("pageshow", function(event) {
+	if (event.originalEvent.persisted) {
+		window.location.reload();
+	}
+});
+
+// NOTE: Need to use $(window).load() instead of $(document).load() here to get
+// consistent load behavior between Chrome, Safari, Firefox, and Opera.
+// See: http://stackoverflow.com/questions/12354865/image-onload-event-and-browser-cache
+$(window).load(function() {
+
+	// Set up href for Contact page.
+	$(".contact_href").click(function(event) {
+		// Invoke event.preventDefault() first.
+		event.preventDefault();
+
+		// Get group_id if hidden DIV class "divGroupId" is present.
+		theGroupId = -1;
+		$(".divGroupId").each(function() {
+			theGroupId = $(this).text();
+		});
+		if (theGroupId != -1) {
+			// Has group_id.
+			location.href="/feedback.php?group_id=" + theGroupId;
+		}
+		else {
+			// No group_id from class "divGroupId".
+			// Try extracting from URL.
+			location.href="/feedback.php";
+		}
+	});
+
+	// Find and scale all img logos elements.
+	$("img").each(function() {
+		var theImage = new Image();
+		theImage.src = $(this).attr("src");
+		if (theImage.src.indexOf("/logos/") == -1 &&
+			theImage.src.indexOf("/logos-frs/") == -1) {
+			// Skip.
+			return;
+		}
+
+		var myThis = $(this);
+		theImage.onload = function() {
+			// Image loaded.
+
+			// Get element's dimenions.
+			var elemWidth = myThis.width();
+			var elemHeight = myThis.height();
+
+			// Get image file's dimensions.
+			var theNaturalWidth = theImage.width;
+			var theNaturalHeight =  theImage.height;
+
+			// Use the dimension that is constraining.
+			var ratioH = elemHeight / theNaturalHeight;
+			var ratioW = elemWidth / theNaturalWidth;
+			var theRatio = ratioH;
+			if (ratioH > ratioW) {
+				theRatio = ratioW;
+			}
+
+			// New dimensions of image.
+			// Subtract 2px in dimensions to account for roundoff errors.
+			var theScaledWidth = Math.floor(theRatio * theNaturalWidth) - 2;
+			var theScaledHeight = Math.floor(theRatio * theNaturalHeight) - 2;
+			// Add margin at top/bottom or left/right.
+			var marginTop = Math.floor((elemHeight - theScaledHeight)/2) - 2;
+			if (marginTop < 0) {
+				marginTop = 0;
+			}
+			var marginLeft = Math.floor((elemWidth - theScaledWidth)/2) - 2;
+			if (marginLeft < 0) {
+				marginLeft = 0;
+			}
+
+			// Set CSS for element with new dimensions with margin to center image.
+			myThis.css({
+				'width': theScaledWidth + 'px', 
+				'height': theScaledHeight + 'px',
+				'margin-top': marginTop + 'px',
+				'margin-bottom': marginTop + 'px',
+				'margin-left': marginLeft + 'px',
+				'margin-right': marginLeft + 'px',
+			});
+		};
+	});
+
+	// NOTE: The following is needed for displaying submenu under a menu item.
+	$('.dropdown>.dropdown-menu>.intend>a.dropdown-toggle').on('click', function(e) {
+		$(this).next('ul').toggle();
+		e.stopPropagation();
+		e.preventDefault();
+	});
+});
+
+
+</script>
+		
+</div>
+</div>
+<div class='the_body'>
+<div class='cont_body'>
+<div class='row_body'>
+<div class='maindiv'>
+
+
+<!--Here the Footer starts--></div>
+</div>
+</div>
+</div>
+<div class="the_footer"><div class="cont_footer"><div class="footer_row"><div class="footer_information"><p>SimTK is maintained through Grant R01GM124443 01A1 from the National Institutes of Health (NIH). It was initially developed as part of the Simbios project funded by the NIH as part of the NIH Roadmap for Medical Research, Grant U54 GM072970.</p></div><div class="footer-right"><a href="/pledge.php">Our Pledge and Your Responsibility</a><br/><br/><a class="feedback_href" href="#">Feedback</a> &emsp; <a href="/whatIsSimtk.php">About</a> &emsp; <a href="/account/register.php">Join</a></div></div><div style="font-size:12px;">Version 5.0.0. Website design by <a href="http://www.viewfarm.com/">Viewfarm</a>. Icons created by SimTK team using art by <a href="http://graphberry.com" title="GraphBerry">GraphBerry</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> under a CC BY 3.0 license. Forked from <a href="https://github.com/fusionforge">FusionForge</a>.</div></div></div><script>
+$(document).ready(function() {
+                        $(".recYes").click(function() {
+                            rec_group_id = $(this).parent().parent().attr("id");
+                            $("#" + rec_group_id).text("Thanks!");
+                        });
+                });
+$(document).ready(function() {
+                        $(".recNo").click(function() {
+                            rec_group_id = $(this).parent().parent().attr("id");
+                            $("#" + rec_group_id).text("Thanks!");
+                        });
+                });$(document).ready(function() {
+			$(".feedback_href, .feedback_button").click(function(event) {
+				// Invoke event.preventDefault() first.
+				event.preventDefault();
+				// Get group_id if hidden DIV class "divGroupId" is present.
+				theGroupId = -1;
+				$(".divGroupId").each(function() {
+					theGroupId = $(this).text();
+				});
+				if (theGroupId != -1) {
+					// Has group_id.
+					location.href="/feedback.php?group_id=" + theGroupId;
+				}
+				else {
+					// No group_id from class "divGroupId".
+					location.href="/feedback.php";
+				}
+			});
+                });
+</script>
+            <div class='check_image' style='display: none'> 
+            </div>
+            <div class='palette' style='display: none'>
+                <div class='color light_yellow' ></div> <div class='text'>#FDF8E1 @light_yellow</div>
+                <div style='clear: both;'></div>
+                <div class='color red' ></div> <div class='text'>#F75236 @red</div>
+                <div style='clear: both;'></div>
+                <div class='color orange' ></div> <div class='text'>#F5B563 @orange</div>
+                <div style='clear: both;'></div>
+                <div class='color light_blue' ></div> <div class='text'>#81A5D4 @light_blue</div>
+                <div style='clear: both;'></div>
+                <div class='color dark_blue' ></div> <div class='text'>#5E96E1 @dark_blue</div>
+                <div style='clear: both;'></div>
+                <div class='color dark_grey' ></div> <div class='text'>#505050 @dark_grey</div>
+                <div style='clear: both;'></div>
+                <div class='color black' ></div> <div class='text'>#000000 @black</div>
+                <div style='clear: both;'></div>
+                <div class='color light_grey' ></div> <div class='text'>#A7A7A7 @light_grey</div>
+                <div style='clear: both;'></div>
+            </div>
+            <div class="feedback_button"><div class="text">Feedback</div></div>
+</body>
+</html>

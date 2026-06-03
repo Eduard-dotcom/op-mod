@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://arxiv.org/html/2312.05473v3",
+    "name": "Modeling Full-Body Human Musculoskeletal System and  - arXiv",
+    "snippet": "We build a musculoskeletal model (MS-Human-700) with 90 body segments, 206 joints, and 700 muscle-tendon units, allowing simulation of full-body dynamics and ...",
+    "host_name": "arxiv.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12331652",
+    "name": "Neural-enhanced motion-to-EMG: refining simulated muscle activity",
+    "snippet": "OpenSim operates through two key layers: torque estimation and muscle activity estimation (see Supplementary Appendix SA for details on the ...",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/395065422_The_Biomechanical_Construction_of_Kinetic_Chain_Synergy_in_Competitive_Recurve_Archery",
+    "name": "(PDF) The Biomechanical Construction of Kinetic Chain Synergy in",
+    "snippet": "Based on sports biomechanics and neural control theory, this study systematically analyzes the kinetic chain structure involved in archery movements, identifies ...",
+    "host_name": "www.researchgate.net",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/fbmodpassivecal",
+    "name": "Full-body musculoskeletal model with calibrated passive muscle",
+    "snippet": "A full-body musculoskeletal model based on the model described by Rajagopal et al. (2016) with calibrated passive muscle force curves and improved hip abductor ...",
+    "host_name": "simtk.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://hal.science/hal-02014992v1/document",
+    "name": "[PDF] A Full-chain OpenSim Model and Its Application on Posture  - HAL",
+    "snippet": "Biomechanical motion simulation and kinectic analysis of hu- man joints and muscles provide insights into Musculoskeletal disorders. OpenSim is ...",
+    "host_name": "hal.science",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=ZIBnncuVlok",
+    "name": "Webinar: Best Practices for Verification and Validation of  - YouTube",
+    "snippet": "Modeling and simulation have proliferated in the biomechanics research community over the past 25 years, but the lack of verification and ...",
+    "host_name": "www.youtube.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10644710",
+    "name": "EMG-Driven Musculoskeletal Model Calibration With Wrapping",
+    "snippet": "This study developed a novel method for personalizing OpenSim cylindrical wrapping surfaces during EMG-driven model calibration.",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://opensimconfluence.atlassian.net/wiki/spaces/OpenSim/pages/53088700/Tutorial+1+-+Intro+to+Musculoskeletal+Modeling",
+    "name": "Tutorial 1 - Intro to Musculoskeletal Modeling - OpenSim",
+    "snippet": "OpenSim is an open-source software that allows users to develop, analyze, and visualize models of the musculoskeletal system, and to generate dynamic ...",
+    "host_name": "opensimconfluence.atlassian.net",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mdpi.com/1424-8220/22/22/8584",
+    "name": "The Number and Structure of Muscle Synergies Depend on  - MDPI",
+    "snippet": "The muscle synergy approach is used to evaluate motor control and to quantitatively determine the number and structure of the modules underlying movement.",
+    "host_name": "www.mdpi.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://peerj.com/articles/16180.pdf",
+    "name": "[PDF] Computer simulation on the cueing movements in cue sports - PeerJ",
+    "snippet": "It is feasible to cater simulation modeling in OpenSim for biomechanical investigations of the upper extremity movements in cue sports. Model ...",
+    "host_name": "peerj.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://thesis.unipd.it/retrieve/b3220139-ff4f-4e55-b6aa-a6d311bedc59/Zancanaro_Paola.pdf",
+    "name": "[PDF] Comparison of knee loading during walking via musculoskeletal",
+    "snippet": "Shelburne, M. Torry and M. Pandy, \"Muscle, ligament, and joint-contact forces at the knee during walking,\" Med Sci Sports Exerc., vol. 37 ...",
+    "host_name": "thesis.unipd.it",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/opensim-org/opensim-models",
+    "name": "SimTK OpenSim models (.osim) and related example files  - GitHub",
+    "snippet": "OpenSim models (.osim) and related example files that are distributed with the OpenSim application.",
+    "host_name": "github.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://gist.github.com/rdeits/91c13fc607c7ce606c940a4530a53273",
+    "name": "opensim-knee-reflex.ipynb - GitHub Gist",
+    "snippet": "Create a body named 'shank', with the same mass properties as the thigh. · Attach the same ellipsoid geometry as for the thigh. · Add the shank body to the model.",
+    "host_name": "gist.github.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/stanfordnmbl/osim-rl",
+    "name": "GitHub - stanfordnmbl/osim-rl: Reinforcement learning environments",
+    "snippet": "To model physics and biomechanics we use OpenSim - a biomechanical physics environment for musculoskeletal simulations. What's new compared to NIPS 2017: ...",
+    "host_name": "github.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/opensim-org/opensim-models/blob/master/Models/Leg6Dof9Musc/leg6dof9musc.osim",
+    "name": "opensim-models/Models/Leg6Dof9Musc/leg6dof9musc.osim at master",
+    "snippet": "SimTK OpenSim models (.osim) and related example files that are distributed with OpenSim. - opensim-models/Models/Leg6Dof9Musc/leg6dof9musc.osim at master ...",
+    "host_name": "github.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/hip_muscles",
+    "name": "Hip Musculoskeletal Model: Project Home - SimTK",
+    "snippet": "A detailed model of the muscles spanning the hip joint for muscle force and joint load prediction at the hip.",
+    "host_name": "simtk.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/opensim-org",
+    "name": "OpenSim Project - GitHub",
+    "snippet": "opensim-fitter Public. A Python library for fitting OpenSim model geometry and kinematics to motion capture and video-based data sources.",
+    "host_name": "github.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/ComputationalBiomechanicsLab/opensim-creator",
+    "name": "ComputationalBiomechanicsLab/opensim-creator: A UI for  - GitHub",
+    "snippet": "OpenSim Creator (osc) is a standalone UI for building and editing OpenSim models. It's available as a freestanding all-in-one installer for Windows 10 (>= 1507 ...",
+    "host_name": "github.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/opensim-org/opensim-core",
+    "name": "opensim-org/opensim-core: SimTK OpenSim C++ libraries  - GitHub",
+    "snippet": "OpenSim is software that lets users develop models of musculoskeletal structures and create dynamic simulations of movement.",
+    "host_name": "github.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/opensim-org/opensim-core/blob/master/OpenSim/Simulation/Model/Model.cpp",
+    "name": "opensim-core/OpenSim/Simulation/Model/Model.cpp at main - GitHub",
+    "snippet": "SimTK OpenSim C++ libraries and command-line applications, and Java/Python wrapping. - opensim-core/OpenSim/Simulation/Model/Model.cpp at main ...",
+    "host_name": "github.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

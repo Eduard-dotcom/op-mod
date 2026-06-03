@@ -1,0 +1,3431 @@
+[
+  {
+    "dept": "Шея",
+    "subgroup": "Сгибатели",
+    "muscle_ru": "Грудино-ключично-сосцевидная",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "stern_mast"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Сгибатели",
+    "muscle_ru": "Ключично-сосцевидная",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "cleid_mast"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Сгибатели",
+    "muscle_ru": "Ключично-затылочная",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "cleid_occ"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Лестничные",
+    "muscle_ru": "Передняя лестничная",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "scalenus_ant"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Лестничные",
+    "muscle_ru": "Средняя лестничная",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "scalenus_med"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Лестничные",
+    "muscle_ru": "Задняя лестничная",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "scalenus_post"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Длинные мышцы",
+    "muscle_ru": "Длинная мышца головы",
+    "head_ru": "skull c4",
+    "base_names": [
+      "long_cap_sklc4"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Длинные мышцы",
+    "muscle_ru": "Длинная мышца шеи",
+    "head_ru": "C1-C5",
+    "base_names": [
+      "long_col_c1c5"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Длинные мышцы",
+    "muscle_ru": "Длинная мышца шеи",
+    "head_ru": "C1-грудной",
+    "base_names": [
+      "long_col_c1thx"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Длинные мышцы",
+    "muscle_ru": "Длинная мышца шеи",
+    "head_ru": "C5-грудной",
+    "base_names": [
+      "long_col_c5thx"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Длинные мышцы",
+    "muscle_ru": "Длиннейшая мышцы головы",
+    "head_ru": "skull c6",
+    "base_names": [
+      "longissi_cap_sklc6"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Длинные мышцы",
+    "muscle_ru": "Длиннейшая мышцы шеи",
+    "head_ru": "C4-грудной",
+    "base_names": [
+      "longissi_cerv_c4thx"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Подзатылочные",
+    "muscle_ru": "Задняя большая прямая мышца головы",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "rectcap_post_maj"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Подзатылочные",
+    "muscle_ru": "Задняя малая прямая мышца головы",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "rectcap_post_min"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Подзатылочные",
+    "muscle_ru": "Нижняя косая мышца головы",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "obl_cap_inf"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Подзатылочные",
+    "muscle_ru": "Верхняя косая мышца головы",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "obl_cap_sup"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Ременные",
+    "muscle_ru": "Ременная мышца головы",
+    "head_ru": "skull c5",
+    "base_names": [
+      "semi_cap_sklc5"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Ременные",
+    "muscle_ru": "Ременная мышца головы",
+    "head_ru": "skull грудной",
+    "base_names": [
+      "semi_cap_sklthx"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Ременные",
+    "muscle_ru": "Ременная мышца шеи",
+    "head_ru": "C3-грудной",
+    "base_names": [
+      "semi_cerv_c3thx"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Многораздельные",
+    "muscle_ru": "Глубокая многораздельная",
+    "head_ru": "C4/5-C2",
+    "base_names": [
+      "deepmult-C4/5-C2"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Многораздельные",
+    "muscle_ru": "Глубокая многораздельная",
+    "head_ru": "C5/6-C3",
+    "base_names": [
+      "deepmult-C5/6-C3"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Многораздельные",
+    "muscle_ru": "Глубокая многораздельная",
+    "head_ru": "C6/7-C4",
+    "base_names": [
+      "deepmult-C6/7-C4"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Многораздельные",
+    "muscle_ru": "Глубокая многораздельная",
+    "head_ru": "T1-C5",
+    "base_names": [
+      "deepmult-T1-C5"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Многораздельные",
+    "muscle_ru": "Глубокая многораздельная",
+    "head_ru": "T1-C6",
+    "base_names": [
+      "deepmult-T1-C6"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Многораздельные",
+    "muscle_ru": "Глубокая многораздельная",
+    "head_ru": "T2-C7",
+    "base_names": [
+      "deepmult-T2-C7"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Многораздельные",
+    "muscle_ru": "Глубокая многораздельная",
+    "head_ru": "T2-T1",
+    "base_names": [
+      "deepmult-T2-T1"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Многораздельные",
+    "muscle_ru": "Верхняя многораздельная",
+    "head_ru": "C4/5-C2",
+    "base_names": [
+      "supmult-C4/5-C2"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Многораздельные",
+    "muscle_ru": "Верхняя многораздельная",
+    "head_ru": "C5/6-C2",
+    "base_names": [
+      "supmult-C5/6-C2"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Многораздельные",
+    "muscle_ru": "Верхняя многораздельная",
+    "head_ru": "C6/7-C2",
+    "base_names": [
+      "supmult-C6/7-C2"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Многораздельные",
+    "muscle_ru": "Верхняя многораздельная",
+    "head_ru": "T1-C4",
+    "base_names": [
+      "supmult-T1-C4"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Многораздельные",
+    "muscle_ru": "Верхняя многораздельная",
+    "head_ru": "T1-C5",
+    "base_names": [
+      "supmult-T1-C5"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Многораздельные",
+    "muscle_ru": "Верхняя многораздельная",
+    "head_ru": "T2-C6",
+    "base_names": [
+      "supmult-T2-C6"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Подъязычные",
+    "muscle_ru": "Грудино-подъязычная",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "sternohyoid"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Подъязычные",
+    "muscle_ru": "Грудино-щитовидная",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "sternothyroid"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Подъязычные",
+    "muscle_ru": "Лопаточно-подъязычная",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "omohyoid"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Ременные",
+    "muscle_ru": "Ременная мышца головы",
+    "head_ru": "skull T1",
+    "base_names": [
+      "splen_cap_skl_T1"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Ременные",
+    "muscle_ru": "Ременная мышца головы",
+    "head_ru": "skull T2",
+    "base_names": [
+      "splen_cap_skl_T2"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Ременные",
+    "muscle_ru": "Ременная мышца шеи",
+    "head_ru": "C3-T3",
+    "base_names": [
+      "splen_cerv_c3_T3"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Ременные",
+    "muscle_ru": "Ременная мышца шеи",
+    "head_ru": "C3-T4",
+    "base_names": [
+      "splen_cerv_c3_T4"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Ременные",
+    "muscle_ru": "Ременная мышца шеи",
+    "head_ru": "C3-T5",
+    "base_names": [
+      "splen_cerv_c3_T5"
+    ]
+  },
+  {
+    "dept": "Шея",
+    "subgroup": "Ременные",
+    "muscle_ru": "Ременная мышца шеи",
+    "head_ru": "C3-T6",
+    "base_names": [
+      "splen_cerv_c3_T6"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Подвздошно-поясничная",
+    "muscle_ru": "Подвздошно-поясничная",
+    "head_ru": "Тело позвонка L1",
+    "base_names": [
+      "Ps_L1_VB"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Подвздошно-поясничная",
+    "muscle_ru": "Подвздошно-поясничная",
+    "head_ru": "Поперечный отросток L1",
+    "base_names": [
+      "Ps_L1_TP"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Подвздошно-поясничная",
+    "muscle_ru": "Подвздошно-поясничная",
+    "head_ru": "Тело позвонка L2",
+    "base_names": [
+      "Ps_L2_VB"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Подвздошно-поясничная",
+    "muscle_ru": "Подвздошно-поясничная",
+    "head_ru": "Поперечный отросток L2",
+    "base_names": [
+      "Ps_L2_TP"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Подвздошно-поясничная",
+    "muscle_ru": "Подвздошно-поясничная",
+    "head_ru": "Тело позвонка L3",
+    "base_names": [
+      "Ps_L3_VB"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Подвздошно-поясничная",
+    "muscle_ru": "Подвздошно-поясничная",
+    "head_ru": "Поперечный отросток L3",
+    "base_names": [
+      "Ps_L3_TP"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Подвздошно-поясничная",
+    "muscle_ru": "Подвздошно-поясничная",
+    "head_ru": "Тело позвонка L4",
+    "base_names": [
+      "Ps_L4_VB"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Подвздошно-поясничная",
+    "muscle_ru": "Подвздошно-поясничная",
+    "head_ru": "Поперечный отросток L4",
+    "base_names": [
+      "Ps_L4_TP"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Подвздошно-поясничная",
+    "muscle_ru": "Подвздошно-поясничная",
+    "head_ru": "Тело позвонка L5",
+    "base_names": [
+      "Ps_L5_VB"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Подвздошно-поясничная",
+    "muscle_ru": "Подвздошно-поясничная",
+    "head_ru": "Поперечный отросток L5",
+    "base_names": [
+      "Ps_L5_TP"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Подвздошно-поясничная",
+    "muscle_ru": "Подвздошно-поясничная",
+    "head_ru": "Межпозв. диск L1-L2",
+    "base_names": [
+      "Ps_L1_L2_IVD"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Подвздошно-поясничная",
+    "muscle_ru": "Подвздошно-поясничная",
+    "head_ru": "Межпозв. диск L2-L3",
+    "base_names": [
+      "Ps_L2_L3_IVD"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Подвздошно-поясничная",
+    "muscle_ru": "Подвздошно-поясничная",
+    "head_ru": "Межпозв. диск L3-L4",
+    "base_names": [
+      "Ps_L3_L4_IVD"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Подвздошно-поясничная",
+    "muscle_ru": "Подвздошно-поясничная",
+    "head_ru": "Межпозв. диск L4-L5",
+    "base_names": [
+      "Ps_L4_L5_IVD"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Подвздошно-поясничная",
+    "muscle_ru": "Подвздошно-поясничная",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "psoas"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Подвздошно-поясничная",
+    "muscle_ru": "Подвздошная",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "iliacus"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Выпрямитель позвоночника",
+    "muscle_ru": "Длиннейшая грудная",
+    "head_ru": "Ребро 4",
+    "base_names": [
+      "LTpT_R4"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Выпрямитель позвоночника",
+    "muscle_ru": "Длиннейшая грудная",
+    "head_ru": "Ребро 5",
+    "base_names": [
+      "LTpT_R5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Выпрямитель позвоночника",
+    "muscle_ru": "Длиннейшая грудная",
+    "head_ru": "Ребро 6",
+    "base_names": [
+      "LTpT_R6"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Выпрямитель позвоночника",
+    "muscle_ru": "Длиннейшая грудная",
+    "head_ru": "Ребро 7",
+    "base_names": [
+      "LTpT_R7"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Выпрямитель позвоночника",
+    "muscle_ru": "Длиннейшая грудная",
+    "head_ru": "Ребро 8",
+    "base_names": [
+      "LTpT_R8"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Выпрямитель позвоночника",
+    "muscle_ru": "Длиннейшая грудная",
+    "head_ru": "Ребро 9",
+    "base_names": [
+      "LTpT_R9"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Выпрямитель позвоночника",
+    "muscle_ru": "Длиннейшая грудная",
+    "head_ru": "Ребро 10",
+    "base_names": [
+      "LTpT_R10"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Выпрямитель позвоночника",
+    "muscle_ru": "Длиннейшая грудная",
+    "head_ru": "Ребро 11",
+    "base_names": [
+      "LTpT_R11"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Выпрямитель позвоночника",
+    "muscle_ru": "Длиннейшая поясничная",
+    "head_ru": "L1",
+    "base_names": [
+      "LTpL_L1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Выпрямитель позвоночника",
+    "muscle_ru": "Длиннейшая поясничная",
+    "head_ru": "L2",
+    "base_names": [
+      "LTpL_L2"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Выпрямитель позвоночника",
+    "muscle_ru": "Длиннейшая поясничная",
+    "head_ru": "L3",
+    "base_names": [
+      "LTpL_L3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Выпрямитель позвоночника",
+    "muscle_ru": "Длиннейшая поясничная",
+    "head_ru": "L4",
+    "base_names": [
+      "LTpL_L4"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Выпрямитель позвоночника",
+    "muscle_ru": "Длиннейшая поясничная",
+    "head_ru": "L5",
+    "base_names": [
+      "LTpL_L5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Выпрямитель позвоночника",
+    "muscle_ru": "Подвздошно-рёберная",
+    "head_ru": "Ребро 5",
+    "base_names": [
+      "IL_R5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Выпрямитель позвоночника",
+    "muscle_ru": "Подвздошно-рёберная",
+    "head_ru": "Ребро 6",
+    "base_names": [
+      "IL_R6"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Выпрямитель позвоночника",
+    "muscle_ru": "Подвздошно-рёберная",
+    "head_ru": "Ребро 7",
+    "base_names": [
+      "IL_R7"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Выпрямитель позвоночника",
+    "muscle_ru": "Подвздошно-рёберная",
+    "head_ru": "Ребро 8",
+    "base_names": [
+      "IL_R8"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Выпрямитель позвоночника",
+    "muscle_ru": "Подвздошно-рёберная",
+    "head_ru": "Ребро 9",
+    "base_names": [
+      "IL_R9"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Выпрямитель позвоночника",
+    "muscle_ru": "Подвздошно-рёберная",
+    "head_ru": "Ребро 10",
+    "base_names": [
+      "IL_R10"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Выпрямитель позвоночника",
+    "muscle_ru": "Подвздошно-рёберная",
+    "head_ru": "Ребро 11",
+    "base_names": [
+      "IL_R11"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Выпрямитель позвоночника",
+    "muscle_ru": "Подвздошно-рёберная",
+    "head_ru": "Ребро 12",
+    "base_names": [
+      "IL_R12"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Выпрямитель позвоночника",
+    "muscle_ru": "Подвздошно-рёберная",
+    "head_ru": "L1",
+    "base_names": [
+      "IL_L1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Выпрямитель позвоночника",
+    "muscle_ru": "Подвздошно-рёберная",
+    "head_ru": "L2",
+    "base_names": [
+      "IL_L2"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Выпрямитель позвоночника",
+    "muscle_ru": "Подвздошно-рёберная",
+    "head_ru": "L3",
+    "base_names": [
+      "IL_L3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Выпрямитель позвоночника",
+    "muscle_ru": "Подвздошно-рёберная",
+    "head_ru": "L4",
+    "base_names": [
+      "IL_L4"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Выпрямитель позвоночника",
+    "muscle_ru": "Подвздошно-рёберная шеи",
+    "head_ru": "C5-ребро",
+    "base_names": [
+      "iliocost_cerv_c5rib"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "T7-T5",
+    "base_names": [
+      "multifidus_T7_T5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "T8-T6",
+    "base_names": [
+      "multifidus_T8_T6"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "T9-T7",
+    "base_names": [
+      "multifidus_T9_T7"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "T10-T8",
+    "base_names": [
+      "multifidus_T10_T8"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "T11-T9",
+    "base_names": [
+      "multifidus_T11_T9"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "T12-T10",
+    "base_names": [
+      "multifidus_T12_T10"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "L1-T11",
+    "base_names": [
+      "multifidus_L1_T11"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "L2-T12",
+    "base_names": [
+      "multifidus_L2_T12"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "m1 laminar",
+    "base_names": [
+      "MF_m1_laminar"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "m1s",
+    "base_names": [
+      "MF_m1s"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "m1t_1",
+    "base_names": [
+      "MF_m1t_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "m1t_2",
+    "base_names": [
+      "MF_m1t_2"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "m1t_3",
+    "base_names": [
+      "MF_m1t_3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "m2 laminar",
+    "base_names": [
+      "MF_m2_laminar"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "m2s",
+    "base_names": [
+      "MF_m2s"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "m2t_1",
+    "base_names": [
+      "MF_m2t_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "m2t_2",
+    "base_names": [
+      "MF_m2t_2"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "m2t_3",
+    "base_names": [
+      "MF_m2t_3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "m3 laminar",
+    "base_names": [
+      "MF_m3_laminar"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "m3s",
+    "base_names": [
+      "MF_m3s"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "m3t_1",
+    "base_names": [
+      "MF_m3t_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "m3t_2",
+    "base_names": [
+      "MF_m3t_2"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "m3t_3",
+    "base_names": [
+      "MF_m3t_3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "m4 laminar",
+    "base_names": [
+      "MF_m4_laminar"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "m4s",
+    "base_names": [
+      "MF_m4s"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "m4t_1",
+    "base_names": [
+      "MF_m4t_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "m4t_2",
+    "base_names": [
+      "MF_m4t_2"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "m4t_3",
+    "base_names": [
+      "MF_m4t_3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "m5 laminar",
+    "base_names": [
+      "MF_m5_laminar"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "m5s",
+    "base_names": [
+      "MF_m5s"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "m5t_1",
+    "base_names": [
+      "MF_m5t_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "m5t_2",
+    "base_names": [
+      "MF_m5t_2"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Многораздельная",
+    "muscle_ru": "Многораздельная",
+    "head_ru": "m5t_3",
+    "base_names": [
+      "MF_m5t_3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Квадратная мышца поясницы",
+    "muscle_ru": "Квадратная мышца поясницы",
+    "head_ru": "Передняя L2-T12 (1)",
+    "base_names": [
+      "QL_ant_I_2-T12"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Квадратная мышца поясницы",
+    "muscle_ru": "Квадратная мышца поясницы",
+    "head_ru": "Передняя L2-12 (1)",
+    "base_names": [
+      "QL_ant_I_2-12_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Квадратная мышца поясницы",
+    "muscle_ru": "Квадратная мышца поясницы",
+    "head_ru": "Передняя L3-T12",
+    "base_names": [
+      "QL_ant_I_3-T12"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Квадратная мышца поясницы",
+    "muscle_ru": "Квадратная мышца поясницы",
+    "head_ru": "Передняя L3-12 (1)",
+    "base_names": [
+      "QL_ant_I_3-12_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Квадратная мышца поясницы",
+    "muscle_ru": "Квадратная мышца поясницы",
+    "head_ru": "Средняя L2-12 (1)",
+    "base_names": [
+      "QL_mid_L2-12_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Квадратная мышца поясницы",
+    "muscle_ru": "Квадратная мышца поясницы",
+    "head_ru": "Средняя L3-12 (1)",
+    "base_names": [
+      "QL_mid_L3-12_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Квадратная мышца поясницы",
+    "muscle_ru": "Квадратная мышца поясницы",
+    "head_ru": "Задняя L3-L1",
+    "base_names": [
+      "QL_post_I_3-L1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Квадратная мышца поясницы",
+    "muscle_ru": "Квадратная мышца поясницы",
+    "head_ru": "Передняя L3-12 (2)",
+    "base_names": [
+      "QL_ant_I_3-12_2"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Квадратная мышца поясницы",
+    "muscle_ru": "Квадратная мышца поясницы",
+    "head_ru": "Средняя L2-12 (2)",
+    "base_names": [
+      "QL_mid_L2-12_2"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Квадратная мышца поясницы",
+    "muscle_ru": "Квадратная мышца поясницы",
+    "head_ru": "Средняя L3-12 (2)",
+    "base_names": [
+      "QL_mid_L3-12_2"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Квадратная мышца поясницы",
+    "muscle_ru": "Квадратная мышца поясницы",
+    "head_ru": "Задняя L3-L2",
+    "base_names": [
+      "QL_post_I_3-L2"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Квадратная мышца поясницы",
+    "muscle_ru": "Квадратная мышца поясницы",
+    "head_ru": "Передняя L3-12 (3)",
+    "base_names": [
+      "QL_ant_I_3-12_3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Квадратная мышца поясницы",
+    "muscle_ru": "Квадратная мышца поясницы",
+    "head_ru": "Средняя L2-12 (3)",
+    "base_names": [
+      "QL_mid_L2-12_3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Квадратная мышца поясницы",
+    "muscle_ru": "Квадратная мышца поясницы",
+    "head_ru": "Средняя L3-12 (3)",
+    "base_names": [
+      "QL_mid_L3-12_3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Квадратная мышца поясницы",
+    "muscle_ru": "Квадратная мышца поясницы",
+    "head_ru": "Задняя L3-L3",
+    "base_names": [
+      "QL_post_I_3-L3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Косые мышцы живота",
+    "muscle_ru": "Наружная косая живота",
+    "head_ru": "Часть 1",
+    "base_names": [
+      "EO1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Косые мышцы живота",
+    "muscle_ru": "Наружная косая живота",
+    "head_ru": "Часть 2",
+    "base_names": [
+      "EO2"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Косые мышцы живота",
+    "muscle_ru": "Наружная косая живота",
+    "head_ru": "Часть 3",
+    "base_names": [
+      "EO3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Косые мышцы живота",
+    "muscle_ru": "Наружная косая живота",
+    "head_ru": "Часть 4",
+    "base_names": [
+      "EO4"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Косые мышцы живота",
+    "muscle_ru": "Наружная косая живота",
+    "head_ru": "Часть 5",
+    "base_names": [
+      "EO5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Косые мышцы живота",
+    "muscle_ru": "Наружная косая живота",
+    "head_ru": "Часть 6",
+    "base_names": [
+      "EO6"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Косые мышцы живота",
+    "muscle_ru": "Внутренняя косая живота",
+    "head_ru": "Часть 1",
+    "base_names": [
+      "IO1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Косые мышцы живота",
+    "muscle_ru": "Внутренняя косая живота",
+    "head_ru": "Часть 2",
+    "base_names": [
+      "IO2"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Косые мышцы живота",
+    "muscle_ru": "Внутренняя косая живота",
+    "head_ru": "Часть 3",
+    "base_names": [
+      "IO3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Косые мышцы живота",
+    "muscle_ru": "Внутренняя косая живота",
+    "head_ru": "Часть 4",
+    "base_names": [
+      "IO4"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Косые мышцы живота",
+    "muscle_ru": "Внутренняя косая живота",
+    "head_ru": "Часть 5",
+    "base_names": [
+      "IO5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Косые мышцы живота",
+    "muscle_ru": "Внутренняя косая живота",
+    "head_ru": "Часть 6",
+    "base_names": [
+      "IO6"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Прямая мышца живота",
+    "muscle_ru": "Прямая мышца живота",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "rect_abd"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS1 ч.1",
+    "base_names": [
+      "ExtIC_IS1_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS1 ч.1",
+    "base_names": [
+      "IntIC_IS1_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS1 ч.3",
+    "base_names": [
+      "ExtIC_IS1_3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS1 ч.3",
+    "base_names": [
+      "IntIC_IS1_3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS1 ч.5",
+    "base_names": [
+      "ExtIC_IS1_5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS1 ч.5",
+    "base_names": [
+      "IntIC_IS1_5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS2 ч.1",
+    "base_names": [
+      "ExtIC_IS2_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS2 ч.1",
+    "base_names": [
+      "IntIC_IS2_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS2 ч.3",
+    "base_names": [
+      "ExtIC_IS2_3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS2 ч.3",
+    "base_names": [
+      "IntIC_IS2_3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS2 ч.5",
+    "base_names": [
+      "ExtIC_IS2_5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS2 ч.5",
+    "base_names": [
+      "IntIC_IS2_5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS3 ч.1",
+    "base_names": [
+      "ExtIC_IS3_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS3 ч.1",
+    "base_names": [
+      "IntIC_IS3_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS3 ч.3",
+    "base_names": [
+      "ExtIC_IS3_3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS3 ч.3",
+    "base_names": [
+      "IntIC_IS3_3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS3 ч.5",
+    "base_names": [
+      "ExtIC_IS3_5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS3 ч.5",
+    "base_names": [
+      "IntIC_IS3_5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS4 ч.1",
+    "base_names": [
+      "ExtIC_IS4_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS4 ч.1",
+    "base_names": [
+      "IntIC_IS4_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS4 ч.3",
+    "base_names": [
+      "ExtIC_IS4_3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS4 ч.3",
+    "base_names": [
+      "IntIC_IS4_3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS4 ч.5",
+    "base_names": [
+      "ExtIC_IS4_5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS4 ч.5",
+    "base_names": [
+      "IntIC_IS4_5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS5 ч.1",
+    "base_names": [
+      "ExtIC_IS5_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS5 ч.1",
+    "base_names": [
+      "IntIC_IS5_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS5 ч.3",
+    "base_names": [
+      "ExtIC_IS5_3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS5 ч.3",
+    "base_names": [
+      "IntIC_IS5_3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS5 ч.5",
+    "base_names": [
+      "ExtIC_IS5_5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS5 ч.5",
+    "base_names": [
+      "IntIC_IS5_5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS6 ч.1",
+    "base_names": [
+      "ExtIC_IS6_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS6 ч.1",
+    "base_names": [
+      "IntIC_IS6_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS6 ч.3",
+    "base_names": [
+      "ExtIC_IS6_3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS6 ч.3",
+    "base_names": [
+      "IntIC_IS6_3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS6 ч.5",
+    "base_names": [
+      "ExtIC_IS6_5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS6 ч.5",
+    "base_names": [
+      "IntIC_IS6_5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS7 ч.1",
+    "base_names": [
+      "ExtIC_IS7_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS7 ч.1",
+    "base_names": [
+      "IntIC_IS7_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS7 ч.3",
+    "base_names": [
+      "ExtIC_IS7_3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS7 ч.3",
+    "base_names": [
+      "IntIC_IS7_3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS7 ч.5",
+    "base_names": [
+      "ExtIC_IS7_5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS7 ч.5",
+    "base_names": [
+      "IntIC_IS7_5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS8 ч.1",
+    "base_names": [
+      "ExtIC_IS8_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS8 ч.1",
+    "base_names": [
+      "IntIC_IS8_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS8 ч.3",
+    "base_names": [
+      "ExtIC_IS8_3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS8 ч.3",
+    "base_names": [
+      "IntIC_IS8_3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS8 ч.5",
+    "base_names": [
+      "ExtIC_IS8_5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS8 ч.5",
+    "base_names": [
+      "IntIC_IS8_5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS9 ч.1",
+    "base_names": [
+      "ExtIC_IS9_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS9 ч.1",
+    "base_names": [
+      "IntIC_IS9_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS9 ч.3",
+    "base_names": [
+      "ExtIC_IS9_3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS9 ч.3",
+    "base_names": [
+      "IntIC_IS9_3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS9 ч.5",
+    "base_names": [
+      "ExtIC_IS9_5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS9 ч.5",
+    "base_names": [
+      "IntIC_IS9_5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS10 ч.1",
+    "base_names": [
+      "ExtIC_IS10_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS10 ч.1",
+    "base_names": [
+      "IntIC_IS10_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS10 ч.3",
+    "base_names": [
+      "ExtIC_IS10_3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS10 ч.3",
+    "base_names": [
+      "IntIC_IS10_3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS10 ч.5",
+    "base_names": [
+      "ExtIC_IS10_5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS10 ч.5",
+    "base_names": [
+      "IntIC_IS10_5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS11 ч.1",
+    "base_names": [
+      "ExtIC_IS11_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS11 ч.1",
+    "base_names": [
+      "IntIC_IS11_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS11 ч.3",
+    "base_names": [
+      "ExtIC_IS11_3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS11 ч.3",
+    "base_names": [
+      "IntIC_IS11_3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные",
+    "head_ru": "IS11 ч.5",
+    "base_names": [
+      "ExtIC_IS11_5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Внутренние межрёберные",
+    "head_ru": "IS11 ч.5",
+    "base_names": [
+      "IntIC_IS11_5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные (M2)",
+    "head_ru": "Ребро 5",
+    "base_names": [
+      "E0_R5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные (M2)",
+    "head_ru": "Ребро 6",
+    "base_names": [
+      "E0_R6"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные (M2)",
+    "head_ru": "Ребро 7",
+    "base_names": [
+      "E0_R7"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные (M2)",
+    "head_ru": "Ребро 8",
+    "base_names": [
+      "E0_R8"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные (M2)",
+    "head_ru": "Ребро 9",
+    "base_names": [
+      "E0_R9"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные (M2)",
+    "head_ru": "Ребро 10",
+    "base_names": [
+      "E0_R10"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные (M2)",
+    "head_ru": "Ребро 11",
+    "base_names": [
+      "E0_R11"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Межрёберные",
+    "muscle_ru": "Наружные межрёберные (M2)",
+    "head_ru": "Ребро 12",
+    "base_names": [
+      "E0_R12"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Трапециевидная",
+    "muscle_ru": "Трапециевидная",
+    "head_ru": "Ключичная часть",
+    "base_names": [
+      "trap_cl"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Трапециевидная",
+    "muscle_ru": "Трапециевидная",
+    "head_ru": "Акромиально-лопаточная",
+    "base_names": [
+      "trap_acr_scap"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Трапециевидная",
+    "muscle_ru": "Трапециевидная",
+    "head_ru": "Нисходящая к T1",
+    "base_names": [
+      "trap_acr_T1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Трапециевидная",
+    "muscle_ru": "Трапециевидная",
+    "head_ru": "Нисходящая к T2",
+    "base_names": [
+      "trap_acr_T2"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Трапециевидная",
+    "muscle_ru": "Трапециевидная",
+    "head_ru": "Нисходящая к T3",
+    "base_names": [
+      "trap_acr_T3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Трапециевидная",
+    "muscle_ru": "Трапециевидная",
+    "head_ru": "Акромиальная",
+    "base_names": [
+      "trap_acr"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Трапециевидная",
+    "muscle_ru": "Трапециевидная",
+    "head_ru": "Восходящая от T4",
+    "base_names": [
+      "trap_inf_T4"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Трапециевидная",
+    "muscle_ru": "Трапециевидная",
+    "head_ru": "Восходящая от T5",
+    "base_names": [
+      "trap_inf_T5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Трапециевидная",
+    "muscle_ru": "Трапециевидная",
+    "head_ru": "Восходящая от T6",
+    "base_names": [
+      "trap_inf_T6"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Трапециевидная",
+    "muscle_ru": "Трапециевидная",
+    "head_ru": "Восходящая от T7",
+    "base_names": [
+      "trap_inf_T7"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Трапециевидная",
+    "muscle_ru": "Трапециевидная",
+    "head_ru": "Восходящая от T8",
+    "base_names": [
+      "trap_inf_T8"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Трапециевидная",
+    "muscle_ru": "Трапециевидная",
+    "head_ru": "Восходящая от T9",
+    "base_names": [
+      "trap_inf_T9"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Трапециевидная",
+    "muscle_ru": "Трапециевидная",
+    "head_ru": "Восходящая от T10",
+    "base_names": [
+      "trap_inf_T10"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Трапециевидная",
+    "muscle_ru": "Трапециевидная",
+    "head_ru": "Восходящая от T11",
+    "base_names": [
+      "trap_inf_T11"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Трапециевидная",
+    "muscle_ru": "Трапециевидная",
+    "head_ru": "Восходящая от T12",
+    "base_names": [
+      "trap_inf_T12"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Широчайшая спины",
+    "muscle_ru": "Широчайшая мышца спины",
+    "head_ru": "Подвздошная часть",
+    "base_names": [
+      "LD_Il"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Широчайшая спины",
+    "muscle_ru": "Широчайшая мышца спины",
+    "head_ru": "L1",
+    "base_names": [
+      "LD_L1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Широчайшая спины",
+    "muscle_ru": "Широчайшая мышца спины",
+    "head_ru": "L2",
+    "base_names": [
+      "LD_L2"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Широчайшая спины",
+    "muscle_ru": "Широчайшая мышца спины",
+    "head_ru": "L3",
+    "base_names": [
+      "LD_L3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Широчайшая спины",
+    "muscle_ru": "Широчайшая мышца спины",
+    "head_ru": "L4",
+    "base_names": [
+      "LD_L4"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Широчайшая спины",
+    "muscle_ru": "Широчайшая мышца спины",
+    "head_ru": "T5",
+    "base_names": [
+      "LD_T5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Широчайшая спины",
+    "muscle_ru": "Широчайшая мышца спины",
+    "head_ru": "T6",
+    "base_names": [
+      "LD_T6"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Широчайшая спины",
+    "muscle_ru": "Широчайшая мышца спины",
+    "head_ru": "T7",
+    "base_names": [
+      "LD_T7"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Широчайшая спины",
+    "muscle_ru": "Широчайшая мышца спины",
+    "head_ru": "T8",
+    "base_names": [
+      "LD_T8"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Широчайшая спины",
+    "muscle_ru": "Широчайшая мышца спины",
+    "head_ru": "T9",
+    "base_names": [
+      "LD_T9"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Широчайшая спины",
+    "muscle_ru": "Широчайшая мышца спины",
+    "head_ru": "T10",
+    "base_names": [
+      "LD_T10"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Широчайшая спины",
+    "muscle_ru": "Широчайшая мышца спины",
+    "head_ru": "T11",
+    "base_names": [
+      "LD_T11"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Широчайшая спины",
+    "muscle_ru": "Широчайшая мышца спины",
+    "head_ru": "T12",
+    "base_names": [
+      "LD_T12"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Передняя зубчатая",
+    "muscle_ru": "Передняя зубчатая",
+    "head_ru": "Часть 1",
+    "base_names": [
+      "SerrAnt1_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Передняя зубчатая",
+    "muscle_ru": "Передняя зубчатая",
+    "head_ru": "Часть 2",
+    "base_names": [
+      "SerrAnt2_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Передняя зубчатая",
+    "muscle_ru": "Передняя зубчатая",
+    "head_ru": "Часть 3",
+    "base_names": [
+      "SerrAnt3_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Передняя зубчатая",
+    "muscle_ru": "Передняя зубчатая",
+    "head_ru": "Часть 4",
+    "base_names": [
+      "SerrAnt4_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Передняя зубчатая",
+    "muscle_ru": "Передняя зубчатая",
+    "head_ru": "Часть 5",
+    "base_names": [
+      "SerrAnt5_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Передняя зубчатая",
+    "muscle_ru": "Передняя зубчатая",
+    "head_ru": "Часть 6",
+    "base_names": [
+      "SerrAnt6_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Передняя зубчатая",
+    "muscle_ru": "Передняя зубчатая",
+    "head_ru": "Часть 7",
+    "base_names": [
+      "SerrAnt7_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Передняя зубчатая",
+    "muscle_ru": "Передняя зубчатая",
+    "head_ru": "Часть 8",
+    "base_names": [
+      "SerrAnt8_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Передняя зубчатая",
+    "muscle_ru": "Передняя зубчатая",
+    "head_ru": "Часть 9",
+    "base_names": [
+      "SerrAnt9_1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Поперечная грудная",
+    "muscle_ru": "Поперечная грудная",
+    "head_ru": "Часть 1",
+    "base_names": [
+      "TR1"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Поперечная грудная",
+    "muscle_ru": "Поперечная грудная",
+    "head_ru": "Часть 2",
+    "base_names": [
+      "TR2"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Поперечная грудная",
+    "muscle_ru": "Поперечная грудная",
+    "head_ru": "Часть 3",
+    "base_names": [
+      "TR3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Поперечная грудная",
+    "muscle_ru": "Поперечная грудная",
+    "head_ru": "Часть 4",
+    "base_names": [
+      "TR4"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Поперечная грудная",
+    "muscle_ru": "Поперечная грудная",
+    "head_ru": "Часть 5",
+    "base_names": [
+      "TR5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Ременные",
+    "muscle_ru": "Ременная мышца головы",
+    "head_ru": "skull грудной",
+    "base_names": [
+      "splen_cap_sklthx"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Ременные",
+    "muscle_ru": "Ременная мышца шеи",
+    "head_ru": "C3-грудной",
+    "base_names": [
+      "splen_cerv_c3thx"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Ременные",
+    "muscle_ru": "Ременная мышца шеи",
+    "head_ru": "C3-T3",
+    "base_names": [
+      "splen_cerv_c3_T3"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Ременные",
+    "muscle_ru": "Ременная мышца шеи",
+    "head_ru": "C3-T4",
+    "base_names": [
+      "splen_cerv_c3_T4"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Ременные",
+    "muscle_ru": "Ременная мышца шеи",
+    "head_ru": "C3-T5",
+    "base_names": [
+      "splen_cerv_c3_T5"
+    ]
+  },
+  {
+    "dept": "Туловище",
+    "subgroup": "Ременные",
+    "muscle_ru": "Ременная мышца шеи",
+    "head_ru": "C3-T6",
+    "base_names": [
+      "splen_cerv_c3_T6"
+    ]
+  },
+  {
+    "dept": "Плечевой пояс",
+    "subgroup": "Дельтовидная",
+    "muscle_ru": "Дельтовидная",
+    "head_ru": "Передняя (ключичная)",
+    "base_names": [
+      "DELT1"
+    ]
+  },
+  {
+    "dept": "Плечевой пояс",
+    "subgroup": "Дельтовидная",
+    "muscle_ru": "Дельтовидная",
+    "head_ru": "Средняя (акромиальная)",
+    "base_names": [
+      "DELT2"
+    ]
+  },
+  {
+    "dept": "Плечевой пояс",
+    "subgroup": "Дельтовидная",
+    "muscle_ru": "Дельтовидная",
+    "head_ru": "Задняя (остистая)",
+    "base_names": [
+      "DELT3"
+    ]
+  },
+  {
+    "dept": "Плечевой пояс",
+    "subgroup": "Вращательная манжета",
+    "muscle_ru": "Надостная",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "SUPSP"
+    ]
+  },
+  {
+    "dept": "Плечевой пояс",
+    "subgroup": "Вращательная манжета",
+    "muscle_ru": "Подостная",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "INFSP"
+    ]
+  },
+  {
+    "dept": "Плечевой пояс",
+    "subgroup": "Вращательная манжета",
+    "muscle_ru": "Подлопаточная",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "SUBSC"
+    ]
+  },
+  {
+    "dept": "Плечевой пояс",
+    "subgroup": "Вращательная манжета",
+    "muscle_ru": "Малая круглая",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "TMIN"
+    ]
+  },
+  {
+    "dept": "Плечевой пояс",
+    "subgroup": "Вращательная манжета",
+    "muscle_ru": "Большая круглая",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "TMAJ"
+    ]
+  },
+  {
+    "dept": "Плечевой пояс",
+    "subgroup": "Плечо",
+    "muscle_ru": "Большая грудная",
+    "head_ru": "Часть 1 (ключичная)",
+    "base_names": [
+      "PECM1"
+    ]
+  },
+  {
+    "dept": "Плечевой пояс",
+    "subgroup": "Плечо",
+    "muscle_ru": "Большая грудная",
+    "head_ru": "Часть 2 (грудино-рёберная)",
+    "base_names": [
+      "PECM2"
+    ]
+  },
+  {
+    "dept": "Плечевой пояс",
+    "subgroup": "Плечо",
+    "muscle_ru": "Большая грудная",
+    "head_ru": "Часть 3 (рёберная)",
+    "base_names": [
+      "PECM3"
+    ]
+  },
+  {
+    "dept": "Плечевой пояс",
+    "subgroup": "Плечо",
+    "muscle_ru": "Мышца, поднимающая лопатку",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "levator_scap"
+    ]
+  },
+  {
+    "dept": "Плечо",
+    "subgroup": "Двуглавая",
+    "muscle_ru": "Двуглавая плеча",
+    "head_ru": "Длинная головка",
+    "base_names": [
+      "BIClong",
+      "bifemlh"
+    ]
+  },
+  {
+    "dept": "Плечо",
+    "subgroup": "Двуглавая",
+    "muscle_ru": "Двуглавая плеча",
+    "head_ru": "Короткая головка",
+    "base_names": [
+      "BICshort",
+      "bifemsh"
+    ]
+  },
+  {
+    "dept": "Плечо",
+    "subgroup": "Трёхглавая",
+    "muscle_ru": "Трёхглавая плеча",
+    "head_ru": "Длинная головка",
+    "base_names": [
+      "TRIlong"
+    ]
+  },
+  {
+    "dept": "Плечо",
+    "subgroup": "Трёхглавая",
+    "muscle_ru": "Трёхглавая плеча",
+    "head_ru": "Латеральная головка",
+    "base_names": [
+      "TRIlat"
+    ]
+  },
+  {
+    "dept": "Плечо",
+    "subgroup": "Трёхглавая",
+    "muscle_ru": "Трёхглавая плеча",
+    "head_ru": "Медиальная головка",
+    "base_names": [
+      "TRImed"
+    ]
+  },
+  {
+    "dept": "Плечо",
+    "subgroup": "Сгибатели",
+    "muscle_ru": "Плечевая",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "BRA"
+    ]
+  },
+  {
+    "dept": "Плечо",
+    "subgroup": "Сгибатели",
+    "muscle_ru": "Плечелучевая",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "BRD"
+    ]
+  },
+  {
+    "dept": "Плечо",
+    "subgroup": "Сгибатели",
+    "muscle_ru": "Клювовидно-плечевая",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "CORB"
+    ]
+  },
+  {
+    "dept": "Предплечье",
+    "subgroup": "Сгибатели запястья",
+    "muscle_ru": "Лучевой сгибатель запястья",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "FCR"
+    ]
+  },
+  {
+    "dept": "Предплечье",
+    "subgroup": "Сгибатели запястья",
+    "muscle_ru": "Локтевой сгибатель запястья",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "FCU"
+    ]
+  },
+  {
+    "dept": "Предплечье",
+    "subgroup": "Разгибатели запястья",
+    "muscle_ru": "Длинный лучевой разгибатель запястья",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "ECRL"
+    ]
+  },
+  {
+    "dept": "Предплечье",
+    "subgroup": "Разгибатели запястья",
+    "muscle_ru": "Короткий лучевой разгибатель запястья",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "ECRB"
+    ]
+  },
+  {
+    "dept": "Предплечье",
+    "subgroup": "Разгибатели запястья",
+    "muscle_ru": "Локтевой разгибатель запястья",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "ECU"
+    ]
+  },
+  {
+    "dept": "Предплечье",
+    "subgroup": "Пронаторы",
+    "muscle_ru": "Круглый пронатор",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "PT"
+    ]
+  },
+  {
+    "dept": "Предплечье",
+    "subgroup": "Пронаторы",
+    "muscle_ru": "Квадратный пронатор",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "PQ"
+    ]
+  },
+  {
+    "dept": "Предплечье",
+    "subgroup": "Пронаторы",
+    "muscle_ru": "Супинатор",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "SUP"
+    ]
+  },
+  {
+    "dept": "Предплечье",
+    "subgroup": "Сгибатели пальцев",
+    "muscle_ru": "Поверхностный сгибатель пальцев",
+    "head_ru": "Указательный",
+    "base_names": [
+      "FDSI"
+    ]
+  },
+  {
+    "dept": "Предплечье",
+    "subgroup": "Сгибатели пальцев",
+    "muscle_ru": "Поверхностный сгибатель пальцев",
+    "head_ru": "Средний",
+    "base_names": [
+      "FDSM"
+    ]
+  },
+  {
+    "dept": "Предплечье",
+    "subgroup": "Сгибатели пальцев",
+    "muscle_ru": "Поверхностный сгибатель пальцев",
+    "head_ru": "Лучевой",
+    "base_names": [
+      "FDSR"
+    ]
+  },
+  {
+    "dept": "Предплечье",
+    "subgroup": "Сгибатели пальцев",
+    "muscle_ru": "Поверхностный сгибатель пальцев",
+    "head_ru": "Локтевой",
+    "base_names": [
+      "FDSL"
+    ]
+  },
+  {
+    "dept": "Предплечье",
+    "subgroup": "Сгибатели пальцев",
+    "muscle_ru": "Глубокий сгибатель пальцев",
+    "head_ru": "Указательный",
+    "base_names": [
+      "FDPI"
+    ]
+  },
+  {
+    "dept": "Предплечье",
+    "subgroup": "Сгибатели пальцев",
+    "muscle_ru": "Глубокий сгибатель пальцев",
+    "head_ru": "Средний",
+    "base_names": [
+      "FDPM"
+    ]
+  },
+  {
+    "dept": "Предплечье",
+    "subgroup": "Сгибатели пальцев",
+    "muscle_ru": "Глубокий сгибатель пальцев",
+    "head_ru": "Лучевой",
+    "base_names": [
+      "FDPR"
+    ]
+  },
+  {
+    "dept": "Предплечье",
+    "subgroup": "Сгибатели пальцев",
+    "muscle_ru": "Глубокий сгибатель пальцев",
+    "head_ru": "Локтевой",
+    "base_names": [
+      "FDPL"
+    ]
+  },
+  {
+    "dept": "Предплечье",
+    "subgroup": "Разгибатели пальцев",
+    "muscle_ru": "Разгибатель пальцев",
+    "head_ru": "Указательный",
+    "base_names": [
+      "EDCI",
+      "EIP"
+    ]
+  },
+  {
+    "dept": "Предплечье",
+    "subgroup": "Разгибатели пальцев",
+    "muscle_ru": "Разгибатель пальцев",
+    "head_ru": "Средний",
+    "base_names": [
+      "EDCM"
+    ]
+  },
+  {
+    "dept": "Предплечье",
+    "subgroup": "Разгибатели пальцев",
+    "muscle_ru": "Разгибатель пальцев",
+    "head_ru": "Лучевой",
+    "base_names": [
+      "EDCR"
+    ]
+  },
+  {
+    "dept": "Предплечье",
+    "subgroup": "Разгибатели пальцев",
+    "muscle_ru": "Разгибатель пальцев",
+    "head_ru": "Локтевой",
+    "base_names": [
+      "EDCL"
+    ]
+  },
+  {
+    "dept": "Предплечье",
+    "subgroup": "Разгибатели пальцев",
+    "muscle_ru": "Разгибатель мизинца",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "EDM"
+    ]
+  },
+  {
+    "dept": "Предплечье",
+    "subgroup": "Разгибатели пальцев",
+    "muscle_ru": "Разгибатель указательного пальца",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "EIP"
+    ]
+  },
+  {
+    "dept": "Предплечье",
+    "subgroup": "Большой палец",
+    "muscle_ru": "Длинная отводящая большого пальца",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "APL"
+    ]
+  },
+  {
+    "dept": "Предплечье",
+    "subgroup": "Большой палец",
+    "muscle_ru": "Короткий разгибатель большого пальца",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "EPB"
+    ]
+  },
+  {
+    "dept": "Предплечье",
+    "subgroup": "Большой палец",
+    "muscle_ru": "Длинный разгибатель большого пальца",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "EPL"
+    ]
+  },
+  {
+    "dept": "Предплечье",
+    "subgroup": "Большой палец",
+    "muscle_ru": "Длинный сгибатель большого пальца",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "FPL"
+    ]
+  },
+  {
+    "dept": "Предплечье",
+    "subgroup": "Прочие",
+    "muscle_ru": "Длинная ладонная",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "PL"
+    ]
+  },
+  {
+    "dept": "Предплечье",
+    "subgroup": "Прочие",
+    "muscle_ru": "Локтевая мышца",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "ANC"
+    ]
+  },
+  {
+    "dept": "Кисть",
+    "subgroup": "Тенар",
+    "muscle_ru": "Короткая отводящая большого пальца",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "APB"
+    ]
+  },
+  {
+    "dept": "Кисть",
+    "subgroup": "Тенар",
+    "muscle_ru": "Короткий сгибатель большого пальца",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "FPB"
+    ]
+  },
+  {
+    "dept": "Кисть",
+    "subgroup": "Тенар",
+    "muscle_ru": "Мышца, противопоставляющая большой палец",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "OPP"
+    ]
+  },
+  {
+    "dept": "Кисть",
+    "subgroup": "Тенар",
+    "muscle_ru": "Приводящая большого пальца (косая)",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "ADPo"
+    ]
+  },
+  {
+    "dept": "Кисть",
+    "subgroup": "Тенар",
+    "muscle_ru": "Приводящая большого пальца (поперечная)",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "ADPt"
+    ]
+  },
+  {
+    "dept": "Кисть",
+    "subgroup": "Гипотенар",
+    "muscle_ru": "Мышца, отводящая мизинец",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "ADM"
+    ]
+  },
+  {
+    "dept": "Кисть",
+    "subgroup": "Гипотенар",
+    "muscle_ru": "Короткий сгибатель мизинца",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "FDM"
+    ]
+  },
+  {
+    "dept": "Кисть",
+    "subgroup": "Межкостные",
+    "muscle_ru": "1-я тыльная межкостная",
+    "head_ru": "MC1",
+    "base_names": [
+      "1stDI_MC1"
+    ]
+  },
+  {
+    "dept": "Кисть",
+    "subgroup": "Межкостные",
+    "muscle_ru": "1-я тыльная межкостная",
+    "head_ru": "MC2",
+    "base_names": [
+      "1stDI_MC2"
+    ]
+  },
+  {
+    "dept": "Кисть",
+    "subgroup": "Межкостные",
+    "muscle_ru": "2-я тыльная межкостная",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "2ndDI"
+    ]
+  },
+  {
+    "dept": "Кисть",
+    "subgroup": "Межкостные",
+    "muscle_ru": "3-я тыльная межкостная",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "3rdDI"
+    ]
+  },
+  {
+    "dept": "Кисть",
+    "subgroup": "Межкостные",
+    "muscle_ru": "4-я тыльная межкостная",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "4thDI"
+    ]
+  },
+  {
+    "dept": "Кисть",
+    "subgroup": "Межкостные",
+    "muscle_ru": "1-я ладонная межкостная",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "1stPI"
+    ]
+  },
+  {
+    "dept": "Кисть",
+    "subgroup": "Межкостные",
+    "muscle_ru": "2-я ладонная межкостная",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "2ndPI"
+    ]
+  },
+  {
+    "dept": "Кисть",
+    "subgroup": "Межкостные",
+    "muscle_ru": "3-я ладонная межкостная",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "3rdPI"
+    ]
+  },
+  {
+    "dept": "Кисть",
+    "subgroup": "Люмбрикальные",
+    "muscle_ru": "Люмбрикальная (указательный)",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "LUMI"
+    ]
+  },
+  {
+    "dept": "Кисть",
+    "subgroup": "Люмбрикальные",
+    "muscle_ru": "Люмбрикальная (средний)",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "LUMM"
+    ]
+  },
+  {
+    "dept": "Кисть",
+    "subgroup": "Люмбрикальные",
+    "muscle_ru": "Люмбрикальная (лучевой)",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "LUMR"
+    ]
+  },
+  {
+    "dept": "Кисть",
+    "subgroup": "Люмбрикальные",
+    "muscle_ru": "Люмбрикальная (локтевой)",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "LUML"
+    ]
+  },
+  {
+    "dept": "Таз/Бедро",
+    "subgroup": "Ягодичные",
+    "muscle_ru": "Большая ягодичная",
+    "head_ru": "Часть 1",
+    "base_names": [
+      "glut_max1",
+      "glmax1"
+    ]
+  },
+  {
+    "dept": "Таз/Бедро",
+    "subgroup": "Ягодичные",
+    "muscle_ru": "Большая ягодичная",
+    "head_ru": "Часть 2",
+    "base_names": [
+      "glut_max2",
+      "glmax2"
+    ]
+  },
+  {
+    "dept": "Таз/Бедро",
+    "subgroup": "Ягодичные",
+    "muscle_ru": "Большая ягодичная",
+    "head_ru": "Часть 3",
+    "base_names": [
+      "glut_max3",
+      "glmax3"
+    ]
+  },
+  {
+    "dept": "Таз/Бедро",
+    "subgroup": "Ягодичные",
+    "muscle_ru": "Средняя ягодичная",
+    "head_ru": "Часть 1",
+    "base_names": [
+      "glut_med1",
+      "glmed1"
+    ]
+  },
+  {
+    "dept": "Таз/Бедро",
+    "subgroup": "Ягодичные",
+    "muscle_ru": "Средняя ягодичная",
+    "head_ru": "Часть 2",
+    "base_names": [
+      "glut_med2",
+      "glmed2"
+    ]
+  },
+  {
+    "dept": "Таз/Бедро",
+    "subgroup": "Ягодичные",
+    "muscle_ru": "Средняя ягодичная",
+    "head_ru": "Часть 3",
+    "base_names": [
+      "glut_med3",
+      "glmed3"
+    ]
+  },
+  {
+    "dept": "Таз/Бедро",
+    "subgroup": "Ягодичные",
+    "muscle_ru": "Малая ягодичная",
+    "head_ru": "Часть 1",
+    "base_names": [
+      "glut_min1",
+      "glmin1"
+    ]
+  },
+  {
+    "dept": "Таз/Бедро",
+    "subgroup": "Ягодичные",
+    "muscle_ru": "Малая ягодичная",
+    "head_ru": "Часть 2",
+    "base_names": [
+      "glut_min2",
+      "glmin2"
+    ]
+  },
+  {
+    "dept": "Таз/Бедро",
+    "subgroup": "Ягодичные",
+    "muscle_ru": "Малая ягодичная",
+    "head_ru": "Часть 3",
+    "base_names": [
+      "glut_min3",
+      "glmin3"
+    ]
+  },
+  {
+    "dept": "Таз/Бедро",
+    "subgroup": "Глубокие вращатели",
+    "muscle_ru": "Грушевидная",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "piri"
+    ]
+  },
+  {
+    "dept": "Таз/Бедро",
+    "subgroup": "Глубокие вращатели",
+    "muscle_ru": "Близнецовая",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "gem"
+    ]
+  },
+  {
+    "dept": "Таз/Бедро",
+    "subgroup": "Глубокие вращатели",
+    "muscle_ru": "Квадратная мышца бедра",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "quad_fem",
+      "quadfem"
+    ]
+  },
+  {
+    "dept": "Таз/Бедро",
+    "subgroup": "Глубокие вращатели",
+    "muscle_ru": "Внутренняя запирательная",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "peri"
+    ]
+  },
+  {
+    "dept": "Таз/Бедро",
+    "subgroup": "Приводящие",
+    "muscle_ru": "Короткая приводящая",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "addbrev",
+      "add_brev"
+    ]
+  },
+  {
+    "dept": "Таз/Бедро",
+    "subgroup": "Приводящие",
+    "muscle_ru": "Длинная приводящая",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "addlong",
+      "add_long"
+    ]
+  },
+  {
+    "dept": "Таз/Бедро",
+    "subgroup": "Приводящие",
+    "muscle_ru": "Большая приводящая",
+    "head_ru": "Проксимальная часть",
+    "base_names": [
+      "addmagProx"
+    ]
+  },
+  {
+    "dept": "Таз/Бедро",
+    "subgroup": "Приводящие",
+    "muscle_ru": "Большая приводящая",
+    "head_ru": "Средняя часть",
+    "base_names": [
+      "addmagMid",
+      "add_mag1"
+    ]
+  },
+  {
+    "dept": "Таз/Бедро",
+    "subgroup": "Приводящие",
+    "muscle_ru": "Большая приводящая",
+    "head_ru": "Дистальная часть",
+    "base_names": [
+      "addmagDist",
+      "add_mag2"
+    ]
+  },
+  {
+    "dept": "Таз/Бедро",
+    "subgroup": "Приводящие",
+    "muscle_ru": "Большая приводящая",
+    "head_ru": "Седалищная часть",
+    "base_names": [
+      "addmagIsch",
+      "add_mag3"
+    ]
+  },
+  {
+    "dept": "Таз/Бедро",
+    "subgroup": "Приводящие",
+    "muscle_ru": "Гребешковая",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "pect"
+    ]
+  },
+  {
+    "dept": "Таз/Бедро",
+    "subgroup": "Приводящие",
+    "muscle_ru": "Тонкая",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "grac"
+    ]
+  },
+  {
+    "dept": "Таз/Бедро",
+    "subgroup": "Прочие",
+    "muscle_ru": "Напрягатель широкой фасции",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "tfl"
+    ]
+  },
+  {
+    "dept": "Таз/Бедро",
+    "subgroup": "Прочие",
+    "muscle_ru": "Портняжная",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "sar",
+      "sart"
+    ]
+  },
+  {
+    "dept": "Бедро",
+    "subgroup": "Разгибатели колена",
+    "muscle_ru": "Прямая мышца бедра",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "rect_fem",
+      "recfem"
+    ]
+  },
+  {
+    "dept": "Бедро",
+    "subgroup": "Разгибатели колена",
+    "muscle_ru": "Латеральная широкая",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "vas_lat",
+      "vaslat"
+    ]
+  },
+  {
+    "dept": "Бедро",
+    "subgroup": "Разгибатели колена",
+    "muscle_ru": "Медиальная широкая",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "vas_med",
+      "vasmed"
+    ]
+  },
+  {
+    "dept": "Бедро",
+    "subgroup": "Разгибатели колена",
+    "muscle_ru": "Промежуточная широкая",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "vas_int",
+      "vasint"
+    ]
+  },
+  {
+    "dept": "Бедро",
+    "subgroup": "Сгибатели колена",
+    "muscle_ru": "Двуглавая бедра",
+    "head_ru": "Длинная головка",
+    "base_names": [
+      "bflh",
+      "bifemlh"
+    ]
+  },
+  {
+    "dept": "Бедро",
+    "subgroup": "Сгибатели колена",
+    "muscle_ru": "Двуглавая бедра",
+    "head_ru": "Короткая головка",
+    "base_names": [
+      "bfsh",
+      "bifemsh"
+    ]
+  },
+  {
+    "dept": "Бедро",
+    "subgroup": "Сгибатели колена",
+    "muscle_ru": "Полуперепончатая",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "semimem"
+    ]
+  },
+  {
+    "dept": "Бедро",
+    "subgroup": "Сгибатели колена",
+    "muscle_ru": "Полусухожильная",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "semiten"
+    ]
+  },
+  {
+    "dept": "Голень/Стопа",
+    "subgroup": "Икроножная",
+    "muscle_ru": "Икроножная",
+    "head_ru": "Латеральная головка",
+    "base_names": [
+      "lat_gas",
+      "gaslat"
+    ]
+  },
+  {
+    "dept": "Голень/Стопа",
+    "subgroup": "Икроножная",
+    "muscle_ru": "Икроножная",
+    "head_ru": "Медиальная головка",
+    "base_names": [
+      "med_gas",
+      "gasmed"
+    ]
+  },
+  {
+    "dept": "Голень/Стопа",
+    "subgroup": "Камбаловидная",
+    "muscle_ru": "Камбаловидная",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "soleus"
+    ]
+  },
+  {
+    "dept": "Голень/Стопа",
+    "subgroup": "Передняя группа",
+    "muscle_ru": "Передняя большеберцовая",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "tib_ant",
+      "tibant"
+    ]
+  },
+  {
+    "dept": "Голень/Стопа",
+    "subgroup": "Задняя группа",
+    "muscle_ru": "Задняя большеберцовая",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "tib_post",
+      "tibpost"
+    ]
+  },
+  {
+    "dept": "Голень/Стопа",
+    "subgroup": "Малоберцовые",
+    "muscle_ru": "Длинная малоберцовая",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "per_long",
+      "perlong"
+    ]
+  },
+  {
+    "dept": "Голень/Стопа",
+    "subgroup": "Малоберцовые",
+    "muscle_ru": "Короткая малоберцовая",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "per_brev",
+      "perbrev"
+    ]
+  },
+  {
+    "dept": "Голень/Стопа",
+    "subgroup": "Малоберцовые",
+    "muscle_ru": "Третья малоберцовая",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "per_tert",
+      "pertert"
+    ]
+  },
+  {
+    "dept": "Голень/Стопа",
+    "subgroup": "Разгибатели пальцев",
+    "muscle_ru": "Длинный разгибатель пальцев",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "edl",
+      "ext_dig"
+    ]
+  },
+  {
+    "dept": "Голень/Стопа",
+    "subgroup": "Разгибатели пальцев",
+    "muscle_ru": "Длинный разгибатель большого пальца",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "ehl",
+      "ext_hal"
+    ]
+  },
+  {
+    "dept": "Голень/Стопа",
+    "subgroup": "Сгибатели пальцев",
+    "muscle_ru": "Длинный сгибатель пальцев",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "fdl",
+      "flex_dig"
+    ]
+  },
+  {
+    "dept": "Голень/Стопа",
+    "subgroup": "Сгибатели пальцев",
+    "muscle_ru": "Длинный сгибатель большого пальца",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "fhl",
+      "flex_hal"
+    ]
+  },
+  {
+    "dept": "Голень/Стопа",
+    "subgroup": "Прочие",
+    "muscle_ru": "Связка надколенника",
+    "head_ru": "Единая мышца",
+    "base_names": [
+      "patlig"
+    ]
+  }
+]

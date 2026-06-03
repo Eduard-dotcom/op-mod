@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://simtk.org/frs/?group_id=545",
+    "name": "Hip Musculoskeletal Model: Downloads - SimTK",
+    "snippet": "2396Hip. The 2396Hip version of the hip muscle model combines muscle definitions from Shelburne's hip model and the baseline OpenSim 2392 model. Specifically ...",
+    "host_name": "simtk.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/stanfordnmbl/osim-rl",
+    "name": "GitHub - stanfordnmbl/osim-rl: Reinforcement learning environments",
+    "snippet": "You are provided with a human musculoskeletal model and a physics-based simulation environment, OpenSim. There will be three tracks: Best performance; Novel ML ...",
+    "host_name": "github.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://opensimconfluence.atlassian.net/wiki/spaces/OpenSim/pages/53090607/Musculoskeletal+Models",
+    "name": "Musculoskeletal Models - OpenSim",
+    "snippet": "A refined human musculoskeletal model suitable for analysing movements involving substantial hip and knee flexion such as cycling, sprinting and rowing. Adrian ...",
+    "host_name": "opensimconfluence.atlassian.net",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/figure/The-OpenSim-musculoskeletal-model-that-will-be-used-for-the-analysis-Lai-et-al-2017_fig4_365703561",
+    "name": "The OpenSim musculoskeletal model that will be used for the",
+    "snippet": "The OpenSim musculoskeletal model that will be used for the analysis (Lai et al. 2017 [65]) Red elements represent the muscle-tendon units, pink spheres ...",
+    "host_name": "www.researchgate.net",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://gist.github.com/rdeits/91c13fc607c7ce606c940a4530a53273",
+    "name": "opensim-knee-reflex.ipynb - GitHub Gist",
+    "snippet": "Attach the same ellipsoid geometry as for the thigh. Add the shank body to the model. Create a PinJoint named 'knee' Parent: thigh; child: shank.",
+    "host_name": "gist.github.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/opensim-org/opensim-models/blob/master/Models/Arm26/arm26.osim",
+    "name": "opensim-models/Models/Arm26/arm26.osim at master - GitHub",
+    "snippet": "SimTK OpenSim models (.osim) and related example files that are distributed with OpenSim. - opensim-models/Models/Arm26/arm26.osim at master ...",
+    "host_name": "github.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/hip_muscles",
+    "name": "Hip Musculoskeletal Model: Project Home - SimTK",
+    "snippet": "A detailed model of the muscles spanning the hip joint for muscle force and joint load prediction at the hip.",
+    "host_name": "simtk.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/opensim-org/opensim-core",
+    "name": "opensim-org/opensim-core: SimTK OpenSim C++ libraries  - GitHub",
+    "snippet": "OpenSim is software that lets users develop models of musculoskeletal structures and create dynamic simulations of movement.",
+    "host_name": "github.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/stanfordnmbl/osim-rl/blob/master/docs/NIPS2017.md",
+    "name": "osim-rl/docs/NIPS2017.md at master - GitHub",
+    "snippet": "To model physics and biomechanics we use OpenSim - a biomechanical physics environment for musculoskeletal simulations. Getting started.",
+    "host_name": "github.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/clnsmith/opensim-jam",
+    "name": "clnsmith/opensim-jam - GitHub",
+    "snippet": "This repository is a collection of force component plugins, models, and executables (tools) that are designed to enable OpenSim musculoskeletal simulations that ...",
+    "host_name": "github.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://docs.z.ai/api-reference/introduction",
+    "name": "Introduction - Overview - Z.AI DEVELOPER DOCUMENT",
+    "snippet": "Z.AI provides standard HTTP API interfaces that support multiple programming languages and development environments, with SDKs also available. ​. API Endpoint.",
+    "host_name": "docs.z.ai",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.z.ai/guides/develop/http/introduction",
+    "name": "HTTP API Calls - Overview - Z.AI DEVELOPER DOCUMENT",
+    "snippet": "Z.AI provides standard HTTP API interfaces that support multiple programming languages and development environments, allowing you to easily integrate Z.AI's ...",
+    "host_name": "docs.z.ai",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.z.ai/guides/overview/quick-start",
+    "name": "Quick Start - Overview - Z.AI DEVELOPER DOCUMENT",
+    "snippet": "Note: The GLM Coding Plan API endpoint is intended for supported tools only. For other use cases, we recommend using the general API endpoint.",
+    "host_name": "docs.z.ai",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/zai-org/z-ai-sdk-python",
+    "name": "zai-org/z-ai-sdk-python - GitHub",
+    "snippet": "The official Python SDK for Z.ai's large model open interface, making it easier for developers to call Z.ai's open APIs. - zai-org/z-ai-sdk-python.",
+    "host_name": "github.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/AIToolsPerformance/comments/1qsth0a/zai_free_api_access_to_glm47_with",
+    "name": "Z.ai: Free API Access to GLM-4.7 with Anthropic-Compatible Endpoint",
+    "snippet": "Z.ai gives you free API access to GLM-4.7 (Zhipu AI's flagship model) through an Anthropic Messages API compatible endpoint. What is it? Model: ...",
+    "host_name": "www.reddit.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  }
+]

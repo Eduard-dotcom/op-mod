@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://github.com/mjhmilla/kinematicPassengerModel",
+    "name": "mjhmilla/kinematicPassengerModel: A kinematic model of a  - GitHub",
+    "snippet": "This repository contains the working OpenSim (https://simtk.org/projects/opensim) model files for a kinematic model of a human torso, neck, ...\nA kinematic model of a passenger that includes an articulated lumbar spine and neck so that inverse-kinematics can be applied to motion ...",
+    "host_name": "github.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/frs/?group_id=567",
+    "name": "Musculoskeletal Model of the Lumbar Spine: Downloads - SimTK",
+    "snippet": "This project holds three different OpenSim-based musculoskeletal model of the human lumbar spine. Please refer to the ReadMeFirst document for more detail.",
+    "host_name": "simtk.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/opensim-org/opensim-models",
+    "name": "SimTK OpenSim models (.osim) and related example files  - GitHub",
+    "snippet": "OpenSim models (.osim) and related example files that are distributed with the OpenSim application.",
+    "host_name": "github.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10565495",
+    "name": "Muscle-driven forward dynamic active hybrid model of the  - PMC",
+    "snippet": "In this paper, we developed and validated a novel muscle-driven forward dynamic active hybrid FE-MB model of the lumbosacral spine (LSS) in ArtiSynth.",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/figure/Musculoskeletal-model-in-OPENSIM-left-based-on-the-lumbar-spine-model-of-Christophy-et_fig1_281227366",
+    "name": "Musculoskeletal model in OPENSIM (left), based on the lumbar spine",
+    "snippet": "A musculoskeletal model was created in OPENSIM, an open-source musculoskeletal modeling platform [1], based on the lumbar spine model of Christophy et al. [6].",
+    "host_name": "www.researchgate.net",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/opensim-org/opensim-core/blob/main/CHANGELOG.md",
+    "name": "opensim-core/CHANGELOG.md at main - GitHub",
+    "snippet": "This document lists the changes to opensim-core that are introduced with each new version, starting with version 4.0. When possible, we provide the GitHub ...",
+    "host_name": "github.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/opensim-org/opensim-core/blob/master/OpenSim/Simulation/Model/Model.cpp",
+    "name": "opensim-core/OpenSim/Simulation/Model/Model.cpp at main - GitHub",
+    "snippet": "SimTK OpenSim C++ libraries and command-line applications, and Java/Python wrapping. - opensim-core/OpenSim/Simulation/Model/Model.cpp at main ...",
+    "host_name": "github.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/opensim-org/opensim-core/blob/main/README.md",
+    "name": "opensim-core/README.md at main - GitHub",
+    "snippet": "OpenSim is software that lets users develop models of musculoskeletal structures and create dynamic simulations of movement.",
+    "host_name": "github.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/lumbarspine",
+    "name": "Musculoskeletal Model of the Lumbar Spine: Project Home - SimTK",
+    "snippet": "The work here features a number of different OpenSim models of the lumbar spine developed to study lumbar kinematics and dynamics.",
+    "host_name": "simtk.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/ComputationalBiomechanicsLab/opensim-creator",
+    "name": "ComputationalBiomechanicsLab/opensim-creator: A UI for  - GitHub",
+    "snippet": "OpenSim Creator (osc) is a standalone UI for building and editing OpenSim models. It's available as a freestanding all-in-one installer for Windows 10 (>= 1507 ...",
+    "host_name": "github.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

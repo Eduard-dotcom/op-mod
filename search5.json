@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://simtk.org/projects/fbmodpassivecal",
+    "name": "Full-body musculoskeletal model with calibrated passive muscle",
+    "snippet": "A full-body musculoskeletal model based on the model described by Rajagopal et al. (2016) with calibrated passive muscle force curves and improved hip abductor ...",
+    "host_name": "simtk.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27392337",
+    "name": "Full-Body Musculoskeletal Model for Muscle-Driven Simulation of",
+    "snippet": "An open-source 3-D musculoskeletal model with high-fidelity representations of the lower limb musculature of healthy young individuals.",
+    "host_name": "pubmed.ncbi.nlm.nih.gov",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/stanfordnmbl/osim-rl",
+    "name": "GitHub - stanfordnmbl/osim-rl: Reinforcement learning environments",
+    "snippet": "You are provided with a human musculoskeletal model and a physics-based simulation environment, OpenSim. There will be three tracks: Best performance; Novel ...",
+    "host_name": "github.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://nmbl.stanford.edu/wp-content/uploads/Rajagopal2016.pdf",
+    "name": "[PDF] Full body musculoskeletal model for muscle- driven simulation of",
+    "snippet": "This model was implemented in OpenSim [27], and is freely available for download at https://simtk.org/home/full_body/ along with all the data used to create the ...",
+    "host_name": "nmbl.stanford.edu",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/topics/musculoskeletal-models",
+    "name": "musculoskeletal-models · GitHub Topics",
+    "snippet": "Scripts and models to optimize musculotendon parameters in musculoskeletal models. matlab biomechanics muscle opensim scientific-publications bioengineering ...",
+    "host_name": "github.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://opensimconfluence.atlassian.net/wiki/spaces/OpenSim/pages/53090607/Musculoskeletal+Models",
+    "name": "Musculoskeletal Models - OpenSim",
+    "snippet": "Primarily lower extremity model with two legs and a lumped torso segment. Includes 23 degrees of freedom and 92 muscle-tendon actuators.",
+    "host_name": "opensimconfluence.atlassian.net",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.1101/2024.10.30.620965v2.full-text",
+    "name": "The Neuromusculoskeletal Modeling Pipeline: MATLAB-based",
+    "snippet": "First, a generic musculoskeletal model is scaled using the OpenSim Scale Model tool. To facilitate modeling and simulation of full-body walking ...",
+    "host_name": "www.biorxiv.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/frs/?group_id=773",
+    "name": "SimTK: Full Body Model for use in Dynamic Simulations of Human Gait",
+    "snippet": "This package contains the full body model, geometry files for visualization, and sample data and set up files for creating muscle-driven simulations of gait.",
+    "host_name": "simtk.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/opensim-org/opensim-models/issues/172",
+    "name": "Adjust Rajagopal model tendon stiffness · Issue #172 - GitHub",
+    "snippet": "The stiffness constants can be converted to the percentage of tendon slack length (TSL) as follows: This would help physiologically based musculoskeletal ...",
+    "host_name": "github.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2312.05473v3",
+    "name": "Modeling Full-Body Human Musculoskeletal System and  - arXiv",
+    "snippet": "We build a musculoskeletal model (MS-Human-700) with 90 body segments, 206 joints, and 700 muscle-tendon units, allowing simulation of full-body dynamics and ...",
+    "host_name": "arxiv.org",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://simtk.org/projects/fullbodylumbar",
+    "name": "Full-body Musculoskeletal Model of the Lumbar Spine: Project Home",
+    "snippet": "The full-body lumbar spine (FBLS) model was created by combining other previously developed OpenSim models (https://simtk.org/home/lumbarspine, ...",
+    "host_name": "simtk.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/spine_ribcage",
+    "name": "Thoracolumbar spine and rib cage model in OpenSim: Project Home",
+    "snippet": "The aim of this project is to provide detailed and well-validated musculoskeletal models of the thoracolumbar spine and rib cage, ...",
+    "host_name": "simtk.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/spine-children",
+    "name": "Full-body models with detailed thoracolumbar spine for  - SimTK",
+    "snippet": "This project provides validated musculoskeletal full-body models including a detailed thoracolumbar spine for boys and girls aged 6-18 years.",
+    "host_name": "simtk.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/spine_upperbody",
+    "name": "Framingham Heart Study musculoskeletal models updated  - SimTK",
+    "snippet": "This project aims to deliver updated musculoskeletal (MSK) models of the Framingham Heart Study dataset, implemented in OpenSim 4.x.",
+    "host_name": "simtk.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7315467",
+    "name": "Musculoskeletal full-body models including a detailed  - PMC - NIH",
+    "snippet": "We therefore created OpenSim-based musculoskeletal full-body models including a detailed thoracolumbar spine for children and adolescents aged 6–18 years and ...",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/opensim",
+    "name": "OpenSim: Project Home - SimTK",
+    "snippet": "OpenSim is a freely available, user extensible software system that lets users develop models of musculoskeletal structures and create dynamic simulations ...",
+    "host_name": "simtk.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/llsm",
+    "name": "London Lumbar Spine Model: Project Home - SimTK",
+    "snippet": "A reliable model of the lumbar spine and lower limbs to estimate muscle and joint reaction forces for daily living activities including locomotion and lifting ...",
+    "host_name": "simtk.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/raja-dhm",
+    "name": "Full Body Model adjusted - all hip spanning muscles: Project Home",
+    "snippet": "The Full Body Model (https://simtk.org/projects/full_body) of Rajagopal et al. (2016) compatible with OpenSim v4.1 was adjusted to contain all 22 hip spanning ...",
+    "host_name": "simtk.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://opensimconfluence.atlassian.net/wiki/spaces/OpenSim24/pages/54001808/Musculoskeletal+Models",
+    "name": "OpenSim Models",
+    "snippet": "Four degree-of-freedom model of the human lower extremity with a \"deformable\" femur that characterizes the geometry of the pelvis, femur, and proximal tibia, ...",
+    "host_name": "opensimconfluence.atlassian.net",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/full_body",
+    "name": "SimTK: Full Body Model for use in Dynamic Simulations of Human Gait",
+    "snippet": "Our paper describes a full body OpenSim model with musculotendon parameters derived from experimental measurements of 21 cadaver lower limbs.",
+    "host_name": "simtk.org",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

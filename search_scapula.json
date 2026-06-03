@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://simtk.org/frs/?group_id=986",
+    "name": "Model of the Scapulothoracic Joint: Downloads - SimTK",
+    "snippet": "OpenSim model, software (plugin code and scripts) and data are provided below to generate simulations of the upper-extremity involving scapulothoracic joint ...",
+    "host_name": "simtk.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0141028",
+    "name": "A Biomechanical Model of the Scapulothoracic Joint to Accurately",
+    "snippet": "Finally, the scapulothoracic joint is freely and openly available as source code and as a plugin for OpenSim (at https://simtk.org/home/scapulothoracic) to ...",
+    "host_name": "journals.plos.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/julieemmerson/opensim_tennis_model",
+    "name": "julieemmerson/opensim_tennis_model - GitHub",
+    "snippet": "Seth, A., Matias, R., Veloso ... A Biomechanical Model of the Scapulothoracic Joint to Accurately Capture Scapular Kinematics during Shoulder Movements.",
+    "host_name": "github.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26734761",
+    "name": "A Biomechanical Model of the Scapulothoracic Joint to Accurately",
+    "snippet": "A Biomechanical Model of the Scapulothoracic Joint to Accurately Capture Scapular Kinematics during Shoulder ... Ajay Seth , Ricardo Matias , ...",
+    "host_name": "pubmed.ncbi.nlm.nih.gov",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://nmbl.stanford.edu/wp-content/uploads/seth2016.pdf",
+    "name": "[PDF] A Biomechanical Model of the Scapulothoracic Joint to Accurately",
+    "snippet": "Finally, the scapulothoracic joint is freely and openly available as source code and as a plugin for OpenSim (at https://simtk.org/home/.",
+    "host_name": "nmbl.stanford.edu",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  }
+]

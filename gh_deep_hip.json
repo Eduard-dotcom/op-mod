@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://github.com/opensim-org/opensim-models/blob/master/Models/Leg6Dof9Musc/leg6dof9musc.osim",
+    "name": "opensim-models/Models/Leg6Dof9Musc/leg6dof9musc.osim at master",
+    "snippet": "SimTK OpenSim models (.osim) and related example files that are distributed with OpenSim. - opensim-models/Models/Leg6Dof9Musc/leg6dof9musc.osim at master ...",
+    "host_name": "github.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/opensim-org/opensim-models",
+    "name": "SimTK OpenSim models (.osim) and related example files  - GitHub",
+    "snippet": "OpenSim models (.osim) and related example files that are distributed with the OpenSim application.",
+    "host_name": "github.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://gist.github.com/rdeits/91c13fc607c7ce606c940a4530a53273",
+    "name": "opensim-knee-reflex.ipynb - GitHub Gist",
+    "snippet": "Attach the same ellipsoid geometry as for the thigh. Add the shank body to the model. Create a PinJoint named 'knee' Parent: thigh; child: shank.",
+    "host_name": "gist.github.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/opensim-org/opensim-models/blob/master/Models/Arm26/arm26.osim",
+    "name": "opensim-models/Models/Arm26/arm26.osim at master - GitHub",
+    "snippet": "SimTK OpenSim models (.osim) and related example files that are distributed with OpenSim. - opensim-models/Models/Arm26/arm26.osim at master ...",
+    "host_name": "github.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://opensimconfluence.atlassian.net/wiki/spaces/OpenSim/pages/53090607/Musculoskeletal+Models",
+    "name": "Musculoskeletal Models - OpenSim",
+    "snippet": "Primarily lower extremity model with two legs and a lumped torso segment. Includes 23 degrees of freedom and 92 muscle-tendon actuators.",
+    "host_name": "opensimconfluence.atlassian.net",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/stanfordnmbl/osim-rl",
+    "name": "GitHub - stanfordnmbl/osim-rl: Reinforcement learning environments",
+    "snippet": "You are provided with a human musculoskeletal model and a physics-based simulation environment, OpenSim. There will be three tracks: Best performance; Novel ML ...",
+    "host_name": "github.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/opensim-org/opensim-core/blob/master/OpenSim/Simulation/Model/Model.cpp",
+    "name": "opensim-core/OpenSim/Simulation/Model/Model.cpp at main - GitHub",
+    "snippet": "SimTK OpenSim C++ libraries and command-line applications, and Java/Python wrapping. - opensim-core/OpenSim/Simulation/Model/Model.cpp at main ...",
+    "host_name": "github.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://auctus-team.github.io/pycapacity/examples/opensim.html",
+    "name": "Opensim examples — pycapacity v2.1 documentation - GitHub Pages",
+    "snippet": "A simple example to test that everything is installed well. You should be able to visualise different models by uncommenting different lines of this example.",
+    "host_name": "auctus-team.github.io",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/opt_muscle_par",
+    "name": "OpenSim plugin to optimize musculotendon parameters: Project Home",
+    "snippet": "This project aims to make available a tool for muscle parameters (optimal fiber length and tendon slack length) adjustment and estimation.",
+    "host_name": "simtk.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://osim-rl.kidzinski.com",
+    "name": "OpenSim RL osim-rl",
+    "snippet": "Use our musculoskeletal reinforcement learning environment for other projects in computer science, neuroscience, biomechanics, etc.",
+    "host_name": "osim-rl.kidzinski.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

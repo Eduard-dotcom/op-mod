@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://simtk.org/projects/bit",
+    "name": "A bilateral upper extremity trunk model for cross-country sit-skiing.",
+    "snippet": "The bilateral upper extremity trunk model was developed by combining three previously built OpenSim models: full-body lumbar spine for the base ...",
+    "host_name": "simtk.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/frs/?group_id=986",
+    "name": "Model of the Scapulothoracic Joint: Downloads - SimTK",
+    "snippet": "Provide an OpenSim Joint model that enables a more accurate representation of scapula mechanics in musculoskeletal simulations.",
+    "host_name": "simtk.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/thoracoscapular",
+    "name": "Thoracoscapular muscle contributions to shoulder movement and",
+    "snippet": "We developed a shoulder model with an accurate scapulothoracic joint and includes scapular muscles to drive its motion. We used the model to ...",
+    "host_name": "simtk.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/scapulothoracic",
+    "name": "Model of the Scapulothoracic Joint: Project Home - SimTK",
+    "snippet": "Provide an OpenSim Joint model that enables a more accurate representation of scapula mechanics in musculoskeletal simulations.",
+    "host_name": "simtk.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/opensim",
+    "name": "OpenSim: Project Home - SimTK",
+    "snippet": "OpenSim is a freely available, user extensible software system that lets users develop models of musculoskeletal structures and create dynamic simulations ...",
+    "host_name": "simtk.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/category/communityPage.php?cat=1002&sort=date&page=0&srch=&",
+    "name": "Community - SimTK",
+    "snippet": "Model of the Scapulothoracic Joint. Provide an OpenSim Joint model that enables a more accurate representation of scapula mechanics in musculoskeletal ...",
+    "host_name": "simtk.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/frs/?group_id=322",
+    "name": "Dynamic Arm Simulator: Downloads - SimTK",
+    "snippet": "Three-dimensional model of the shoulder and upper limb for real-time simulation of arm dynamics, including independent muscle control of the scapula and ...",
+    "host_name": "simtk.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/upexdyn",
+    "name": "Upper Extremity Dynamic Model: Project Home - SimTK",
+    "snippet": "The project releases the MoBL-ARMS dynamic musculoskeletal model of the human upper extremity, implemented in SIMM/SDFast and OpenSIM.",
+    "host_name": "simtk.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://purl.stanford.edu/br087nj9017",
+    "name": "A biomechanical model of the scapulothoracic joint to accurately",
+    "snippet": "Abstract: We developed a rigid-body model of the scapulothoracic joint to describe the kinematics of the scapula relative to the thorax.",
+    "host_name": "purl.stanford.edu",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/shoulder-perso",
+    "name": "Shoulder model personalization: Project Home - SimTK",
+    "snippet": "Model, data, and methods to create a personalized kinematic shoulder model. This project provides a modified version of the Upper Extremity Kinematic Model.",
+    "host_name": "simtk.org",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

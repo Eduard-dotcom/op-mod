@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://simtk.org/projects/sports_model",
+    "name": "Full-body model that improves upper body tracking for  - SimTK",
+    "snippet": "The goal of this work was to augment the capability of the currently most widely used full-body model (Rajagopal et al . 2016) to improve the ...",
+    "host_name": "simtk.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/upexdyn",
+    "name": "Upper Extremity Dynamic Model: Project Home - SimTK",
+    "snippet": "The project releases the MoBL-ARMS dynamic musculoskeletal model of the human upper extremity, implemented in SIMM/SDFast and OpenSIM.",
+    "host_name": "simtk.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/bit",
+    "name": "A bilateral upper extremity trunk model for cross-country sit-skiing.",
+    "snippet": "The bilateral upper extremity trunk model was developed by combining three previously built OpenSim models: full-body lumbar spine for the base ...",
+    "host_name": "simtk.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/up-ext-model",
+    "name": "Upper Extremity Kinematic Model: Project Home - SimTK",
+    "snippet": "This model of the upper extremity includes 15 degrees of freedom representing the shoulder, elbow, forearm, wrist, thumb, and index finger, and 50 muscle ...",
+    "host_name": "simtk.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/ulb_project",
+    "name": "Upper and Lower Body Model: Project Home - SimTK",
+    "snippet": "This project provides a useful starting model to those interested in a full body model. In this project the lower limb model developed by Delp SL et al.",
+    "host_name": "simtk.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://simtk.org/projects/scapulothoracic",
+    "name": "Model of the Scapulothoracic Joint: Project Home - SimTK",
+    "snippet": "Provide an OpenSim Joint model that enables a more accurate representation of scapula mechanics in musculoskeletal simulations.",
+    "host_name": "simtk.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=zPsfavRsxbc",
+    "name": "Webinar: A Novel Scapulothoracic Joint Model Improves Accuracy of",
+    "snippet": "The movement of the scapula under soft tissue makes it difficult to measure, reconstruct and study shoulder movements.",
+    "host_name": "www.youtube.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://purl.stanford.edu/br087nj9017",
+    "name": "A biomechanical model of the scapulothoracic joint to accurately",
+    "snippet": "The computational performance of the scapulothoracic joint model is well suited for real-time applications; it is freely available for use with OpenSim 3.2, and ...",
+    "host_name": "purl.stanford.edu",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0141028",
+    "name": "A Biomechanical Model of the Scapulothoracic Joint to Accurately",
+    "snippet": "In this study, we developed a rigid-body model of a scapulothoracic joint to describe the kinematics of the scapula relative to the thorax.",
+    "host_name": "journals.plos.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4712143",
+    "name": "A Biomechanical Model of the Scapulothoracic Joint to Accurately",
+    "snippet": "In this study, we developed a rigid-body model of a scapulothoracic joint to describe the kinematics of the scapula relative to the thorax.",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/frs/?group_id=986",
+    "name": "Model of the Scapulothoracic Joint: Downloads - SimTK",
+    "snippet": "Provide an OpenSim Joint model that enables a more accurate representation of scapula mechanics in musculoskeletal simulations.",
+    "host_name": "simtk.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/figure/The-four-modeled-degrees-of-freedom-of-the-scapulothoracic-joint-The-joint-reference_fig5_289507212",
+    "name": "The four modeled degrees of freedom of the scapulothoracic joint",
+    "snippet": "Objective. This study aimed to analyze the muscle forces responsible for scapular and clavicular movement during shoulder abduction. Materials and Methods.",
+    "host_name": "www.researchgate.net",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.1101/2024.12.19.629415v1.full.pdf",
+    "name": "[PDF] Personalization of Closed-Chain Shoulder Models Yields  - bioRxiv",
+    "snippet": "shoulder complex model by adding an OpenSim Coordinate Coupler constraint to make scapular ... musculoskeletal modeling in the evaluation of ...",
+    "host_name": "www.biorxiv.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.ors.org/wp-content/uploads/AM24/1164.pdf",
+    "name": "[PDF] Modeling independent scapular motion for more robust upper limb",
+    "snippet": "Recently, researchers have developed an upper extremity model (Scapulothoracic Joint model7) that includes independent scapular motion; however it does not ...",
+    "host_name": "www.ors.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=8VmW9nZDoWI",
+    "name": "Scapulothoracic joint: Structure and actions - YouTube",
+    "snippet": "Shoulder joint: Movements, bones and muscles - Human Anatomy | Kenhub. Kenhub - Learn Human Anatomy•1M views · 10:58. Go to channel The Noted ...",
+    "host_name": "www.youtube.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,7108 @@
+{
+  "M7": {
+    "bodies": {
+      "ground": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "pelvis": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "sacrum": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "femur_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "tibia_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "talus_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "calcn_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "toes_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "femur_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "tibia_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "talus_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "calcn_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "toes_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "Abdomen": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "lumbar5": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "lumbar4": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "lumbar3": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "lumbar2": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "lumbar1": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "thoracic12": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "thoracic11": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "thoracic10": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "thoracic9": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "thoracic8": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "thoracic7": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "thoracic6": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "thoracic5": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "thoracic4": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "thoracic3": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "thoracic2": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "thoracic1": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "head_neck": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib12_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib11_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib10_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib9_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib8_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib7_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib6_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib5_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib4_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib3_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib2_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib1_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib12_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib11_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib10_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib9_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib8_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib7_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib6_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib5_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib4_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib3_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib2_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib1_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "sternum": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "clavicle_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "scapula_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humerus_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "ulna_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "radius_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "hand_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "clavicle_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "scapula_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humerus_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "ulna_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "radius_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "hand_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "Abd_L_L1": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "Abd_L_L2": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "Abd_L_L3": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "Abd_L_L4": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "Abd_L_L5": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "Abd_R_L1": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "Abd_R_L2": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "Abd_R_L3": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "Abd_R_L4": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "Abd_R_L5": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      }
+    },
+    "joints": {
+      "ground_pelvis": {
+        "type": "CustomJoint",
+        "parent": "ground",
+        "child": "",
+        "dof": 3
+      },
+      "pelvis_sacrum": {
+        "type": "WeldJoint",
+        "parent": "pelvis",
+        "child": "",
+        "dof": 0
+      },
+      "hip_r": {
+        "type": "CustomJoint",
+        "parent": "pelvis",
+        "child": "",
+        "dof": 3
+      },
+      "knee_r": {
+        "type": "CustomJoint",
+        "parent": "femur_r",
+        "child": "",
+        "dof": 3
+      },
+      "ankle_r": {
+        "type": "PinJoint",
+        "parent": "tibia_r",
+        "child": "",
+        "dof": 1
+      },
+      "subtalar_r": {
+        "type": "WeldJoint",
+        "parent": "talus_r",
+        "child": "",
+        "dof": 0
+      },
+      "mtp_r": {
+        "type": "WeldJoint",
+        "parent": "calcn_r",
+        "child": "",
+        "dof": 0
+      },
+      "hip_l": {
+        "type": "CustomJoint",
+        "parent": "pelvis",
+        "child": "",
+        "dof": 3
+      },
+      "knee_l": {
+        "type": "CustomJoint",
+        "parent": "femur_l",
+        "child": "",
+        "dof": 3
+      },
+      "ankle_l": {
+        "type": "PinJoint",
+        "parent": "tibia_l",
+        "child": "",
+        "dof": 1
+      },
+      "subtalar_l": {
+        "type": "WeldJoint",
+        "parent": "talus_l",
+        "child": "",
+        "dof": 0
+      },
+      "mtp_l": {
+        "type": "WeldJoint",
+        "parent": "calcn_l",
+        "child": "",
+        "dof": 0
+      },
+      "Abdjnt": {
+        "type": "CustomJoint",
+        "parent": "sacrum",
+        "child": "",
+        "dof": 3
+      },
+      "L5_S1_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "sacrum",
+        "child": "",
+        "dof": 3
+      },
+      "L4_L5_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "lumbar5",
+        "child": "",
+        "dof": 3
+      },
+      "L3_L4_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "lumbar4",
+        "child": "",
+        "dof": 3
+      },
+      "L2_L3_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "lumbar3",
+        "child": "",
+        "dof": 3
+      },
+      "L1_L2_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "lumbar2",
+        "child": "",
+        "dof": 3
+      },
+      "T12_L1_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "lumbar1",
+        "child": "",
+        "dof": 3
+      },
+      "T11_T12_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic12",
+        "child": "",
+        "dof": 3
+      },
+      "T10_T11_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic11",
+        "child": "",
+        "dof": 3
+      },
+      "T9_T10_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic10",
+        "child": "",
+        "dof": 3
+      },
+      "T8_T9_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic9",
+        "child": "",
+        "dof": 3
+      },
+      "T7_T8_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic8",
+        "child": "",
+        "dof": 3
+      },
+      "T6_T7_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic7",
+        "child": "",
+        "dof": 3
+      },
+      "T5_T6_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic6",
+        "child": "",
+        "dof": 3
+      },
+      "T4_T5_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic5",
+        "child": "",
+        "dof": 3
+      },
+      "T3_T4_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic4",
+        "child": "",
+        "dof": 3
+      },
+      "T2_T3_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic3",
+        "child": "",
+        "dof": 3
+      },
+      "T1_T2_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic2",
+        "child": "",
+        "dof": 3
+      },
+      "T1_head_neck": {
+        "type": "CustomJoint",
+        "parent": "thoracic1",
+        "child": "",
+        "dof": 3
+      },
+      "T12_r12R_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic12",
+        "child": "",
+        "dof": 3
+      },
+      "T11_r11R_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic11",
+        "child": "",
+        "dof": 3
+      },
+      "T10_r10R_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic10",
+        "child": "",
+        "dof": 3
+      },
+      "T9_r9R_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic9",
+        "child": "",
+        "dof": 3
+      },
+      "T8_r8R_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic8",
+        "child": "",
+        "dof": 3
+      },
+      "T7_r7R_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic7",
+        "child": "",
+        "dof": 3
+      },
+      "T6_r6R_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic6",
+        "child": "",
+        "dof": 3
+      },
+      "T5_r5R_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic5",
+        "child": "",
+        "dof": 3
+      },
+      "T4_r4R_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic4",
+        "child": "",
+        "dof": 3
+      },
+      "T3_r3R_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic3",
+        "child": "",
+        "dof": 3
+      },
+      "T2_r2R_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic2",
+        "child": "",
+        "dof": 3
+      },
+      "T1_r1R_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic1",
+        "child": "",
+        "dof": 3
+      },
+      "T12_r12L_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic12",
+        "child": "",
+        "dof": 3
+      },
+      "T11_r11L_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic11",
+        "child": "",
+        "dof": 3
+      },
+      "T10_r10L_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic10",
+        "child": "",
+        "dof": 3
+      },
+      "T9_r9L_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic9",
+        "child": "",
+        "dof": 3
+      },
+      "T8_r8L_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic8",
+        "child": "",
+        "dof": 3
+      },
+      "T7_r7L_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic7",
+        "child": "",
+        "dof": 3
+      },
+      "T6_r6L_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic6",
+        "child": "",
+        "dof": 3
+      },
+      "T5_r5L_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic5",
+        "child": "",
+        "dof": 3
+      },
+      "T4_r4L_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic4",
+        "child": "",
+        "dof": 3
+      },
+      "T3_r3L_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic3",
+        "child": "",
+        "dof": 3
+      },
+      "T2_r2L_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic2",
+        "child": "",
+        "dof": 3
+      },
+      "T1_r1L_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic1",
+        "child": "",
+        "dof": 3
+      },
+      "r1R_sterR_jnt": {
+        "type": "CustomJoint",
+        "parent": "rib1_R",
+        "child": "",
+        "dof": 3
+      },
+      "sterR_clavR_jnt": {
+        "type": "WeldJoint",
+        "parent": "sternum",
+        "child": "",
+        "dof": 0
+      },
+      "clavR_scapR_jnt": {
+        "type": "WeldJoint",
+        "parent": "clavicle_R",
+        "child": "",
+        "dof": 0
+      },
+      "shoulder_R": {
+        "type": "CustomJoint",
+        "parent": "scapula_R",
+        "child": "",
+        "dof": 3
+      },
+      "elbow": {
+        "type": "CustomJoint",
+        "parent": "humerus_R",
+        "child": "",
+        "dof": 3
+      },
+      "radioulnar": {
+        "type": "CustomJoint",
+        "parent": "ulna_R",
+        "child": "",
+        "dof": 3
+      },
+      "radius_hand_r": {
+        "type": "CustomJoint",
+        "parent": "radius_R",
+        "child": "",
+        "dof": 3
+      },
+      "sterL_clavL_jnt": {
+        "type": "WeldJoint",
+        "parent": "sternum",
+        "child": "",
+        "dof": 0
+      },
+      "clavL_scapL_jnt": {
+        "type": "WeldJoint",
+        "parent": "clavicle_L",
+        "child": "",
+        "dof": 0
+      },
+      "shoulder_L": {
+        "type": "CustomJoint",
+        "parent": "scapula_L",
+        "child": "",
+        "dof": 3
+      },
+      "elbow_l": {
+        "type": "CustomJoint",
+        "parent": "humerus_L",
+        "child": "",
+        "dof": 3
+      },
+      "radioulnar_l": {
+        "type": "CustomJoint",
+        "parent": "ulna_L",
+        "child": "",
+        "dof": 3
+      },
+      "radius_hand_l": {
+        "type": "CustomJoint",
+        "parent": "radius_L",
+        "child": "",
+        "dof": 3
+      },
+      "Abd_L_L1": {
+        "type": "WeldJoint",
+        "parent": "lumbar1",
+        "child": "",
+        "dof": 0
+      },
+      "Abd_L_L2": {
+        "type": "WeldJoint",
+        "parent": "lumbar2",
+        "child": "",
+        "dof": 0
+      },
+      "Abd_L_L3": {
+        "type": "WeldJoint",
+        "parent": "lumbar3",
+        "child": "",
+        "dof": 0
+      },
+      "Abd_L_L4": {
+        "type": "WeldJoint",
+        "parent": "lumbar4",
+        "child": "",
+        "dof": 0
+      },
+      "Abd_L_L5": {
+        "type": "WeldJoint",
+        "parent": "lumbar5",
+        "child": "",
+        "dof": 0
+      },
+      "Abd_R_L1": {
+        "type": "WeldJoint",
+        "parent": "lumbar1",
+        "child": "",
+        "dof": 0
+      },
+      "Abd_R_L2": {
+        "type": "WeldJoint",
+        "parent": "lumbar2",
+        "child": "",
+        "dof": 0
+      },
+      "Abd_R_L3": {
+        "type": "WeldJoint",
+        "parent": "lumbar3",
+        "child": "",
+        "dof": 0
+      },
+      "Abd_R_L4": {
+        "type": "WeldJoint",
+        "parent": "lumbar4",
+        "child": "",
+        "dof": 0
+      },
+      "Abd_R_L5": {
+        "type": "WeldJoint",
+        "parent": "lumbar5",
+        "child": "",
+        "dof": 0
+      }
+    },
+    "body_count": 79,
+    "joint_count": 78
+  },
+  "M7_18": {
+    "bodies": {
+      "ground": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "pelvis": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "sacrum": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "femur_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "tibia_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "talus_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "calcn_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "toes_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "femur_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "tibia_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "talus_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "calcn_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "toes_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "Abdomen": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "lumbar5": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "lumbar4": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "lumbar3": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "lumbar2": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "lumbar1": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "thoracic12": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "thoracic11": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "thoracic10": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "thoracic9": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "thoracic8": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "thoracic7": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "thoracic6": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "thoracic5": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "thoracic4": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "thoracic3": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "thoracic2": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "thoracic1": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "head_neck": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib12_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib11_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib10_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib9_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib8_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib7_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib6_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib5_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib4_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib3_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib2_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib1_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib12_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib11_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib10_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib9_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib8_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib7_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib6_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib5_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib4_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib3_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib2_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "rib1_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "sternum": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "clavicle_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "scapula_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humerus_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "ulna_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "radius_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "hand_R": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "clavicle_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "scapula_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humerus_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "ulna_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "radius_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "hand_L": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "Abd_L_L1": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "Abd_L_L2": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "Abd_L_L3": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "Abd_L_L4": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "Abd_L_L5": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "Abd_R_L1": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "Abd_R_L2": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "Abd_R_L3": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "Abd_R_L4": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "Abd_R_L5": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      }
+    },
+    "joints": {
+      "ground_pelvis": {
+        "type": "CustomJoint",
+        "parent": "ground",
+        "child": "",
+        "dof": 3
+      },
+      "pelvis_sacrum": {
+        "type": "WeldJoint",
+        "parent": "pelvis",
+        "child": "",
+        "dof": 0
+      },
+      "hip_r": {
+        "type": "CustomJoint",
+        "parent": "pelvis",
+        "child": "",
+        "dof": 3
+      },
+      "knee_r": {
+        "type": "CustomJoint",
+        "parent": "femur_r",
+        "child": "",
+        "dof": 3
+      },
+      "ankle_r": {
+        "type": "PinJoint",
+        "parent": "tibia_r",
+        "child": "",
+        "dof": 1
+      },
+      "subtalar_r": {
+        "type": "WeldJoint",
+        "parent": "talus_r",
+        "child": "",
+        "dof": 0
+      },
+      "mtp_r": {
+        "type": "WeldJoint",
+        "parent": "calcn_r",
+        "child": "",
+        "dof": 0
+      },
+      "hip_l": {
+        "type": "CustomJoint",
+        "parent": "pelvis",
+        "child": "",
+        "dof": 3
+      },
+      "knee_l": {
+        "type": "CustomJoint",
+        "parent": "femur_l",
+        "child": "",
+        "dof": 3
+      },
+      "ankle_l": {
+        "type": "PinJoint",
+        "parent": "tibia_l",
+        "child": "",
+        "dof": 1
+      },
+      "subtalar_l": {
+        "type": "WeldJoint",
+        "parent": "talus_l",
+        "child": "",
+        "dof": 0
+      },
+      "mtp_l": {
+        "type": "WeldJoint",
+        "parent": "calcn_l",
+        "child": "",
+        "dof": 0
+      },
+      "Abdjnt": {
+        "type": "CustomJoint",
+        "parent": "sacrum",
+        "child": "",
+        "dof": 3
+      },
+      "L5_S1_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "sacrum",
+        "child": "",
+        "dof": 3
+      },
+      "L4_L5_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "lumbar5",
+        "child": "",
+        "dof": 3
+      },
+      "L3_L4_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "lumbar4",
+        "child": "",
+        "dof": 3
+      },
+      "L2_L3_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "lumbar3",
+        "child": "",
+        "dof": 3
+      },
+      "L1_L2_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "lumbar2",
+        "child": "",
+        "dof": 3
+      },
+      "T12_L1_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "lumbar1",
+        "child": "",
+        "dof": 3
+      },
+      "T11_T12_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic12",
+        "child": "",
+        "dof": 3
+      },
+      "T10_T11_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic11",
+        "child": "",
+        "dof": 3
+      },
+      "T9_T10_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic10",
+        "child": "",
+        "dof": 3
+      },
+      "T8_T9_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic9",
+        "child": "",
+        "dof": 3
+      },
+      "T7_T8_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic8",
+        "child": "",
+        "dof": 3
+      },
+      "T6_T7_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic7",
+        "child": "",
+        "dof": 3
+      },
+      "T5_T6_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic6",
+        "child": "",
+        "dof": 3
+      },
+      "T4_T5_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic5",
+        "child": "",
+        "dof": 3
+      },
+      "T3_T4_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic4",
+        "child": "",
+        "dof": 3
+      },
+      "T2_T3_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic3",
+        "child": "",
+        "dof": 3
+      },
+      "T1_T2_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic2",
+        "child": "",
+        "dof": 3
+      },
+      "T1_head_neck": {
+        "type": "CustomJoint",
+        "parent": "thoracic1",
+        "child": "",
+        "dof": 3
+      },
+      "T12_r12R_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic12",
+        "child": "",
+        "dof": 3
+      },
+      "T11_r11R_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic11",
+        "child": "",
+        "dof": 3
+      },
+      "T10_r10R_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic10",
+        "child": "",
+        "dof": 3
+      },
+      "T9_r9R_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic9",
+        "child": "",
+        "dof": 3
+      },
+      "T8_r8R_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic8",
+        "child": "",
+        "dof": 3
+      },
+      "T7_r7R_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic7",
+        "child": "",
+        "dof": 3
+      },
+      "T6_r6R_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic6",
+        "child": "",
+        "dof": 3
+      },
+      "T5_r5R_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic5",
+        "child": "",
+        "dof": 3
+      },
+      "T4_r4R_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic4",
+        "child": "",
+        "dof": 3
+      },
+      "T3_r3R_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic3",
+        "child": "",
+        "dof": 3
+      },
+      "T2_r2R_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic2",
+        "child": "",
+        "dof": 3
+      },
+      "T1_r1R_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic1",
+        "child": "",
+        "dof": 3
+      },
+      "T12_r12L_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic12",
+        "child": "",
+        "dof": 3
+      },
+      "T11_r11L_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic11",
+        "child": "",
+        "dof": 3
+      },
+      "T10_r10L_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic10",
+        "child": "",
+        "dof": 3
+      },
+      "T9_r9L_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic9",
+        "child": "",
+        "dof": 3
+      },
+      "T8_r8L_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic8",
+        "child": "",
+        "dof": 3
+      },
+      "T7_r7L_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic7",
+        "child": "",
+        "dof": 3
+      },
+      "T6_r6L_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic6",
+        "child": "",
+        "dof": 3
+      },
+      "T5_r5L_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic5",
+        "child": "",
+        "dof": 3
+      },
+      "T4_r4L_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic4",
+        "child": "",
+        "dof": 3
+      },
+      "T3_r3L_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic3",
+        "child": "",
+        "dof": 3
+      },
+      "T2_r2L_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic2",
+        "child": "",
+        "dof": 3
+      },
+      "T1_r1L_CVjnt": {
+        "type": "CustomJoint",
+        "parent": "thoracic1",
+        "child": "",
+        "dof": 3
+      },
+      "r1R_sterR_jnt": {
+        "type": "CustomJoint",
+        "parent": "rib1_R",
+        "child": "",
+        "dof": 3
+      },
+      "sterR_clavR_jnt": {
+        "type": "WeldJoint",
+        "parent": "sternum",
+        "child": "",
+        "dof": 0
+      },
+      "clavR_scapR_jnt": {
+        "type": "WeldJoint",
+        "parent": "clavicle_R",
+        "child": "",
+        "dof": 0
+      },
+      "shoulder_R": {
+        "type": "CustomJoint",
+        "parent": "scapula_R",
+        "child": "",
+        "dof": 3
+      },
+      "elbow": {
+        "type": "CustomJoint",
+        "parent": "humerus_R",
+        "child": "",
+        "dof": 3
+      },
+      "radioulnar": {
+        "type": "CustomJoint",
+        "parent": "ulna_R",
+        "child": "",
+        "dof": 3
+      },
+      "radius_hand_r": {
+        "type": "CustomJoint",
+        "parent": "radius_R",
+        "child": "",
+        "dof": 3
+      },
+      "sterL_clavL_jnt": {
+        "type": "WeldJoint",
+        "parent": "sternum",
+        "child": "",
+        "dof": 0
+      },
+      "clavL_scapL_jnt": {
+        "type": "WeldJoint",
+        "parent": "clavicle_L",
+        "child": "",
+        "dof": 0
+      },
+      "shoulder_L": {
+        "type": "CustomJoint",
+        "parent": "scapula_L",
+        "child": "",
+        "dof": 3
+      },
+      "elbow_l": {
+        "type": "CustomJoint",
+        "parent": "humerus_L",
+        "child": "",
+        "dof": 3
+      },
+      "radioulnar_l": {
+        "type": "CustomJoint",
+        "parent": "ulna_L",
+        "child": "",
+        "dof": 3
+      },
+      "radius_hand_l": {
+        "type": "CustomJoint",
+        "parent": "radius_L",
+        "child": "",
+        "dof": 3
+      },
+      "Abd_L_L1": {
+        "type": "WeldJoint",
+        "parent": "lumbar1",
+        "child": "",
+        "dof": 0
+      },
+      "Abd_L_L2": {
+        "type": "WeldJoint",
+        "parent": "lumbar2",
+        "child": "",
+        "dof": 0
+      },
+      "Abd_L_L3": {
+        "type": "WeldJoint",
+        "parent": "lumbar3",
+        "child": "",
+        "dof": 0
+      },
+      "Abd_L_L4": {
+        "type": "WeldJoint",
+        "parent": "lumbar4",
+        "child": "",
+        "dof": 0
+      },
+      "Abd_L_L5": {
+        "type": "WeldJoint",
+        "parent": "lumbar5",
+        "child": "",
+        "dof": 0
+      },
+      "Abd_R_L1": {
+        "type": "WeldJoint",
+        "parent": "lumbar1",
+        "child": "",
+        "dof": 0
+      },
+      "Abd_R_L2": {
+        "type": "WeldJoint",
+        "parent": "lumbar2",
+        "child": "",
+        "dof": 0
+      },
+      "Abd_R_L3": {
+        "type": "WeldJoint",
+        "parent": "lumbar3",
+        "child": "",
+        "dof": 0
+      },
+      "Abd_R_L4": {
+        "type": "WeldJoint",
+        "parent": "lumbar4",
+        "child": "",
+        "dof": 0
+      },
+      "Abd_R_L5": {
+        "type": "WeldJoint",
+        "parent": "lumbar5",
+        "child": "",
+        "dof": 0
+      }
+    },
+    "body_count": 79,
+    "joint_count": 78
+  },
+  "M8": {
+    "bodies": {
+      "ground": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "pelvis": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "sacrum": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "femur_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "femur_wlkr_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "tibia_wlkr_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "tibia_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "shaft_axis_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "patella_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "talus_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "calcn_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "toes_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "femur_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "femur_wlkr_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "tibia_wlkr_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "tibia_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "shaft_axis_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "patella_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "talus_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "calcn_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "toes_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "lumbar5": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "lumbar4": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "lumbar3": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "lumbar2": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "lumbar1": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "torso": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "thorax": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "clavicle": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "clavphant": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "scapula": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "scapphant": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humphant": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humphant1": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humerus": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "DELT2pt2a": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "ulna": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "radius": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "BICpt": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "proximal_row": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "hand": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "clavicle_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "clavphant_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "scapula_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "scapphant_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humphant_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humphant1_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humerus_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "DELT2pt2a_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "ulna_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "radius_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "proximal_row_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "hand_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "auxt1": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "cerv7": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "aux7": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "cerv6": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "aux6": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "cerv5": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "aux5": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "cerv4": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "aux4": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "cerv3": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "aux3": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "cerv2": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "aux2": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "cerv1": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "aux1": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "skull": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "jaw": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      }
+    },
+    "joints": {
+      "ground_pelvis": {
+        "type": "CustomJoint",
+        "parent": "ground",
+        "child": "",
+        "dof": 3
+      },
+      "gndsacrum": {
+        "type": "WeldJoint",
+        "parent": "pelvis",
+        "child": "",
+        "dof": 0
+      },
+      "hip_r": {
+        "type": "CustomJoint",
+        "parent": "pelvis",
+        "child": "",
+        "dof": 3
+      },
+      "femur_coord_r": {
+        "type": "WeldJoint",
+        "parent": "femur_r",
+        "child": "",
+        "dof": 0
+      },
+      "walker_knee_r": {
+        "type": "CustomJoint",
+        "parent": "femur_wlkr_r",
+        "child": "",
+        "dof": 3
+      },
+      "tibia_coord_r": {
+        "type": "WeldJoint",
+        "parent": "tibia_wlkr_r",
+        "child": "",
+        "dof": 0
+      },
+      "femoral_shaft_r": {
+        "type": "WeldJoint",
+        "parent": "femur_r",
+        "child": "",
+        "dof": 0
+      },
+      "patellofemoral_r": {
+        "type": "CustomJoint",
+        "parent": "femur_r",
+        "child": "",
+        "dof": 3
+      },
+      "ankle_r": {
+        "type": "CustomJoint",
+        "parent": "tibia_r",
+        "child": "",
+        "dof": 3
+      },
+      "subtalar_r": {
+        "type": "CustomJoint",
+        "parent": "talus_r",
+        "child": "",
+        "dof": 3
+      },
+      "mtp_r": {
+        "type": "CustomJoint",
+        "parent": "calcn_r",
+        "child": "",
+        "dof": 3
+      },
+      "hip_l": {
+        "type": "CustomJoint",
+        "parent": "pelvis",
+        "child": "",
+        "dof": 3
+      },
+      "femur_coord_l": {
+        "type": "WeldJoint",
+        "parent": "femur_l",
+        "child": "",
+        "dof": 0
+      },
+      "walker_knee_l": {
+        "type": "CustomJoint",
+        "parent": "femur_wlkr_l",
+        "child": "",
+        "dof": 3
+      },
+      "tibia_coord_l": {
+        "type": "WeldJoint",
+        "parent": "tibia_wlkr_l",
+        "child": "",
+        "dof": 0
+      },
+      "femoral_shaft_l": {
+        "type": "WeldJoint",
+        "parent": "femur_l",
+        "child": "",
+        "dof": 0
+      },
+      "patellofemoral_l": {
+        "type": "CustomJoint",
+        "parent": "femur_l",
+        "child": "",
+        "dof": 3
+      },
+      "ankle_l": {
+        "type": "CustomJoint",
+        "parent": "tibia_l",
+        "child": "",
+        "dof": 3
+      },
+      "subtalar_l": {
+        "type": "CustomJoint",
+        "parent": "talus_l",
+        "child": "",
+        "dof": 3
+      },
+      "mtp_l": {
+        "type": "CustomJoint",
+        "parent": "calcn_l",
+        "child": "",
+        "dof": 3
+      },
+      "L5_S1_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "sacrum",
+        "child": "",
+        "dof": 3
+      },
+      "L4_L5_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "lumbar5",
+        "child": "",
+        "dof": 3
+      },
+      "L3_L4_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "lumbar4",
+        "child": "",
+        "dof": 3
+      },
+      "L2_L3_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "lumbar3",
+        "child": "",
+        "dof": 3
+      },
+      "L1_L2_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "lumbar2",
+        "child": "",
+        "dof": 3
+      },
+      "torsojnt": {
+        "type": "WeldJoint",
+        "parent": "lumbar1",
+        "child": "",
+        "dof": 0
+      },
+      "ribcagejt": {
+        "type": "WeldJoint",
+        "parent": "torso",
+        "child": "",
+        "dof": 0
+      },
+      "sternoclavicular": {
+        "type": "CustomJoint",
+        "parent": "thorax",
+        "child": "",
+        "dof": 3
+      },
+      "unrotscap": {
+        "type": "CustomJoint",
+        "parent": "clavicle",
+        "child": "",
+        "dof": 3
+      },
+      "acromioclavicular": {
+        "type": "CustomJoint",
+        "parent": "clavphant",
+        "child": "",
+        "dof": 3
+      },
+      "unrothum": {
+        "type": "CustomJoint",
+        "parent": "scapula",
+        "child": "",
+        "dof": 3
+      },
+      "shoulder0": {
+        "type": "CustomJoint",
+        "parent": "scapphant",
+        "child": "",
+        "dof": 3
+      },
+      "shoulder1": {
+        "type": "CustomJoint",
+        "parent": "humphant",
+        "child": "",
+        "dof": 3
+      },
+      "shoulder2": {
+        "type": "CustomJoint",
+        "parent": "humphant1",
+        "child": "",
+        "dof": 3
+      },
+      "con_DELT": {
+        "type": "CustomJoint",
+        "parent": "humerus",
+        "child": "",
+        "dof": 3
+      },
+      "elbow": {
+        "type": "CustomJoint",
+        "parent": "humerus",
+        "child": "",
+        "dof": 3
+      },
+      "radioulnar": {
+        "type": "CustomJoint",
+        "parent": "ulna",
+        "child": "",
+        "dof": 3
+      },
+      "con_BIC": {
+        "type": "CustomJoint",
+        "parent": "radius",
+        "child": "",
+        "dof": 3
+      },
+      "radiocarpal": {
+        "type": "CustomJoint",
+        "parent": "radius",
+        "child": "",
+        "dof": 3
+      },
+      "wrist_hand": {
+        "type": "CustomJoint",
+        "parent": "proximal_row",
+        "child": "",
+        "dof": 3
+      },
+      "unrotsca_l": {
+        "type": "CustomJoint",
+        "parent": "clavicle_l",
+        "child": "",
+        "dof": 3
+      },
+      "acromioclavicular_l": {
+        "type": "CustomJoint",
+        "parent": "clavphant_l",
+        "child": "",
+        "dof": 3
+      },
+      "unrothum_l": {
+        "type": "CustomJoint",
+        "parent": "scapula_l",
+        "child": "",
+        "dof": 3
+      },
+      "shoulder0_l": {
+        "type": "CustomJoint",
+        "parent": "scapphant_l",
+        "child": "",
+        "dof": 3
+      },
+      "shoulder1_l": {
+        "type": "CustomJoint",
+        "parent": "humphant_l",
+        "child": "",
+        "dof": 3
+      },
+      "shoulder2_l": {
+        "type": "CustomJoint",
+        "parent": "humphant1_l",
+        "child": "",
+        "dof": 3
+      },
+      "con_DELT_l": {
+        "type": "CustomJoint",
+        "parent": "humerus_l",
+        "child": "",
+        "dof": 3
+      },
+      "elbow_l": {
+        "type": "CustomJoint",
+        "parent": "humerus_l",
+        "child": "",
+        "dof": 3
+      },
+      "radioulnar_l": {
+        "type": "CustomJoint",
+        "parent": "ulna_l",
+        "child": "",
+        "dof": 3
+      },
+      "radiocarpal_l": {
+        "type": "CustomJoint",
+        "parent": "radius_l",
+        "child": "",
+        "dof": 3
+      },
+      "wrist_hand_l": {
+        "type": "CustomJoint",
+        "parent": "proximal_row_l",
+        "child": "",
+        "dof": 3
+      },
+      "auxt1jnt": {
+        "type": "CustomJoint",
+        "parent": "torso",
+        "child": "",
+        "dof": 3
+      },
+      "cerv7jnt": {
+        "type": "WeldJoint",
+        "parent": "auxt1",
+        "child": "",
+        "dof": 0
+      },
+      "aux7jnt": {
+        "type": "CustomJoint",
+        "parent": "cerv7",
+        "child": "",
+        "dof": 3
+      },
+      "cerv6jnt": {
+        "type": "WeldJoint",
+        "parent": "aux7",
+        "child": "",
+        "dof": 0
+      },
+      "aux6jnt": {
+        "type": "CustomJoint",
+        "parent": "cerv6",
+        "child": "",
+        "dof": 3
+      },
+      "cerv5jnt": {
+        "type": "WeldJoint",
+        "parent": "aux6",
+        "child": "",
+        "dof": 0
+      },
+      "aux5jnt": {
+        "type": "CustomJoint",
+        "parent": "cerv5",
+        "child": "",
+        "dof": 3
+      },
+      "cerv4jnt": {
+        "type": "WeldJoint",
+        "parent": "aux5",
+        "child": "",
+        "dof": 0
+      },
+      "aux4jnt": {
+        "type": "CustomJoint",
+        "parent": "cerv4",
+        "child": "",
+        "dof": 3
+      },
+      "cerv3jnt": {
+        "type": "WeldJoint",
+        "parent": "aux4",
+        "child": "",
+        "dof": 0
+      },
+      "aux3jnt": {
+        "type": "CustomJoint",
+        "parent": "cerv3",
+        "child": "",
+        "dof": 3
+      },
+      "cerv2jnt": {
+        "type": "WeldJoint",
+        "parent": "aux3",
+        "child": "",
+        "dof": 0
+      },
+      "aux2jnt": {
+        "type": "CustomJoint",
+        "parent": "cerv2",
+        "child": "",
+        "dof": 3
+      },
+      "cerv1jnt": {
+        "type": "WeldJoint",
+        "parent": "aux2",
+        "child": "",
+        "dof": 0
+      },
+      "aux1jnt": {
+        "type": "CustomJoint",
+        "parent": "cerv1",
+        "child": "",
+        "dof": 3
+      },
+      "skulljnt": {
+        "type": "WeldJoint",
+        "parent": "aux1",
+        "child": "",
+        "dof": 0
+      },
+      "jawjnt": {
+        "type": "WeldJoint",
+        "parent": "skull",
+        "child": "",
+        "dof": 0
+      }
+    },
+    "body_count": 70,
+    "joint_count": 68
+  },
+  "M8_Corr": {
+    "bodies": {
+      "ground": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "pelvis": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "sacrum": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "femur_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "femur_wlkr_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "tibia_wlkr_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "tibia_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "shaft_axis_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "patella_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "talus_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "calcn_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "toes_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "femur_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "femur_wlkr_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "tibia_wlkr_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "tibia_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "shaft_axis_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "patella_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "talus_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "calcn_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "toes_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "lumbar5": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "lumbar4": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "lumbar3": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "lumbar2": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "lumbar1": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "torso": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "thorax": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "clavicle": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "clavphant": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "scapula": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "scapphant": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humphant": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humphant1": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humerus": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "DELT2pt2a": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "ulna": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "radius": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "BICpt": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "proximal_row": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "hand": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "clavicle_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "clavphant_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "scapula_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "scapphant_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humphant_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humphant1_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humerus_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "DELT2pt2a_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "ulna_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "radius_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "proximal_row_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "hand_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "auxt1": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "cerv7": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "aux7": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "cerv6": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "aux6": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "cerv5": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "aux5": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "cerv4": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "aux4": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "cerv3": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "aux3": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "cerv2": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "aux2": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "cerv1": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "aux1": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "skull": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "jaw": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      }
+    },
+    "joints": {
+      "ground_pelvis": {
+        "type": "CustomJoint",
+        "parent": "ground",
+        "child": "",
+        "dof": 3
+      },
+      "gndsacrum": {
+        "type": "CustomJoint",
+        "parent": "pelvis",
+        "child": "",
+        "dof": 3
+      },
+      "hip_r": {
+        "type": "CustomJoint",
+        "parent": "pelvis",
+        "child": "",
+        "dof": 3
+      },
+      "femur_coord_r": {
+        "type": "WeldJoint",
+        "parent": "femur_r",
+        "child": "",
+        "dof": 0
+      },
+      "walker_knee_r": {
+        "type": "CustomJoint",
+        "parent": "femur_wlkr_r",
+        "child": "",
+        "dof": 3
+      },
+      "tibia_coord_r": {
+        "type": "WeldJoint",
+        "parent": "tibia_wlkr_r",
+        "child": "",
+        "dof": 0
+      },
+      "femoral_shaft_r": {
+        "type": "WeldJoint",
+        "parent": "femur_r",
+        "child": "",
+        "dof": 0
+      },
+      "patellofemoral_r": {
+        "type": "CustomJoint",
+        "parent": "femur_r",
+        "child": "",
+        "dof": 3
+      },
+      "ankle_r": {
+        "type": "CustomJoint",
+        "parent": "tibia_r",
+        "child": "",
+        "dof": 3
+      },
+      "subtalar_r": {
+        "type": "CustomJoint",
+        "parent": "talus_r",
+        "child": "",
+        "dof": 3
+      },
+      "mtp_r": {
+        "type": "CustomJoint",
+        "parent": "calcn_r",
+        "child": "",
+        "dof": 3
+      },
+      "hip_l": {
+        "type": "CustomJoint",
+        "parent": "pelvis",
+        "child": "",
+        "dof": 3
+      },
+      "femur_coord_l": {
+        "type": "WeldJoint",
+        "parent": "femur_l",
+        "child": "",
+        "dof": 0
+      },
+      "walker_knee_l": {
+        "type": "CustomJoint",
+        "parent": "femur_wlkr_l",
+        "child": "",
+        "dof": 3
+      },
+      "tibia_coord_l": {
+        "type": "WeldJoint",
+        "parent": "tibia_wlkr_l",
+        "child": "",
+        "dof": 0
+      },
+      "femoral_shaft_l": {
+        "type": "WeldJoint",
+        "parent": "femur_l",
+        "child": "",
+        "dof": 0
+      },
+      "patellofemoral_l": {
+        "type": "CustomJoint",
+        "parent": "femur_l",
+        "child": "",
+        "dof": 3
+      },
+      "ankle_l": {
+        "type": "CustomJoint",
+        "parent": "tibia_l",
+        "child": "",
+        "dof": 3
+      },
+      "subtalar_l": {
+        "type": "CustomJoint",
+        "parent": "talus_l",
+        "child": "",
+        "dof": 3
+      },
+      "mtp_l": {
+        "type": "CustomJoint",
+        "parent": "calcn_l",
+        "child": "",
+        "dof": 3
+      },
+      "L5_S1_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "sacrum",
+        "child": "",
+        "dof": 3
+      },
+      "L4_L5_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "lumbar5",
+        "child": "",
+        "dof": 3
+      },
+      "L3_L4_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "lumbar4",
+        "child": "",
+        "dof": 3
+      },
+      "L2_L3_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "lumbar3",
+        "child": "",
+        "dof": 3
+      },
+      "L1_L2_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "lumbar2",
+        "child": "",
+        "dof": 3
+      },
+      "torsojnt": {
+        "type": "WeldJoint",
+        "parent": "lumbar1",
+        "child": "",
+        "dof": 0
+      },
+      "ribcagejt": {
+        "type": "WeldJoint",
+        "parent": "torso",
+        "child": "",
+        "dof": 0
+      },
+      "sternoclavicular": {
+        "type": "CustomJoint",
+        "parent": "thorax",
+        "child": "",
+        "dof": 3
+      },
+      "unrotscap": {
+        "type": "CustomJoint",
+        "parent": "clavicle",
+        "child": "",
+        "dof": 3
+      },
+      "acromioclavicular": {
+        "type": "CustomJoint",
+        "parent": "clavphant",
+        "child": "",
+        "dof": 3
+      },
+      "unrothum": {
+        "type": "CustomJoint",
+        "parent": "scapula",
+        "child": "",
+        "dof": 3
+      },
+      "shoulder0": {
+        "type": "CustomJoint",
+        "parent": "scapphant",
+        "child": "",
+        "dof": 3
+      },
+      "shoulder1": {
+        "type": "CustomJoint",
+        "parent": "humphant",
+        "child": "",
+        "dof": 3
+      },
+      "shoulder2": {
+        "type": "CustomJoint",
+        "parent": "humphant1",
+        "child": "",
+        "dof": 3
+      },
+      "con_DELT": {
+        "type": "CustomJoint",
+        "parent": "humerus",
+        "child": "",
+        "dof": 3
+      },
+      "elbow": {
+        "type": "CustomJoint",
+        "parent": "humerus",
+        "child": "",
+        "dof": 3
+      },
+      "radioulnar": {
+        "type": "CustomJoint",
+        "parent": "ulna",
+        "child": "",
+        "dof": 3
+      },
+      "con_BIC": {
+        "type": "CustomJoint",
+        "parent": "radius",
+        "child": "",
+        "dof": 3
+      },
+      "radiocarpal": {
+        "type": "CustomJoint",
+        "parent": "radius",
+        "child": "",
+        "dof": 3
+      },
+      "wrist_hand": {
+        "type": "CustomJoint",
+        "parent": "proximal_row",
+        "child": "",
+        "dof": 3
+      },
+      "unrotsca_l": {
+        "type": "CustomJoint",
+        "parent": "clavicle_l",
+        "child": "",
+        "dof": 3
+      },
+      "acromioclavicular_l": {
+        "type": "CustomJoint",
+        "parent": "clavphant_l",
+        "child": "",
+        "dof": 3
+      },
+      "unrothum_l": {
+        "type": "CustomJoint",
+        "parent": "scapula_l",
+        "child": "",
+        "dof": 3
+      },
+      "shoulder0_l": {
+        "type": "CustomJoint",
+        "parent": "scapphant_l",
+        "child": "",
+        "dof": 3
+      },
+      "shoulder1_l": {
+        "type": "CustomJoint",
+        "parent": "humphant_l",
+        "child": "",
+        "dof": 3
+      },
+      "shoulder2_l": {
+        "type": "CustomJoint",
+        "parent": "humphant1_l",
+        "child": "",
+        "dof": 3
+      },
+      "con_DELT_l": {
+        "type": "CustomJoint",
+        "parent": "humerus_l",
+        "child": "",
+        "dof": 3
+      },
+      "elbow_l": {
+        "type": "CustomJoint",
+        "parent": "humerus_l",
+        "child": "",
+        "dof": 3
+      },
+      "radioulnar_l": {
+        "type": "CustomJoint",
+        "parent": "ulna_l",
+        "child": "",
+        "dof": 3
+      },
+      "radiocarpal_l": {
+        "type": "CustomJoint",
+        "parent": "radius_l",
+        "child": "",
+        "dof": 3
+      },
+      "wrist_hand_l": {
+        "type": "CustomJoint",
+        "parent": "proximal_row_l",
+        "child": "",
+        "dof": 3
+      },
+      "auxt1jnt": {
+        "type": "CustomJoint",
+        "parent": "torso",
+        "child": "",
+        "dof": 3
+      },
+      "cerv7jnt": {
+        "type": "WeldJoint",
+        "parent": "auxt1",
+        "child": "",
+        "dof": 0
+      },
+      "aux7jnt": {
+        "type": "CustomJoint",
+        "parent": "cerv7",
+        "child": "",
+        "dof": 3
+      },
+      "cerv6jnt": {
+        "type": "WeldJoint",
+        "parent": "aux7",
+        "child": "",
+        "dof": 0
+      },
+      "aux6jnt": {
+        "type": "CustomJoint",
+        "parent": "cerv6",
+        "child": "",
+        "dof": 3
+      },
+      "cerv5jnt": {
+        "type": "WeldJoint",
+        "parent": "aux6",
+        "child": "",
+        "dof": 0
+      },
+      "aux5jnt": {
+        "type": "CustomJoint",
+        "parent": "cerv5",
+        "child": "",
+        "dof": 3
+      },
+      "cerv4jnt": {
+        "type": "WeldJoint",
+        "parent": "aux5",
+        "child": "",
+        "dof": 0
+      },
+      "aux4jnt": {
+        "type": "CustomJoint",
+        "parent": "cerv4",
+        "child": "",
+        "dof": 3
+      },
+      "cerv3jnt": {
+        "type": "WeldJoint",
+        "parent": "aux4",
+        "child": "",
+        "dof": 0
+      },
+      "aux3jnt": {
+        "type": "CustomJoint",
+        "parent": "cerv3",
+        "child": "",
+        "dof": 3
+      },
+      "cerv2jnt": {
+        "type": "WeldJoint",
+        "parent": "aux3",
+        "child": "",
+        "dof": 0
+      },
+      "aux2jnt": {
+        "type": "CustomJoint",
+        "parent": "cerv2",
+        "child": "",
+        "dof": 3
+      },
+      "cerv1jnt": {
+        "type": "WeldJoint",
+        "parent": "aux2",
+        "child": "",
+        "dof": 0
+      },
+      "aux1jnt": {
+        "type": "CustomJoint",
+        "parent": "cerv1",
+        "child": "",
+        "dof": 3
+      },
+      "skulljnt": {
+        "type": "WeldJoint",
+        "parent": "aux1",
+        "child": "",
+        "dof": 0
+      },
+      "jawjnt": {
+        "type": "WeldJoint",
+        "parent": "skull",
+        "child": "",
+        "dof": 0
+      }
+    },
+    "body_count": 70,
+    "joint_count": 68
+  },
+  "M8_Norm": {
+    "bodies": {
+      "ground": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "pelvis": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "sacrum": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "femur_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "femur_wlkr_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "tibia_wlkr_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "tibia_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "shaft_axis_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "patella_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "talus_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "calcn_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "toes_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "femur_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "femur_wlkr_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "tibia_wlkr_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "tibia_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "shaft_axis_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "patella_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "talus_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "calcn_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "toes_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "lumbar5": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "lumbar4": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "lumbar3": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "lumbar2": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "lumbar1": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "torso": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "thorax": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "clavicle": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "clavphant": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "scapula": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "scapphant": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humphant": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humphant1": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humerus": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "DELT2pt2a": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "ulna": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "radius": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "BICpt": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "proximal_row": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "hand": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "clavicle_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "clavphant_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "scapula_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "scapphant_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humphant_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humphant1_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humerus_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "DELT2pt2a_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "ulna_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "radius_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "proximal_row_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "hand_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "auxt1": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "cerv7": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "aux7": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "cerv6": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "aux6": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "cerv5": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "aux5": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "cerv4": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "aux4": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "cerv3": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "aux3": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "cerv2": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "aux2": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "cerv1": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "aux1": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "skull": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "jaw": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      }
+    },
+    "joints": {
+      "ground_pelvis": {
+        "type": "CustomJoint",
+        "parent": "ground",
+        "child": "",
+        "dof": 3
+      },
+      "gndsacrum": {
+        "type": "CustomJoint",
+        "parent": "pelvis",
+        "child": "",
+        "dof": 3
+      },
+      "hip_r": {
+        "type": "CustomJoint",
+        "parent": "pelvis",
+        "child": "",
+        "dof": 3
+      },
+      "femur_coord_r": {
+        "type": "WeldJoint",
+        "parent": "femur_r",
+        "child": "",
+        "dof": 0
+      },
+      "walker_knee_r": {
+        "type": "CustomJoint",
+        "parent": "femur_wlkr_r",
+        "child": "",
+        "dof": 3
+      },
+      "tibia_coord_r": {
+        "type": "WeldJoint",
+        "parent": "tibia_wlkr_r",
+        "child": "",
+        "dof": 0
+      },
+      "femoral_shaft_r": {
+        "type": "WeldJoint",
+        "parent": "femur_r",
+        "child": "",
+        "dof": 0
+      },
+      "patellofemoral_r": {
+        "type": "CustomJoint",
+        "parent": "femur_r",
+        "child": "",
+        "dof": 3
+      },
+      "ankle_r": {
+        "type": "CustomJoint",
+        "parent": "tibia_r",
+        "child": "",
+        "dof": 3
+      },
+      "subtalar_r": {
+        "type": "CustomJoint",
+        "parent": "talus_r",
+        "child": "",
+        "dof": 3
+      },
+      "mtp_r": {
+        "type": "CustomJoint",
+        "parent": "calcn_r",
+        "child": "",
+        "dof": 3
+      },
+      "hip_l": {
+        "type": "CustomJoint",
+        "parent": "pelvis",
+        "child": "",
+        "dof": 3
+      },
+      "femur_coord_l": {
+        "type": "WeldJoint",
+        "parent": "femur_l",
+        "child": "",
+        "dof": 0
+      },
+      "walker_knee_l": {
+        "type": "CustomJoint",
+        "parent": "femur_wlkr_l",
+        "child": "",
+        "dof": 3
+      },
+      "tibia_coord_l": {
+        "type": "WeldJoint",
+        "parent": "tibia_wlkr_l",
+        "child": "",
+        "dof": 0
+      },
+      "femoral_shaft_l": {
+        "type": "WeldJoint",
+        "parent": "femur_l",
+        "child": "",
+        "dof": 0
+      },
+      "patellofemoral_l": {
+        "type": "CustomJoint",
+        "parent": "femur_l",
+        "child": "",
+        "dof": 3
+      },
+      "ankle_l": {
+        "type": "CustomJoint",
+        "parent": "tibia_l",
+        "child": "",
+        "dof": 3
+      },
+      "subtalar_l": {
+        "type": "CustomJoint",
+        "parent": "talus_l",
+        "child": "",
+        "dof": 3
+      },
+      "mtp_l": {
+        "type": "CustomJoint",
+        "parent": "calcn_l",
+        "child": "",
+        "dof": 3
+      },
+      "L5_S1_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "sacrum",
+        "child": "",
+        "dof": 3
+      },
+      "L4_L5_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "lumbar5",
+        "child": "",
+        "dof": 3
+      },
+      "L3_L4_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "lumbar4",
+        "child": "",
+        "dof": 3
+      },
+      "L2_L3_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "lumbar3",
+        "child": "",
+        "dof": 3
+      },
+      "L1_L2_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "lumbar2",
+        "child": "",
+        "dof": 3
+      },
+      "torsojnt": {
+        "type": "WeldJoint",
+        "parent": "lumbar1",
+        "child": "",
+        "dof": 0
+      },
+      "ribcagejt": {
+        "type": "WeldJoint",
+        "parent": "torso",
+        "child": "",
+        "dof": 0
+      },
+      "sternoclavicular": {
+        "type": "CustomJoint",
+        "parent": "thorax",
+        "child": "",
+        "dof": 3
+      },
+      "unrotscap": {
+        "type": "CustomJoint",
+        "parent": "clavicle",
+        "child": "",
+        "dof": 3
+      },
+      "acromioclavicular": {
+        "type": "CustomJoint",
+        "parent": "clavphant",
+        "child": "",
+        "dof": 3
+      },
+      "unrothum": {
+        "type": "CustomJoint",
+        "parent": "scapula",
+        "child": "",
+        "dof": 3
+      },
+      "shoulder0": {
+        "type": "CustomJoint",
+        "parent": "scapphant",
+        "child": "",
+        "dof": 3
+      },
+      "shoulder1": {
+        "type": "CustomJoint",
+        "parent": "humphant",
+        "child": "",
+        "dof": 3
+      },
+      "shoulder2": {
+        "type": "CustomJoint",
+        "parent": "humphant1",
+        "child": "",
+        "dof": 3
+      },
+      "con_DELT": {
+        "type": "CustomJoint",
+        "parent": "humerus",
+        "child": "",
+        "dof": 3
+      },
+      "elbow": {
+        "type": "CustomJoint",
+        "parent": "humerus",
+        "child": "",
+        "dof": 3
+      },
+      "radioulnar": {
+        "type": "CustomJoint",
+        "parent": "ulna",
+        "child": "",
+        "dof": 3
+      },
+      "con_BIC": {
+        "type": "CustomJoint",
+        "parent": "radius",
+        "child": "",
+        "dof": 3
+      },
+      "radiocarpal": {
+        "type": "CustomJoint",
+        "parent": "radius",
+        "child": "",
+        "dof": 3
+      },
+      "wrist_hand": {
+        "type": "CustomJoint",
+        "parent": "proximal_row",
+        "child": "",
+        "dof": 3
+      },
+      "unrotsca_l": {
+        "type": "CustomJoint",
+        "parent": "clavicle_l",
+        "child": "",
+        "dof": 3
+      },
+      "acromioclavicular_l": {
+        "type": "CustomJoint",
+        "parent": "clavphant_l",
+        "child": "",
+        "dof": 3
+      },
+      "unrothum_l": {
+        "type": "CustomJoint",
+        "parent": "scapula_l",
+        "child": "",
+        "dof": 3
+      },
+      "shoulder0_l": {
+        "type": "CustomJoint",
+        "parent": "scapphant_l",
+        "child": "",
+        "dof": 3
+      },
+      "shoulder1_l": {
+        "type": "CustomJoint",
+        "parent": "humphant_l",
+        "child": "",
+        "dof": 3
+      },
+      "shoulder2_l": {
+        "type": "CustomJoint",
+        "parent": "humphant1_l",
+        "child": "",
+        "dof": 3
+      },
+      "con_DELT_l": {
+        "type": "CustomJoint",
+        "parent": "humerus_l",
+        "child": "",
+        "dof": 3
+      },
+      "elbow_l": {
+        "type": "CustomJoint",
+        "parent": "humerus_l",
+        "child": "",
+        "dof": 3
+      },
+      "radioulnar_l": {
+        "type": "CustomJoint",
+        "parent": "ulna_l",
+        "child": "",
+        "dof": 3
+      },
+      "radiocarpal_l": {
+        "type": "CustomJoint",
+        "parent": "radius_l",
+        "child": "",
+        "dof": 3
+      },
+      "wrist_hand_l": {
+        "type": "CustomJoint",
+        "parent": "proximal_row_l",
+        "child": "",
+        "dof": 3
+      },
+      "auxt1jnt": {
+        "type": "CustomJoint",
+        "parent": "torso",
+        "child": "",
+        "dof": 3
+      },
+      "cerv7jnt": {
+        "type": "WeldJoint",
+        "parent": "auxt1",
+        "child": "",
+        "dof": 0
+      },
+      "aux7jnt": {
+        "type": "CustomJoint",
+        "parent": "cerv7",
+        "child": "",
+        "dof": 3
+      },
+      "cerv6jnt": {
+        "type": "WeldJoint",
+        "parent": "aux7",
+        "child": "",
+        "dof": 0
+      },
+      "aux6jnt": {
+        "type": "CustomJoint",
+        "parent": "cerv6",
+        "child": "",
+        "dof": 3
+      },
+      "cerv5jnt": {
+        "type": "WeldJoint",
+        "parent": "aux6",
+        "child": "",
+        "dof": 0
+      },
+      "aux5jnt": {
+        "type": "CustomJoint",
+        "parent": "cerv5",
+        "child": "",
+        "dof": 3
+      },
+      "cerv4jnt": {
+        "type": "WeldJoint",
+        "parent": "aux5",
+        "child": "",
+        "dof": 0
+      },
+      "aux4jnt": {
+        "type": "CustomJoint",
+        "parent": "cerv4",
+        "child": "",
+        "dof": 3
+      },
+      "cerv3jnt": {
+        "type": "WeldJoint",
+        "parent": "aux4",
+        "child": "",
+        "dof": 0
+      },
+      "aux3jnt": {
+        "type": "CustomJoint",
+        "parent": "cerv3",
+        "child": "",
+        "dof": 3
+      },
+      "cerv2jnt": {
+        "type": "WeldJoint",
+        "parent": "aux3",
+        "child": "",
+        "dof": 0
+      },
+      "aux2jnt": {
+        "type": "CustomJoint",
+        "parent": "cerv2",
+        "child": "",
+        "dof": 3
+      },
+      "cerv1jnt": {
+        "type": "WeldJoint",
+        "parent": "aux2",
+        "child": "",
+        "dof": 0
+      },
+      "aux1jnt": {
+        "type": "CustomJoint",
+        "parent": "cerv1",
+        "child": "",
+        "dof": 3
+      },
+      "skulljnt": {
+        "type": "WeldJoint",
+        "parent": "aux1",
+        "child": "",
+        "dof": 0
+      },
+      "jawjnt": {
+        "type": "WeldJoint",
+        "parent": "skull",
+        "child": "",
+        "dof": 0
+      }
+    },
+    "body_count": 70,
+    "joint_count": 68
+  },
+  "M2": {
+    "bodies": {
+      "ground": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "pelvis": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "sacrum": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "femur_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "patella_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "tibia_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "talus_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "calcn_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "toes_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "femur_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "patella_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "tibia_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "talus_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "calcn_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "toes_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "lumbar5": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "lumbar4": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "lumbar3": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "lumbar2": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "lumbar1": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "torso": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "Abdomen": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "LB_wrap": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humerus_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "ulna_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "radius_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "hand_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humerus_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "ulna_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "radius_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "hand_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      }
+    },
+    "joints": {
+      "ground_pelvis": {
+        "type": "CustomJoint",
+        "parent": "ground",
+        "child": "",
+        "dof": 3
+      },
+      "sacrumjnt": {
+        "type": "WeldJoint",
+        "parent": "pelvis",
+        "child": "",
+        "dof": 0
+      },
+      "hip_r": {
+        "type": "CustomJoint",
+        "parent": "pelvis",
+        "child": "",
+        "dof": 3
+      },
+      "patellofemoral_r": {
+        "type": "CustomJoint",
+        "parent": "femur_r",
+        "child": "",
+        "dof": 3
+      },
+      "knee_r": {
+        "type": "CustomJoint",
+        "parent": "femur_r",
+        "child": "",
+        "dof": 3
+      },
+      "ankle_r": {
+        "type": "CustomJoint",
+        "parent": "tibia_r",
+        "child": "",
+        "dof": 3
+      },
+      "subtalar_r": {
+        "type": "CustomJoint",
+        "parent": "talus_r",
+        "child": "",
+        "dof": 3
+      },
+      "mtp_r": {
+        "type": "CustomJoint",
+        "parent": "calcn_r",
+        "child": "",
+        "dof": 3
+      },
+      "hip_l": {
+        "type": "CustomJoint",
+        "parent": "pelvis",
+        "child": "",
+        "dof": 3
+      },
+      "patellofemoral_l": {
+        "type": "CustomJoint",
+        "parent": "femur_l",
+        "child": "",
+        "dof": 3
+      },
+      "knee_l": {
+        "type": "CustomJoint",
+        "parent": "femur_l",
+        "child": "",
+        "dof": 3
+      },
+      "ankle_l": {
+        "type": "CustomJoint",
+        "parent": "tibia_l",
+        "child": "",
+        "dof": 3
+      },
+      "subtalar_l": {
+        "type": "CustomJoint",
+        "parent": "talus_l",
+        "child": "",
+        "dof": 3
+      },
+      "mtp_l": {
+        "type": "CustomJoint",
+        "parent": "calcn_l",
+        "child": "",
+        "dof": 3
+      },
+      "L5_S1_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "sacrum",
+        "child": "",
+        "dof": 3
+      },
+      "L4_L5_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "lumbar5",
+        "child": "",
+        "dof": 3
+      },
+      "L3_L4_IVDjnt": {
+        "type": "CustomJoint",
+        "parent": "lumbar4",
+        "child": "",
+        "dof": 3
+      },
+      "L2_L3_IVD_jnt": {
+        "type": "CustomJoint",
+        "parent": "lumbar3",
+        "child": "",
+        "dof": 3
+      },
+      "L1_L2_IVD_jnt": {
+        "type": "CustomJoint",
+        "parent": "lumbar2",
+        "child": "",
+        "dof": 3
+      },
+      "Torsojnt": {
+        "type": "CustomJoint",
+        "parent": "lumbar1",
+        "child": "",
+        "dof": 3
+      },
+      "Abdjnt": {
+        "type": "CustomJoint",
+        "parent": "sacrum",
+        "child": "",
+        "dof": 3
+      },
+      "LB_wrapjnt": {
+        "type": "CustomJoint",
+        "parent": "sacrum",
+        "child": "",
+        "dof": 3
+      },
+      "acromial_r": {
+        "type": "CustomJoint",
+        "parent": "torso",
+        "child": "",
+        "dof": 3
+      },
+      "elbow_r": {
+        "type": "CustomJoint",
+        "parent": "humerus_r",
+        "child": "",
+        "dof": 3
+      },
+      "radioulnar_r": {
+        "type": "CustomJoint",
+        "parent": "ulna_r",
+        "child": "",
+        "dof": 3
+      },
+      "radius_hand_r": {
+        "type": "CustomJoint",
+        "parent": "radius_r",
+        "child": "",
+        "dof": 3
+      },
+      "acromial_l": {
+        "type": "CustomJoint",
+        "parent": "torso",
+        "child": "",
+        "dof": 3
+      },
+      "elbow_l": {
+        "type": "CustomJoint",
+        "parent": "humerus_l",
+        "child": "",
+        "dof": 3
+      },
+      "radioulnar_l": {
+        "type": "CustomJoint",
+        "parent": "ulna_l",
+        "child": "",
+        "dof": 3
+      },
+      "radius_hand_l": {
+        "type": "CustomJoint",
+        "parent": "radius_l",
+        "child": "",
+        "dof": 3
+      }
+    },
+    "body_count": 31,
+    "joint_count": 30
+  },
+  "M4": {
+    "bodies": {
+      "ground": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "thorax": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "clavicle": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "scapula": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humerus": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "ulna": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "radius": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "hand": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      }
+    },
+    "joints": {
+      "ground_thorax": {
+        "type": "CustomJoint",
+        "parent": "ground",
+        "child": "",
+        "dof": 3
+      },
+      "sternoclavicular": {
+        "type": "CustomJoint",
+        "parent": "thorax",
+        "child": "",
+        "dof": 3
+      },
+      "scapulothoracic": {
+        "type": "ScapulothoracicJoint",
+        "parent": "thorax",
+        "child": "",
+        "dof": 3
+      },
+      "glenohumeral": {
+        "type": "CustomJoint",
+        "parent": "scapula",
+        "child": "",
+        "dof": 3
+      },
+      "elbow": {
+        "type": "CustomJoint",
+        "parent": "humerus",
+        "child": "",
+        "dof": 3
+      },
+      "radioulnar": {
+        "type": "CustomJoint",
+        "parent": "ulna",
+        "child": "",
+        "dof": 3
+      },
+      "rc": {
+        "type": "WeldJoint",
+        "parent": "radius",
+        "child": "",
+        "dof": 0
+      }
+    },
+    "body_count": 8,
+    "joint_count": 7
+  },
+  "M9": {
+    "bodies": {
+      "ground": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "clavicle": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "scapula": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humerus": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "ulna": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "radius": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "proximal_row": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "capitate": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "trapezium": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "trapezoid": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "hamate": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "firstmc1": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "firstmc": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "proximal_thumb": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "distal_thumb": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "secondmc": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "thirdmc": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "fourthmc": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "fifthmc": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "2proxph": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "2midph": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "2distph": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "3proxph": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "3midph": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "3distph": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "4proxph": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "4midph": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "4distph": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "5proxph": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "5midph": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "5distph": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      }
+    },
+    "joints": {
+      "sternoclavicular": {
+        "type": "WeldJoint",
+        "parent": "ground",
+        "child": "",
+        "dof": 0
+      },
+      "acromioclavicular": {
+        "type": "WeldJoint",
+        "parent": "clavicle",
+        "child": "",
+        "dof": 0
+      },
+      "shoulder2": {
+        "type": "WeldJoint",
+        "parent": "scapula",
+        "child": "",
+        "dof": 0
+      },
+      "elbow": {
+        "type": "WeldJoint",
+        "parent": "humerus",
+        "child": "",
+        "dof": 0
+      },
+      "radioulnar": {
+        "type": "WeldJoint",
+        "parent": "ulna",
+        "child": "",
+        "dof": 0
+      },
+      "radiocarpal": {
+        "type": "CustomJoint",
+        "parent": "radius",
+        "child": "",
+        "dof": 3
+      },
+      "wrist_hand": {
+        "type": "CustomJoint",
+        "parent": "proximal_row",
+        "child": "",
+        "dof": 3
+      },
+      "cap_trpzm": {
+        "type": "WeldJoint",
+        "parent": "capitate",
+        "child": "",
+        "dof": 0
+      },
+      "cap_trpzd": {
+        "type": "WeldJoint",
+        "parent": "capitate",
+        "child": "",
+        "dof": 0
+      },
+      "cap_ham": {
+        "type": "WeldJoint",
+        "parent": "capitate",
+        "child": "",
+        "dof": 0
+      },
+      "CMC1a": {
+        "type": "CustomJoint",
+        "parent": "trapezium",
+        "child": "",
+        "dof": 3
+      },
+      "CMC1b": {
+        "type": "CustomJoint",
+        "parent": "firstmc1",
+        "child": "",
+        "dof": 3
+      },
+      "MCP": {
+        "type": "CustomJoint",
+        "parent": "firstmc",
+        "child": "",
+        "dof": 3
+      },
+      "IP": {
+        "type": "CustomJoint",
+        "parent": "proximal_thumb",
+        "child": "",
+        "dof": 3
+      },
+      "CMC2": {
+        "type": "WeldJoint",
+        "parent": "capitate",
+        "child": "",
+        "dof": 0
+      },
+      "CMC3": {
+        "type": "WeldJoint",
+        "parent": "capitate",
+        "child": "",
+        "dof": 0
+      },
+      "CMC4": {
+        "type": "CustomJoint",
+        "parent": "capitate",
+        "child": "",
+        "dof": 3
+      },
+      "CMC5": {
+        "type": "CustomJoint",
+        "parent": "capitate",
+        "child": "",
+        "dof": 3
+      },
+      "_2MCP": {
+        "type": "CustomJoint",
+        "parent": "secondmc",
+        "child": "",
+        "dof": 3
+      },
+      "_2prox-midph_b": {
+        "type": "CustomJoint",
+        "parent": "2proxph",
+        "child": "",
+        "dof": 3
+      },
+      "_2mid-distph": {
+        "type": "CustomJoint",
+        "parent": "2midph",
+        "child": "",
+        "dof": 3
+      },
+      "_3MCP": {
+        "type": "CustomJoint",
+        "parent": "thirdmc",
+        "child": "",
+        "dof": 3
+      },
+      "_3prox-midph_b": {
+        "type": "CustomJoint",
+        "parent": "3proxph",
+        "child": "",
+        "dof": 3
+      },
+      "_3mid-distph": {
+        "type": "CustomJoint",
+        "parent": "3midph",
+        "child": "",
+        "dof": 3
+      },
+      "_4MCP": {
+        "type": "CustomJoint",
+        "parent": "fourthmc",
+        "child": "",
+        "dof": 3
+      },
+      "_4prox-midph_b": {
+        "type": "CustomJoint",
+        "parent": "4proxph",
+        "child": "",
+        "dof": 3
+      },
+      "_4mid-distph": {
+        "type": "CustomJoint",
+        "parent": "4midph",
+        "child": "",
+        "dof": 3
+      },
+      "_5MCP": {
+        "type": "CustomJoint",
+        "parent": "fifthmc",
+        "child": "",
+        "dof": 3
+      },
+      "_5prox-midph_b": {
+        "type": "CustomJoint",
+        "parent": "5proxph",
+        "child": "",
+        "dof": 3
+      },
+      "_5mid-distph": {
+        "type": "CustomJoint",
+        "parent": "5midph",
+        "child": "",
+        "dof": 3
+      }
+    },
+    "body_count": 31,
+    "joint_count": 30
+  },
+  "Raj": {
+    "bodies": {
+      "ground": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "pelvis": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "femur_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "tibia_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "patella_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "talus_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "calcn_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "toes_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "femur_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "tibia_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "patella_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "talus_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "calcn_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "toes_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "torso": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humerus_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "ulna_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "radius_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "hand_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humerus_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "ulna_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "radius_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "hand_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      }
+    },
+    "joints": {
+      "ground_pelvis": {
+        "type": "CustomJoint",
+        "parent": "ground",
+        "child": "",
+        "dof": 3
+      },
+      "hip_r": {
+        "type": "CustomJoint",
+        "parent": "pelvis",
+        "child": "",
+        "dof": 3
+      },
+      "walker_knee_r": {
+        "type": "CustomJoint",
+        "parent": "femur_r",
+        "child": "",
+        "dof": 3
+      },
+      "patellofemoral_r": {
+        "type": "CustomJoint",
+        "parent": "femur_r",
+        "child": "",
+        "dof": 3
+      },
+      "ankle_r": {
+        "type": "PinJoint",
+        "parent": "tibia_r",
+        "child": "",
+        "dof": 1
+      },
+      "subtalar_r": {
+        "type": "PinJoint",
+        "parent": "talus_r",
+        "child": "",
+        "dof": 1
+      },
+      "mtp_r": {
+        "type": "PinJoint",
+        "parent": "calcn_r",
+        "child": "",
+        "dof": 1
+      },
+      "hip_l": {
+        "type": "CustomJoint",
+        "parent": "pelvis",
+        "child": "",
+        "dof": 3
+      },
+      "walker_knee_l": {
+        "type": "CustomJoint",
+        "parent": "femur_l",
+        "child": "",
+        "dof": 3
+      },
+      "patellofemoral_l": {
+        "type": "CustomJoint",
+        "parent": "femur_l",
+        "child": "",
+        "dof": 3
+      },
+      "ankle_l": {
+        "type": "PinJoint",
+        "parent": "tibia_l",
+        "child": "",
+        "dof": 1
+      },
+      "subtalar_l": {
+        "type": "PinJoint",
+        "parent": "talus_l",
+        "child": "",
+        "dof": 1
+      },
+      "mtp_l": {
+        "type": "PinJoint",
+        "parent": "calcn_l",
+        "child": "",
+        "dof": 1
+      },
+      "back": {
+        "type": "CustomJoint",
+        "parent": "pelvis",
+        "child": "",
+        "dof": 3
+      },
+      "acromial_r": {
+        "type": "CustomJoint",
+        "parent": "torso",
+        "child": "",
+        "dof": 3
+      },
+      "elbow_r": {
+        "type": "PinJoint",
+        "parent": "humerus_r",
+        "child": "",
+        "dof": 1
+      },
+      "radioulnar_r": {
+        "type": "PinJoint",
+        "parent": "ulna_r",
+        "child": "",
+        "dof": 1
+      },
+      "radius_hand_r": {
+        "type": "UniversalJoint",
+        "parent": "radius_r",
+        "child": "",
+        "dof": 2
+      },
+      "acromial_l": {
+        "type": "CustomJoint",
+        "parent": "torso",
+        "child": "",
+        "dof": 3
+      },
+      "elbow_l": {
+        "type": "PinJoint",
+        "parent": "humerus_l",
+        "child": "",
+        "dof": 1
+      },
+      "radioulnar_l": {
+        "type": "PinJoint",
+        "parent": "ulna_l",
+        "child": "",
+        "dof": 1
+      },
+      "radius_hand_l": {
+        "type": "UniversalJoint",
+        "parent": "radius_l",
+        "child": "",
+        "dof": 2
+      }
+    },
+    "body_count": 23,
+    "joint_count": 22
+  },
+  "ULB": {
+    "bodies": {
+      "ground": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "pelvis": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "thorax": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "femur_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "tibia_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "talus_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "calcn_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "toes_r": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "femur_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "tibia_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "talus_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "calcn_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "toes_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "clavicle": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "clavphant": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "scapula": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "scapphant": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humphant": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humphant1": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humerus": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "ulna": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "radius": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "lunate": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "scaphoid": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "pisiform": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "triquetrum": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "capitate": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "trapezium": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "trapezoid": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "hamate": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "firstmc1": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "firstmc": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "secondmc": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "thirdmc": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "fourthmc": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "fifthmc": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "proximal_thumb": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "distal_thumb": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "2proxph": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "2midph": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "2distph": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "3proxph": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "3midph": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "3distph": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "4proxph": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "4midph": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "4distph": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "5proxph": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "5midph": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "5distph": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "bicpt": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "bicpt2": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "ptpt": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "FCUpt": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "EDCpt": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "APLpt": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "FPLpt": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "FPLpt2": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "PEC1pt2": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "PEC1pt3": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "PEC2pt2": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "PEC2pt3": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "PEC3pt2": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "PEC3pt3": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "DELT2pt2a": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "DELT2pt2": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "LAT1pt2": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "LAT1pt3": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "LAT2pt2": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "LAT2pt3": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "LAT3pt2": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "LAT3pt3": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "clavicle_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "clavphant_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "scapula_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "scapphant_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humphant_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humphant1_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "humerus_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "ulna_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "radius_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "lunate_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "scaphoid_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "pisiform_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "triquetrum_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "capitate_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "trapezium_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "trapezoid_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "hamate_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "firstmc1_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "firstmc_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "secondmc_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "thirdmc_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "fourthmc_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "fifthmc_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "proximal_thumb_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "distal_thumb_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "2proxph_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "2midph_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "2distph_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "3proxph_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "3midph_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "3distph_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "4proxph_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "4midph_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "4distph_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "5proxph_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "5midph_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "5distph_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "bicpt_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "bicpt2_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "ptpt_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "FCUpt_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "EDCpt_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "APLpt_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "FPLpt_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "FPLpt2_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "PEC1pt2_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "PEC1pt3_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "PEC2pt2_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "PEC2pt3_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "PEC3pt2_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "PEC3pt3_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "DELT2pt2a_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "DELT2pt2_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "LAT1pt2_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "LAT1pt3_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "LAT2pt2_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "LAT2pt3_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "LAT3pt2_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      },
+      "LAT3pt3_l": {
+        "joint": null,
+        "joint_type": null,
+        "joint_parent": null,
+        "joint_dof": null
+      }
+    },
+    "joints": {
+      "ground_pelvis": {
+        "type": "CustomJoint",
+        "parent": "ground",
+        "child": "",
+        "dof": 3
+      },
+      "back": {
+        "type": "CustomJoint",
+        "parent": "pelvis",
+        "child": "",
+        "dof": 3
+      },
+      "hip_r": {
+        "type": "CustomJoint",
+        "parent": "pelvis",
+        "child": "",
+        "dof": 3
+      },
+      "knee_r": {
+        "type": "CustomJoint",
+        "parent": "femur_r",
+        "child": "",
+        "dof": 3
+      },
+      "ankle_r": {
+        "type": "CustomJoint",
+        "parent": "tibia_r",
+        "child": "",
+        "dof": 3
+      },
+      "subtalar_r": {
+        "type": "CustomJoint",
+        "parent": "talus_r",
+        "child": "",
+        "dof": 3
+      },
+      "mtp_r": {
+        "type": "CustomJoint",
+        "parent": "calcn_r",
+        "child": "",
+        "dof": 3
+      },
+      "hip_l": {
+        "type": "CustomJoint",
+        "parent": "pelvis",
+        "child": "",
+        "dof": 3
+      },
+      "knee_l": {
+        "type": "CustomJoint",
+        "parent": "femur_l",
+        "child": "",
+        "dof": 3
+      },
+      "ankle_l": {
+        "type": "CustomJoint",
+        "parent": "tibia_l",
+        "child": "",
+        "dof": 3
+      },
+      "subtalar_l": {
+        "type": "CustomJoint",
+        "parent": "talus_l",
+        "child": "",
+        "dof": 3
+      },
+      "mtp_l": {
+        "type": "CustomJoint",
+        "parent": "calcn_l",
+        "child": "",
+        "dof": 3
+      },
+      "sternoclavicular": {
+        "type": "CustomJoint",
+        "parent": "thorax",
+        "child": "",
+        "dof": 3
+      },
+      "unrotscap": {
+        "type": "CustomJoint",
+        "parent": "clavicle",
+        "child": "",
+        "dof": 3
+      },
+      "acromioclavicular": {
+        "type": "CustomJoint",
+        "parent": "clavphant",
+        "child": "",
+        "dof": 3
+      },
+      "unrothum": {
+        "type": "CustomJoint",
+        "parent": "scapula",
+        "child": "",
+        "dof": 3
+      },
+      "shoulder0": {
+        "type": "CustomJoint",
+        "parent": "scapphant",
+        "child": "",
+        "dof": 3
+      },
+      "shoulder1": {
+        "type": "CustomJoint",
+        "parent": "humphant",
+        "child": "",
+        "dof": 3
+      },
+      "shoulder2": {
+        "type": "CustomJoint",
+        "parent": "humphant1",
+        "child": "",
+        "dof": 3
+      },
+      "elbow": {
+        "type": "CustomJoint",
+        "parent": "humerus",
+        "child": "",
+        "dof": 3
+      },
+      "radioulnar": {
+        "type": "CustomJoint",
+        "parent": "ulna",
+        "child": "",
+        "dof": 3
+      },
+      "radiocarpal": {
+        "type": "CustomJoint",
+        "parent": "radius",
+        "child": "",
+        "dof": 3
+      },
+      "lun_scaph": {
+        "type": "WeldJoint",
+        "parent": "lunate",
+        "child": "",
+        "dof": 0
+      },
+      "lun_pis": {
+        "type": "WeldJoint",
+        "parent": "lunate",
+        "child": "",
+        "dof": 0
+      },
+      "lun_triq": {
+        "type": "WeldJoint",
+        "parent": "lunate",
+        "child": "",
+        "dof": 0
+      },
+      "proximal_distal": {
+        "type": "CustomJoint",
+        "parent": "lunate",
+        "child": "",
+        "dof": 3
+      },
+      "cap_trpzm": {
+        "type": "WeldJoint",
+        "parent": "capitate",
+        "child": "",
+        "dof": 0
+      },
+      "cap_trpzd": {
+        "type": "WeldJoint",
+        "parent": "capitate",
+        "child": "",
+        "dof": 0
+      },
+      "cap_ham": {
+        "type": "WeldJoint",
+        "parent": "capitate",
+        "child": "",
+        "dof": 0
+      },
+      "CMC1a": {
+        "type": "CustomJoint",
+        "parent": "trapezium",
+        "child": "",
+        "dof": 3
+      },
+      "CMC1b": {
+        "type": "CustomJoint",
+        "parent": "firstmc1",
+        "child": "",
+        "dof": 3
+      },
+      "CMC2": {
+        "type": "WeldJoint",
+        "parent": "capitate",
+        "child": "",
+        "dof": 0
+      },
+      "CMC3": {
+        "type": "WeldJoint",
+        "parent": "capitate",
+        "child": "",
+        "dof": 0
+      },
+      "CMC4": {
+        "type": "WeldJoint",
+        "parent": "capitate",
+        "child": "",
+        "dof": 0
+      },
+      "CMC5": {
+        "type": "WeldJoint",
+        "parent": "capitate",
+        "child": "",
+        "dof": 0
+      },
+      "MCP": {
+        "type": "CustomJoint",
+        "parent": "firstmc",
+        "child": "",
+        "dof": 3
+      },
+      "IP": {
+        "type": "CustomJoint",
+        "parent": "proximal_thumb",
+        "child": "",
+        "dof": 3
+      },
+      "2MCP": {
+        "type": "CustomJoint",
+        "parent": "secondmc",
+        "child": "",
+        "dof": 3
+      },
+      "2prox-midph": {
+        "type": "CustomJoint",
+        "parent": "2proxph",
+        "child": "",
+        "dof": 3
+      },
+      "2mid-distph": {
+        "type": "CustomJoint",
+        "parent": "2midph",
+        "child": "",
+        "dof": 3
+      },
+      "3MCP": {
+        "type": "WeldJoint",
+        "parent": "thirdmc",
+        "child": "",
+        "dof": 0
+      },
+      "3prox-midph": {
+        "type": "WeldJoint",
+        "parent": "3proxph",
+        "child": "",
+        "dof": 0
+      },
+      "3mid-distph": {
+        "type": "WeldJoint",
+        "parent": "3midph",
+        "child": "",
+        "dof": 0
+      },
+      "4MCP": {
+        "type": "WeldJoint",
+        "parent": "fourthmc",
+        "child": "",
+        "dof": 0
+      },
+      "4prox-midph": {
+        "type": "WeldJoint",
+        "parent": "4proxph",
+        "child": "",
+        "dof": 0
+      },
+      "4mid-distph": {
+        "type": "WeldJoint",
+        "parent": "4midph",
+        "child": "",
+        "dof": 0
+      },
+      "5MCP": {
+        "type": "WeldJoint",
+        "parent": "fifthmc",
+        "child": "",
+        "dof": 0
+      },
+      "5prox-midph": {
+        "type": "WeldJoint",
+        "parent": "5proxph",
+        "child": "",
+        "dof": 0
+      },
+      "5mid-distph": {
+        "type": "WeldJoint",
+        "parent": "5midph",
+        "child": "",
+        "dof": 0
+      },
+      "bicpt": {
+        "type": "CustomJoint",
+        "parent": "radius",
+        "child": "",
+        "dof": 3
+      },
+      "bicpt2": {
+        "type": "CustomJoint",
+        "parent": "radius",
+        "child": "",
+        "dof": 3
+      },
+      "ptpt": {
+        "type": "CustomJoint",
+        "parent": "ulna",
+        "child": "",
+        "dof": 3
+      },
+      "FCUpt": {
+        "type": "CustomJoint",
+        "parent": "radius",
+        "child": "",
+        "dof": 3
+      },
+      "EDCpt": {
+        "type": "CustomJoint",
+        "parent": "radius",
+        "child": "",
+        "dof": 3
+      },
+      "APLpt": {
+        "type": "CustomJoint",
+        "parent": "capitate",
+        "child": "",
+        "dof": 3
+      },
+      "FPLpt": {
+        "type": "CustomJoint",
+        "parent": "capitate",
+        "child": "",
+        "dof": 3
+      },
+      "FPLpt2": {
+        "type": "CustomJoint",
+        "parent": "capitate",
+        "child": "",
+        "dof": 3
+      },
+      "PEC1pt2": {
+        "type": "CustomJoint",
+        "parent": "humerus",
+        "child": "",
+        "dof": 3
+      },
+      "PEC1pt3": {
+        "type": "CustomJoint",
+        "parent": "thorax",
+        "child": "",
+        "dof": 3
+      },
+      "PEC2pt2": {
+        "type": "CustomJoint",
+        "parent": "humerus",
+        "child": "",
+        "dof": 3
+      },
+      "PEC2pt3": {
+        "type": "CustomJoint",
+        "parent": "thorax",
+        "child": "",
+        "dof": 3
+      },
+      "PEC3pt2": {
+        "type": "CustomJoint",
+        "parent": "humerus",
+        "child": "",
+        "dof": 3
+      },
+      "PEC3pt3": {
+        "type": "CustomJoint",
+        "parent": "thorax",
+        "child": "",
+        "dof": 3
+      },
+      "DELT2pt2a": {
+        "type": "CustomJoint",
+        "parent": "humerus",
+        "child": "",
+        "dof": 3
+      },
+      "DELT2pt2": {
+        "type": "CustomJoint",
+        "parent": "DELT2pt2a",
+        "child": "",
+        "dof": 3
+      },
+      "LAT1pt2": {
+        "type": "CustomJoint",
+        "parent": "scapula",
+        "child": "",
+        "dof": 3
+      },
+      "LAT1pt3": {
+        "type": "CustomJoint",
+        "parent": "scapula",
+        "child": "",
+        "dof": 3
+      },
+      "LAT2pt2": {
+        "type": "CustomJoint",
+        "parent": "scapula",
+        "child": "",
+        "dof": 3
+      },
+      "LAT2pt3": {
+        "type": "CustomJoint",
+        "parent": "scapula",
+        "child": "",
+        "dof": 3
+      },
+      "LAT3pt2": {
+        "type": "CustomJoint",
+        "parent": "scapula",
+        "child": "",
+        "dof": 3
+      },
+      "LAT3pt3": {
+        "type": "CustomJoint",
+        "parent": "scapula",
+        "child": "",
+        "dof": 3
+      },
+      "sternoclavicular_l": {
+        "type": "CustomJoint",
+        "parent": "thorax",
+        "child": "",
+        "dof": 3
+      },
+      "unrotscap_l": {
+        "type": "CustomJoint",
+        "parent": "clavicle_l",
+        "child": "",
+        "dof": 3
+      },
+      "acromioclavicular_l": {
+        "type": "CustomJoint",
+        "parent": "clavphant_l",
+        "child": "",
+        "dof": 3
+      },
+      "unrothum_l": {
+        "type": "CustomJoint",
+        "parent": "scapula_l",
+        "child": "",
+        "dof": 3
+      },
+      "shoulder0_l": {
+        "type": "CustomJoint",
+        "parent": "scapphant_l",
+        "child": "",
+        "dof": 3
+      },
+      "shoulder1_l": {
+        "type": "CustomJoint",
+        "parent": "humphant_l",
+        "child": "",
+        "dof": 3
+      },
+      "shoulder2_l": {
+        "type": "CustomJoint",
+        "parent": "humphant1_l",
+        "child": "",
+        "dof": 3
+      },
+      "elbow_l": {
+        "type": "CustomJoint",
+        "parent": "humerus_l",
+        "child": "",
+        "dof": 3
+      },
+      "radioulnar_l": {
+        "type": "CustomJoint",
+        "parent": "ulna_l",
+        "child": "",
+        "dof": 3
+      },
+      "radiocarpal_l": {
+        "type": "CustomJoint",
+        "parent": "radius_l",
+        "child": "",
+        "dof": 3
+      },
+      "lun_scaph_l": {
+        "type": "WeldJoint",
+        "parent": "lunate_l",
+        "child": "",
+        "dof": 0
+      },
+      "lun_pis_l": {
+        "type": "WeldJoint",
+        "parent": "lunate_l",
+        "child": "",
+        "dof": 0
+      },
+      "lun_triq_l": {
+        "type": "WeldJoint",
+        "parent": "lunate_l",
+        "child": "",
+        "dof": 0
+      },
+      "proximal_distal_l": {
+        "type": "CustomJoint",
+        "parent": "lunate_l",
+        "child": "",
+        "dof": 3
+      },
+      "cap_trpzm_l": {
+        "type": "WeldJoint",
+        "parent": "capitate_l",
+        "child": "",
+        "dof": 0
+      },
+      "cap_trpzd_l": {
+        "type": "WeldJoint",
+        "parent": "capitate_l",
+        "child": "",
+        "dof": 0
+      },
+      "cap_ham_l": {
+        "type": "WeldJoint",
+        "parent": "capitate_l",
+        "child": "",
+        "dof": 0
+      },
+      "CMC1a_l": {
+        "type": "CustomJoint",
+        "parent": "trapezium_l",
+        "child": "",
+        "dof": 3
+      },
+      "CMC1b_l": {
+        "type": "CustomJoint",
+        "parent": "firstmc1_l",
+        "child": "",
+        "dof": 3
+      },
+      "CMC2_l": {
+        "type": "WeldJoint",
+        "parent": "capitate_l",
+        "child": "",
+        "dof": 0
+      },
+      "CMC3_l": {
+        "type": "WeldJoint",
+        "parent": "capitate_l",
+        "child": "",
+        "dof": 0
+      },
+      "CMC4_l": {
+        "type": "WeldJoint",
+        "parent": "capitate_l",
+        "child": "",
+        "dof": 0
+      },
+      "CMC5_l": {
+        "type": "WeldJoint",
+        "parent": "capitate_l",
+        "child": "",
+        "dof": 0
+      },
+      "MCP_l": {
+        "type": "CustomJoint",
+        "parent": "firstmc_l",
+        "child": "",
+        "dof": 3
+      },
+      "IP_l": {
+        "type": "CustomJoint",
+        "parent": "proximal_thumb_l",
+        "child": "",
+        "dof": 3
+      },
+      "2MCP_l": {
+        "type": "CustomJoint",
+        "parent": "secondmc_l",
+        "child": "",
+        "dof": 3
+      },
+      "2prox-midph_l": {
+        "type": "CustomJoint",
+        "parent": "2proxph_l",
+        "child": "",
+        "dof": 3
+      },
+      "2mid-distph_l": {
+        "type": "CustomJoint",
+        "parent": "2midph_l",
+        "child": "",
+        "dof": 3
+      },
+      "3MCP_l": {
+        "type": "WeldJoint",
+        "parent": "thirdmc_l",
+        "child": "",
+        "dof": 0
+      },
+      "3prox-midph_l": {
+        "type": "WeldJoint",
+        "parent": "3proxph_l",
+        "child": "",
+        "dof": 0
+      },
+      "3mid-distph_l": {
+        "type": "WeldJoint",
+        "parent": "3midph_l",
+        "child": "",
+        "dof": 0
+      },
+      "4MCP_l": {
+        "type": "WeldJoint",
+        "parent": "fourthmc_l",
+        "child": "",
+        "dof": 0
+      },
+      "4prox-midph_l": {
+        "type": "WeldJoint",
+        "parent": "4proxph_l",
+        "child": "",
+        "dof": 0
+      },
+      "4mid-distph_l": {
+        "type": "WeldJoint",
+        "parent": "4midph_l",
+        "child": "",
+        "dof": 0
+      },
+      "5MCP_l": {
+        "type": "WeldJoint",
+        "parent": "fifthmc_l",
+        "child": "",
+        "dof": 0
+      },
+      "5prox-midph_l": {
+        "type": "WeldJoint",
+        "parent": "5proxph_l",
+        "child": "",
+        "dof": 0
+      },
+      "5mid-distph_l": {
+        "type": "WeldJoint",
+        "parent": "5midph_l",
+        "child": "",
+        "dof": 0
+      },
+      "bicpt_l": {
+        "type": "CustomJoint",
+        "parent": "radius_l",
+        "child": "",
+        "dof": 3
+      },
+      "bicpt2_l": {
+        "type": "CustomJoint",
+        "parent": "radius_l",
+        "child": "",
+        "dof": 3
+      },
+      "ptpt_l": {
+        "type": "CustomJoint",
+        "parent": "ulna_l",
+        "child": "",
+        "dof": 3
+      },
+      "FCUpt_l": {
+        "type": "CustomJoint",
+        "parent": "radius_l",
+        "child": "",
+        "dof": 3
+      },
+      "EDCpt_l": {
+        "type": "CustomJoint",
+        "parent": "radius_l",
+        "child": "",
+        "dof": 3
+      },
+      "APLpt_l": {
+        "type": "CustomJoint",
+        "parent": "capitate_l",
+        "child": "",
+        "dof": 3
+      },
+      "FPLpt_l": {
+        "type": "CustomJoint",
+        "parent": "capitate_l",
+        "child": "",
+        "dof": 3
+      },
+      "FPLpt2_l": {
+        "type": "CustomJoint",
+        "parent": "capitate_l",
+        "child": "",
+        "dof": 3
+      },
+      "PEC1pt2_l": {
+        "type": "CustomJoint",
+        "parent": "humerus_l",
+        "child": "",
+        "dof": 3
+      },
+      "PEC1pt3_l": {
+        "type": "CustomJoint",
+        "parent": "thorax",
+        "child": "",
+        "dof": 3
+      },
+      "PEC2pt2_l": {
+        "type": "CustomJoint",
+        "parent": "humerus_l",
+        "child": "",
+        "dof": 3
+      },
+      "PEC2pt3_l": {
+        "type": "CustomJoint",
+        "parent": "thorax",
+        "child": "",
+        "dof": 3
+      },
+      "PEC3pt2_l": {
+        "type": "CustomJoint",
+        "parent": "humerus_l",
+        "child": "",
+        "dof": 3
+      },
+      "PEC3pt3_l": {
+        "type": "CustomJoint",
+        "parent": "thorax",
+        "child": "",
+        "dof": 3
+      },
+      "DELT2pt2a_l": {
+        "type": "CustomJoint",
+        "parent": "humerus_l",
+        "child": "",
+        "dof": 3
+      },
+      "DELT2pt2_l": {
+        "type": "CustomJoint",
+        "parent": "DELT2pt2a_l",
+        "child": "",
+        "dof": 3
+      },
+      "LAT1pt2_l": {
+        "type": "CustomJoint",
+        "parent": "scapula_l",
+        "child": "",
+        "dof": 3
+      },
+      "LAT1pt3_l": {
+        "type": "CustomJoint",
+        "parent": "scapula_l",
+        "child": "",
+        "dof": 3
+      },
+      "LAT2pt2_l": {
+        "type": "CustomJoint",
+        "parent": "scapula_l",
+        "child": "",
+        "dof": 3
+      },
+      "LAT2pt3_l": {
+        "type": "CustomJoint",
+        "parent": "scapula_l",
+        "child": "",
+        "dof": 3
+      },
+      "LAT3pt2_l": {
+        "type": "CustomJoint",
+        "parent": "scapula_l",
+        "child": "",
+        "dof": 3
+      },
+      "LAT3pt3_l": {
+        "type": "CustomJoint",
+        "parent": "scapula_l",
+        "child": "",
+        "dof": 3
+      }
+    },
+    "body_count": 131,
+    "joint_count": 130
+  }
+}

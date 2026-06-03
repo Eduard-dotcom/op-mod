@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://github.com/topics/musculoskeletal-models",
+    "name": "musculoskeletal-models · GitHub Topics",
+    "snippet": "Scripts and models to optimize musculotendon parameters in musculoskeletal models. matlab biomechanics muscle opensim scientific-publications bioengineering ...",
+    "host_name": "github.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/stanfordnmbl/osim-rl",
+    "name": "GitHub - stanfordnmbl/osim-rl: Reinforcement learning environments",
+    "snippet": "You are provided with a human musculoskeletal model and a physics-based simulation environment, OpenSim. There will be three tracks: Best performance; Novel ...",
+    "host_name": "github.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11601422",
+    "name": "The Neuromusculoskeletal Modeling Pipeline: MATLAB-based",
+    "snippet": "This article introduces the Neuromusculoskeletal Modeling (NMSM) Pipeline, two MATLAB-based toolsets that add Model Personalization and Treatment Optimization ...",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/spine_upperbody",
+    "name": "Framingham Heart Study musculoskeletal models updated  - SimTK",
+    "snippet": "This project aims to deliver updated musculoskeletal (MSK) models of the Framingham Heart Study dataset, implemented in OpenSim 4.x.",
+    "host_name": "simtk.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/topics/opensim",
+    "name": "opensim · GitHub Topics",
+    "snippet": "Scripts and models to optimize musculotendon parameters in musculoskeletal models. matlab biomechanics muscle opensim scientific-publications bioengineering ...",
+    "host_name": "github.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/topics/musculoskeletal-models?l=c%2B%2B",
+    "name": "musculoskeletal-models · GitHub Topics",
+    "snippet": "Open Source Software for Predictive Simulation of Biological Motion. simulation optimization tutorials musculoskeletal-models. Updated on Mar 9, ...",
+    "host_name": "github.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://opensimconfluence.atlassian.net/wiki/spaces/OpenSim/pages/53090607/Musculoskeletal+Models",
+    "name": "Musculoskeletal Models - OpenSim",
+    "snippet": "Graphics-based musculoskeletal models are effective tools for visualizing human movement, analyzing the functional capacity of muscles, and designing improved ...",
+    "host_name": "opensimconfluence.atlassian.net",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/opensim-org/opensim-models/blob/master/Tutorials/doc/Tutorial%2B1%2B-%2BIntro%2Bto%2BMusculoskeletal%2BModeling.html",
+    "name": "Tutorial+1+-+Intro+to+Musculoskeletal+Modeling.html - GitHub",
+    "snippet": "SimTK OpenSim models (.osim) and related example files that are distributed with OpenSim.",
+    "host_name": "github.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://chanzuckerberg.com/eoss/proposals/opensim-creator-empowering-biomedical-research-with-biomechanical-models",
+    "name": "OpenSim Creator: Empowering Biomedical Research with",
+    "snippet": "OpenSim is an open-source biomechanical simulator to model the mechanics of articulating bones and contractile muscles to generate physics-based simulations ...",
+    "host_name": "chanzuckerberg.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/orgs/opensim-org/repositories",
+    "name": "Repositories - opensim-org - GitHub",
+    "snippet": "Tutorials and resources for the OpenSim workshop at the 19th International Symposium on Computer Methods in Biomechanics and Biomedical Engineering (CMBBE ...",
+    "host_name": "github.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

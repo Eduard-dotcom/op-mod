@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://simtk.org/projects/fbmodpassivecal",
+    "name": "Full-body musculoskeletal model with calibrated passive muscle",
+    "snippet": "A full-body musculoskeletal model based on the model described by Rajagopal et al. (2016) with calibrated passive muscle force curves and improved hip abductor ...",
+    "host_name": "simtk.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/frs/?group_id=773",
+    "name": "SimTK: Full Body Model for use in Dynamic Simulations of Human Gait",
+    "snippet": "The first package contains a full body musculoskeletal model with a muscle-actuated lower extremity and torque actuated trunk and upper extremity.",
+    "host_name": "simtk.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/spine_upperbody",
+    "name": "Framingham Heart Study musculoskeletal models updated  - SimTK",
+    "snippet": "Since OpenSim only permits updating a .osim file to the latest version without altering the muscle model, it was necessary to identify a generic MSK model using ...",
+    "host_name": "simtk.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/frs/?group_id=545",
+    "name": "Hip Musculoskeletal Model: Downloads - SimTK",
+    "snippet": "This model is intended for hip research - detail is focused on the muscles spanning the hip. The model is based on OpenSim example model 23DOF_72 with ...",
+    "host_name": "simtk.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/plugins/phpBB/viewtopic.php?p=53198",
+    "name": "OpenSim Moco: phpBB - SimTK",
+    "snippet": "OpenSim Moco solves optimal control problems with musculoskeletal models defined in OpenSim, using direct collocation.",
+    "host_name": "simtk.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/biophysics",
+    "name": "Easy-to-use interactive musculoskeletal simulations and curriculum",
+    "snippet": "Provides OpenSim models (.osim files) and automated scripts (.oscript files) for running musculoskeletal simulations - and provides easy-to ...",
+    "host_name": "simtk.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/upexdyn",
+    "name": "Upper Extremity Dynamic Model: Project Home - SimTK",
+    "snippet": "The project releases the MoBL-ARMS dynamic musculoskeletal model of the human upper extremity, implemented in SIMM/SDFast and OpenSIM.",
+    "host_name": "simtk.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/frs/?group_id=1066",
+    "name": "Musculoskeletal model of the mouse (Mus musculus) hindlimb and",
+    "snippet": "The model file (.osim) and bone geometries of the musculoskeletal model of a mouse hindlimb and pelvis as published in Charles et al., (2016) ...",
+    "host_name": "simtk.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/plugins/phpBB/viewtopic.php?t=13990",
+    "name": "Joint Moment Actuator Results of Moco differ from Inverse Dynamics?",
+    "snippet": "OpenSim Moco is a software toolkit to solve optimal control problems with musculoskeletal models defined in OpenSim using the direct collocation method. 7 ...",
+    "host_name": "simtk.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/plugins/phpBB/viewtopic.php?f=91&t=10377",
+    "name": "cannot open .osim file - SimTK: OpenSim: phpBB",
+    "snippet": "You could try opening and saving the model in OpenSim 3.3 first. If that works, you could try opening the 3.3-compatible version in 4.0.",
+    "host_name": "simtk.org",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

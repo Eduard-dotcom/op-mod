@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://github.com/RehabEngGroup/BOPS",
+    "name": "RehabEngGroup/BOPS: Batch OpenSim Processing Scripts - GitHub",
+    "snippet": "osim models. Execution ... For any ideas about potential improvement or custom needs, please contact danilo.catelli@uottawa.ca and ali.mantoan@gmail.com ...",
+    "host_name": "github.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11737525",
+    "name": "Dataset of running kinematics, kinetics and muscle activation at",
+    "snippet": "The data were further processed using OpenSim 3.3 with the Catelli model. The OpenSim output was used to compute the load at specific tissues (patellofemoral ...",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/399628308_OpenSim_Creator_An_Interactive_User_Interface_for_Building_OpenSim_Musculoskeletal_Models",
+    "name": "(PDF) OpenSim Creator: An Interactive User Interface for Building",
+    "snippet": "This model was used as a base model to create subject-specific MRI models using OpenSim Creator's Model Warper v0. ... Catelli; [...] Mario ...",
+    "host_name": "www.researchgate.net",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ruor.uottawa.ca/bitstreams/368cfbb8-2c96-42f9-81d2-2e6a2ca3f57c/download",
+    "name": "[PDF] From MRI to Motion: Evaluating Pipelines for Participant- specific",
+    "snippet": "The Catelli model builds directly on this framework, retaining the joint structure with refinements to musculature to improve simulations at high-flexion joint ...",
+    "host_name": "ruor.uottawa.ca",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://teses.usp.br/teses/disponiveis/17/17152/tde-04082021-140219/publico/BRUNOLUIZDESOUZABEDOco.pdf",
+    "name": "[PDF] Universidade de São Paulo Faculdade de Medicina de Ribeirão Preto",
+    "snippet": "The OpenSim model file (.osim) can be automatically loaded on the BOPS GUI ... performed using a generic musculoskeletal model (Catelli, Wesseling, et al.",
+    "host_name": "teses.usp.br",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/opensim-org/opensim-models",
+    "name": "SimTK OpenSim models (.osim) and related example files  - GitHub",
+    "snippet": "OpenSim models (.osim) and related example files that are distributed with the OpenSim application.",
+    "host_name": "github.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/opensim-org/opensim-core",
+    "name": "opensim-org/opensim-core: SimTK OpenSim C++ libraries  - GitHub",
+    "snippet": "OpenSim is software that lets users develop models of musculoskeletal structures and create dynamic simulations of movement.",
+    "host_name": "github.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://gist.github.com/rdeits/91c13fc607c7ce606c940a4530a53273",
+    "name": "opensim-knee-reflex.ipynb - GitHub Gist",
+    "snippet": "Create a body named 'shank', with the same mass properties as the thigh. · Attach the same ellipsoid geometry as for the thigh. · Add the shank body to the model.",
+    "host_name": "gist.github.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/opensim-org",
+    "name": "OpenSim Project - GitHub",
+    "snippet": "opensim-fitter Public. A Python library for fitting OpenSim model geometry and kinematics to motion capture and video-based data sources.",
+    "host_name": "github.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/opensim-org/opensim-core/blob/master/OpenSim/Simulation/Model/Model.cpp",
+    "name": "opensim-core/OpenSim/Simulation/Model/Model.cpp at main - GitHub",
+    "snippet": "SimTK OpenSim C++ libraries and command-line applications, and Java/Python wrapping. - opensim-core/OpenSim/Simulation/Model/Model.cpp at main ...",
+    "host_name": "github.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

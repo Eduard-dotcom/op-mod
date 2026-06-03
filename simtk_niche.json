@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://simtk.org/projects/foot-anklemodel",
+    "name": "Subject-Specific Foot-Ankle Musculoskeletal Model: Project Home",
+    "snippet": "This work developed a subject-specific foot-ankle musculoskeletal model containing 32 muscles and 36 ligaments to calculate the load mechanics of the lateral ...",
+    "host_name": "simtk.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/opensim",
+    "name": "OpenSim: Project Home - SimTK",
+    "snippet": "OpenSim is a freely available, user extensible software system that lets users develop models of musculoskeletal structures and create dynamic simulations ...",
+    "host_name": "simtk.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/ankle-foot",
+    "name": "OpenSim® ankle-foot musculoskeletal model for  - SimTK",
+    "snippet": "We have developed an ankle-foot joint complex musculoskeletal model for the OpenSim® platform by incorporating 24 degrees of freedom (DOF) comprising of 66 ...",
+    "host_name": "simtk.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/arms_hand_model",
+    "name": "ARMS Lab hand and wrist model: Project Home - SimTK",
+    "snippet": "The project releases the ARMS Lab dynamic musculoskeletal model of the human hand and wrist, implemented in OpenSIM.",
+    "host_name": "simtk.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6061994",
+    "name": "OpenSim: Simulating musculoskeletal dynamics and neuromuscular",
+    "snippet": "OpenSim is an extensible and user-friendly software package built on decades of knowledge about computational modeling and simulation of ...",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://opensimconfluence.atlassian.net/wiki/spaces/OpenSim24/pages/54001808/Musculoskeletal+Models",
+    "name": "OpenSim Models",
+    "snippet": "The model includes the kinematics of the hip, knee, ankle, and metatarsophalangeal joints and thirty-three muscle-tendon actuators. SimTK Model Library ...",
+    "host_name": "opensimconfluence.atlassian.net",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/jaw",
+    "name": "Dynamic Musculoskeletal Model of the Masticatory System - SimTK",
+    "snippet": "The purpose of this project is to provide a dynamic jaw model to the OpenSim community for analyzing jaw biomechanics and the action of jaw muscles.",
+    "host_name": "simtk.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/kul_footmodel",
+    "name": "CT-scan based extended dynamic foot model: Project Home - SimTK",
+    "snippet": "This project aims to develop a more realistic dynamic foot model, capturing the full complexity of the foot biomechanics.",
+    "host_name": "simtk.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/moving-fingers",
+    "name": "Modification of Wrist Model to include all the movements of the fingers.",
+    "snippet": "The ¨Wrist Model¨ reported by Gonzalez in Opensim SimTK have 10 degrees of freedom, and a total of 23 actuator muscles, with movement in the ...",
+    "host_name": "simtk.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/footankle_model",
+    "name": "Multi-segment Foot and ankle model validated using biplanar",
+    "snippet": "A multi-segment foot and ankle model consisting of the tibia, talus, calcaneus, midfoot, forefoot and toes, with a total of 7 degrees of freedom.",
+    "host_name": "simtk.org",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

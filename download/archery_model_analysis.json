@@ -1,0 +1,2256 @@
+{
+  "M7": {
+    "model": "M7",
+    "total_muscles": 552,
+    "muscle_groups_found": {
+      "Trapezius": {
+        "matches": [
+          "trap_acr_T1",
+          "trap_acr_T1_L",
+          "trap_acr_T2",
+          "trap_acr_T2_L",
+          "trap_acr_T3",
+          "trap_acr_T3_L",
+          "trap_acr_scap",
+          "trap_acr_scap_L",
+          "trap_cl",
+          "trap_cl_L",
+          "trap_inf_T10",
+          "trap_inf_T10_L",
+          "trap_inf_T11",
+          "trap_inf_T11_L",
+          "trap_inf_T12",
+          "trap_inf_T12_L",
+          "trap_inf_T4",
+          "trap_inf_T4_L",
+          "trap_inf_T5",
+          "trap_inf_T5_L",
+          "trap_inf_T6",
+          "trap_inf_T6_L",
+          "trap_inf_T7",
+          "trap_inf_T7_L",
+          "trap_inf_T8",
+          "trap_inf_T8_L",
+          "trap_inf_T9",
+          "trap_inf_T9_L"
+        ],
+        "count": 28,
+        "weight": 10
+      },
+      "Levator Scapulae": {
+        "matches": [
+          "levator_scap",
+          "levator_scap_L"
+        ],
+        "count": 2,
+        "weight": 7
+      },
+      "Deltoid (all)": {
+        "matches": [
+          "DELT1",
+          "DELT1_l",
+          "DELT2",
+          "DELT2_l",
+          "DELT3",
+          "DELT3_l"
+        ],
+        "count": 6,
+        "weight": 10
+      },
+      "Deltoid (posterior)": {
+        "matches": [
+          "DELT2"
+        ],
+        "count": 1,
+        "weight": 10
+      },
+      "Supraspinatus": {
+        "matches": [
+          "SUPSP"
+        ],
+        "count": 1,
+        "weight": 9
+      },
+      "Infraspinatus": {
+        "matches": [
+          "INFSP"
+        ],
+        "count": 1,
+        "weight": 9
+      },
+      "Subscapularis": {
+        "matches": [
+          "SUBSC"
+        ],
+        "count": 1,
+        "weight": 8
+      },
+      "Teres Minor": {
+        "matches": [
+          "TMIN"
+        ],
+        "count": 1,
+        "weight": 7
+      },
+      "Teres Major": {
+        "matches": [
+          "TMAJ"
+        ],
+        "count": 1,
+        "weight": 9
+      },
+      "Sternocleidomastoid": {
+        "matches": [
+          "cleid_mast",
+          "cleid_mast_L",
+          "stern_mast",
+          "stern_mast_L"
+        ],
+        "count": 4,
+        "weight": 6
+      },
+      "Erector Spinae": {
+        "matches": [
+          "iliocost_cerv_c5rib",
+          "iliocost_cerv_c5rib_L",
+          "longissi_cerv_c4thx",
+          "longissi_cerv_c4thx_L"
+        ],
+        "count": 4,
+        "weight": 8
+      },
+      "Rectus Abdominis": {
+        "matches": [
+          "rect_abd_l",
+          "rect_abd_r"
+        ],
+        "count": 2,
+        "weight": 7
+      },
+      "Pectoralis": {
+        "matches": [
+          "PECM1",
+          "PECM1_l",
+          "PECM2",
+          "PECM2_l",
+          "PECM3",
+          "PECM3_l"
+        ],
+        "count": 6,
+        "weight": 7
+      }
+    },
+    "muscle_groups_missing": {
+      "Rhomboids": {
+        "weight": 9
+      },
+      "Serratus Anterior": {
+        "weight": 8
+      },
+      "Latissimus Dorsi": {
+        "weight": 10
+      },
+      "Triceps Brachii": {
+        "weight": 10
+      },
+      "Triceps (long head)": {
+        "weight": 10
+      },
+      "Biceps Brachii": {
+        "weight": 8
+      },
+      "Flexor Carpi Radialis": {
+        "weight": 8
+      },
+      "Flexor Carpi Ulnaris": {
+        "weight": 8
+      },
+      "Extensor Carpi Radialis": {
+        "weight": 7
+      },
+      "Extensor Carpi Ulnaris": {
+        "weight": 7
+      },
+      "Finger Flexors": {
+        "weight": 9
+      },
+      "Finger Extensors": {
+        "weight": 9
+      },
+      "Pronator Teres": {
+        "weight": 6
+      },
+      "Obliques": {
+        "weight": 7
+      },
+      "Gluteus": {
+        "weight": 7
+      },
+      "Quadriceps": {
+        "weight": 6
+      },
+      "Hamstrings": {
+        "weight": 6
+      }
+    },
+    "groups_found_count": 13,
+    "groups_total": 30,
+    "body_features": {
+      "full_body": true,
+      "separate_scapula": true,
+      "scapula_bilateral": true,
+      "scapula_names": [
+        "scapula_R",
+        "scapula_L"
+      ],
+      "hand_bodies": [
+        "hand_R",
+        "hand_L"
+      ],
+      "has_hand": true,
+      "hand_detail": 2,
+      "wrist_bodies": [],
+      "wrist_detail": 0,
+      "has_wrist_detail": false,
+      "spine_bodies": 17,
+      "has_spine_detail": true,
+      "rib_bodies": 24,
+      "head_detail": 1,
+      "head_bodies": [
+        "head_neck"
+      ],
+      "has_patella": false,
+      "total_bodies": 78
+    },
+    "weighted_score": 107,
+    "max_weighted_score": 242,
+    "archery_score": 54.6
+  },
+  "M7_18": {
+    "model": "M7_18",
+    "total_muscles": 598,
+    "muscle_groups_found": {
+      "Trapezius": {
+        "matches": [
+          "trap_acr_T1",
+          "trap_acr_T1_L",
+          "trap_acr_T2",
+          "trap_acr_T2_L",
+          "trap_acr_T3",
+          "trap_acr_T3_L",
+          "trap_acr_scap",
+          "trap_acr_scap_L",
+          "trap_cl",
+          "trap_cl_L",
+          "trap_inf_T10",
+          "trap_inf_T10_L",
+          "trap_inf_T11",
+          "trap_inf_T11_L",
+          "trap_inf_T12",
+          "trap_inf_T12_L",
+          "trap_inf_T4",
+          "trap_inf_T4_L",
+          "trap_inf_T5",
+          "trap_inf_T5_L",
+          "trap_inf_T6",
+          "trap_inf_T6_L",
+          "trap_inf_T7",
+          "trap_inf_T7_L",
+          "trap_inf_T8",
+          "trap_inf_T8_L",
+          "trap_inf_T9",
+          "trap_inf_T9_L"
+        ],
+        "count": 28,
+        "weight": 10
+      },
+      "Levator Scapulae": {
+        "matches": [
+          "levator_scap",
+          "levator_scap_L"
+        ],
+        "count": 2,
+        "weight": 7
+      },
+      "Deltoid (all)": {
+        "matches": [
+          "DELT1",
+          "DELT1_l",
+          "DELT2",
+          "DELT2_l",
+          "DELT3",
+          "DELT3_l"
+        ],
+        "count": 6,
+        "weight": 10
+      },
+      "Deltoid (posterior)": {
+        "matches": [
+          "DELT2"
+        ],
+        "count": 1,
+        "weight": 10
+      },
+      "Supraspinatus": {
+        "matches": [
+          "SUPSP"
+        ],
+        "count": 1,
+        "weight": 9
+      },
+      "Infraspinatus": {
+        "matches": [
+          "INFSP"
+        ],
+        "count": 1,
+        "weight": 9
+      },
+      "Subscapularis": {
+        "matches": [
+          "SUBSC"
+        ],
+        "count": 1,
+        "weight": 8
+      },
+      "Teres Minor": {
+        "matches": [
+          "TMIN"
+        ],
+        "count": 1,
+        "weight": 7
+      },
+      "Teres Major": {
+        "matches": [
+          "TMAJ"
+        ],
+        "count": 1,
+        "weight": 9
+      },
+      "Sternocleidomastoid": {
+        "matches": [
+          "cleid_mast",
+          "cleid_mast_L",
+          "stern_mast",
+          "stern_mast_L"
+        ],
+        "count": 4,
+        "weight": 6
+      },
+      "Erector Spinae": {
+        "matches": [
+          "iliocost_cerv_c5rib",
+          "iliocost_cerv_c5rib_L",
+          "longissi_cerv_c4thx",
+          "longissi_cerv_c4thx_L"
+        ],
+        "count": 4,
+        "weight": 8
+      },
+      "Rectus Abdominis": {
+        "matches": [
+          "rect_abd_l",
+          "rect_abd_r"
+        ],
+        "count": 2,
+        "weight": 7
+      },
+      "Gluteus": {
+        "matches": [
+          "glut_max1_l",
+          "glut_max1_r",
+          "glut_max2_l",
+          "glut_max2_r",
+          "glut_max3_l",
+          "glut_max3_r",
+          "glut_med1_l",
+          "glut_med1_r",
+          "glut_med2_l",
+          "glut_med2_r",
+          "glut_med3_l",
+          "glut_med3_r"
+        ],
+        "count": 12,
+        "weight": 7
+      },
+      "Quadriceps": {
+        "matches": [
+          "quad_fem_l",
+          "quad_fem_r"
+        ],
+        "count": 2,
+        "weight": 6
+      },
+      "Pectoralis": {
+        "matches": [
+          "PECM1",
+          "PECM1_l",
+          "PECM2",
+          "PECM2_l",
+          "PECM3",
+          "PECM3_l",
+          "pect_l",
+          "pect_r"
+        ],
+        "count": 8,
+        "weight": 7
+      }
+    },
+    "muscle_groups_missing": {
+      "Rhomboids": {
+        "weight": 9
+      },
+      "Serratus Anterior": {
+        "weight": 8
+      },
+      "Latissimus Dorsi": {
+        "weight": 10
+      },
+      "Triceps Brachii": {
+        "weight": 10
+      },
+      "Triceps (long head)": {
+        "weight": 10
+      },
+      "Biceps Brachii": {
+        "weight": 8
+      },
+      "Flexor Carpi Radialis": {
+        "weight": 8
+      },
+      "Flexor Carpi Ulnaris": {
+        "weight": 8
+      },
+      "Extensor Carpi Radialis": {
+        "weight": 7
+      },
+      "Extensor Carpi Ulnaris": {
+        "weight": 7
+      },
+      "Finger Flexors": {
+        "weight": 9
+      },
+      "Finger Extensors": {
+        "weight": 9
+      },
+      "Pronator Teres": {
+        "weight": 6
+      },
+      "Obliques": {
+        "weight": 7
+      },
+      "Hamstrings": {
+        "weight": 6
+      }
+    },
+    "groups_found_count": 15,
+    "groups_total": 30,
+    "body_features": {
+      "full_body": true,
+      "separate_scapula": true,
+      "scapula_bilateral": true,
+      "scapula_names": [
+        "scapula_R",
+        "scapula_L"
+      ],
+      "hand_bodies": [
+        "hand_R",
+        "hand_L"
+      ],
+      "has_hand": true,
+      "hand_detail": 2,
+      "wrist_bodies": [],
+      "wrist_detail": 0,
+      "has_wrist_detail": false,
+      "spine_bodies": 17,
+      "has_spine_detail": true,
+      "rib_bodies": 24,
+      "head_detail": 1,
+      "head_bodies": [
+        "head_neck"
+      ],
+      "has_patella": false,
+      "total_bodies": 78
+    },
+    "weighted_score": 120,
+    "max_weighted_score": 242,
+    "archery_score": 57.9
+  },
+  "M8": {
+    "model": "M8",
+    "total_muscles": 196,
+    "muscle_groups_found": {
+      "Deltoid (all)": {
+        "matches": [
+          "DELT1",
+          "DELT1_l",
+          "DELT2",
+          "DELT2_l",
+          "DELT3",
+          "DELT3_l"
+        ],
+        "count": 6,
+        "weight": 10
+      },
+      "Deltoid (posterior)": {
+        "matches": [
+          "DELT2"
+        ],
+        "count": 1,
+        "weight": 10
+      },
+      "Supraspinatus": {
+        "matches": [
+          "SUPSP"
+        ],
+        "count": 1,
+        "weight": 9
+      },
+      "Infraspinatus": {
+        "matches": [
+          "INFSP"
+        ],
+        "count": 1,
+        "weight": 9
+      },
+      "Subscapularis": {
+        "matches": [
+          "SUBSC"
+        ],
+        "count": 1,
+        "weight": 8
+      },
+      "Teres Minor": {
+        "matches": [
+          "TMIN"
+        ],
+        "count": 1,
+        "weight": 7
+      },
+      "Latissimus Dorsi": {
+        "matches": [
+          "LAT1",
+          "LAT2",
+          "LAT3"
+        ],
+        "count": 3,
+        "weight": 10
+      },
+      "Teres Major": {
+        "matches": [
+          "TMAJ"
+        ],
+        "count": 1,
+        "weight": 9
+      },
+      "Triceps Brachii": {
+        "matches": [
+          "TRIlat",
+          "TRIlong",
+          "TRImed"
+        ],
+        "count": 3,
+        "weight": 10
+      },
+      "Triceps (long head)": {
+        "matches": [
+          "TRIlong"
+        ],
+        "count": 1,
+        "weight": 10
+      },
+      "Biceps Brachii": {
+        "matches": [
+          "BIClong",
+          "BICshort"
+        ],
+        "count": 2,
+        "weight": 8
+      },
+      "Flexor Carpi Radialis": {
+        "matches": [
+          "FCR"
+        ],
+        "count": 1,
+        "weight": 8
+      },
+      "Flexor Carpi Ulnaris": {
+        "matches": [
+          "FCU"
+        ],
+        "count": 1,
+        "weight": 8
+      },
+      "Extensor Carpi Radialis": {
+        "matches": [
+          "ECRB",
+          "ECRL"
+        ],
+        "count": 2,
+        "weight": 7
+      },
+      "Extensor Carpi Ulnaris": {
+        "matches": [
+          "ECU"
+        ],
+        "count": 1,
+        "weight": 7
+      },
+      "Finger Flexors": {
+        "matches": [
+          "FDPI",
+          "FDPL",
+          "FDPM",
+          "FDPR",
+          "FDSI",
+          "FDSL",
+          "FDSM",
+          "FDSR"
+        ],
+        "count": 8,
+        "weight": 9
+      },
+      "Finger Extensors": {
+        "matches": [
+          "EDCI",
+          "EDCL",
+          "EDCM",
+          "EDCR",
+          "EDM"
+        ],
+        "count": 5,
+        "weight": 9
+      },
+      "Rectus Abdominis": {
+        "matches": [
+          "rect_abd_l",
+          "rect_abd_r"
+        ],
+        "count": 2,
+        "weight": 7
+      },
+      "Gluteus": {
+        "matches": [
+          "glmax1_l",
+          "glmax1_r",
+          "glmax2_l",
+          "glmax2_r",
+          "glmax3_l",
+          "glmax3_r",
+          "glmed1_l",
+          "glmed1_r",
+          "glmed2_l",
+          "glmed2_r",
+          "glmed3_l",
+          "glmed3_r",
+          "glmin1_l",
+          "glmin1_r",
+          "glmin2_l",
+          "glmin2_r",
+          "glmin3_l",
+          "glmin3_r"
+        ],
+        "count": 18,
+        "weight": 7
+      },
+      "Quadriceps": {
+        "matches": [
+          "quadfem_l",
+          "quadfem_r"
+        ],
+        "count": 2,
+        "weight": 6
+      },
+      "Pectoralis": {
+        "matches": [
+          "PECM1",
+          "PECM1_l",
+          "PECM2",
+          "PECM2_l",
+          "PECM3",
+          "PECM3_l",
+          "pect_l",
+          "pect_r"
+        ],
+        "count": 8,
+        "weight": 7
+      }
+    },
+    "muscle_groups_missing": {
+      "Trapezius": {
+        "weight": 10
+      },
+      "Rhomboids": {
+        "weight": 9
+      },
+      "Levator Scapulae": {
+        "weight": 7
+      },
+      "Serratus Anterior": {
+        "weight": 8
+      },
+      "Pronator Teres": {
+        "weight": 6
+      },
+      "Sternocleidomastoid": {
+        "weight": 6
+      },
+      "Erector Spinae": {
+        "weight": 8
+      },
+      "Obliques": {
+        "weight": 7
+      },
+      "Hamstrings": {
+        "weight": 6
+      }
+    },
+    "groups_found_count": 21,
+    "groups_total": 30,
+    "body_features": {
+      "full_body": true,
+      "separate_scapula": true,
+      "scapula_bilateral": true,
+      "scapula_names": [
+        "scapula",
+        "scapula_l"
+      ],
+      "hand_bodies": [
+        "hand",
+        "hand_l"
+      ],
+      "has_hand": true,
+      "hand_detail": 2,
+      "wrist_bodies": [
+        "proximal_row",
+        "proximal_row_l"
+      ],
+      "wrist_detail": 2,
+      "has_wrist_detail": true,
+      "spine_bodies": 12,
+      "has_spine_detail": true,
+      "rib_bodies": 0,
+      "head_detail": 2,
+      "head_bodies": [
+        "skull",
+        "jaw"
+      ],
+      "has_patella": true,
+      "total_bodies": 69
+    },
+    "weighted_score": 175,
+    "max_weighted_score": 242,
+    "archery_score": 75.0
+  },
+  "M8_Corr": {
+    "model": "M8_Corr",
+    "total_muscles": 186,
+    "muscle_groups_found": {
+      "Deltoid (all)": {
+        "matches": [
+          "DELT1",
+          "DELT1_l",
+          "DELT2",
+          "DELT2_l",
+          "DELT3",
+          "DELT3_l"
+        ],
+        "count": 6,
+        "weight": 10
+      },
+      "Deltoid (posterior)": {
+        "matches": [
+          "DELT2"
+        ],
+        "count": 1,
+        "weight": 10
+      },
+      "Supraspinatus": {
+        "matches": [
+          "SUPSP"
+        ],
+        "count": 1,
+        "weight": 9
+      },
+      "Infraspinatus": {
+        "matches": [
+          "INFSP"
+        ],
+        "count": 1,
+        "weight": 9
+      },
+      "Subscapularis": {
+        "matches": [
+          "SUBSC"
+        ],
+        "count": 1,
+        "weight": 8
+      },
+      "Teres Minor": {
+        "matches": [
+          "TMIN"
+        ],
+        "count": 1,
+        "weight": 7
+      },
+      "Teres Major": {
+        "matches": [
+          "TMAJ"
+        ],
+        "count": 1,
+        "weight": 9
+      },
+      "Triceps Brachii": {
+        "matches": [
+          "TRIlat",
+          "TRIlong",
+          "TRImed"
+        ],
+        "count": 3,
+        "weight": 10
+      },
+      "Triceps (long head)": {
+        "matches": [
+          "TRIlong"
+        ],
+        "count": 1,
+        "weight": 10
+      },
+      "Biceps Brachii": {
+        "matches": [
+          "BIClong",
+          "BICshort"
+        ],
+        "count": 2,
+        "weight": 8
+      },
+      "Flexor Carpi Radialis": {
+        "matches": [
+          "FCR"
+        ],
+        "count": 1,
+        "weight": 8
+      },
+      "Flexor Carpi Ulnaris": {
+        "matches": [
+          "FCU"
+        ],
+        "count": 1,
+        "weight": 8
+      },
+      "Extensor Carpi Radialis": {
+        "matches": [
+          "ECRB",
+          "ECRL"
+        ],
+        "count": 2,
+        "weight": 7
+      },
+      "Extensor Carpi Ulnaris": {
+        "matches": [
+          "ECU"
+        ],
+        "count": 1,
+        "weight": 7
+      },
+      "Finger Flexors": {
+        "matches": [
+          "FDPI",
+          "FDPL",
+          "FDPM",
+          "FDPR",
+          "FDSI",
+          "FDSL",
+          "FDSM",
+          "FDSR"
+        ],
+        "count": 8,
+        "weight": 9
+      },
+      "Finger Extensors": {
+        "matches": [
+          "EDCI",
+          "EDCL",
+          "EDCM",
+          "EDCR",
+          "EDM"
+        ],
+        "count": 5,
+        "weight": 9
+      },
+      "Gluteus": {
+        "matches": [
+          "glmax1_l",
+          "glmax1_r",
+          "glmax2_l",
+          "glmax2_r",
+          "glmax3_l",
+          "glmax3_r",
+          "glmed1_l",
+          "glmed1_r",
+          "glmed2_l",
+          "glmed2_r",
+          "glmed3_l",
+          "glmed3_r",
+          "glmin1_l",
+          "glmin1_r",
+          "glmin2_l",
+          "glmin2_r",
+          "glmin3_l",
+          "glmin3_r"
+        ],
+        "count": 18,
+        "weight": 7
+      },
+      "Quadriceps": {
+        "matches": [
+          "quadfem_l",
+          "quadfem_r"
+        ],
+        "count": 2,
+        "weight": 6
+      },
+      "Pectoralis": {
+        "matches": [
+          "PECM1",
+          "PECM1_l",
+          "PECM2",
+          "PECM2_l",
+          "PECM3",
+          "PECM3_l",
+          "pect_l",
+          "pect_r"
+        ],
+        "count": 8,
+        "weight": 7
+      }
+    },
+    "muscle_groups_missing": {
+      "Trapezius": {
+        "weight": 10
+      },
+      "Rhomboids": {
+        "weight": 9
+      },
+      "Levator Scapulae": {
+        "weight": 7
+      },
+      "Serratus Anterior": {
+        "weight": 8
+      },
+      "Latissimus Dorsi": {
+        "weight": 10
+      },
+      "Pronator Teres": {
+        "weight": 6
+      },
+      "Sternocleidomastoid": {
+        "weight": 6
+      },
+      "Erector Spinae": {
+        "weight": 8
+      },
+      "Obliques": {
+        "weight": 7
+      },
+      "Rectus Abdominis": {
+        "weight": 7
+      },
+      "Hamstrings": {
+        "weight": 6
+      }
+    },
+    "groups_found_count": 19,
+    "groups_total": 30,
+    "body_features": {
+      "full_body": true,
+      "separate_scapula": true,
+      "scapula_bilateral": true,
+      "scapula_names": [
+        "scapula",
+        "scapula_l"
+      ],
+      "hand_bodies": [
+        "hand",
+        "hand_l"
+      ],
+      "has_hand": true,
+      "hand_detail": 2,
+      "wrist_bodies": [
+        "proximal_row",
+        "proximal_row_l"
+      ],
+      "wrist_detail": 2,
+      "has_wrist_detail": true,
+      "spine_bodies": 12,
+      "has_spine_detail": true,
+      "rib_bodies": 0,
+      "head_detail": 2,
+      "head_bodies": [
+        "skull",
+        "jaw"
+      ],
+      "has_patella": true,
+      "total_bodies": 69
+    },
+    "weighted_score": 158,
+    "max_weighted_score": 242,
+    "archery_score": 70.8
+  },
+  "M8_Norm": {
+    "model": "M8_Norm",
+    "total_muscles": 186,
+    "muscle_groups_found": {
+      "Deltoid (all)": {
+        "matches": [
+          "DELT1",
+          "DELT1_l",
+          "DELT2",
+          "DELT2_l",
+          "DELT3",
+          "DELT3_l"
+        ],
+        "count": 6,
+        "weight": 10
+      },
+      "Deltoid (posterior)": {
+        "matches": [
+          "DELT2"
+        ],
+        "count": 1,
+        "weight": 10
+      },
+      "Supraspinatus": {
+        "matches": [
+          "SUPSP"
+        ],
+        "count": 1,
+        "weight": 9
+      },
+      "Infraspinatus": {
+        "matches": [
+          "INFSP"
+        ],
+        "count": 1,
+        "weight": 9
+      },
+      "Subscapularis": {
+        "matches": [
+          "SUBSC"
+        ],
+        "count": 1,
+        "weight": 8
+      },
+      "Teres Minor": {
+        "matches": [
+          "TMIN"
+        ],
+        "count": 1,
+        "weight": 7
+      },
+      "Teres Major": {
+        "matches": [
+          "TMAJ"
+        ],
+        "count": 1,
+        "weight": 9
+      },
+      "Triceps Brachii": {
+        "matches": [
+          "TRIlat",
+          "TRIlong",
+          "TRImed"
+        ],
+        "count": 3,
+        "weight": 10
+      },
+      "Triceps (long head)": {
+        "matches": [
+          "TRIlong"
+        ],
+        "count": 1,
+        "weight": 10
+      },
+      "Biceps Brachii": {
+        "matches": [
+          "BIClong",
+          "BICshort"
+        ],
+        "count": 2,
+        "weight": 8
+      },
+      "Flexor Carpi Radialis": {
+        "matches": [
+          "FCR"
+        ],
+        "count": 1,
+        "weight": 8
+      },
+      "Flexor Carpi Ulnaris": {
+        "matches": [
+          "FCU"
+        ],
+        "count": 1,
+        "weight": 8
+      },
+      "Extensor Carpi Radialis": {
+        "matches": [
+          "ECRB",
+          "ECRL"
+        ],
+        "count": 2,
+        "weight": 7
+      },
+      "Extensor Carpi Ulnaris": {
+        "matches": [
+          "ECU"
+        ],
+        "count": 1,
+        "weight": 7
+      },
+      "Finger Flexors": {
+        "matches": [
+          "FDPI",
+          "FDPL",
+          "FDPM",
+          "FDPR",
+          "FDSI",
+          "FDSL",
+          "FDSM",
+          "FDSR"
+        ],
+        "count": 8,
+        "weight": 9
+      },
+      "Finger Extensors": {
+        "matches": [
+          "EDCI",
+          "EDCL",
+          "EDCM",
+          "EDCR",
+          "EDM"
+        ],
+        "count": 5,
+        "weight": 9
+      },
+      "Gluteus": {
+        "matches": [
+          "glmax1_l",
+          "glmax1_r",
+          "glmax2_l",
+          "glmax2_r",
+          "glmax3_l",
+          "glmax3_r",
+          "glmed1_l",
+          "glmed1_r",
+          "glmed2_l",
+          "glmed2_r",
+          "glmed3_l",
+          "glmed3_r",
+          "glmin1_l",
+          "glmin1_r",
+          "glmin2_l",
+          "glmin2_r",
+          "glmin3_l",
+          "glmin3_r"
+        ],
+        "count": 18,
+        "weight": 7
+      },
+      "Quadriceps": {
+        "matches": [
+          "quadfem_l",
+          "quadfem_r"
+        ],
+        "count": 2,
+        "weight": 6
+      },
+      "Pectoralis": {
+        "matches": [
+          "PECM1",
+          "PECM1_l",
+          "PECM2",
+          "PECM2_l",
+          "PECM3",
+          "PECM3_l",
+          "pect_l",
+          "pect_r"
+        ],
+        "count": 8,
+        "weight": 7
+      }
+    },
+    "muscle_groups_missing": {
+      "Trapezius": {
+        "weight": 10
+      },
+      "Rhomboids": {
+        "weight": 9
+      },
+      "Levator Scapulae": {
+        "weight": 7
+      },
+      "Serratus Anterior": {
+        "weight": 8
+      },
+      "Latissimus Dorsi": {
+        "weight": 10
+      },
+      "Pronator Teres": {
+        "weight": 6
+      },
+      "Sternocleidomastoid": {
+        "weight": 6
+      },
+      "Erector Spinae": {
+        "weight": 8
+      },
+      "Obliques": {
+        "weight": 7
+      },
+      "Rectus Abdominis": {
+        "weight": 7
+      },
+      "Hamstrings": {
+        "weight": 6
+      }
+    },
+    "groups_found_count": 19,
+    "groups_total": 30,
+    "body_features": {
+      "full_body": true,
+      "separate_scapula": true,
+      "scapula_bilateral": true,
+      "scapula_names": [
+        "scapula",
+        "scapula_l"
+      ],
+      "hand_bodies": [
+        "hand",
+        "hand_l"
+      ],
+      "has_hand": true,
+      "hand_detail": 2,
+      "wrist_bodies": [
+        "proximal_row",
+        "proximal_row_l"
+      ],
+      "wrist_detail": 2,
+      "has_wrist_detail": true,
+      "spine_bodies": 12,
+      "has_spine_detail": true,
+      "rib_bodies": 0,
+      "head_detail": 2,
+      "head_bodies": [
+        "skull",
+        "jaw"
+      ],
+      "has_patella": true,
+      "total_bodies": 69
+    },
+    "weighted_score": 158,
+    "max_weighted_score": 242,
+    "archery_score": 70.8
+  },
+  "M2": {
+    "model": "M2",
+    "total_muscles": 325,
+    "muscle_groups_found": {
+      "Finger Flexors": {
+        "matches": [
+          "flex_dig_l",
+          "flex_dig_r"
+        ],
+        "count": 2,
+        "weight": 9
+      },
+      "Finger Extensors": {
+        "matches": [
+          "ext_dig_l",
+          "ext_dig_r"
+        ],
+        "count": 2,
+        "weight": 9
+      },
+      "Rectus Abdominis": {
+        "matches": [
+          "rect_abd_l",
+          "rect_abd_r"
+        ],
+        "count": 2,
+        "weight": 7
+      },
+      "Gluteus": {
+        "matches": [
+          "glut_max1_l",
+          "glut_max1_r",
+          "glut_max2_l",
+          "glut_max2_r",
+          "glut_max3_l",
+          "glut_max3_r",
+          "glut_med1_l",
+          "glut_med1_r",
+          "glut_med2_l",
+          "glut_med2_r",
+          "glut_med3_l",
+          "glut_med3_r",
+          "glut_min1_l",
+          "glut_min1_r",
+          "glut_min2_l",
+          "glut_min2_r",
+          "glut_min3_l",
+          "glut_min3_r"
+        ],
+        "count": 18,
+        "weight": 7
+      },
+      "Quadriceps": {
+        "matches": [
+          "quad_fem_l",
+          "quad_fem_r"
+        ],
+        "count": 2,
+        "weight": 6
+      },
+      "Pectoralis": {
+        "matches": [
+          "pect_l",
+          "pect_r"
+        ],
+        "count": 2,
+        "weight": 7
+      }
+    },
+    "muscle_groups_missing": {
+      "Trapezius": {
+        "weight": 10
+      },
+      "Rhomboids": {
+        "weight": 9
+      },
+      "Levator Scapulae": {
+        "weight": 7
+      },
+      "Serratus Anterior": {
+        "weight": 8
+      },
+      "Deltoid (all)": {
+        "weight": 10
+      },
+      "Deltoid (posterior)": {
+        "weight": 10
+      },
+      "Supraspinatus": {
+        "weight": 9
+      },
+      "Infraspinatus": {
+        "weight": 9
+      },
+      "Subscapularis": {
+        "weight": 8
+      },
+      "Teres Minor": {
+        "weight": 7
+      },
+      "Latissimus Dorsi": {
+        "weight": 10
+      },
+      "Teres Major": {
+        "weight": 9
+      },
+      "Triceps Brachii": {
+        "weight": 10
+      },
+      "Triceps (long head)": {
+        "weight": 10
+      },
+      "Biceps Brachii": {
+        "weight": 8
+      },
+      "Flexor Carpi Radialis": {
+        "weight": 8
+      },
+      "Flexor Carpi Ulnaris": {
+        "weight": 8
+      },
+      "Extensor Carpi Radialis": {
+        "weight": 7
+      },
+      "Extensor Carpi Ulnaris": {
+        "weight": 7
+      },
+      "Pronator Teres": {
+        "weight": 6
+      },
+      "Sternocleidomastoid": {
+        "weight": 6
+      },
+      "Erector Spinae": {
+        "weight": 8
+      },
+      "Obliques": {
+        "weight": 7
+      },
+      "Hamstrings": {
+        "weight": 6
+      }
+    },
+    "groups_found_count": 6,
+    "groups_total": 30,
+    "body_features": {
+      "full_body": true,
+      "separate_scapula": false,
+      "scapula_bilateral": false,
+      "scapula_names": [],
+      "hand_bodies": [
+        "hand_r",
+        "hand_l"
+      ],
+      "has_hand": true,
+      "hand_detail": 2,
+      "wrist_bodies": [],
+      "wrist_detail": 0,
+      "has_wrist_detail": false,
+      "spine_bodies": 5,
+      "has_spine_detail": false,
+      "rib_bodies": 0,
+      "head_detail": 0,
+      "head_bodies": [],
+      "has_patella": true,
+      "total_bodies": 30
+    },
+    "weighted_score": 45,
+    "max_weighted_score": 242,
+    "archery_score": 26.7
+  },
+  "M4": {
+    "model": "M4",
+    "total_muscles": 0,
+    "muscle_groups_found": {},
+    "muscle_groups_missing": {
+      "Trapezius": {
+        "weight": 10
+      },
+      "Rhomboids": {
+        "weight": 9
+      },
+      "Levator Scapulae": {
+        "weight": 7
+      },
+      "Serratus Anterior": {
+        "weight": 8
+      },
+      "Deltoid (all)": {
+        "weight": 10
+      },
+      "Deltoid (posterior)": {
+        "weight": 10
+      },
+      "Supraspinatus": {
+        "weight": 9
+      },
+      "Infraspinatus": {
+        "weight": 9
+      },
+      "Subscapularis": {
+        "weight": 8
+      },
+      "Teres Minor": {
+        "weight": 7
+      },
+      "Latissimus Dorsi": {
+        "weight": 10
+      },
+      "Teres Major": {
+        "weight": 9
+      },
+      "Triceps Brachii": {
+        "weight": 10
+      },
+      "Triceps (long head)": {
+        "weight": 10
+      },
+      "Biceps Brachii": {
+        "weight": 8
+      },
+      "Flexor Carpi Radialis": {
+        "weight": 8
+      },
+      "Flexor Carpi Ulnaris": {
+        "weight": 8
+      },
+      "Extensor Carpi Radialis": {
+        "weight": 7
+      },
+      "Extensor Carpi Ulnaris": {
+        "weight": 7
+      },
+      "Finger Flexors": {
+        "weight": 9
+      },
+      "Finger Extensors": {
+        "weight": 9
+      },
+      "Pronator Teres": {
+        "weight": 6
+      },
+      "Sternocleidomastoid": {
+        "weight": 6
+      },
+      "Erector Spinae": {
+        "weight": 8
+      },
+      "Obliques": {
+        "weight": 7
+      },
+      "Rectus Abdominis": {
+        "weight": 7
+      },
+      "Gluteus": {
+        "weight": 7
+      },
+      "Quadriceps": {
+        "weight": 6
+      },
+      "Hamstrings": {
+        "weight": 6
+      },
+      "Pectoralis": {
+        "weight": 7
+      }
+    },
+    "groups_found_count": 0,
+    "groups_total": 30,
+    "body_features": {
+      "full_body": false,
+      "separate_scapula": true,
+      "scapula_bilateral": false,
+      "scapula_names": [
+        "scapula"
+      ],
+      "hand_bodies": [
+        "hand"
+      ],
+      "has_hand": true,
+      "hand_detail": 1,
+      "wrist_bodies": [],
+      "wrist_detail": 0,
+      "has_wrist_detail": false,
+      "spine_bodies": 0,
+      "has_spine_detail": false,
+      "rib_bodies": 0,
+      "head_detail": 0,
+      "head_bodies": [],
+      "has_patella": false,
+      "total_bodies": 7
+    },
+    "weighted_score": 0,
+    "max_weighted_score": 242,
+    "archery_score": 6.0
+  },
+  "M6": {
+    "model": "M6",
+    "total_muscles": 84,
+    "muscle_groups_found": {
+      "Trapezius": {
+        "matches": [
+          "trap_acr_l",
+          "trap_acr_r",
+          "trap_cl_l",
+          "trap_cl_r"
+        ],
+        "count": 4,
+        "weight": 10
+      },
+      "Levator Scapulae": {
+        "matches": [
+          "levator_scap_l",
+          "levator_scap_r"
+        ],
+        "count": 2,
+        "weight": 7
+      },
+      "Sternocleidomastoid": {
+        "matches": [
+          "cleid_mast_l",
+          "cleid_mast_r",
+          "stern_mast_l",
+          "stern_mast_r"
+        ],
+        "count": 4,
+        "weight": 6
+      },
+      "Erector Spinae": {
+        "matches": [
+          "iliocost_cerv_c5rib_l",
+          "iliocost_cerv_c5rib_r",
+          "longissi_cap_sklc6_l",
+          "longissi_cap_sklc6_r",
+          "longissi_cerv_c4thx_l",
+          "longissi_cerv_c4thx_r"
+        ],
+        "count": 6,
+        "weight": 8
+      }
+    },
+    "muscle_groups_missing": {
+      "Rhomboids": {
+        "weight": 9
+      },
+      "Serratus Anterior": {
+        "weight": 8
+      },
+      "Deltoid (all)": {
+        "weight": 10
+      },
+      "Deltoid (posterior)": {
+        "weight": 10
+      },
+      "Supraspinatus": {
+        "weight": 9
+      },
+      "Infraspinatus": {
+        "weight": 9
+      },
+      "Subscapularis": {
+        "weight": 8
+      },
+      "Teres Minor": {
+        "weight": 7
+      },
+      "Latissimus Dorsi": {
+        "weight": 10
+      },
+      "Teres Major": {
+        "weight": 9
+      },
+      "Triceps Brachii": {
+        "weight": 10
+      },
+      "Triceps (long head)": {
+        "weight": 10
+      },
+      "Biceps Brachii": {
+        "weight": 8
+      },
+      "Flexor Carpi Radialis": {
+        "weight": 8
+      },
+      "Flexor Carpi Ulnaris": {
+        "weight": 8
+      },
+      "Extensor Carpi Radialis": {
+        "weight": 7
+      },
+      "Extensor Carpi Ulnaris": {
+        "weight": 7
+      },
+      "Finger Flexors": {
+        "weight": 9
+      },
+      "Finger Extensors": {
+        "weight": 9
+      },
+      "Pronator Teres": {
+        "weight": 6
+      },
+      "Obliques": {
+        "weight": 7
+      },
+      "Rectus Abdominis": {
+        "weight": 7
+      },
+      "Gluteus": {
+        "weight": 7
+      },
+      "Quadriceps": {
+        "weight": 6
+      },
+      "Hamstrings": {
+        "weight": 6
+      },
+      "Pectoralis": {
+        "weight": 7
+      }
+    },
+    "groups_found_count": 4,
+    "groups_total": 30,
+    "body_features": {
+      "full_body": false,
+      "separate_scapula": false,
+      "scapula_bilateral": false,
+      "scapula_names": [],
+      "hand_bodies": [],
+      "has_hand": false,
+      "hand_detail": 0,
+      "wrist_bodies": [],
+      "wrist_detail": 0,
+      "has_wrist_detail": false,
+      "spine_bodies": 7,
+      "has_spine_detail": true,
+      "rib_bodies": 0,
+      "head_detail": 1,
+      "head_bodies": [
+        "skull"
+      ],
+      "has_patella": false,
+      "total_bodies": 9
+    },
+    "weighted_score": 31,
+    "max_weighted_score": 242,
+    "archery_score": 10.8
+  },
+  "M9": {
+    "model": "M9",
+    "total_muscles": 43,
+    "muscle_groups_found": {
+      "Flexor Carpi Radialis": {
+        "matches": [
+          "FCR"
+        ],
+        "count": 1,
+        "weight": 8
+      },
+      "Flexor Carpi Ulnaris": {
+        "matches": [
+          "FCU"
+        ],
+        "count": 1,
+        "weight": 8
+      },
+      "Extensor Carpi Radialis": {
+        "matches": [
+          "ECRB",
+          "ECRL"
+        ],
+        "count": 2,
+        "weight": 7
+      },
+      "Extensor Carpi Ulnaris": {
+        "matches": [
+          "ECU"
+        ],
+        "count": 1,
+        "weight": 7
+      },
+      "Finger Flexors": {
+        "matches": [
+          "FDPI",
+          "FDPL",
+          "FDPM",
+          "FDPR",
+          "FDSI",
+          "FDSL",
+          "FDSM",
+          "FDSR"
+        ],
+        "count": 8,
+        "weight": 9
+      },
+      "Finger Extensors": {
+        "matches": [
+          "EDCI",
+          "EDCL",
+          "EDCM",
+          "EDCR",
+          "EDM"
+        ],
+        "count": 5,
+        "weight": 9
+      }
+    },
+    "muscle_groups_missing": {
+      "Trapezius": {
+        "weight": 10
+      },
+      "Rhomboids": {
+        "weight": 9
+      },
+      "Levator Scapulae": {
+        "weight": 7
+      },
+      "Serratus Anterior": {
+        "weight": 8
+      },
+      "Deltoid (all)": {
+        "weight": 10
+      },
+      "Deltoid (posterior)": {
+        "weight": 10
+      },
+      "Supraspinatus": {
+        "weight": 9
+      },
+      "Infraspinatus": {
+        "weight": 9
+      },
+      "Subscapularis": {
+        "weight": 8
+      },
+      "Teres Minor": {
+        "weight": 7
+      },
+      "Latissimus Dorsi": {
+        "weight": 10
+      },
+      "Teres Major": {
+        "weight": 9
+      },
+      "Triceps Brachii": {
+        "weight": 10
+      },
+      "Triceps (long head)": {
+        "weight": 10
+      },
+      "Biceps Brachii": {
+        "weight": 8
+      },
+      "Pronator Teres": {
+        "weight": 6
+      },
+      "Sternocleidomastoid": {
+        "weight": 6
+      },
+      "Erector Spinae": {
+        "weight": 8
+      },
+      "Obliques": {
+        "weight": 7
+      },
+      "Rectus Abdominis": {
+        "weight": 7
+      },
+      "Gluteus": {
+        "weight": 7
+      },
+      "Quadriceps": {
+        "weight": 6
+      },
+      "Hamstrings": {
+        "weight": 6
+      },
+      "Pectoralis": {
+        "weight": 7
+      }
+    },
+    "groups_found_count": 6,
+    "groups_total": 30,
+    "body_features": {
+      "full_body": false,
+      "separate_scapula": true,
+      "scapula_bilateral": false,
+      "scapula_names": [
+        "scapula"
+      ],
+      "hand_bodies": [],
+      "has_hand": false,
+      "hand_detail": 0,
+      "wrist_bodies": [
+        "proximal_row"
+      ],
+      "wrist_detail": 1,
+      "has_wrist_detail": true,
+      "spine_bodies": 0,
+      "has_spine_detail": false,
+      "rib_bodies": 0,
+      "head_detail": 0,
+      "head_bodies": [],
+      "has_patella": false,
+      "total_bodies": 30
+    },
+    "weighted_score": 48,
+    "max_weighted_score": 242,
+    "archery_score": 19.9
+  },
+  "Raj": {
+    "model": "Raj",
+    "total_muscles": 81,
+    "muscle_groups_found": {
+      "Gluteus": {
+        "matches": [
+          "glmax1_l",
+          "glmax1_r",
+          "glmax2_l",
+          "glmax2_r",
+          "glmax3_l",
+          "glmax3_r",
+          "glmed1_l",
+          "glmed1_r",
+          "glmed2_l",
+          "glmed2_r",
+          "glmed3_l",
+          "glmed3_r",
+          "glmin1_l",
+          "glmin1_r",
+          "glmin2_l",
+          "glmin2_r",
+          "glmin3_l",
+          "glmin3_r"
+        ],
+        "count": 18,
+        "weight": 7
+      }
+    },
+    "muscle_groups_missing": {
+      "Trapezius": {
+        "weight": 10
+      },
+      "Rhomboids": {
+        "weight": 9
+      },
+      "Levator Scapulae": {
+        "weight": 7
+      },
+      "Serratus Anterior": {
+        "weight": 8
+      },
+      "Deltoid (all)": {
+        "weight": 10
+      },
+      "Deltoid (posterior)": {
+        "weight": 10
+      },
+      "Supraspinatus": {
+        "weight": 9
+      },
+      "Infraspinatus": {
+        "weight": 9
+      },
+      "Subscapularis": {
+        "weight": 8
+      },
+      "Teres Minor": {
+        "weight": 7
+      },
+      "Latissimus Dorsi": {
+        "weight": 10
+      },
+      "Teres Major": {
+        "weight": 9
+      },
+      "Triceps Brachii": {
+        "weight": 10
+      },
+      "Triceps (long head)": {
+        "weight": 10
+      },
+      "Biceps Brachii": {
+        "weight": 8
+      },
+      "Flexor Carpi Radialis": {
+        "weight": 8
+      },
+      "Flexor Carpi Ulnaris": {
+        "weight": 8
+      },
+      "Extensor Carpi Radialis": {
+        "weight": 7
+      },
+      "Extensor Carpi Ulnaris": {
+        "weight": 7
+      },
+      "Finger Flexors": {
+        "weight": 9
+      },
+      "Finger Extensors": {
+        "weight": 9
+      },
+      "Pronator Teres": {
+        "weight": 6
+      },
+      "Sternocleidomastoid": {
+        "weight": 6
+      },
+      "Erector Spinae": {
+        "weight": 8
+      },
+      "Obliques": {
+        "weight": 7
+      },
+      "Rectus Abdominis": {
+        "weight": 7
+      },
+      "Quadriceps": {
+        "weight": 6
+      },
+      "Hamstrings": {
+        "weight": 6
+      },
+      "Pectoralis": {
+        "weight": 7
+      }
+    },
+    "groups_found_count": 1,
+    "groups_total": 30,
+    "body_features": {
+      "full_body": true,
+      "separate_scapula": false,
+      "scapula_bilateral": false,
+      "scapula_names": [],
+      "hand_bodies": [
+        "hand_r",
+        "hand_l"
+      ],
+      "has_hand": true,
+      "hand_detail": 2,
+      "wrist_bodies": [],
+      "wrist_detail": 0,
+      "has_wrist_detail": false,
+      "spine_bodies": 0,
+      "has_spine_detail": false,
+      "rib_bodies": 0,
+      "head_detail": 0,
+      "head_bodies": [],
+      "has_patella": true,
+      "total_bodies": 22
+    },
+    "weighted_score": 7,
+    "max_weighted_score": 242,
+    "archery_score": 15.7
+  },
+  "ULB": {
+    "model": "ULB",
+    "total_muscles": 156,
+    "muscle_groups_found": {
+      "Deltoid (all)": {
+        "matches": [
+          "DELT1",
+          "DELT1_l",
+          "DELT2",
+          "DELT2_l",
+          "DELT3",
+          "DELT3_l"
+        ],
+        "count": 6,
+        "weight": 10
+      },
+      "Deltoid (posterior)": {
+        "matches": [
+          "DELT2"
+        ],
+        "count": 1,
+        "weight": 10
+      },
+      "Supraspinatus": {
+        "matches": [
+          "SUPSP"
+        ],
+        "count": 1,
+        "weight": 9
+      },
+      "Infraspinatus": {
+        "matches": [
+          "INFSP"
+        ],
+        "count": 1,
+        "weight": 9
+      },
+      "Subscapularis": {
+        "matches": [
+          "SUBSC"
+        ],
+        "count": 1,
+        "weight": 8
+      },
+      "Teres Minor": {
+        "matches": [
+          "TMIN"
+        ],
+        "count": 1,
+        "weight": 7
+      },
+      "Latissimus Dorsi": {
+        "matches": [
+          "LAT1",
+          "LAT2",
+          "LAT3"
+        ],
+        "count": 3,
+        "weight": 10
+      },
+      "Teres Major": {
+        "matches": [
+          "TMAJ"
+        ],
+        "count": 1,
+        "weight": 9
+      },
+      "Triceps Brachii": {
+        "matches": [
+          "TRIlat",
+          "TRIlong",
+          "TRImed"
+        ],
+        "count": 3,
+        "weight": 10
+      },
+      "Triceps (long head)": {
+        "matches": [
+          "TRIlong"
+        ],
+        "count": 1,
+        "weight": 10
+      },
+      "Biceps Brachii": {
+        "matches": [
+          "BIClong",
+          "BICshort"
+        ],
+        "count": 2,
+        "weight": 8
+      },
+      "Flexor Carpi Radialis": {
+        "matches": [
+          "FCR"
+        ],
+        "count": 1,
+        "weight": 8
+      },
+      "Flexor Carpi Ulnaris": {
+        "matches": [
+          "FCU"
+        ],
+        "count": 1,
+        "weight": 8
+      },
+      "Extensor Carpi Radialis": {
+        "matches": [
+          "ECRB",
+          "ECRL"
+        ],
+        "count": 2,
+        "weight": 7
+      },
+      "Extensor Carpi Ulnaris": {
+        "matches": [
+          "ECU"
+        ],
+        "count": 1,
+        "weight": 7
+      },
+      "Finger Flexors": {
+        "matches": [
+          "FDPI",
+          "FDPL",
+          "FDPM",
+          "FDPR",
+          "FDSI",
+          "FDSL",
+          "FDSM",
+          "FDSR"
+        ],
+        "count": 8,
+        "weight": 9
+      },
+      "Finger Extensors": {
+        "matches": [
+          "EDCI",
+          "EDCL",
+          "EDCM",
+          "EDCR",
+          "EDM"
+        ],
+        "count": 5,
+        "weight": 9
+      },
+      "Gluteus": {
+        "matches": [
+          "glut_max1_l",
+          "glut_max1_r",
+          "glut_max2_l",
+          "glut_max2_r",
+          "glut_max3_l",
+          "glut_max3_r",
+          "glut_med1_l",
+          "glut_med1_r",
+          "glut_med2_l",
+          "glut_med2_r",
+          "glut_med3_l",
+          "glut_med3_r"
+        ],
+        "count": 12,
+        "weight": 7
+      },
+      "Quadriceps": {
+        "matches": [
+          "quad_fem_l",
+          "quad_fem_r"
+        ],
+        "count": 2,
+        "weight": 6
+      },
+      "Pectoralis": {
+        "matches": [
+          "PECM1",
+          "PECM1_l",
+          "PECM2",
+          "PECM2_l",
+          "PECM3",
+          "PECM3_l",
+          "pect_l",
+          "pect_r"
+        ],
+        "count": 8,
+        "weight": 7
+      }
+    },
+    "muscle_groups_missing": {
+      "Trapezius": {
+        "weight": 10
+      },
+      "Rhomboids": {
+        "weight": 9
+      },
+      "Levator Scapulae": {
+        "weight": 7
+      },
+      "Serratus Anterior": {
+        "weight": 8
+      },
+      "Pronator Teres": {
+        "weight": 6
+      },
+      "Sternocleidomastoid": {
+        "weight": 6
+      },
+      "Erector Spinae": {
+        "weight": 8
+      },
+      "Obliques": {
+        "weight": 7
+      },
+      "Rectus Abdominis": {
+        "weight": 7
+      },
+      "Hamstrings": {
+        "weight": 6
+      }
+    },
+    "groups_found_count": 20,
+    "groups_total": 30,
+    "body_features": {
+      "full_body": true,
+      "separate_scapula": true,
+      "scapula_bilateral": true,
+      "scapula_names": [
+        "scapula",
+        "scapula_l"
+      ],
+      "hand_bodies": [],
+      "has_hand": false,
+      "hand_detail": 0,
+      "wrist_bodies": [],
+      "wrist_detail": 0,
+      "has_wrist_detail": false,
+      "spine_bodies": 0,
+      "has_spine_detail": false,
+      "rib_bodies": 0,
+      "head_detail": 0,
+      "head_bodies": [],
+      "has_patella": false,
+      "total_bodies": 130
+    },
+    "weighted_score": 168,
+    "max_weighted_score": 242,
+    "archery_score": 57.7
+  }
+}

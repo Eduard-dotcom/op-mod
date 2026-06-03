@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://github.com/opensim-org",
+    "name": "OpenSim Project - GitHub",
+    "snippet": "opensim-fitter Public. A Python library for fitting OpenSim model geometry and kinematics to motion capture and video-based data sources.",
+    "host_name": "github.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/topics/musculoskeletal-models",
+    "name": "musculoskeletal-models · GitHub Topics",
+    "snippet": "Scripts and models to optimize musculotendon parameters in musculoskeletal models. matlab biomechanics muscle opensim scientific-publications bioengineering ...",
+    "host_name": "github.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/orgs/opensim-org/repositories",
+    "name": "Repositories - opensim-org - GitHub",
+    "snippet": "opensim-moco. Public archive. Solve optimal control problems for musculoskeletal models using OpenSim and direct collocation. optimizationmotionbiomechanics + ...",
+    "host_name": "github.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/opensim",
+    "name": "OpenSim: Project Home - SimTK",
+    "snippet": "OpenSim is a freely available, user extensible software system that lets users develop models of musculoskeletal structures and create dynamic simulations ...",
+    "host_name": "simtk.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/opensim-org/opensim-models/blob/master/Tutorials/doc/Tutorial%2B1%2B-%2BIntro%2Bto%2BMusculoskeletal%2BModeling.html",
+    "name": "Tutorial+1+-+Intro+to+Musculoskeletal+Modeling.html - GitHub",
+    "snippet": "SimTK OpenSim models (.osim) and related example files that are distributed with OpenSim.",
+    "host_name": "github.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  }
+]

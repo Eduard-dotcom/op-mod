@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://github.com/stanfordnmbl/osim-rl/blob/master/docs/NIPS2017.md",
+    "name": "osim-rl/docs/NIPS2017.md at master - GitHub",
+    "snippet": "Nov 6, 2568 BE — ... psoas muscles (the muscles that help bend the hip joint in the model ) varies. The muscle strength is set to z * 100%, where z is a normal ...\nTo model physics and biomechanics we use OpenSim - a biomechanical physics environment for musculoskeletal simulations. Getting started.",
+    "host_name": "github.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/opensim-org/opensim-models/blob/master/Tutorials/doc/Tutorial%2B1%2B-%2BIntro%2Bto%2BMusculoskeletal%2BModeling.html",
+    "name": "Tutorial+1+-+Intro+to+Musculoskeletal+Modeling.html - GitHub",
+    "snippet": "SimTK OpenSim models (. osim ) and related example files that are distributed with OpenSim ... hip , and display only the glut_max3_r muscle (right hip ...",
+    "host_name": "github.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/stanfordnmbl/osim-rl/blob/master/osim/env/osim.py",
+    "name": "osim-rl/osim/env/osim.py at master · stanfordnmbl/osim-rl",
+    "snippet": "import math import numpy as np import os from .utils.mygym import convert_to_gym import gym import opensim import random ## OpenSim interface # The amin ...",
+    "host_name": "github.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11601422",
+    "name": "The Neuromusculoskeletal Modeling Pipeline - PMC - NIH",
+    "snippet": "2025 · Cited by 23 — osim model file using an provided MATLAB model conversion utility program. ... The OpenSim model must contain muscle groups that define lists of muscles ...\nFor use with OpenSim Moco, an NMSM Pipeline .osimx model file must be converted to an OpenSim .osim model file using an provided MATLAB model conversion utility ...",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/figure/Musculoskeletal-model-in-OpenSim-used-in-this-competition-Red-purple-curves-indicate_fig1_324166992",
+    "name": "Musculoskeletal model in OpenSim used in this competition",
+    "snippet": "The model included 18 musculotendon actuators [21], with 9 on each leg, to represent the major lower limb muscle groups that drive walking (Figure 2). For each ...\nThe model included 18 musculotendon actuators [21], with 9 on each leg, to represent the major lower limb muscle groups that drive walking (Figure 2). For each ...",
+    "host_name": "www.researchgate.net",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/opensim-org/opensim-models/blob/master/Models/Leg6Dof9Musc/leg6dof9musc.osim",
+    "name": "opensim-models/Models/Leg6Dof9Musc/leg6dof9musc.osim",
+    "snippet": "SimTK OpenSim models (. osim ) and related example files that are distributed with OpenSim . - opensim - models / Models /Leg6Dof9Musc/leg6dof9musc. osim at master ...\nSimTK OpenSim models (.osim) and related example files that are distributed with OpenSim. - opensim-models/Models/Leg6Dof9Musc/leg6dof9musc.osim at master ...",
+    "host_name": "github.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/stanfordnmbl/osim-rl/blob/master/osim/models/gait9dof18musc.osim",
+    "name": "osim-rl/osim/models/gait9dof18musc.osim at master - GitHub",
+    "snippet": "> < OpenSimDocument Version=\"30000\"> < Model name ... model with 9 degrees of freedom and 18 muscles by Ajay Seth. Adjusted by ...",
+    "host_name": "github.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/opensim-org/opensim-models",
+    "name": "SimTK OpenSim models (.osim) and related example  - GitHub",
+    "snippet": "SimTK OpenSim models (. osim ) and related example files that are distributed with OpenSim . - opensim -org/ opensim - models .",
+    "host_name": "github.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/opensim-org/opensim-models/blob/master/Models/Arm26/arm26.osim",
+    "name": "opensim-models/Models/Arm26/arm26.osim at master - GitHub",
+    "snippet": "SimTK OpenSim models (. osim ) and related example files that are distributed with OpenSim . - opensim - models / Models /Arm26/arm26. osim at master ...",
+    "host_name": "github.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/stanfordnmbl/osim-rl",
+    "name": "GitHub - stanfordnmbl/osim-rl: Reinforcement learning",
+    "snippet": "You are provided with a human musculoskeletal model and a physics-based simulation environment, OpenSim . There will be three tracks: Best performance; Novel ...\nYou are provided with a human musculoskeletal model and a physics-based simulation environment, OpenSim. There will be three tracks: Best performance; Novel ...",
+    "host_name": "github.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

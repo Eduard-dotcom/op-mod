@@ -1,0 +1,21 @@
+{
+  "code": 200,
+  "data": {
+    "description": "",
+    "external": {},
+    "html": "<html><head>\n    <style>\n        :root { color-scheme: light dark; }\n        * { box-sizing: border-box; }\n        body {\n            margin: 0;\n            padding: 0;\n            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji', sans-serif;\n            background: transparent;\n        }\n        .container {\n            min-height: 100vh;\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n            align-items: center;\n            gap: 2rem; /* gap-8 */\n            padding: 1rem; /* p-4 */\n        }\n        .logo-wrap {\n            position: relative; /* relative */\n            width: 6rem;  /* w-24 */\n            height: 6rem; /* h-24 */\n        }\n        .logo {\n            width: 100%;\n            height: 100%;\n            object-fit: contain; /* object-contain */\n            opacity: 0.9;\n        }\n    </style>\n    <script>\n\t\tsetTimeout(() => {\n            window.location.href = window.location.href;\n        }, 5000);\n    </script>\n</head>\n\n<body>\n    <div class=\"container\">\n        <div class=\"logo-wrap\">\n            <img src=\"/logo.svg\" alt=\"Z.ai Logo\" class=\"logo\">\n        </div>\n    </div>\n\n\n</body></html>",
+    "metadata": {},
+    "title": "",
+    "url": "https://preview-chat-00fa4171-b066-4a26-a89e-347a6d7de4af.space-z.ai/",
+    "usage": {
+      "tokens": 336
+    },
+    "warning": "Target URL returned error 502: Bad Gateway"
+  },
+  "meta": {
+    "usage": {
+      "tokens": 336
+    }
+  },
+  "status": 20000
+}

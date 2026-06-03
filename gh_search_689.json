@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://github.com/stanfordnmbl/shoulder-personalization",
+    "name": "stanfordnmbl/shoulder-personalization: Python scripts to  - GitHub",
+    "snippet": "This respository contains python scripts to scale and personalize a generic OpenSim upper body model [1, 2, 3]. The unscaled muskuloskeletal model and ...",
+    "host_name": "github.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/frs/?group_id=986",
+    "name": "Model of the Scapulothoracic Joint: Downloads - SimTK",
+    "snippet": "Provide an OpenSim Joint model that enables a more accurate representation of scapula mechanics in musculoskeletal simulations.",
+    "host_name": "simtk.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/AbdnBiomechEng/arm-model",
+    "name": "Arm model for biomechanical simulation - works with OpenSim 4.",
+    "snippet": "This model can be used for visualising muscle lengths and moment arms in OpenSim where you have recorded kinematic data, but cannot be used for dynamic ...",
+    "host_name": "github.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/dblana/opensim-shoulder",
+    "name": "dblana/opensim-shoulder: Musculoskeletal model of the  - GitHub",
+    "snippet": "Musculoskeletal model of the shoulder in OpenSim. Contribute to dblana/opensim-shoulder development by creating an account on GitHub.",
+    "host_name": "github.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/dasproject/DAS3",
+    "name": "GitHub - dasproject/DAS3: 3D shoulder and elbow model",
+    "snippet": "To use DAS3, the following environment is needed: Matlab 2018b or later; Opensim 4.0 [3]; Opensim Matlab API [4]. Run the Opensim GUI once before installing ...",
+    "host_name": "github.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  }
+]

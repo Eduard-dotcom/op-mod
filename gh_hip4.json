@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11601422",
+    "name": "The Neuromusculoskeletal Modeling Pipeline: MATLAB-based",
+    "snippet": "osim model file using an provided MATLAB model ... Psoas Muscle Influence on Walking Function Following Internal Hemipelvectomy with Reconstruction.",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/391868621_The_Neuromusculoskeletal_Modeling_Pipeline_MATLAB-based_model_personalization_and_treatment_optimization_functionality_for_OpenSim",
+    "name": "(PDF) The Neuromusculoskeletal Modeling Pipeline - ResearchGate",
+    "snippet": "... OpenSim.osim model ﬁle using an provided MATLAB. model conversion ... psoas muscle inﬂuence on walking function following internal. hemipelvectomy ...",
+    "host_name": "www.researchgate.net",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.biorxiv.org/content/biorxiv/early/2024/11/03/2024.10.30.620965.full.pdf",
+    "name": "[PDF] The Neuromusculoskeletal Modeling Pipeline: MATLAB-based Model",
+    "snippet": "... OpenSim .osim model file using an. 268 ... Lewis, V. O.; Fregly, B. J. Computational Evaluation of Psoas Muscle Influence on Walking.",
+    "host_name": "www.biorxiv.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://livrepository.liverpool.ac.uk/3184625/1/201173161_Aug2024.pdf",
+    "name": "[PDF] Anatomically Stratified Cementless Total Hip Replacement System",
+    "snippet": "trc file; secondly, an OpenSim model (.osim file) is needed as a ... 4.17);. Adductors, Biceps femoris, Deep Gluteal, External Obturator, Gracilis, Iliacus,.",
+    "host_name": "livrepository.liverpool.ac.uk",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5507211",
+    "name": "Full body musculoskeletal model for muscle-driven simulation  - PMC",
+    "snippet": "Iliacus, iliacus, 1021, 10.7, 9.6*, 16.0. Peroneus brevis, perbrev, 521, 4.5, 14.8, 11.8. Peroneus longus, perlong, 1115, 5.1, 33.2, 14.2. Piriformis, piri ...",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://upcommons.upc.edu/bitstreams/65039e34-ffec-48af-b100-407a036de239/download",
+    "name": "[PDF] PREDICTING THE EFFECTS OF PASSIVE ORTHOSES USE ON",
+    "snippet": "exported in an OpenSim compatible motion file format, and a text file is generated with the complete ... iliacus. Flex. Psoas psoas. Flex. Semimembranosus semimem.",
+    "host_name": "upcommons.upc.edu",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://search.proquest.com/openview/92516a8717c5ebb776c4470e262c4a76/1?pq-origsite=gscholar&cbl=18750&diss=y",
+    "name": "Bodily Memory in Digital Space: Personalized Bioarchaeological",
+    "snippet": "STAPLE Input Name (Grouped) Segmented Bone Geometries pelvis_no_sacrum right iliacus, left iliacus ... OpenSim musculoskeletal models of the ...",
+    "host_name": "search.proquest.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/394081430_A_real-time_full-chain_wearable_sensor-based_musculoskeletal_simulation_an_OpenSim-ROS_Integration",
+    "name": "(PDF) A real-time full-chain wearable sensor-based musculoskeletal",
+    "snippet": "... Model and the OpenSim gait2392 model. We compared joint ... psoas). These differences might be explained by differences in hip ...",
+    "host_name": "www.researchgate.net",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://teses.usp.br/teses/disponiveis/17/17152/tde-04082021-140219/publico/BRUNOLUIZDESOUZABEDOco.pdf",
+    "name": "[PDF] Universidade de São Paulo Faculdade de Medicina de Ribeirão Preto",
+    "snippet": "iliacus. 1.085. 1.087. 0.040. 0.030. 0.031. 0.003 perlong. 0.605. 0.613. 0.007. 0.073. 0.073. 0.002 psoas. 1.133. 1.136. 0.031. 0.072. 0.073. 0.003 bflhl. 0.173.",
+    "host_name": "teses.usp.br",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://hal.univ-lorraine.fr/tel-02735309/file/DDOC_T_2019_0291_SHACHYKOV.pdf",
+    "name": "[PDF] Neural modeling of human motor coordination inspired by biological",
+    "snippet": "3.2 Musculoskeletal model in OpenSim . ... portion), Gluteus Maximus (3 items), Iliacus, Psoas, Sartorius.",
+    "host_name": "hal.univ-lorraine.fr",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

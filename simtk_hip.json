@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://simtk.org/projects/raja-dhm",
+    "name": "Full Body Model adjusted - all hip spanning muscles: Project Home",
+    "snippet": "The Full Body Model (https://simtk.org/projects/full_body) of Rajagopal et al. (2016) compatible with OpenSim v4.1 was adjusted to contain all 22 hip spanning ...",
+    "host_name": "simtk.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/opensim",
+    "name": "OpenSim: Project Home - SimTK",
+    "snippet": "OpenSim is a freely available, user extensible software system that lets users develop models of musculoskeletal structures and create dynamic simulations ...",
+    "host_name": "simtk.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/force_direction",
+    "name": "OpenSim plugin to extract the muscle lines of action: Project Home",
+    "snippet": "The aim of this project is to provide OpenSim users with a useful tool to obtain muscle lines of actions and potentially link their musculoskeletal models and ...",
+    "host_name": "simtk.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/high-hip-flex",
+    "name": "Full Body Model to Perform Deep Squatting and High Hip Flexion",
+    "snippet": "This customized musculoskeletal is suitable for analysis with up to 138 degrees of hip flexion and 145 degrees of knee flexion.",
+    "host_name": "simtk.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/fullbodylumbar",
+    "name": "Full-body Musculoskeletal Model of the Lumbar Spine: Project Home",
+    "snippet": "Develop a publicly available full-body model with extensive trunk musculature and degrees of freedom in the lumbar spine.",
+    "host_name": "simtk.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/torso_legs",
+    "name": "Torso + Lower Extremity Model: Project Home - SimTK",
+    "snippet": "This project contains an OpenSIM model file that includes a torso segment in addition to the lower extremity. The model contains 23 degrees ...",
+    "host_name": "simtk.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/spine_upperbody",
+    "name": "Framingham Heart Study musculoskeletal models updated  - SimTK",
+    "snippet": "This project aims to deliver updated musculoskeletal (MSK) models of the Framingham Heart Study dataset, implemented in OpenSim 4.x.",
+    "host_name": "simtk.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/hip_muscles",
+    "name": "Hip Musculoskeletal Model: Project Home - SimTK",
+    "snippet": "A detailed model of the muscles spanning the hip joint for muscle force and joint load prediction at the hip. Download Latest Releases.",
+    "host_name": "simtk.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/lowlimbmodel09",
+    "name": "Lower Limb Model 2010: Project Home - SimTK",
+    "snippet": "Our paper describes a musculoskeletal model of the lower limb based on experimental measurements of muscle architecture in 21 cadavers.",
+    "host_name": "simtk.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://opensimconfluence.atlassian.net/wiki/spaces/OpenSim24/pages/54001808/Musculoskeletal+Models",
+    "name": "OpenSim Models",
+    "snippet": "The model includes the kinematics of the hip, knee, ankle, and metatarsophalangeal joints and thirty-three muscle-tendon actuators. SimTK Model Library ...",
+    "host_name": "opensimconfluence.atlassian.net",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

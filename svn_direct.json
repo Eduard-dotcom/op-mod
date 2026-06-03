@@ -1,0 +1,20 @@
+{
+  "code": 200,
+  "data": {
+    "description": "",
+    "external": {},
+    "html": "<html><head><title>scapulothoracic - Revision 0: /</title></head>\n<body>\n <h2>scapulothoracic - Revision 0: /</h2>\n <ul>\n </ul>\n <hr noshade=\"\"><em>Powered by <a href=\"http://subversion.apache.org/\">Apache Subversion</a> version 1.14.2 (r1899510).</em>\n</body></html>",
+    "metadata": {},
+    "title": "scapulothoracic - Revision 0: /",
+    "url": "https://simtk.org/svn/scapulothoracic/",
+    "usage": {
+      "tokens": 98
+    }
+  },
+  "meta": {
+    "usage": {
+      "tokens": 98
+    }
+  },
+  "status": 20000
+}

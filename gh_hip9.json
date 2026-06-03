@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://github.com/stanfordnmbl/osim-rl/blob/master/docs/NIPS2017.md",
+    "name": "osim-rl/docs/NIPS2017.md at master - GitHub",
+    "snippet": "... psoas muscles (the muscles that help bend the hip joint in the model) varies. The muscle strength is set to z * 100%, where z is a normal ...",
+    "host_name": "github.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.1101/2024.10.30.620965v2.full-text",
+    "name": "The Neuromusculoskeletal Modeling Pipeline: MATLAB-based",
+    "snippet": "osim model file using an provided MATLAB model ... To avoid non-anatomical muscle paths around the hip complex, the left and right hip joint ...",
+    "host_name": "www.biorxiv.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11601422",
+    "name": "The Neuromusculoskeletal Modeling Pipeline: MATLAB-based",
+    "snippet": "osim model file using an provided MATLAB model conversion utility program. ... To avoid non-anatomical muscle paths around the hip complex, the left and right hip ...",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/WilliKoller/OpenSimMatlabBasic/blob/main/modifyWrappingObjectsToCorrectMuscleMomentArms.m",
+    "name": "OpenSimMatlabBasic  - GitHub",
+    "snippet": "... muscles that span the hip and knee joint muscleFilter = {'add', 'gl', 'semi', 'bf', 'pec', 'grac', 'piri', 'sar', 'tfl', 'iliacus', 'psoas', 'rect', 'gas ...",
+    "host_name": "github.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/stanfordnmbl/PassiveMuscleForceCalibration/blob/main/PassiveCalibration.m",
+    "name": "PassiveMuscleForceCalibration/PassiveCalibration.m at main - GitHub",
+    "snippet": "Calibrates the passive muscle forces in an OpenSim model based on experimentally-collected passive joint moments from Silder et al ... % hip flexion, knee flexion ...",
+    "host_name": "github.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/391868621_The_Neuromusculoskeletal_Modeling_Pipeline_MATLAB-based_model_personalization_and_treatment_optimization_functionality_for_OpenSim",
+    "name": "(PDF) The Neuromusculoskeletal Modeling Pipeline - ResearchGate",
+    "snippet": "... OpenSim.osim model ﬁle using an provided MATLAB ... hip abduction torques when combined. with hip extension or ankle plantarﬂexion in chronic hemiparetic.",
+    "host_name": "www.researchgate.net",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10538745",
+    "name": "Musculoskeletal model of osseointegrated transfemoral amputees in",
+    "snippet": "The semimembranosus and semitendinosus muscles are active during the hip extension for AB-1 which are missing in OI-TFA-1 and OI-TFA-2. This ...",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://upcommons.upc.edu/bitstreams/65039e34-ffec-48af-b100-407a036de239/download",
+    "name": "[PDF] PREDICTING THE EFFECTS OF PASSIVE ORTHOSES USE ON",
+    "snippet": "scaled model have insertions or functions directly related to hip, pelvis, and foot. This could be because both the hip and the foot are key areas for ...",
+    "host_name": "upcommons.upc.edu",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://teses.usp.br/teses/disponiveis/17/17152/tde-04082021-140219/publico/BRUNOLUIZDESOUZABEDOco.pdf",
+    "name": "[PDF] Universidade de São Paulo Faculdade de Medicina de Ribeirão Preto",
+    "snippet": "The OpenSim model file (.osim) can be automatically loaded on ... by controlling the moment arm of hip and knee muscles to enable investigations with high.",
+    "host_name": "teses.usp.br",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://hal.univ-lorraine.fr/tel-02735309/file/DDOC_T_2019_0291_SHACHYKOV.pdf",
+    "name": "[PDF] Neural modeling of human motor coordination inspired by biological",
+    "snippet": "The joint to be controlled is the human hip joint, actuated by Iliopsoas and Gluteus muscles (Fig. 5.1a). It is the primary joint involved ...",
+    "host_name": "hal.univ-lorraine.fr",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

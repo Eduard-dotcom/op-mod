@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://github.com/opensim-org/opensim-models/blob/master/Models/Arm26/arm26.osim",
+    "name": "opensim-models/Models/Arm26/arm26.osim at master - GitHub",
+    "snippet": "SimTK OpenSim models (.osim) and related example files that are distributed with OpenSim. - opensim-models/Models/Arm26/arm26.osim at master ...",
+    "host_name": "github.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/opensim-org/opensim-models/blob/master/Tutorials/doc/Tutorial%2B1%2B-%2BIntro%2Bto%2BMusculoskeletal%2BModeling.html",
+    "name": "Tutorial+1+-+Intro+to+Musculoskeletal+Modeling.html - GitHub",
+    "snippet": "... OpenSim, a musculoskeletal model consists of rigid body segments connected by joints. Muscles span these joints and generate forces and motion.</span> Once ...",
+    "host_name": "github.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://simtk.org/projects/opensim",
+    "name": "OpenSim: Project Home - SimTK",
+    "snippet": "OpenSim is a freely available, user extensible software system that lets users develop models of musculoskeletal structures and create dynamic simulations ...",
+    "host_name": "simtk.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://opensimconfluence.atlassian.net/wiki/spaces/OpenSim/pages/53090607/Musculoskeletal+Models",
+    "name": "Musculoskeletal Models - OpenSim",
+    "snippet": "Graphics-based musculoskeletal models are effective tools for visualizing human movement, analyzing the functional capacity of muscles, and designing improved ...",
+    "host_name": "opensimconfluence.atlassian.net",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11601422",
+    "name": "The Neuromusculoskeletal Modeling Pipeline: MATLAB-based",
+    "snippet": "First, a generic musculoskeletal model is scaled using the OpenSim Scale Model tool. To facilitate modeling and simulation of full-body walking motions, we ...",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/stanfordnmbl/osim-rl/blob/master/docs/NIPS2017.md",
+    "name": "osim-rl/docs/NIPS2017.md at master - GitHub",
+    "snippet": "To model physics and biomechanics we use OpenSim - a biomechanical physics environment for musculoskeletal simulations. Getting started.",
+    "host_name": "github.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/ComputationalBiomechanicsLab/opensim-creator",
+    "name": "ComputationalBiomechanicsLab/opensim-creator: A UI for  - GitHub",
+    "snippet": "OpenSim Creator (osc) is a standalone UI for building and editing OpenSim models. It's available as a freestanding all-in-one installer for Windows 10 (>= 1507 ...",
+    "host_name": "github.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=EWcMT99_nf0",
+    "name": "OpenSim Creator: Tutorial 4: Model an Finger - YouTube",
+    "snippet": "... github.com/ComputationalBiomechanicsLab/opensim ... 02 -Jumping into Musculoskeletal Modeling with OpenSim. European ...",
+    "host_name": "www.youtube.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://colab.research.google.com/github/opensim-org/CMBBE2024/blob/main/Demo3_OpenSimMoco/Demo%203%20-%20Creating%20muscle-driven%20Simulations%20with%20OpenSim%20Moco.ipynb",
+    "name": "3. Creating muscle-driven simulations with OpenSim Moco - Colab",
+    "snippet": "OpenSim Moco is a software package for creating musculoskeletal simulations using trajectory optimization [1]. Users define problems by providing an OpenSim ...",
+    "host_name": "colab.research.google.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/opensim-org/opensim-core/blob/master/OpenSim/Simulation/Model/Model.cpp",
+    "name": "opensim-core/OpenSim/Simulation/Model/Model.cpp at main - GitHub",
+    "snippet": "SimTK OpenSim C++ libraries and command-line applications, and Java/Python wrapping. - opensim-core/OpenSim/Simulation/Model/Model.cpp at main ...",
+    "host_name": "github.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]
