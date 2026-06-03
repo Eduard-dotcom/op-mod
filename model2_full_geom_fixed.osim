@@ -4166,7 +4166,7 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="rib12_R">
-					<mass>8.50771935987186e-005</mass>
+					<mass>0.1</mass>
 					<mass_center> 0 0 0</mass_center>
 					<inertia_xx>7.59581674543707e-005</inertia_xx>
 					<inertia_yy>7.59581674543707e-005</inertia_yy>
@@ -4313,7 +4313,7 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="rib11_R">
-					<mass>8.50771935987186e-005</mass>
+					<mass>0.14</mass>
 					<mass_center> 0 0 0</mass_center>
 					<inertia_xx>7.59581674543707e-005</inertia_xx>
 					<inertia_yy>7.59581674543707e-005</inertia_yy>
@@ -4460,7 +4460,7 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="rib10_R">
-					<mass>8.50771935987186e-005</mass>
+					<mass>0.19</mass>
 					<mass_center> 0 0 0</mass_center>
 					<inertia_xx>7.59581674543707e-005</inertia_xx>
 					<inertia_yy>7.59581674543707e-005</inertia_yy>
@@ -4607,7 +4607,7 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="rib9_R">
-					<mass>8.50771935987186e-005</mass>
+					<mass>0.2</mass>
 					<mass_center> 0 0 0</mass_center>
 					<inertia_xx>7.59581674543707e-005</inertia_xx>
 					<inertia_yy>7.59581674543707e-005</inertia_yy>
@@ -4754,7 +4754,7 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="rib8_R">
-					<mass>8.50771935987186e-005</mass>
+					<mass>0.21</mass>
 					<mass_center> 0 0 0</mass_center>
 					<inertia_xx>7.59581674543707e-005</inertia_xx>
 					<inertia_yy>7.59581674543707e-005</inertia_yy>
@@ -4901,7 +4901,7 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="rib7_R">
-					<mass>8.50771935987186e-005</mass>
+					<mass>0.22</mass>
 					<mass_center> 0 0 0</mass_center>
 					<inertia_xx>7.59581674543707e-005</inertia_xx>
 					<inertia_yy>7.59581674543707e-005</inertia_yy>
@@ -5048,7 +5048,7 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="rib6_R">
-					<mass>8.50771935987186e-005</mass>
+					<mass>0.2</mass>
 					<mass_center> 0 0 0</mass_center>
 					<inertia_xx>7.59581674543707e-005</inertia_xx>
 					<inertia_yy>7.59581674543707e-005</inertia_yy>
@@ -5195,7 +5195,7 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="rib5_R">
-					<mass>8.50771935987186e-005</mass>
+					<mass>0.18</mass>
 					<mass_center> 0 0 0</mass_center>
 					<inertia_xx>7.59581674543707e-005</inertia_xx>
 					<inertia_yy>7.59581674543707e-005</inertia_yy>
@@ -5342,7 +5342,7 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="rib4_R">
-					<mass>8.50771935987186e-005</mass>
+					<mass>0.17</mass>
 					<mass_center> 0 0 0</mass_center>
 					<inertia_xx>7.59581674543707e-005</inertia_xx>
 					<inertia_yy>7.59581674543707e-005</inertia_yy>
@@ -5489,7 +5489,7 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="rib3_R">
-					<mass>8.50771935987186e-005</mass>
+					<mass>0.15</mass>
 					<mass_center> 0 0 0</mass_center>
 					<inertia_xx>7.59581674543707e-005</inertia_xx>
 					<inertia_yy>7.59581674543707e-005</inertia_yy>
@@ -5636,7 +5636,7 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="rib2_R">
-					<mass>8.50771935987186e-005</mass>
+					<mass>0.1</mass>
 					<mass_center> 0 0 0</mass_center>
 					<inertia_xx>7.59581674543707e-005</inertia_xx>
 					<inertia_yy>7.59581674543707e-005</inertia_yy>
@@ -5783,7 +5783,7 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="rib1_R">
-					<mass>8.50771935987186e-005</mass>
+					<mass>0.085</mass>
 					<mass_center> 0 0 0</mass_center>
 					<inertia_xx>7.59581674543707e-005</inertia_xx>
 					<inertia_yy>7.59581674543707e-005</inertia_yy>
@@ -5930,7 +5930,7 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="rib12_L">
-					<mass>8.50771935987186e-005</mass>
+					<mass>0.1</mass>
 					<mass_center> 0 0 0</mass_center>
 					<inertia_xx>7.59581674543707e-005</inertia_xx>
 					<inertia_yy>7.59581674543707e-005</inertia_yy>
@@ -6077,7 +6077,7 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="rib11_L">
-					<mass>8.50771935987186e-005</mass>
+					<mass>0.14</mass>
 					<mass_center> 0 0 0</mass_center>
 					<inertia_xx>7.59581674543707e-005</inertia_xx>
 					<inertia_yy>7.59581674543707e-005</inertia_yy>
@@ -6224,7 +6224,7 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="rib10_L">
-					<mass>8.50771935987186e-005</mass>
+					<mass>0.19</mass>
 					<mass_center> 0 0 0</mass_center>
 					<inertia_xx>7.59581674543707e-005</inertia_xx>
 					<inertia_yy>7.59581674543707e-005</inertia_yy>
@@ -6371,7 +6371,7 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="rib9_L">
-					<mass>8.50771935987186e-005</mass>
+					<mass>0.2</mass>
 					<mass_center> 0 0 0</mass_center>
 					<inertia_xx>7.59581674543707e-005</inertia_xx>
 					<inertia_yy>7.59581674543707e-005</inertia_yy>
@@ -6518,7 +6518,7 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="rib8_L">
-					<mass>8.50771935987186e-005</mass>
+					<mass>0.21</mass>
 					<mass_center> 0 0 0</mass_center>
 					<inertia_xx>7.59581674543707e-005</inertia_xx>
 					<inertia_yy>7.59581674543707e-005</inertia_yy>
@@ -6665,7 +6665,7 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="rib7_L">
-					<mass>8.50771935987186e-005</mass>
+					<mass>0.22</mass>
 					<mass_center> 0 0 0</mass_center>
 					<inertia_xx>7.59581674543707e-005</inertia_xx>
 					<inertia_yy>7.59581674543707e-005</inertia_yy>
@@ -6812,7 +6812,7 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="rib6_L">
-					<mass>8.50771935987186e-005</mass>
+					<mass>0.2</mass>
 					<mass_center> 0 0 0</mass_center>
 					<inertia_xx>7.59581674543707e-005</inertia_xx>
 					<inertia_yy>7.59581674543707e-005</inertia_yy>
@@ -6959,7 +6959,7 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="rib5_L">
-					<mass>8.50771935987186e-005</mass>
+					<mass>0.18</mass>
 					<mass_center> 0 0 0</mass_center>
 					<inertia_xx>7.59581674543707e-005</inertia_xx>
 					<inertia_yy>7.59581674543707e-005</inertia_yy>
@@ -7106,7 +7106,7 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="rib4_L">
-					<mass>8.50771935987186e-005</mass>
+					<mass>0.17</mass>
 					<mass_center> 0 0 0</mass_center>
 					<inertia_xx>7.59581674543707e-005</inertia_xx>
 					<inertia_yy>7.59581674543707e-005</inertia_yy>
@@ -7253,7 +7253,7 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="rib3_L">
-					<mass>8.50771935987186e-005</mass>
+					<mass>0.15</mass>
 					<mass_center> 0 0 0</mass_center>
 					<inertia_xx>7.59581674543707e-005</inertia_xx>
 					<inertia_yy>7.59581674543707e-005</inertia_yy>
@@ -7400,7 +7400,7 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="rib2_L">
-					<mass>8.50771935987186e-005</mass>
+					<mass>0.1</mass>
 					<mass_center> 0 0 0</mass_center>
 					<inertia_xx>7.59581674543707e-005</inertia_xx>
 					<inertia_yy>7.59581674543707e-005</inertia_yy>
@@ -7547,7 +7547,7 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="rib1_L">
-					<mass>8.50771935987186e-005</mass>
+					<mass>0.085</mass>
 					<mass_center> 0 0 0</mass_center>
 					<inertia_xx>7.59581674543707e-005</inertia_xx>
 					<inertia_yy>7.59581674543707e-005</inertia_yy>
@@ -7694,7 +7694,7 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="sternum">
-					<mass>8.50771935987186e-005</mass>
+					<mass>0.05</mass>
 					<mass_center> 0 0 0</mass_center>
 					<inertia_xx>7.59581674543707e-005</inertia_xx>
 					<inertia_yy>7.59581674543707e-005</inertia_yy>
@@ -12392,7 +12392,7 @@
 					</Joint>
 				</Body>
 				<Body name="firstmc1_R">
-					<mass>1e-005</mass>
+					<mass>0.01</mass>
 					<mass_center> 0 0 0</mass_center>
 					<inertia_xx>1e-005</inertia_xx>
 					<inertia_yy>1e-005</inertia_yy>
@@ -15360,7 +15360,7 @@
 					</Joint>
 				</Body>
 				<Body name="firstmc1_L">
-					<mass>1e-005</mass>
+					<mass>0.01</mass>
 					<mass_center> 0 0 -0.0</mass_center>
 					<inertia_xx>1e-005</inertia_xx>
 					<inertia_yy>1e-005</inertia_yy>
@@ -53858,7 +53858,7 @@
 									<location> -0.001 -0.014 -0.002705</location>
 									<body> 2proxph_R</body>
 								</PathPoint>
-								<PathPoint name="FDSI-P6_R">
+								<PathPoint name="FDSI-P6_R_dup2">
 									<location> 0.00427 -0.035 0.004</location>
 									<body> 2proxph_R</body>
 								</PathPoint>
@@ -54315,7 +54315,7 @@
 									<location> 0 -0.011 -0.002775</location>
 									<body> 2proxph_R</body>
 								</PathPoint>
-								<PathPoint name="FDPI-P6_R">
+								<PathPoint name="FDPI-P6_R_dup2">
 									<location> 0.00581 -0.034 0.00306</location>
 									<body> 2proxph_R</body>
 								</PathPoint>
@@ -54777,21 +54777,21 @@
 											<y> 0.01869 0.01869 0.01229</y>
 										</SimmSpline>
 									</x_location>
-									<x_coordinate>flexion</x_coordinate>
+									<x_coordinate>flexion_R</x_coordinate>
 									<y_location>
 										<SimmSpline>
 											<x> -1.22173 0 1.22173</x>
 											<y> 0.00882 0.00882 -0.01038</y>
 										</SimmSpline>
 									</y_location>
-									<y_coordinate>flexion</y_coordinate>
+									<y_coordinate>flexion_R</y_coordinate>
 									<z_location>
 										<SimmSpline>
 											<x> -1.22173 0 1.22173</x>
 											<y> -0.01547 -0.01547 -0.02627</y>
 										</SimmSpline>
 									</z_location>
-									<z_coordinate>flexion</z_coordinate>
+									<z_coordinate>flexion_R</z_coordinate>
 								</MovingPathPoint>
 								<PathPoint name="FPL-P6_R">
 									<location> 0.01244 -0.02207 -0.02089</location>
@@ -54926,21 +54926,21 @@
 											<y> 0.03385 0.0336 0.0276</y>
 										</SimmSpline>
 									</x_location>
-									<x_coordinate>flexion</x_coordinate>
+									<x_coordinate>flexion_R</x_coordinate>
 									<y_location>
 										<SimmSpline>
 											<x> -1.22173 0 1.22173</x>
 											<y> 0.00634 0.00624 0.00384</y>
 										</SimmSpline>
 									</y_location>
-									<y_coordinate>flexion</y_coordinate>
+									<y_coordinate>flexion_R</y_coordinate>
 									<z_location>
 										<SimmSpline>
 											<x> -1.22173 0 1.22173</x>
 											<y> -0.00745 -0.00795 -0.01995</y>
 										</SimmSpline>
 									</z_location>
-									<z_coordinate>flexion</z_coordinate>
+									<z_coordinate>flexion_R</z_coordinate>
 								</MovingPathPoint>
 								<PathPoint name="APL-P7_R">
 									<location> 0.01058 0.00662 -0.00619</location>
@@ -55022,7 +55022,7 @@
 									<location> 0.012493 -0.005469 -0.016108</location>
 									<body> capitate_R</body>
 								</PathPoint>
-								<PathPoint name="APB-P1_R">
+								<PathPoint name="APB-P1_R_dup2">
 									<location> 0.00806407 -0.000600866 -0.00780272</location>
 									<body> trapezium_R</body>
 								</PathPoint>
@@ -56618,7 +56618,7 @@
 									<location> -0.001 -0.014 0.002705</location>
 									<body> 2proxph_L</body>
 								</PathPoint>
-								<PathPoint name="FDSI-P6_L">
+								<PathPoint name="FDSI-P6_L_dup2">
 									<location> 0.00427 -0.035 -0.004</location>
 									<body> 2proxph_L</body>
 								</PathPoint>
@@ -57075,7 +57075,7 @@
 									<location> 0 -0.011 0.002775</location>
 									<body> 2proxph_L</body>
 								</PathPoint>
-								<PathPoint name="FDPI-P6_L">
+								<PathPoint name="FDPI-P6_L_dup2">
 									<location> 0.00581 -0.034 -0.00306</location>
 									<body> 2proxph_L</body>
 								</PathPoint>
@@ -57537,21 +57537,21 @@
 											<y> 0.01869 0.01869 0.01229</y>
 										</SimmSpline>
 									</x_location>
-									<x_coordinate>flexion</x_coordinate>
+									<x_coordinate>flexion_L</x_coordinate>
 									<y_location>
 										<SimmSpline>
 											<x> -1.22173 0 1.22173</x>
 											<y> 0.00882 0.00882 -0.01038</y>
 										</SimmSpline>
 									</y_location>
-									<y_coordinate>flexion</y_coordinate>
+									<y_coordinate>flexion_L</y_coordinate>
 									<z_location>
 										<SimmSpline>
 											<x> -1.22173 0 1.22173</x>
 											<y> -0.01547 -0.01547 -0.02627</y>
 										</SimmSpline>
 									</z_location>
-									<z_coordinate>flexion</z_coordinate>
+									<z_coordinate>flexion_L</z_coordinate>
 								</MovingPathPoint>
 								<PathPoint name="FPL-P6_L">
 									<location> 0.01244 -0.02207 0.02089</location>
@@ -57686,21 +57686,21 @@
 											<y> 0.03385 0.0336 0.0276</y>
 										</SimmSpline>
 									</x_location>
-									<x_coordinate>flexion</x_coordinate>
+									<x_coordinate>flexion_L</x_coordinate>
 									<y_location>
 										<SimmSpline>
 											<x> -1.22173 0 1.22173</x>
 											<y> 0.00634 0.00624 0.00384</y>
 										</SimmSpline>
 									</y_location>
-									<y_coordinate>flexion</y_coordinate>
+									<y_coordinate>flexion_L</y_coordinate>
 									<z_location>
 										<SimmSpline>
 											<x> -1.22173 0 1.22173</x>
 											<y> -0.00745 -0.00795 -0.01995</y>
 										</SimmSpline>
 									</z_location>
-									<z_coordinate>flexion</z_coordinate>
+									<z_coordinate>flexion_L</z_coordinate>
 								</MovingPathPoint>
 								<PathPoint name="APL-P7_L">
 									<location> 0.01058 0.00662 0.00619</location>
@@ -57782,7 +57782,7 @@
 									<location> 0.012493 -0.005469 0.016108</location>
 									<body> capitate_L</body>
 								</PathPoint>
-								<PathPoint name="APB-P1_L">
+								<PathPoint name="APB-P1_L_dup2">
 									<location> 0.00806407 -0.000600866 0.00780272</location>
 									<body> trapezium_L</body>
 								</PathPoint>
