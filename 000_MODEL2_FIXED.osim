@@ -475,7 +475,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>femur_l.vtp</geometry_file>
+									<geometry_file>femur.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 0 0 0 0 0 0</transform>
@@ -607,7 +607,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>tibia_l.vtp</geometry_file>
+									<geometry_file>tibia.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 0 0 0 0 0 0</transform>
@@ -616,7 +616,7 @@
 									<opacity>1</opacity>
 								</DisplayGeometry>
 								<DisplayGeometry>
-									<geometry_file>fibula_l.vtp</geometry_file>
+									<geometry_file>fibula.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 0 0 0 0 0 0</transform>
@@ -675,7 +675,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>talus_l.vtp</geometry_file>
+									<geometry_file>talus.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 0 0 0 0 0 0</transform>
@@ -791,7 +791,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>foot_l.vtp</geometry_file>
+									<geometry_file>foot.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 3.097250 0.172887 -3.096915 0.000000 0.000000 0.000000</transform>
@@ -907,7 +907,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>bofoot_l.vtp</geometry_file>
+									<geometry_file>bofoot.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 2.987832 0.348762 -6.288824 0.000000 0.000000 0.000000</transform>
@@ -9268,7 +9268,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>rclavicle.vtp</geometry_file>
+									<geometry_file>clavicle.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 8.407861 0.618940 -8.408601 0.000000 0.000000 0.000000</transform>
@@ -9534,7 +9534,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>rscapula.vtp</geometry_file>
+									<geometry_file>scapula.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 57.151366 33.047329 -57.151378 0.000000 0.000000 0.000000</transform>
@@ -9800,7 +9800,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>rhumerus.vtp</geometry_file>
+									<geometry_file>humerus.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 28.085049 7.159302 -28.085100 0.000000 0.000000 0.000000</transform>
@@ -10129,7 +10129,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>rclavicle.vtp</geometry_file>
+									<geometry_file>clavicle_l.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 8.407861 0.618940 -8.408601 0.000000 0.000000 0.000000</transform>
@@ -10395,7 +10395,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>rscapula.vtp</geometry_file>
+									<geometry_file>scapula_l.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 57.151366 33.047329 -57.151378 0.000000 0.000000 0.000000</transform>
@@ -10661,7 +10661,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>rhumerus.vtp</geometry_file>
+									<geometry_file>humerus_l.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 28.085049 7.159302 -28.085100 0.000000 0.000000 0.000000</transform>
@@ -11909,7 +11909,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>lunate.vtp</geometry_file>
+									<geometry_file>lunate_rvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 29.132875 13.011905 -29.453773 0.000000 0.000000 0.000000</transform>
@@ -11918,7 +11918,7 @@
 									<opacity>1</opacity>
 								</DisplayGeometry>
 								<DisplayGeometry>
-									<geometry_file>sdfastSCAPHOIDw.vtp</geometry_file>
+									<geometry_file>scaphoid_rvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 29.132875 13.011905 -29.453773 0.000000 0.000000 0.000000</transform>
@@ -11927,7 +11927,7 @@
 									<opacity>1</opacity>
 								</DisplayGeometry>
 								<DisplayGeometry>
-									<geometry_file>sdfastPISIFORMw.vtp</geometry_file>
+									<geometry_file>pisiform_rvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 29.132875 13.011905 -29.453773 0.000000 0.000000 0.000000</transform>
@@ -11936,7 +11936,7 @@
 									<opacity>1</opacity>
 								</DisplayGeometry>
 								<DisplayGeometry>
-									<geometry_file>sdfastTRIQUETRALw.vtp</geometry_file>
+									<geometry_file>triquetrum_rvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 29.132875 13.011905 -29.453773 0.000000 0.000000 0.000000</transform>
@@ -12324,7 +12324,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>capitate.vtp</geometry_file>
+									<geometry_file>capitate_rvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 31.939621 14.882495 -32.975767 0.000000 0.000000 0.000000</transform>
@@ -12449,7 +12449,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>sdfast_1seg_hand_fr_c_trapezium.vtp</geometry_file>
+									<geometry_file>trapezium_rvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 37.607115 19.172138 -39.457744 0.000000 0.000000 0.000000</transform>
@@ -12597,7 +12597,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>sdfast_1seg_hand_fr_c_2mc.vtp</geometry_file>
+									<geometry_file>metacarpal1_rvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 63.077912 54.394962 -74.227986 0.000000 0.000000 0.000000</transform>
@@ -12732,7 +12732,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>thumbprox.vtp</geometry_file>
+									<geometry_file>thumb_proximal_rvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> -66.479220 67.846205 91.805790 0.000000 0.000000 0.000000</transform>
@@ -12867,7 +12867,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>thumbdist.vtp</geometry_file>
+									<geometry_file>thumb_distal_rvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 14.812398 6.689146 -13.914457 0.000000 0.000000 0.000000</transform>
@@ -12982,7 +12982,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>sdfast_1seg_hand_fr_c_trapezoid.vtp</geometry_file>
+									<geometry_file>trapezoid_rvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 37.607115 19.172138 -39.457744 0.000000 0.000000 0.000000</transform>
@@ -13025,7 +13025,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>sdfast_1seg_hand_fr_c_hamate.vtp</geometry_file>
+									<geometry_file>hamate_rvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 37.607115 19.172138 -39.457744 0.000000 0.000000 0.000000</transform>
@@ -13068,7 +13068,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>sdfast_1seg_hand_fr_c_2mc.vtp</geometry_file>
+									<geometry_file>metacarpal2_rvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 37.607115 19.172138 -39.457744 0.000000 0.000000 0.000000</transform>
@@ -13151,7 +13151,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>2proxph.vtp</geometry_file>
+									<geometry_file>index_proximal_rvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 47.770952 29.421571 -51.583778 0.000000 0.000000 0.000000</transform>
@@ -13312,7 +13312,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>2midph.vtp</geometry_file>
+									<geometry_file>index_medial_rvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 63.077912 54.394962 -74.227986 0.000000 0.000000 0.000000</transform>
@@ -13440,7 +13440,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>2distph.vtp</geometry_file>
+									<geometry_file>index_distal_rvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> -66.479220 67.846205 91.805790 0.000000 0.000000 0.000000</transform>
@@ -13543,7 +13543,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>sdfast_1seg_hand_fr_c_3mc.vtp</geometry_file>
+									<geometry_file>metacarpal3_rvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 37.607115 19.172138 -39.457744 0.000000 0.000000 0.000000</transform>
@@ -13602,7 +13602,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>3proxph.vtp</geometry_file>
+									<geometry_file>middle_proximal_rvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 47.770952 29.421571 -51.583778 0.000000 0.000000 0.000000</transform>
@@ -13726,7 +13726,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>3midph.vtp</geometry_file>
+									<geometry_file>middle_medial_rvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 63.077912 54.394962 -74.227986 0.000000 0.000000 0.000000</transform>
@@ -13842,7 +13842,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>3distph.vtp</geometry_file>
+									<geometry_file>middle_distal_rvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> -66.479220 67.846205 91.805790 0.000000 0.000000 0.000000</transform>
@@ -13945,7 +13945,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>sdfast_1seg_hand_fr_c_4mc.vtp</geometry_file>
+									<geometry_file>metacarpal4_rvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 37.607115 19.172138 -39.457744 0.000000 0.000000 0.000000</transform>
@@ -14064,7 +14064,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>4proxph.vtp</geometry_file>
+									<geometry_file>ring_proximal_rvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 47.770952 29.421571 -51.583778 0.000000 0.000000 0.000000</transform>
@@ -14188,7 +14188,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>4midph.vtp</geometry_file>
+									<geometry_file>ring_medial_rvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 63.077912 54.394962 -74.227986 0.000000 0.000000 0.000000</transform>
@@ -14304,7 +14304,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>4distph.vtp</geometry_file>
+									<geometry_file>ring_distal_rvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> -66.479220 67.846205 91.805790 0.000000 0.000000 0.000000</transform>
@@ -14407,7 +14407,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>sdfast_1seg_hand_fr_c_5mc.vtp</geometry_file>
+									<geometry_file>metacarpal5_rvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 37.607115 19.172138 -39.457744 0.000000 0.000000 0.000000</transform>
@@ -14534,7 +14534,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>5proxph.vtp</geometry_file>
+									<geometry_file>little_proximal_rvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 47.770952 29.421571 -51.583778 0.000000 0.000000 0.000000</transform>
@@ -14658,7 +14658,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>5midph.vtp</geometry_file>
+									<geometry_file>little_medial_rvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 63.077912 54.394962 -74.227986 0.000000 0.000000 0.000000</transform>
@@ -14774,7 +14774,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>5distph.vtp</geometry_file>
+									<geometry_file>little_distal_rvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> -66.479220 67.846205 91.805790 0.000000 0.000000 0.000000</transform>
@@ -14877,7 +14877,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>lunate.vtp</geometry_file>
+									<geometry_file>lunate_lvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 29.167305 13.162642 -29.365871 0.000000 0.000000 0.000000</transform>
@@ -14886,7 +14886,7 @@
 									<opacity>1</opacity>
 								</DisplayGeometry>
 								<DisplayGeometry>
-									<geometry_file>sdfastSCAPHOIDw.vtp</geometry_file>
+									<geometry_file>scaphoid_lvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 29.167305 13.162642 -29.365871 0.000000 0.000000 0.000000</transform>
@@ -14895,7 +14895,7 @@
 									<opacity>1</opacity>
 								</DisplayGeometry>
 								<DisplayGeometry>
-									<geometry_file>sdfastPISIFORMw.vtp</geometry_file>
+									<geometry_file>pisiform_lvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 29.167305 13.162642 -29.365871 0.000000 0.000000 0.000000</transform>
@@ -14904,7 +14904,7 @@
 									<opacity>1</opacity>
 								</DisplayGeometry>
 								<DisplayGeometry>
-									<geometry_file>sdfastTRIQUETRALw.vtp</geometry_file>
+									<geometry_file>triquetrum_lvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 29.167305 13.162642 -29.365871 0.000000 0.000000 0.000000</transform>
@@ -15292,7 +15292,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>capitate.vtp</geometry_file>
+									<geometry_file>capitate_lvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 31.971695 15.048292 -32.911873 0.000000 0.000000 0.000000</transform>
@@ -15417,7 +15417,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>sdfast_1seg_hand_fr_c_trapezium.vtp</geometry_file>
+									<geometry_file>trapezium_lvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 37.647631 19.363116 -39.430771 0.000000 0.000000 0.000000</transform>
@@ -15565,7 +15565,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>sdfast_1seg_hand_fr_c_2mc.vtp</geometry_file>
+									<geometry_file>metacarpal1_lvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 63.027551 54.779579 -74.504433 0.000000 0.000000 0.000000</transform>
@@ -15700,7 +15700,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>thumbprox.vtp</geometry_file>
+									<geometry_file>thumb_proximal_lvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> -66.153389 67.197683 91.539361 0.000000 0.000000 0.000000</transform>
@@ -15835,7 +15835,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>thumbdist.vtp</geometry_file>
+									<geometry_file>thumb_distal_lvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 15.949455 7.152529 -15.009218 0.000000 0.000000 0.000000</transform>
@@ -15950,7 +15950,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>sdfast_1seg_hand_fr_c_trapezoid.vtp</geometry_file>
+									<geometry_file>trapezoid_lvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 37.647631 19.363116 -39.430771 0.000000 0.000000 0.000000</transform>
@@ -15993,7 +15993,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>sdfast_1seg_hand_fr_c_hamate.vtp</geometry_file>
+									<geometry_file>hamate_lvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 37.647631 19.363116 -39.430771 0.000000 0.000000 0.000000</transform>
@@ -16036,7 +16036,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>sdfast_1seg_hand_fr_c_2mc.vtp</geometry_file>
+									<geometry_file>metacarpal2_lvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 37.647631 19.363116 -39.430771 0.000000 0.000000 0.000000</transform>
@@ -16119,7 +16119,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>2proxph.vtp</geometry_file>
+									<geometry_file>index_proximal_lvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 47.815586 29.673337 -51.631150 0.000000 0.000000 0.000000</transform>
@@ -16280,7 +16280,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>2midph.vtp</geometry_file>
+									<geometry_file>index_medial_lvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 63.027551 54.779579 -74.504433 0.000000 0.000000 0.000000</transform>
@@ -16408,7 +16408,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>2distph.vtp</geometry_file>
+									<geometry_file>index_distal_lvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> -66.153389 67.197683 91.539361 0.000000 0.000000 0.000000</transform>
@@ -16511,7 +16511,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>sdfast_1seg_hand_fr_c_3mc.vtp</geometry_file>
+									<geometry_file>metacarpal3_lvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 37.647631 19.363116 -39.430771 0.000000 0.000000 0.000000</transform>
@@ -16570,7 +16570,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>3proxph.vtp</geometry_file>
+									<geometry_file>middle_proximal_lvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 47.815586 29.673337 -51.631150 0.000000 0.000000 0.000000</transform>
@@ -16694,7 +16694,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>3midph.vtp</geometry_file>
+									<geometry_file>middle_medial_lvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 63.027551 54.779579 -74.504433 0.000000 0.000000 0.000000</transform>
@@ -16810,7 +16810,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>3distph.vtp</geometry_file>
+									<geometry_file>middle_distal_lvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> -66.153389 67.197683 91.539361 0.000000 0.000000 0.000000</transform>
@@ -16913,7 +16913,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>sdfast_1seg_hand_fr_c_4mc.vtp</geometry_file>
+									<geometry_file>metacarpal4_lvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 37.647631 19.363116 -39.430771 0.000000 0.000000 0.000000</transform>
@@ -17032,7 +17032,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>4proxph.vtp</geometry_file>
+									<geometry_file>ring_proximal_lvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 47.815586 29.673337 -51.631150 0.000000 0.000000 0.000000</transform>
@@ -17156,7 +17156,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>4midph.vtp</geometry_file>
+									<geometry_file>ring_medial_lvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 63.027551 54.779579 -74.504433 0.000000 0.000000 0.000000</transform>
@@ -17272,7 +17272,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>4distph.vtp</geometry_file>
+									<geometry_file>ring_distal_lvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> -66.153389 67.197683 91.539361 0.000000 0.000000 0.000000</transform>
@@ -17375,7 +17375,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>sdfast_1seg_hand_fr_c_5mc.vtp</geometry_file>
+									<geometry_file>metacarpal5_lvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 37.647631 19.363116 -39.430771 0.000000 0.000000 0.000000</transform>
@@ -17502,7 +17502,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>5proxph.vtp</geometry_file>
+									<geometry_file>little_proximal_lvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 47.815586 29.673337 -51.631150 0.000000 0.000000 0.000000</transform>
@@ -17626,7 +17626,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>5midph.vtp</geometry_file>
+									<geometry_file>little_medial_lvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> 63.027551 54.779579 -74.504433 0.000000 0.000000 0.000000</transform>
@@ -17742,7 +17742,7 @@
 						<GeometrySet>
 							<objects>
 								<DisplayGeometry>
-									<geometry_file>5distph.vtp</geometry_file>
+									<geometry_file>little_distal_lvs.vtp</geometry_file>
 									<color> 1 1 1</color>
 									<texture_file />
 									<transform> -66.153389 67.197683 91.539361 0.000000 0.000000 0.000000</transform>
