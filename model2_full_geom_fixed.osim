@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <OpenSimDocument Version="30000">
 	<Model name="Archer_DAS3">
 		<credits>This model was created by Stefan Schmid, Dennis Anderson and co-workers</credits>
@@ -9805,7 +9805,26 @@
 								<radius>0.01</radius>
 								<length>0.1</length>
 							</WrapCylinder>
-						</objects>
+						
+							<WrapEllipsoid name="Elbow_PT_ECRL">
+								<display_preference>0</display_preference>
+								<xyz_body_rotation> -0.161094 -0.110828 0.61453</xyz_body_rotation>
+								<translation> 0.00288135 -0.275841 -0.0066271</translation>
+								<active>true</active>
+								<quadrant>x</quadrant>
+								<VisibleObject>
+									<GeometrySet>
+										<objects />
+										<groups />
+									</GeometrySet>
+									<scale_factors> 0.96045 0.96045 0.96045</scale_factors>
+									<transform> -0.161094 -0.110828 0.61453 0.00288135 -0.275841 -0.0066271</transform>
+									<show_axes>false</show_axes>
+									<display_preference>0</display_preference>
+								</VisibleObject>
+								<dimensions> 0.0172881 0.0240113 0.0336158</dimensions>
+							</WrapEllipsoid>
+</objects>
 					</WrapObjectSet>
 					<Joint>
 						<CustomJoint name="gh3_R">
@@ -10647,7 +10666,26 @@
 								<radius>0.01</radius>
 								<length>0.1</length>
 							</WrapCylinder>
-						</objects>
+						
+							<WrapEllipsoid name="Elbow_PT_ECRL_l">
+								<display_preference>0</display_preference>
+								<xyz_body_rotation> 0.161094 0.110828 0.61453</xyz_body_rotation>
+								<translation> 0.00288135 -0.275841 0.0066271</translation>
+								<active>true</active>
+								<quadrant>x</quadrant>
+								<VisibleObject>
+									<GeometrySet>
+										<objects />
+										<groups />
+									</GeometrySet>
+									<scale_factors> 0.96045 0.96045 0.96045</scale_factors>
+									<transform> 0.161094 0.110828 0.61453 0.00288135 -0.275841 0.0066271</transform>
+									<show_axes>false</show_axes>
+									<display_preference>0</display_preference>
+								</VisibleObject>
+								<dimensions> 0.0172881 0.0240113 0.0336158</dimensions>
+							</WrapEllipsoid>
+</objects>
 					</WrapObjectSet>
 					<Joint>
 						<CustomJoint name="gh3_L">
@@ -17765,7 +17803,147 @@
 									<location> -0.01482 0.01733 -0.01452</location>
 									<body> scapula_R</body>
 								</PathPoint>
-							</objects>
+											<Thelen2003Muscle name="ExtIC_IS10_5_R">
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="PathPoint_rib10_R">
+				<location> -0.0183304 -0.0504326 -0.0977721</location>
+				<body>rib10_R</body>
+				</PathPoint>
+				<PathPoint name="PathPoint_rib11_R">
+				<location> -0.00207032 -0.0689934 -0.101717</location>
+				<body>rib11_R</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects />
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> 0 0 0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<max_isometric_force>103.4484</max_isometric_force>
+				<optimal_fiber_length>0.0587861366128486</optimal_fiber_length>
+				<tendon_slack_length>0.000937965160267517</tendon_slack_length>
+				<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
+				</Thelen2003Muscle>
+				<Thelen2003Muscle name="ExtIC_IS11_5_R">
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="PathPoint_rib11_R">
+				<location> -0.0241015 -0.0431392 -0.0786666</location>
+				<body>rib11_R</body>
+				</PathPoint>
+				<PathPoint name="PathPoint_rib12_R">
+				<location> -0.00889772 -0.064839 -0.0750533</location>
+				<body>rib12_R</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects />
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> 0 0 0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<max_isometric_force>47.6758</max_isometric_force>
+				<optimal_fiber_length>0.0522111564396856</optimal_fiber_length>
+				<tendon_slack_length>0.000928535747652214</tendon_slack_length>
+				<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
+				</Thelen2003Muscle>
+				<Thelen2003Muscle name="IntIC_IS10_5_R">
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="PathPoint_rib10_R">
+				<location> 0.0164022 -0.120873 -0.110237</location>
+				<body>rib10_R</body>
+				</PathPoint>
+				<PathPoint name="PathPoint_rib11_R">
+				<location> 0.0387481 -0.0623203 -0.1395</location>
+				<body>rib11_R</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects />
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> 0 0 0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<max_isometric_force>163.4425</max_isometric_force>
+				<optimal_fiber_length>0.0401818056331627</optimal_fiber_length>
+				<tendon_slack_length>0.000909426090766083</tendon_slack_length>
+				<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
+				</Thelen2003Muscle>
+				<Thelen2003Muscle name="IntIC_IS11_5_R">
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="PathPoint_rib11_R">
+				<location> -0.00604576 -0.0959867 -0.0783933</location>
+				<body>rib11_R</body>
+				</PathPoint>
+				<PathPoint name="PathPoint_rib12_R">
+				<location> 0.00923043 -0.0516056 -0.109405</location>
+				<body>rib12_R</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects />
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> 0 0 0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<max_isometric_force>93.7599</max_isometric_force>
+				<optimal_fiber_length>0.0386165232030305</optimal_fiber_length>
+				<tendon_slack_length>0.000941270869715228</tendon_slack_length>
+				<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
+				</Thelen2003Muscle>
+</objects>
 						</PathPointSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -21137,10 +21315,7 @@
 								<PathWrap>
 									<wrap_object>inf_sup_sub</wrap_object>
 								</PathWrap>
-								<PathWrap>
-									<wrap_object>radius</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -21180,10 +21355,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>radius</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -21223,10 +21395,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>radius</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -21266,10 +21435,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -21309,10 +21475,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -21352,10 +21515,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -21395,10 +21555,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22040,10 +22197,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22083,10 +22237,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22126,10 +22277,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22169,10 +22317,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22212,10 +22357,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22255,10 +22397,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow_circ</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22298,10 +22437,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow_circ</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22341,10 +22477,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow_circ</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22384,10 +22517,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow_circ</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22427,10 +22557,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow_circ</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22470,10 +22597,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow_circ</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22513,10 +22637,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow_circ</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22668,10 +22789,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>ulna_radius</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22711,10 +22829,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>ulna_radius</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22754,10 +22869,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>supinator</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22797,10 +22909,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>supinator</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22840,10 +22949,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>supinator</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22883,10 +22989,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>supinator</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22926,10 +23029,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>supinator</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22969,10 +23069,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>pron_quad</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -23012,10 +23109,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>pron_quad</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -23055,10 +23149,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>pron_quad</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -23098,10 +23189,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -23141,10 +23229,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -23184,10 +23269,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -23227,10 +23309,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -23270,10 +23349,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -26861,10 +26937,7 @@
 								<PathWrap>
 									<wrap_object>inf_sup_sub</wrap_object>
 								</PathWrap>
-								<PathWrap>
-									<wrap_object>radius</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -26904,10 +26977,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>radius</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -26947,10 +27017,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>radius</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -26990,10 +27057,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -27033,10 +27097,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -27076,10 +27137,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -27119,10 +27177,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -27764,10 +27819,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -27807,10 +27859,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -27850,10 +27899,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -27893,10 +27939,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -27936,10 +27979,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -27979,10 +28019,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow_circ</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28022,10 +28059,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow_circ</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28065,10 +28099,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow_circ</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28108,10 +28139,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow_circ</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28151,10 +28179,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow_circ</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28194,10 +28219,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow_circ</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28237,10 +28259,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow_circ</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28392,10 +28411,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>ulna_radius</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28435,10 +28451,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>ulna_radius</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28478,10 +28491,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>supinator</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28521,10 +28531,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>supinator</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28564,10 +28571,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>supinator</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28607,10 +28611,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>supinator</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28650,10 +28651,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>supinator</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28693,10 +28691,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>pron_quad</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28736,10 +28731,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>pron_quad</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28779,10 +28771,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>pron_quad</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28822,10 +28811,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28865,10 +28851,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28908,10 +28891,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28951,10 +28931,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28994,10 +28971,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								<PathWrap>
-									<wrap_object>elbow</wrap_object>
-								</PathWrap>
-							</objects>
+								</objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -29227,7 +29201,2678 @@
 									<location> -0.0188 -0.0596999 0.0104</location>
 									<body>femur_r</body>
 								</PathPoint>
-							</objects>
+											<Thelen2003Muscle name="FCR">
+				<isDisabled>false</isDisabled>
+				<min_control>0</min_control>
+				<max_control>1</max_control>
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="FCR-P1">
+				<location> 0.00728023 -0.267063 -0.0355847</location>
+				<body>humerus_R</body>
+				</PathPoint>
+				<PathPoint name="FCR-P2">
+				<location> 0.0202655 -0.210752 0.00121977</location>
+				<body>radius_R</body>
+				</PathPoint>
+				<PathPoint name="FCR-P3">
+				<location> 0.0107955 -0.0177107 -0.00401469</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects>
+				<PathWrap>
+				<wrap_object>FCR</wrap_object>
+				<method>hybrid</method>
+				<range> -1 -1</range>
+				</PathWrap>
+				</objects>
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> -0 0 -0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<optimal_force>1</optimal_force>
+				<max_isometric_force>407.9</max_isometric_force>
+				<optimal_fiber_length>0.0628</optimal_fiber_length>
+				<tendon_slack_length>0.244</tendon_slack_length>
+				<pennation_angle_at_optimal>0.0523599</pennation_angle_at_optimal>
+				<max_contraction_velocity>0</max_contraction_velocity>
+				</Thelen2003Muscle>
+				<Thelen2003Muscle name="FCR_l">
+				<isDisabled>false</isDisabled>
+				<min_control>0</min_control>
+				<max_control>1</max_control>
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="FCR-P1_l">
+				<location> 0.00728023 -0.267063 0.0355847</location>
+				<body>humerus_L</body>
+				</PathPoint>
+				<PathPoint name="FCR-P2_l">
+				<location> 0.0202655 -0.210752 -0.00121977</location>
+				<body>radius_L</body>
+				</PathPoint>
+				<PathPoint name="FCR-P3_l">
+				<location> 0.0107955 -0.0177107 0.00401469</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects>
+				</objects>
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> -0 0 -0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<optimal_force>1</optimal_force>
+				<max_isometric_force>407.9</max_isometric_force>
+				<optimal_fiber_length>0.0628</optimal_fiber_length>
+				<tendon_slack_length>0.244</tendon_slack_length>
+				<pennation_angle_at_optimal>0.0523599</pennation_angle_at_optimal>
+				<max_contraction_velocity>0</max_contraction_velocity>
+				</Thelen2003Muscle>
+				<Thelen2003Muscle name="FCU">
+				<isDisabled>false</isDisabled>
+				<min_control>0</min_control>
+				<max_control>1</max_control>
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="FCU-P1">
+				<location> 0.00210339 -0.266429 -0.0372655</location>
+				<body>humerus_R</body>
+				</PathPoint>
+				<MovingPathPoint name="FCU-P2">
+				<location> 0.00949 -0.1841 0.0005</location>
+				<body>radius_R</body>
+				<x_location>
+				<SimmSpline>
+				<x> -1.5708 0 1.5708</x>
+				<y> 0.00279 0.00949 0.01869</y>
+				</SimmSpline>
+				</x_location>
+				<x_coordinate>pro_sup_r</x_coordinate>
+				<y_location>
+				<SimmSpline>
+				<x> -1.5708 0 1.5708</x>
+				<y> -0.1838 -0.1841 -0.1821</y>
+				</SimmSpline>
+				</y_location>
+				<y_coordinate>pro_sup_r</y_coordinate>
+				<z_location>
+				<SimmSpline>
+				<x> -1.5708 0 1.5708</x>
+				<y> 0.0069 0.0005 0.0002</y>
+				</SimmSpline>
+				</z_location>
+				<z_coordinate>pro_sup_r</z_coordinate>
+				</MovingPathPoint>
+				<PathPoint name="FCU-P3">
+				<location> 0.0103921 -0.21444 0.00930678</location>
+				<body>radius_R</body>
+				</PathPoint>
+				<PathPoint name="FCU-P4">
+				<location> -0.0195548 -0.016952 -0.0072226</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects>
+				<PathWrap>
+				<wrap_object>FCU</wrap_object>
+				<method>hybrid</method>
+				<range> -1 -1</range>
+				</PathWrap>
+				</objects>
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> -0 0 -0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<optimal_force>1</optimal_force>
+				<max_isometric_force>479.8</max_isometric_force>
+				<optimal_fiber_length>0.0509</optimal_fiber_length>
+				<tendon_slack_length>0.265</tendon_slack_length>
+				<pennation_angle_at_optimal>0.2094395</pennation_angle_at_optimal>
+				<max_contraction_velocity>0</max_contraction_velocity>
+				</Thelen2003Muscle>
+				<Thelen2003Muscle name="FCU_l">
+				<isDisabled>false</isDisabled>
+				<min_control>0</min_control>
+				<max_control>1</max_control>
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="FCU-P1_l">
+				<location> 0.00210339 -0.266429 0.0372655</location>
+				<body>humerus_L</body>
+				</PathPoint>
+				<MovingPathPoint name="FCU-P2_l">
+				<location> 0.00949 -0.1841 -0.0005</location>
+				<body>radius_L</body>
+				<x_location>
+				<SimmSpline>
+				<x> -1.5708 0 1.5708</x>
+				<y> 0.00279 0.00949 0.01869</y>
+				</SimmSpline>
+				</x_location>
+				<x_coordinate>pro_sup_l</x_coordinate>
+				<y_location>
+				<SimmSpline>
+				<x> -1.5708 0 1.5708</x>
+				<y> -0.1838 -0.1841 -0.1821</y>
+				</SimmSpline>
+				</y_location>
+				<y_coordinate>pro_sup_l</y_coordinate>
+				<z_location>
+				<SimmSpline>
+				<x> -1.5708 0 1.5708</x>
+				<y> -0.0069 -0.0005 -0.0002</y>
+				</SimmSpline>
+				</z_location>
+				<z_coordinate>pro_sup_l</z_coordinate>
+				</MovingPathPoint>
+				<PathPoint name="FCU-P3_l">
+				<location> 0.0103921 -0.21444 -0.00930678</location>
+				<body>radius_L</body>
+				</PathPoint>
+				<PathPoint name="FCU-P4_l">
+				<location> -0.0195548 -0.016952 0.0072226</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects>
+				</objects>
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> -0 0 -0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<optimal_force>1</optimal_force>
+				<max_isometric_force>479.8</max_isometric_force>
+				<optimal_fiber_length>0.0509</optimal_fiber_length>
+				<tendon_slack_length>0.265</tendon_slack_length>
+				<pennation_angle_at_optimal>0.2094395</pennation_angle_at_optimal>
+				<max_contraction_velocity>0</max_contraction_velocity>
+				</Thelen2003Muscle>
+				<Thelen2003Muscle name="ECRL">
+				<isDisabled>false</isDisabled>
+				<min_control>0</min_control>
+				<max_control>1</max_control>
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="ECRL-P1">
+				<location> -0.0070113 -0.250582 0.00874011</location>
+				<body>humerus_R</body>
+				</PathPoint>
+				<PathPoint name="ECRL-P2">
+				<location> 0.0306864 -0.129306 0.026691</location>
+				<body>radius_R</body>
+				</PathPoint>
+				<PathPoint name="ECRL-P3">
+				<location> 0.040752 -0.227473 0.0347684</location>
+				<body>radius_R</body>
+				</PathPoint>
+				<PathPoint name="ECRL-P4">
+				<location> 0.016491 -0.0203808 0.00559943</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects>
+				<PathWrap>
+				<wrap_object>ECRL</wrap_object>
+				<method>hybrid</method>
+				<range> -1 -1</range>
+				</PathWrap>
+				</objects>
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> -0 0 -0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<optimal_force>1</optimal_force>
+				<max_isometric_force>337.3</max_isometric_force>
+				<optimal_fiber_length>0.081</optimal_fiber_length>
+				<tendon_slack_length>0.244</tendon_slack_length>
+				<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
+				<max_contraction_velocity>0</max_contraction_velocity>
+				</Thelen2003Muscle>
+				<Thelen2003Muscle name="ECRL_l">
+				<isDisabled>false</isDisabled>
+				<min_control>0</min_control>
+				<max_control>1</max_control>
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="ECRL-P1_l">
+				<location> -0.0070113 -0.250582 -0.00874011</location>
+				<body>humerus_L</body>
+				</PathPoint>
+				<PathPoint name="ECRL-P2_l">
+				<location> 0.0306864 -0.129306 -0.026691</location>
+				<body>radius_L</body>
+				</PathPoint>
+				<PathPoint name="ECRL-P3_l">
+				<location> 0.040752 -0.227473 -0.0347684</location>
+				<body>radius_L</body>
+				</PathPoint>
+				<PathPoint name="ECRL-P4_l">
+				<location> 0.016491 -0.0203808 -0.00559943</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects>
+				</objects>
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> -0 0 -0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<optimal_force>1</optimal_force>
+				<max_isometric_force>337.3</max_isometric_force>
+				<optimal_fiber_length>0.081</optimal_fiber_length>
+				<tendon_slack_length>0.244</tendon_slack_length>
+				<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
+				<max_contraction_velocity>0</max_contraction_velocity>
+				</Thelen2003Muscle>
+				<Thelen2003Muscle name="ECRB">
+				<isDisabled>false</isDisabled>
+				<min_control>0</min_control>
+				<max_control>1</max_control>
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="ECRB-P1">
+				<location> 0.0129565 -0.278992 0.0163085</location>
+				<body>humerus_R</body>
+				</PathPoint>
+				<PathPoint name="ECRB-P2">
+				<location> 0.0279011 -0.125685 0.0229068</location>
+				<body>radius_R</body>
+				</PathPoint>
+				<PathPoint name="ECRB-P3">
+				<location> 0.0340864 -0.219031 0.037813</location>
+				<body>radius_R</body>
+				</PathPoint>
+				<PathPoint name="ECRB-P4">
+				<location> 0.00480226 -0.0109107 0.00816384</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects>
+				<PathWrap>
+				<wrap_object>ECRB</wrap_object>
+				<method>hybrid</method>
+				<range> -1 -1</range>
+				</PathWrap>
+				</objects>
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> -0 0 -0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<optimal_force>1</optimal_force>
+				<max_isometric_force>252.5</max_isometric_force>
+				<optimal_fiber_length>0.0585</optimal_fiber_length>
+				<tendon_slack_length>0.2223</tendon_slack_length>
+				<pennation_angle_at_optimal>0.1570796</pennation_angle_at_optimal>
+				<max_contraction_velocity>0</max_contraction_velocity>
+				</Thelen2003Muscle>
+				<Thelen2003Muscle name="ECRB_l">
+				<isDisabled>false</isDisabled>
+				<min_control>0</min_control>
+				<max_control>1</max_control>
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="ECRB-P1_l">
+				<location> 0.0129565 -0.278992 -0.0163085</location>
+				<body>humerus_L</body>
+				</PathPoint>
+				<PathPoint name="ECRB-P2_l">
+				<location> 0.0279011 -0.125685 -0.0229068</location>
+				<body>radius_L</body>
+				</PathPoint>
+				<PathPoint name="ECRB-P3_l">
+				<location> 0.0340864 -0.219031 -0.037813</location>
+				<body>radius_L</body>
+				</PathPoint>
+				<PathPoint name="ECRB-P4_l">
+				<location> 0.00480226 -0.0109107 -0.00816384</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects>
+				</objects>
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> -0 0 -0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<optimal_force>1</optimal_force>
+				<max_isometric_force>252.5</max_isometric_force>
+				<optimal_fiber_length>0.0585</optimal_fiber_length>
+				<tendon_slack_length>0.2223</tendon_slack_length>
+				<pennation_angle_at_optimal>0.1570796</pennation_angle_at_optimal>
+				<max_contraction_velocity>0</max_contraction_velocity>
+				</Thelen2003Muscle>
+				<Thelen2003Muscle name="ECU">
+				<isDisabled>false</isDisabled>
+				<min_control>0</min_control>
+				<max_control>1</max_control>
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="ECU-P1">
+				<location> 0.000797175 -0.278099 0.0180565</location>
+				<body>humerus_R</body>
+				</PathPoint>
+				<PathPoint name="ECU-P2">
+				<location> -0.0133599 -0.0307441 0.0283045</location>
+				<body>ulna_R</body>
+				</PathPoint>
+				<PathPoint name="ECU-P3">
+				<location> -0.0163757 -0.0521333 0.0275458</location>
+				<body>ulna_R</body>
+				</PathPoint>
+				<PathPoint name="ECU-P4">
+				<location> -0.0172209 -0.0919439 0.0314836</location>
+				<body>ulna_R</body>
+				</PathPoint>
+				<PathPoint name="ECU-P5">
+				<location> -0.013648 -0.217984 0.0334333</location>
+				<body>radius_R</body>
+				</PathPoint>
+				<PathPoint name="ECU-P6">
+				<location> -0.0216198 -0.0134559 -0.00122938</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects>
+				<PathWrap>
+				<wrap_object>ECU</wrap_object>
+				<method>hybrid</method>
+				<range> -1 -1</range>
+				</PathWrap>
+				</objects>
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> -0 0 -0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<optimal_force>1</optimal_force>
+				<max_isometric_force>192.9</max_isometric_force>
+				<optimal_fiber_length>0.0622</optimal_fiber_length>
+				<tendon_slack_length>0.2285</tendon_slack_length>
+				<pennation_angle_at_optimal>0.0698132</pennation_angle_at_optimal>
+				<max_contraction_velocity>0</max_contraction_velocity>
+				</Thelen2003Muscle>
+				<Thelen2003Muscle name="ECU_l">
+				<isDisabled>false</isDisabled>
+				<min_control>0</min_control>
+				<max_control>1</max_control>
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="ECU-P1_l">
+				<location> 0.000797175 -0.278099 -0.0180565</location>
+				<body>humerus_L</body>
+				</PathPoint>
+				<PathPoint name="ECU-P2_l">
+				<location> -0.0133599 -0.0307441 -0.0283045</location>
+				<body>ulna_L</body>
+				</PathPoint>
+				<PathPoint name="ECU-P3_l">
+				<location> -0.0163757 -0.0521333 -0.0275458</location>
+				<body>ulna_L</body>
+				</PathPoint>
+				<PathPoint name="ECU-P4_l">
+				<location> -0.0172209 -0.0919439 -0.0314836</location>
+				<body>ulna_L</body>
+				</PathPoint>
+				<PathPoint name="ECU-P5_l">
+				<location> -0.013648 -0.217984 -0.0334333</location>
+				<body>radius_L</body>
+				</PathPoint>
+				<PathPoint name="ECU-P6_l">
+				<location> -0.0216198 -0.0134559 0.00122938</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects>
+				<PathWrap>
+				<wrap_object>ECU_l</wrap_object>
+				<method>hybrid</method>
+				<range> -1 -1</range>
+				</PathWrap>
+				</objects>
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> -0 0 -0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<optimal_force>1</optimal_force>
+				<max_isometric_force>192.9</max_isometric_force>
+				<optimal_fiber_length>0.0622</optimal_fiber_length>
+				<tendon_slack_length>0.2285</tendon_slack_length>
+				<pennation_angle_at_optimal>0.0698132</pennation_angle_at_optimal>
+				<max_contraction_velocity>0</max_contraction_velocity>
+				</Thelen2003Muscle>
+				<Thelen2003Muscle name="EDCI">
+				<isDisabled>false</isDisabled>
+				<min_control>0</min_control>
+				<max_control>1</max_control>
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="EDCI-P1">
+				<location> 0.000624294 -0.277551 0.0179508</location>
+				<body>humerus_R</body>
+				</PathPoint>
+				<MovingPathPoint name="EDCI-P2">
+				<location> 0.00228 -0.03918 0.01483</location>
+				<body>radius_R</body>
+				<x_location>
+				<SimmSpline>
+				<x> -1.5708 0 1.5708</x>
+				<y> 0.01308 0.00228 -0.00852</y>
+				</SimmSpline>
+				</x_location>
+				<x_coordinate>pro_sup_r</x_coordinate>
+				<y_location>
+				<SimmSpline>
+				<x> -1.5708 0 1.5708</x>
+				<y> -0.04048 -0.03918 -0.03538</y>
+				</SimmSpline>
+				</y_location>
+				<y_coordinate>pro_sup_r</y_coordinate>
+				<z_location>
+				<SimmSpline>
+				<x> -1.5708 0 1.5708</x>
+				<y> 0.01133 0.01483 0.01394</y>
+				</SimmSpline>
+				</z_location>
+				<z_coordinate>pro_sup_r</z_coordinate>
+				</MovingPathPoint>
+				<PathPoint name="EDCI-P3">
+				<location> 0.0147237 -0.214315 0.0403006</location>
+				<body>radius_R</body>
+				</PathPoint>
+				<PathPoint name="EDCI-P4">
+				<location> 0.0148198 -0.0449492 0.0157418</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				<PathPoint name="EDCI-P5">
+				<location> 0.0182198 -0.054304 0.0138113</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				<PathPoint name="EDCI-P6">
+				<location> 0.0191514 -0.0737435 0.00570508</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				<PathPoint name="EDCI-P7">
+				<location> 0.0282853 -0.0879966 -0.0119576</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				<PathPoint name="EDCI-P8">
+				<location> 0.0299757 -0.0897925 -0.0279011</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				<PathPoint name="EDCI-P9">
+				<location> 0.0289384 -0.0815136 -0.0409921</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				<PathPoint name="EDCI-P10">
+				<location> 0.0281316 -0.0778254 -0.047696</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects>
+				<PathWrap>
+				<wrap_object>EDCI</wrap_object>
+				<method>hybrid</method>
+				<range> 3 4</range>
+				</PathWrap>
+				</objects>
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> -0 0 -0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<optimal_force>1</optimal_force>
+				<max_isometric_force>48.8</max_isometric_force>
+				<optimal_fiber_length>0.07</optimal_fiber_length>
+				<tendon_slack_length>0.365</tendon_slack_length>
+				<pennation_angle_at_optimal>0.05235988</pennation_angle_at_optimal>
+				<max_contraction_velocity>0</max_contraction_velocity>
+				</Thelen2003Muscle>
+				<Thelen2003Muscle name="EDCI_l">
+				<isDisabled>false</isDisabled>
+				<min_control>0</min_control>
+				<max_control>1</max_control>
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="EDCI-P1_l">
+				<location> 0.000624294 -0.277551 -0.0179508</location>
+				<body>humerus_L</body>
+				</PathPoint>
+				<MovingPathPoint name="EDCI-P2_l">
+				<location> 0.00228 -0.03918 -0.01483</location>
+				<body>radius_L</body>
+				<x_location>
+				<SimmSpline>
+				<x> -1.5708 0 1.5708</x>
+				<y> 0.01308 0.00228 -0.00852</y>
+				</SimmSpline>
+				</x_location>
+				<x_coordinate>pro_sup_l</x_coordinate>
+				<y_location>
+				<SimmSpline>
+				<x> -1.5708 0 1.5708</x>
+				<y> -0.04048 -0.03918 -0.03538</y>
+				</SimmSpline>
+				</y_location>
+				<y_coordinate>pro_sup_l</y_coordinate>
+				<z_location>
+				<SimmSpline>
+				<x> -1.5708 0 1.5708</x>
+				<y> -0.01133 -0.01483 -0.01394</y>
+				</SimmSpline>
+				</z_location>
+				<z_coordinate>pro_sup_l</z_coordinate>
+				</MovingPathPoint>
+				<PathPoint name="EDCI-P3_l">
+				<location> 0.0147237 -0.214315 -0.0403006</location>
+				<body>radius_L</body>
+				</PathPoint>
+				<PathPoint name="EDCI-P4_l">
+				<location> 0.0148198 -0.0449492 -0.0157418</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				<PathPoint name="EDCI-P5_l">
+				<location> 0.0182198 -0.054304 -0.0138113</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				<PathPoint name="EDCI-P6_l">
+				<location> 0.0191514 -0.0737435 -0.00570508</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				<PathPoint name="EDCI-P7_l">
+				<location> 0.0282853 -0.0879966 0.0119576</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				<PathPoint name="EDCI-P8_l">
+				<location> 0.0299757 -0.0897925 0.0279011</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				<PathPoint name="EDCI-P9_l">
+				<location> 0.0289384 -0.0815136 0.0409921</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				<PathPoint name="EDCI-P10_l">
+				<location> 0.0281316 -0.0778254 0.047696</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects>
+				</objects>
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> -0 0 -0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<optimal_force>1</optimal_force>
+				<max_isometric_force>48.8</max_isometric_force>
+				<optimal_fiber_length>0.07</optimal_fiber_length>
+				<tendon_slack_length>0.365</tendon_slack_length>
+				<pennation_angle_at_optimal>0.05235988</pennation_angle_at_optimal>
+				<max_contraction_velocity>0</max_contraction_velocity>
+				</Thelen2003Muscle>
+				<Thelen2003Muscle name="EDCM">
+				<isDisabled>false</isDisabled>
+				<min_control>0</min_control>
+				<max_control>1</max_control>
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="EDCM-P1">
+				<location> 0.000489831 -0.278377 0.0187192</location>
+				<body>humerus_R</body>
+				</PathPoint>
+				<MovingPathPoint name="EDCM-P2">
+				<location> 0.00316 -0.03948 0.01528</location>
+				<body>radius_R</body>
+				<x_location>
+				<SimmSpline>
+				<x> -1.5708 0 1.5708</x>
+				<y> 0.01396 0.00316 -0.00764</y>
+				</SimmSpline>
+				</x_location>
+				<x_coordinate>pro_sup_r</x_coordinate>
+				<y_location>
+				<SimmSpline>
+				<x> -1.5708 0 1.5708</x>
+				<y> -0.04078 -0.03948 -0.03568</y>
+				</SimmSpline>
+				</y_location>
+				<y_coordinate>pro_sup_r</y_coordinate>
+				<z_location>
+				<SimmSpline>
+				<x> -1.5708 0 1.5708</x>
+				<y> 0.01178 0.01528 0.01439</y>
+				</SimmSpline>
+				</z_location>
+				<z_coordinate>pro_sup_r</z_coordinate>
+				</MovingPathPoint>
+				<PathPoint name="EDCM-P3">
+				<location> 0.0138305 -0.214402 0.0405599</location>
+				<body>radius_R</body>
+				</PathPoint>
+				<PathPoint name="EDCM-P4">
+				<location> 0.000374576 -0.0506542 0.0143203</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				<PathPoint name="EDCM-P5">
+				<location> -0.000835593 -0.0535356 0.0139458</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				<PathPoint name="EDCM-P6">
+				<location> 0.00178644 -0.0741277 0.0057339</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				<PathPoint name="EDCM-P7">
+				<location> 0.00967175 -0.0894469 -0.0170384</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				<PathPoint name="EDCM-P8">
+				<location> 0.0126876 -0.0918 -0.0293514</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				<PathPoint name="EDCM-P9">
+				<location> 0.0178356 -0.0818785 -0.0457079</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				<PathPoint name="EDCM-P10">
+				<location> 0.0197469 -0.0767689 -0.0512977</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				<PathPoint name="EDCM-P11">
+				<location> 0.0210819 -0.0739644 -0.0543904</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects>
+				<PathWrap>
+				<wrap_object>EDCM</wrap_object>
+				<method>hybrid</method>
+				<range> 1 4</range>
+				</PathWrap>
+				</objects>
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> -0 0 -0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<optimal_force>1</optimal_force>
+				<max_isometric_force>94.4</max_isometric_force>
+				<optimal_fiber_length>0.0724</optimal_fiber_length>
+				<tendon_slack_length>0.365</tendon_slack_length>
+				<pennation_angle_at_optimal>0.05235988</pennation_angle_at_optimal>
+				<max_contraction_velocity>0</max_contraction_velocity>
+				</Thelen2003Muscle>
+				<Thelen2003Muscle name="EDCM_l">
+				<isDisabled>false</isDisabled>
+				<min_control>0</min_control>
+				<max_control>1</max_control>
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="EDCM-P1_l">
+				<location> 0.000489831 -0.278377 -0.0187192</location>
+				<body>humerus_L</body>
+				</PathPoint>
+				<MovingPathPoint name="EDCM-P2_l">
+				<location> 0.00316 -0.03948 -0.01528</location>
+				<body>radius_L</body>
+				<x_location>
+				<SimmSpline>
+				<x> -1.5708 0 1.5708</x>
+				<y> 0.01396 0.00316 -0.00764</y>
+				</SimmSpline>
+				</x_location>
+				<x_coordinate>pro_sup_l</x_coordinate>
+				<y_location>
+				<SimmSpline>
+				<x> -1.5708 0 1.5708</x>
+				<y> -0.04078 -0.03948 -0.03568</y>
+				</SimmSpline>
+				</y_location>
+				<y_coordinate>pro_sup_l</y_coordinate>
+				<z_location>
+				<SimmSpline>
+				<x> -1.5708 0 1.5708</x>
+				<y> -0.01178 -0.01528 -0.01439</y>
+				</SimmSpline>
+				</z_location>
+				<z_coordinate>pro_sup_l</z_coordinate>
+				</MovingPathPoint>
+				<PathPoint name="EDCM-P3_l">
+				<location> 0.0138305 -0.214402 -0.0405599</location>
+				<body>radius_L</body>
+				</PathPoint>
+				<PathPoint name="EDCM-P4_l">
+				<location> 0.000374576 -0.0506542 -0.0143203</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				<PathPoint name="EDCM-P5_l">
+				<location> -0.000835593 -0.0535356 -0.0139458</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				<PathPoint name="EDCM-P6_l">
+				<location> 0.00178644 -0.0741277 -0.0057339</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				<PathPoint name="EDCM-P7_l">
+				<location> 0.00967175 -0.0894469 0.0170384</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				<PathPoint name="EDCM-P8_l">
+				<location> 0.0126876 -0.0918 0.0293514</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				<PathPoint name="EDCM-P9_l">
+				<location> 0.0178356 -0.0818785 0.0457079</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				<PathPoint name="EDCM-P10_l">
+				<location> 0.0197469 -0.0767689 0.0512977</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				<PathPoint name="EDCM-P11_l">
+				<location> 0.0210819 -0.0739644 0.0543904</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects>
+				</objects>
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> -0 0 -0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<optimal_force>1</optimal_force>
+				<max_isometric_force>94.4</max_isometric_force>
+				<optimal_fiber_length>0.0724</optimal_fiber_length>
+				<tendon_slack_length>0.365</tendon_slack_length>
+				<pennation_angle_at_optimal>0.05235988</pennation_angle_at_optimal>
+				<max_contraction_velocity>0</max_contraction_velocity>
+				</Thelen2003Muscle>
+				<Thelen2003Muscle name="EDCR">
+				<isDisabled>false</isDisabled>
+				<min_control>0</min_control>
+				<max_control>1</max_control>
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="EDCR-P1">
+				<location> -0.00149831 -0.277916 0.0171153</location>
+				<body>humerus_R</body>
+				</PathPoint>
+				<MovingPathPoint name="EDCR-P2">
+				<location> 0.0026 -0.03991 0.01552</location>
+				<body>radius_R</body>
+				<x_location>
+				<SimmSpline>
+				<x> -1.5708 0 1.5708</x>
+				<y> 0.0134 0.0026 -0.0082</y>
+				</SimmSpline>
+				</x_location>
+				<x_coordinate>pro_sup_r</x_coordinate>
+				<y_location>
+				<SimmSpline>
+				<x> -1.5708 0 1.5708</x>
+				<y> -0.04121 -0.03991 -0.03611</y>
+				</SimmSpline>
+				</y_location>
+				<y_coordinate>pro_sup_r</y_coordinate>
+				<z_location>
+				<SimmSpline>
+				<x> -1.5708 0 1.5708</x>
+				<y> 0.01202 0.01552 0.01463</y>
+				</SimmSpline>
+				</z_location>
+				<z_coordinate>pro_sup_r</z_coordinate>
+				</MovingPathPoint>
+				<PathPoint name="EDCR-P3">
+				<location> 0.00847119 -0.214815 0.0411458</location>
+				<body>radius_R</body>
+				</PathPoint>
+				<PathPoint name="EDCR-P4">
+				<location> -0.0150215 -0.0533051 0.00897062</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				<PathPoint name="EDCR-P5">
+				<location> -0.0137056 -0.0558887 0.0111508</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				<PathPoint name="EDCR-P6">
+				<location> -0.0151751 -0.0693062 -0.0040435</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				<PathPoint name="EDCR-P7">
+				<location> -0.00792373 -0.0838955 -0.0217062</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				<PathPoint name="EDCR-P8">
+				<location> -0.00261243 -0.0845774 -0.0327418</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				<PathPoint name="EDCR-P9">
+				<location> 0.00732825 -0.0770859 -0.0447379</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				<PathPoint name="EDCR-P10">
+				<location> 0.0102672 -0.0750017 -0.0474559</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects>
+				<PathWrap>
+				<wrap_object>EDCR</wrap_object>
+				<method>hybrid</method>
+				<range> -1 -1</range>
+				</PathWrap>
+				</objects>
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> -0 0 -0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<optimal_force>1</optimal_force>
+				<max_isometric_force>109.2</max_isometric_force>
+				<optimal_fiber_length>0.0626</optimal_fiber_length>
+				<tendon_slack_length>0.365</tendon_slack_length>
+				<pennation_angle_at_optimal>0.05235988</pennation_angle_at_optimal>
+				<max_contraction_velocity>0</max_contraction_velocity>
+				</Thelen2003Muscle>
+				<Thelen2003Muscle name="EDCR_l">
+				<isDisabled>false</isDisabled>
+				<min_control>0</min_control>
+				<max_control>1</max_control>
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="EDCR-P1_l">
+				<location> -0.00149831 -0.277916 -0.0171153</location>
+				<body>humerus_L</body>
+				</PathPoint>
+				<MovingPathPoint name="EDCR-P2_l">
+				<location> 0.0026 -0.03991 -0.01552</location>
+				<body>radius_L</body>
+				<x_location>
+				<SimmSpline>
+				<x> -1.5708 0 1.5708</x>
+				<y> 0.0134 0.0026 -0.0082</y>
+				</SimmSpline>
+				</x_location>
+				<x_coordinate>pro_sup_l</x_coordinate>
+				<y_location>
+				<SimmSpline>
+				<x> -1.5708 0 1.5708</x>
+				<y> -0.04121 -0.03991 -0.03611</y>
+				</SimmSpline>
+				</y_location>
+				<y_coordinate>pro_sup_l</y_coordinate>
+				<z_location>
+				<SimmSpline>
+				<x> -1.5708 0 1.5708</x>
+				<y> -0.01202 -0.01552 -0.01463</y>
+				</SimmSpline>
+				</z_location>
+				<z_coordinate>pro_sup_l</z_coordinate>
+				</MovingPathPoint>
+				<PathPoint name="EDCR-P3_l">
+				<location> 0.00847119 -0.214815 -0.0411458</location>
+				<body>radius_L</body>
+				</PathPoint>
+				<PathPoint name="EDCR-P4_l">
+				<location> -0.0150215 -0.0533051 -0.00897062</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				<PathPoint name="EDCR-P5_l">
+				<location> -0.0137056 -0.0558887 -0.0111508</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				<PathPoint name="EDCR-P6_l">
+				<location> -0.0151751 -0.0693062 0.0040435</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				<PathPoint name="EDCR-P7_l">
+				<location> -0.00792373 -0.0838955 0.0217062</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				<PathPoint name="EDCR-P8_l">
+				<location> -0.00261243 -0.0845774 0.0327418</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				<PathPoint name="EDCR-P9_l">
+				<location> 0.00732825 -0.0770859 0.0447379</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				<PathPoint name="EDCR-P10_l">
+				<location> 0.0102672 -0.0750017 0.0474559</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects>
+				</objects>
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> -0 0 -0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<optimal_force>1</optimal_force>
+				<max_isometric_force>109.2</max_isometric_force>
+				<optimal_fiber_length>0.0626</optimal_fiber_length>
+				<tendon_slack_length>0.365</tendon_slack_length>
+				<pennation_angle_at_optimal>0.05235988</pennation_angle_at_optimal>
+				<max_contraction_velocity>0</max_contraction_velocity>
+				</Thelen2003Muscle>
+				<Thelen2003Muscle name="EDCL">
+				<isDisabled>false</isDisabled>
+				<min_control>0</min_control>
+				<max_control>1</max_control>
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="EDCL-P1">
+				<location> -0.000384181 -0.276908 0.0179605</location>
+				<body>humerus_R</body>
+				</PathPoint>
+				<MovingPathPoint name="EDCL-P2">
+				<location> 0.0013 -0.03888 0.01405</location>
+				<body>radius_R</body>
+				<x_location>
+				<SimmSpline>
+				<x> -1.5708 0 1.5708</x>
+				<y> 0.0121 0.0013 -0.0095</y>
+				</SimmSpline>
+				</x_location>
+				<x_coordinate>pro_sup_r</x_coordinate>
+				<y_location>
+				<SimmSpline>
+				<x> -1.5708 0 1.5708</x>
+				<y> -0.04018 -0.03888 -0.03508</y>
+				</SimmSpline>
+				</y_location>
+				<y_coordinate>pro_sup_r</y_coordinate>
+				<z_location>
+				<SimmSpline>
+				<x> -1.5708 0 1.5708</x>
+				<y> 0.01055 0.01405 0.01316</y>
+				</SimmSpline>
+				</z_location>
+				<z_coordinate>pro_sup_r</z_coordinate>
+				</MovingPathPoint>
+				<PathPoint name="EDCL-P3">
+				<location> 0.00953729 -0.214219 0.0347492</location>
+				<body>radius_R</body>
+				</PathPoint>
+				<PathPoint name="EDCL-P4">
+				<location> -0.0236655 -0.0422791 0.00162316</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				<PathPoint name="EDCL-P5">
+				<location> -0.0228684 -0.0454678 0.000739546</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				<PathPoint name="EDCL-P6">
+				<location> -0.0230028 -0.0635147 -0.00961412</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				<PathPoint name="EDCL-P7">
+				<location> -0.0172689 -0.0753667 -0.0260379</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				<PathPoint name="EDCL-P8">
+				<location> -0.0113141 -0.0756548 -0.0362955</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				<PathPoint name="EDCL-P9">
+				<location> -0.00144068 -0.0728599 -0.0440463</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				<PathPoint name="EDCL-P10">
+				<location> 0.00193051 -0.071909 -0.0460441</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects>
+				<PathWrap>
+				<wrap_object>EDCL</wrap_object>
+				<method>hybrid</method>
+				<range> 3 4</range>
+				</PathWrap>
+				</objects>
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> -0 0 -0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<optimal_force>1</optimal_force>
+				<max_isometric_force>39.4</max_isometric_force>
+				<optimal_fiber_length>0.065</optimal_fiber_length>
+				<tendon_slack_length>0.335</tendon_slack_length>
+				<pennation_angle_at_optimal>0.03490659</pennation_angle_at_optimal>
+				<max_contraction_velocity>0</max_contraction_velocity>
+				</Thelen2003Muscle>
+				<Thelen2003Muscle name="EDCL_l">
+				<isDisabled>false</isDisabled>
+				<min_control>0</min_control>
+				<max_control>1</max_control>
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="EDCL-P1_l">
+				<location> -0.000384181 -0.276908 -0.0179605</location>
+				<body>humerus_L</body>
+				</PathPoint>
+				<MovingPathPoint name="EDCL-P2_l">
+				<location> 0.0013 -0.03888 -0.01405</location>
+				<body>radius_L</body>
+				<x_location>
+				<SimmSpline>
+				<x> -1.5708 0 1.5708</x>
+				<y> 0.0121 0.0013 -0.0095</y>
+				</SimmSpline>
+				</x_location>
+				<x_coordinate>pro_sup_l</x_coordinate>
+				<y_location>
+				<SimmSpline>
+				<x> -1.5708 0 1.5708</x>
+				<y> -0.04018 -0.03888 -0.03508</y>
+				</SimmSpline>
+				</y_location>
+				<y_coordinate>pro_sup_l</y_coordinate>
+				<z_location>
+				<SimmSpline>
+				<x> -1.5708 0 1.5708</x>
+				<y> -0.01055 -0.01405 -0.01316</y>
+				</SimmSpline>
+				</z_location>
+				<z_coordinate>pro_sup_l</z_coordinate>
+				</MovingPathPoint>
+				<PathPoint name="EDCL-P3_l">
+				<location> 0.00953729 -0.214219 -0.0347492</location>
+				<body>radius_L</body>
+				</PathPoint>
+				<PathPoint name="EDCL-P4_l">
+				<location> -0.0236655 -0.0422791 -0.00162316</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				<PathPoint name="EDCL-P5_l">
+				<location> -0.0228684 -0.0454678 -0.000739546</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				<PathPoint name="EDCL-P6_l">
+				<location> -0.0230028 -0.0635147 0.00961412</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				<PathPoint name="EDCL-P7_l">
+				<location> -0.0172689 -0.0753667 0.0260379</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				<PathPoint name="EDCL-P8_l">
+				<location> -0.0113141 -0.0756548 0.0362955</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				<PathPoint name="EDCL-P9_l">
+				<location> -0.00144068 -0.0728599 0.0440463</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				<PathPoint name="EDCL-P10_l">
+				<location> 0.00193051 -0.071909 0.0460441</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects>
+				</objects>
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> -0 0 -0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<optimal_force>1</optimal_force>
+				<max_isometric_force>39.4</max_isometric_force>
+				<optimal_fiber_length>0.065</optimal_fiber_length>
+				<tendon_slack_length>0.335</tendon_slack_length>
+				<pennation_angle_at_optimal>0.03490659</pennation_angle_at_optimal>
+				<max_contraction_velocity>0</max_contraction_velocity>
+				</Thelen2003Muscle>
+				<Thelen2003Muscle name="EDM">
+				<isDisabled>false</isDisabled>
+				<min_control>0</min_control>
+				<max_control>1</max_control>
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="EDM-P1">
+				<location> 0.000854802 -0.277753 0.0177395</location>
+				<body>humerus_R</body>
+				</PathPoint>
+				<PathPoint name="EDM-P2">
+				<location> -0.0093836 -0.0375249 0.0296206</location>
+				<body>ulna_R</body>
+				</PathPoint>
+				<PathPoint name="EDM-P3">
+				<location> -0.0072514 -0.0794006 0.0350181</location>
+				<body>ulna_R</body>
+				</PathPoint>
+				<PathPoint name="EDM-P4">
+				<location> 0.00436045 -0.217456 0.0353254</location>
+				<body>radius_R</body>
+				</PathPoint>
+				<PathPoint name="EDM-P5">
+				<location> -0.0197757 -0.00991186 0.00357288</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				<PathPoint name="EDM-P6">
+				<location> -0.0246164 -0.0453525 0.000220904</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				<PathPoint name="EDM-P7">
+				<location> -0.0244819 -0.062535 -0.0105458</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				<PathPoint name="EDM-P8">
+				<location> -0.0185655 -0.0750113 -0.0261051</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				<PathPoint name="EDM-P9">
+				<location> -0.0129277 -0.0757989 -0.0374</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				<PathPoint name="EDM-P10">
+				<location> -0.00207458 -0.0722356 -0.0440751</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				<PathPoint name="EDM-P11">
+				<location> 0.0012678 -0.0705452 -0.0461305</location>
+				<body>capitate_R</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects>
+				<PathWrap>
+				<wrap_object>EDM</wrap_object>
+				<method>hybrid</method>
+				<range> 4 5</range>
+				</PathWrap>
+				</objects>
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> -0 0 -0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<optimal_force>1</optimal_force>
+				<max_isometric_force>72.4</max_isometric_force>
+				<optimal_fiber_length>0.0675</optimal_fiber_length>
+				<tendon_slack_length>0.335</tendon_slack_length>
+				<pennation_angle_at_optimal>0.05235988</pennation_angle_at_optimal>
+				<max_contraction_velocity>0</max_contraction_velocity>
+				</Thelen2003Muscle>
+				<Thelen2003Muscle name="EDM_l">
+				<isDisabled>false</isDisabled>
+				<min_control>0</min_control>
+				<max_control>1</max_control>
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="EDM-P1_l">
+				<location> 0.000854802 -0.277753 -0.0177395</location>
+				<body>humerus_L</body>
+				</PathPoint>
+				<PathPoint name="EDM-P2_l">
+				<location> -0.0093836 -0.0375249 -0.0296206</location>
+				<body>ulna_L</body>
+				</PathPoint>
+				<PathPoint name="EDM-P3_l">
+				<location> -0.0072514 -0.0794006 -0.0350181</location>
+				<body>ulna_L</body>
+				</PathPoint>
+				<PathPoint name="EDM-P4_l">
+				<location> 0.00436045 -0.217456 -0.0353254</location>
+				<body>radius_L</body>
+				</PathPoint>
+				<PathPoint name="EDM-P5_l">
+				<location> -0.0197757 -0.00991186 -0.00357288</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				<PathPoint name="EDM-P6_l">
+				<location> -0.0246164 -0.0453525 -0.000220904</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				<PathPoint name="EDM-P7_l">
+				<location> -0.0244819 -0.062535 0.0105458</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				<PathPoint name="EDM-P8_l">
+				<location> -0.0185655 -0.0750113 0.0261051</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				<PathPoint name="EDM-P9_l">
+				<location> -0.0129277 -0.0757989 0.0374</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				<PathPoint name="EDM-P10_l">
+				<location> -0.00207458 -0.0722356 0.0440751</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				<PathPoint name="EDM-P11_l">
+				<location> 0.0012678 -0.0705452 0.0461305</location>
+				<body>capitate_L</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects>
+				</objects>
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> -0 0 -0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<optimal_force>1</optimal_force>
+				<max_isometric_force>72.4</max_isometric_force>
+				<optimal_fiber_length>0.0675</optimal_fiber_length>
+				<tendon_slack_length>0.335</tendon_slack_length>
+				<pennation_angle_at_optimal>0.05235988</pennation_angle_at_optimal>
+				<max_contraction_velocity>0</max_contraction_velocity>
+				</Thelen2003Muscle>
+				<Millard2012EquilibriumMuscle name="perlong_r">
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="perlong_r-P1">
+				<location> -0.02 -0.1373 0.0282</location>
+				<body>tibia_r</body>
+				</PathPoint>
+				<PathPoint name="perlong_r-P2">
+				<location> -0.0317 -0.39 0.0237</location>
+				<body>tibia_r</body>
+				</PathPoint>
+				<PathPoint name="perlong_r-P3">
+				<location> -0.0272 -0.4014 0.024</location>
+				<body>tibia_r</body>
+				</PathPoint>
+				<PathPoint name="perlong_r-P4">
+				<location> 0.0438 0.023 0.0221</location>
+				<body>calcn_r</body>
+				</PathPoint>
+				<PathPoint name="perlong_r-P5">
+				<location> 0.0681 0.0106 0.0284</location>
+				<body>calcn_r</body>
+				</PathPoint>
+				<PathPoint name="perlong_r-P6">
+				<location> 0.0852 0.0069 0.0118</location>
+				<body>calcn_r</body>
+				</PathPoint>
+				<PathPoint name="perlong_r-P7">
+				<location> 0.1203 0.0085 -0.0184</location>
+				<body>calcn_r</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects />
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> -0 0 -0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<max_isometric_force>1115.3714214</max_isometric_force>
+				<optimal_fiber_length>0.0508</optimal_fiber_length>
+				<tendon_slack_length>0.332220762637978</tendon_slack_length>
+				<pennation_angle_at_optimal>0.24795247</pennation_angle_at_optimal>
+				<ignore_tendon_compliance>false</ignore_tendon_compliance>
+				<fiber_damping>0.01</fiber_damping>
+				<default_activation>0.01</default_activation>
+				<minimum_activation>0.01</minimum_activation>
+				<ActiveForceLengthCurve>
+				<min_norm_active_fiber_length>0.25</min_norm_active_fiber_length>
+				<transition_norm_fiber_length>0.77</transition_norm_fiber_length>
+				<max_norm_active_fiber_length>1.9</max_norm_active_fiber_length>
+				<shallow_ascending_slope>0.75</shallow_ascending_slope>
+				<minimum_value>0</minimum_value>
+				</ActiveForceLengthCurve>
+				<ForceVelocityCurve>
+				<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
+				<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
+				<isometric_slope>5</isometric_slope>
+				<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
+				<eccentric_slope_near_vmax>0.15</eccentric_slope_near_vmax>
+				<max_eccentric_velocity_force_multiplier>1.4</max_eccentric_velocity_force_multiplier>
+				</ForceVelocityCurve>
+				<FiberForceLengthCurve>
+				<strain_at_zero_force>0</strain_at_zero_force>
+				<strain_at_one_norm_force>0.7</strain_at_one_norm_force>
+				</FiberForceLengthCurve>
+				<TendonForceLengthCurve>
+				</TendonForceLengthCurve>
+				</Millard2012EquilibriumMuscle>
+				<Millard2012EquilibriumMuscle name="perlong_l">
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="perlong_l-P1">
+				<location> -0.02 -0.1373 -0.0282</location>
+				<body>tibia_l</body>
+				</PathPoint>
+				<PathPoint name="perlong_l-P2">
+				<location> -0.0317 -0.39 -0.0237</location>
+				<body>tibia_l</body>
+				</PathPoint>
+				<PathPoint name="perlong_l-P3">
+				<location> -0.0272 -0.4014 -0.024</location>
+				<body>tibia_l</body>
+				</PathPoint>
+				<PathPoint name="perlong_l-P4">
+				<location> 0.0438 0.023 -0.0221</location>
+				<body>calcn_l</body>
+				</PathPoint>
+				<PathPoint name="perlong_l-P5">
+				<location> 0.0681 0.0106 -0.0284</location>
+				<body>calcn_l</body>
+				</PathPoint>
+				<PathPoint name="perlong_l-P6">
+				<location> 0.0852 0.0069 -0.0118</location>
+				<body>calcn_l</body>
+				</PathPoint>
+				<PathPoint name="perlong_l-P7">
+				<location> 0.1203 0.0085 0.0184</location>
+				<body>calcn_l</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects />
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> -0 0 -0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<max_isometric_force>1115.3714214</max_isometric_force>
+				<optimal_fiber_length>0.0508</optimal_fiber_length>
+				<tendon_slack_length>0.332220762637978</tendon_slack_length>
+				<pennation_angle_at_optimal>0.24795247</pennation_angle_at_optimal>
+				<ignore_tendon_compliance>false</ignore_tendon_compliance>
+				<fiber_damping>0.01</fiber_damping>
+				<default_activation>0.01</default_activation>
+				<minimum_activation>0.01</minimum_activation>
+				<ActiveForceLengthCurve>
+				<min_norm_active_fiber_length>0.25</min_norm_active_fiber_length>
+				<transition_norm_fiber_length>0.77</transition_norm_fiber_length>
+				<max_norm_active_fiber_length>1.9</max_norm_active_fiber_length>
+				<shallow_ascending_slope>0.75</shallow_ascending_slope>
+				<minimum_value>0</minimum_value>
+				</ActiveForceLengthCurve>
+				<ForceVelocityCurve>
+				<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
+				<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
+				<isometric_slope>5</isometric_slope>
+				<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
+				<eccentric_slope_near_vmax>0.15</eccentric_slope_near_vmax>
+				<max_eccentric_velocity_force_multiplier>1.4</max_eccentric_velocity_force_multiplier>
+				</ForceVelocityCurve>
+				<FiberForceLengthCurve>
+				<strain_at_zero_force>0</strain_at_zero_force>
+				<strain_at_one_norm_force>0.7</strain_at_one_norm_force>
+				</FiberForceLengthCurve>
+				<TendonForceLengthCurve>
+				</TendonForceLengthCurve>
+				</Millard2012EquilibriumMuscle>
+				<Millard2012EquilibriumMuscle name="perbrev_r">
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="perbrev_r-P1">
+				<location> -0.0243 -0.2532 0.0251</location>
+				<body>tibia_r</body>
+				</PathPoint>
+				<PathPoint name="perbrev_r-P2">
+				<location> -0.0339 -0.3893 0.0249</location>
+				<body>tibia_r</body>
+				</PathPoint>
+				<PathPoint name="perbrev_r-P3">
+				<location> -0.0285 -0.4004 0.0255</location>
+				<body>tibia_r</body>
+				</PathPoint>
+				<PathPoint name="perbrev_r-P4">
+				<location> 0.0471 0.027 0.0233</location>
+				<body>calcn_r</body>
+				</PathPoint>
+				<PathPoint name="perbrev_r-P5">
+				<location> 0.0677 0.0219 0.0343</location>
+				<body>calcn_r</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects />
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> -0 0 -0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<max_isometric_force>521.2015988</max_isometric_force>
+				<optimal_fiber_length>0.0454</optimal_fiber_length>
+				<tendon_slack_length>0.147527533956538</tendon_slack_length>
+				<pennation_angle_at_optimal>0.20523612</pennation_angle_at_optimal>
+				<ignore_tendon_compliance>false</ignore_tendon_compliance>
+				<fiber_damping>0.01</fiber_damping>
+				<default_activation>0.01</default_activation>
+				<minimum_activation>0.01</minimum_activation>
+				<ActiveForceLengthCurve>
+				<min_norm_active_fiber_length>0.25</min_norm_active_fiber_length>
+				<transition_norm_fiber_length>0.77</transition_norm_fiber_length>
+				<max_norm_active_fiber_length>1.9</max_norm_active_fiber_length>
+				<shallow_ascending_slope>0.75</shallow_ascending_slope>
+				<minimum_value>0</minimum_value>
+				</ActiveForceLengthCurve>
+				<ForceVelocityCurve>
+				<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
+				<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
+				<isometric_slope>5</isometric_slope>
+				<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
+				<eccentric_slope_near_vmax>0.15</eccentric_slope_near_vmax>
+				<max_eccentric_velocity_force_multiplier>1.4</max_eccentric_velocity_force_multiplier>
+				</ForceVelocityCurve>
+				<FiberForceLengthCurve>
+				<strain_at_zero_force>0</strain_at_zero_force>
+				<strain_at_one_norm_force>0.7</strain_at_one_norm_force>
+				</FiberForceLengthCurve>
+				<TendonForceLengthCurve>
+				</TendonForceLengthCurve>
+				</Millard2012EquilibriumMuscle>
+				<Millard2012EquilibriumMuscle name="perbrev_l">
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="perbrev_l-P1">
+				<location> -0.0243 -0.2532 -0.0251</location>
+				<body>tibia_l</body>
+				</PathPoint>
+				<PathPoint name="perbrev_l-P2">
+				<location> -0.0339 -0.3893 -0.0249</location>
+				<body>tibia_l</body>
+				</PathPoint>
+				<PathPoint name="perbrev_l-P3">
+				<location> -0.0285 -0.4004 -0.0255</location>
+				<body>tibia_l</body>
+				</PathPoint>
+				<PathPoint name="perbrev_l-P4">
+				<location> 0.0471 0.027 -0.0233</location>
+				<body>calcn_l</body>
+				</PathPoint>
+				<PathPoint name="perbrev_l-P5">
+				<location> 0.0677 0.0219 -0.0343</location>
+				<body>calcn_l</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects />
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> -0 0 -0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<max_isometric_force>521.2015988</max_isometric_force>
+				<optimal_fiber_length>0.0454</optimal_fiber_length>
+				<tendon_slack_length>0.147527533956538</tendon_slack_length>
+				<pennation_angle_at_optimal>0.20523612</pennation_angle_at_optimal>
+				<ignore_tendon_compliance>false</ignore_tendon_compliance>
+				<fiber_damping>0.01</fiber_damping>
+				<default_activation>0.01</default_activation>
+				<minimum_activation>0.01</minimum_activation>
+				<ActiveForceLengthCurve>
+				<min_norm_active_fiber_length>0.25</min_norm_active_fiber_length>
+				<transition_norm_fiber_length>0.77</transition_norm_fiber_length>
+				<max_norm_active_fiber_length>1.9</max_norm_active_fiber_length>
+				<shallow_ascending_slope>0.75</shallow_ascending_slope>
+				<minimum_value>0</minimum_value>
+				</ActiveForceLengthCurve>
+				<ForceVelocityCurve>
+				<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
+				<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
+				<isometric_slope>5</isometric_slope>
+				<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
+				<eccentric_slope_near_vmax>0.15</eccentric_slope_near_vmax>
+				<max_eccentric_velocity_force_multiplier>1.4</max_eccentric_velocity_force_multiplier>
+				</ForceVelocityCurve>
+				<FiberForceLengthCurve>
+				<strain_at_zero_force>0</strain_at_zero_force>
+				<strain_at_one_norm_force>0.7</strain_at_one_norm_force>
+				</FiberForceLengthCurve>
+				<TendonForceLengthCurve>
+				</TendonForceLengthCurve>
+				</Millard2012EquilibriumMuscle>
+				<Thelen2003Muscle name="pertert_r">
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="pertert_r-P1">
+				<location> -0.0149 -0.2485 0.0222</location>
+				<body>tibia_r</body>
+				</PathPoint>
+				<PathPoint name="pertert_r-P2">
+				<location> 0.0108 -0.382 0.0225</location>
+				<body>tibia_r</body>
+				</PathPoint>
+				<PathPoint name="pertert_r-P3">
+				<location> 0.0857 0.0228 0.0299</location>
+				<body>calcn_r</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects />
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<scale_factors> 1 1 1</scale_factors>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<max_isometric_force>90</max_isometric_force>
+				<optimal_fiber_length>0.079</optimal_fiber_length>
+				<tendon_slack_length>0.1</tendon_slack_length>
+				<pennation_angle_at_optimal>0.2268928</pennation_angle_at_optimal>
+				<max_contraction_velocity>10</max_contraction_velocity>
+				</Thelen2003Muscle>
+				<Thelen2003Muscle name="pertert_l">
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="pertert_l-P1">
+				<location> -0.0149 -0.2485 -0.0222</location>
+				<body>tibia_l</body>
+				</PathPoint>
+				<PathPoint name="pertert_l-P2">
+				<location> 0.0108 -0.382 -0.0225</location>
+				<body>tibia_l</body>
+				</PathPoint>
+				<PathPoint name="pertert_l-P3">
+				<location> 0.0857 0.0228 -0.0299</location>
+				<body>calcn_l</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects />
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<scale_factors> 1 1 1</scale_factors>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<max_isometric_force>90</max_isometric_force>
+				<optimal_fiber_length>0.079</optimal_fiber_length>
+				<tendon_slack_length>0.1</tendon_slack_length>
+				<pennation_angle_at_optimal>0.2268928</pennation_angle_at_optimal>
+				<max_contraction_velocity>10</max_contraction_velocity>
+				</Thelen2003Muscle>
+				<Millard2012EquilibriumMuscle name="edl_r">
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="edl_r-P1">
+				<location> -0.016 -0.1157 0.0205</location>
+				<body>tibia_r</body>
+				</PathPoint>
+				<PathPoint name="edl_r-P2">
+				<location> 0.0164 -0.376 0.0112</location>
+				<body>tibia_r</body>
+				</PathPoint>
+				<PathPoint name="edl_r-P3">
+				<location> 0.0919 0.036 0.0008</location>
+				<body>calcn_r</body>
+				</PathPoint>
+				<PathPoint name="edl_r-P4">
+				<location> 0.1616 0.0055 0.013</location>
+				<body>calcn_r</body>
+				</PathPoint>
+				<PathPoint name="edl_r-P5">
+				<location> 0.0003 0.0047 0.0153</location>
+				<body>toes_r</body>
+				</PathPoint>
+				<PathPoint name="edl_r-P6">
+				<location> 0.0443 -0.0004 0.025</location>
+				<body>toes_r</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects />
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> -0 0 -0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<max_isometric_force>603.4981556</max_isometric_force>
+				<optimal_fiber_length>0.0693</optimal_fiber_length>
+				<tendon_slack_length>0.368875245465225</tendon_slack_length>
+				<pennation_angle_at_optimal>0.21825825</pennation_angle_at_optimal>
+				<ignore_tendon_compliance>false</ignore_tendon_compliance>
+				<fiber_damping>0.01</fiber_damping>
+				<default_activation>0.01</default_activation>
+				<minimum_activation>0.01</minimum_activation>
+				<ActiveForceLengthCurve>
+				<min_norm_active_fiber_length>0.25</min_norm_active_fiber_length>
+				<transition_norm_fiber_length>0.77</transition_norm_fiber_length>
+				<max_norm_active_fiber_length>1.9</max_norm_active_fiber_length>
+				<shallow_ascending_slope>0.75</shallow_ascending_slope>
+				<minimum_value>0</minimum_value>
+				</ActiveForceLengthCurve>
+				<ForceVelocityCurve>
+				<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
+				<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
+				<isometric_slope>5</isometric_slope>
+				<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
+				<eccentric_slope_near_vmax>0.15</eccentric_slope_near_vmax>
+				<max_eccentric_velocity_force_multiplier>1.4</max_eccentric_velocity_force_multiplier>
+				</ForceVelocityCurve>
+				<FiberForceLengthCurve>
+				<strain_at_zero_force>0</strain_at_zero_force>
+				<strain_at_one_norm_force>0.7</strain_at_one_norm_force>
+				</FiberForceLengthCurve>
+				<TendonForceLengthCurve>
+				</TendonForceLengthCurve>
+				</Millard2012EquilibriumMuscle>
+				<Millard2012EquilibriumMuscle name="edl_l">
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="edl_l-P1">
+				<location> -0.016 -0.1157 -0.0205</location>
+				<body>tibia_l</body>
+				</PathPoint>
+				<PathPoint name="edl_l-P2">
+				<location> 0.0164 -0.376 -0.0112</location>
+				<body>tibia_l</body>
+				</PathPoint>
+				<PathPoint name="edl_l-P3">
+				<location> 0.0919 0.036 -0.0008</location>
+				<body>calcn_l</body>
+				</PathPoint>
+				<PathPoint name="edl_l-P4">
+				<location> 0.1616 0.0055 -0.013</location>
+				<body>calcn_l</body>
+				</PathPoint>
+				<PathPoint name="edl_l-P5">
+				<location> 0.0003 0.0047 -0.0153</location>
+				<body>toes_l</body>
+				</PathPoint>
+				<PathPoint name="edl_l-P6">
+				<location> 0.0443 -0.0004 -0.025</location>
+				<body>toes_l</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects />
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> -0 0 -0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<max_isometric_force>603.4981556</max_isometric_force>
+				<optimal_fiber_length>0.0693</optimal_fiber_length>
+				<tendon_slack_length>0.368875245465225</tendon_slack_length>
+				<pennation_angle_at_optimal>0.21825825</pennation_angle_at_optimal>
+				<ignore_tendon_compliance>false</ignore_tendon_compliance>
+				<fiber_damping>0.01</fiber_damping>
+				<default_activation>0.01</default_activation>
+				<minimum_activation>0.01</minimum_activation>
+				<ActiveForceLengthCurve>
+				<min_norm_active_fiber_length>0.25</min_norm_active_fiber_length>
+				<transition_norm_fiber_length>0.77</transition_norm_fiber_length>
+				<max_norm_active_fiber_length>1.9</max_norm_active_fiber_length>
+				<shallow_ascending_slope>0.75</shallow_ascending_slope>
+				<minimum_value>0</minimum_value>
+				</ActiveForceLengthCurve>
+				<ForceVelocityCurve>
+				<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
+				<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
+				<isometric_slope>5</isometric_slope>
+				<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
+				<eccentric_slope_near_vmax>0.15</eccentric_slope_near_vmax>
+				<max_eccentric_velocity_force_multiplier>1.4</max_eccentric_velocity_force_multiplier>
+				</ForceVelocityCurve>
+				<FiberForceLengthCurve>
+				<strain_at_zero_force>0</strain_at_zero_force>
+				<strain_at_one_norm_force>0.7</strain_at_one_norm_force>
+				</FiberForceLengthCurve>
+				<TendonForceLengthCurve>
+				</TendonForceLengthCurve>
+				</Millard2012EquilibriumMuscle>
+				<Millard2012EquilibriumMuscle name="fdl_r">
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="fdl_r-P1">
+				<location> -0.0023 -0.1832 -0.0018</location>
+				<body>tibia_r</body>
+				</PathPoint>
+				<PathPoint name="fdl_r-P2">
+				<location> -0.0176 -0.3645 -0.0124</location>
+				<body>tibia_r</body>
+				</PathPoint>
+				<PathPoint name="fdl_r-P3">
+				<location> 0.0436 0.0315 -0.028</location>
+				<body>calcn_r</body>
+				</PathPoint>
+				<PathPoint name="fdl_r-P4">
+				<location> 0.0708 0.0176 -0.0263</location>
+				<body>calcn_r</body>
+				</PathPoint>
+				<PathPoint name="fdl_r-P5">
+				<location> 0.1658 -0.0081 0.0116</location>
+				<body>calcn_r</body>
+				</PathPoint>
+				<PathPoint name="fdl_r-P6">
+				<location> -0.0019 -0.0078 0.0147</location>
+				<body>toes_r</body>
+				</PathPoint>
+				<PathPoint name="fdl_r-P7">
+				<location> 0.0285 -0.0071 0.0215</location>
+				<body>toes_r</body>
+				</PathPoint>
+				<PathPoint name="fdl_r-P8">
+				<location> 0.0441 -0.006 0.0242</location>
+				<body>toes_r</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects />
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> -0 0 -0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<max_isometric_force>423.177049180328</max_isometric_force>
+				<optimal_fiber_length>0.0446</optimal_fiber_length>
+				<tendon_slack_length>0.378772856793842</tendon_slack_length>
+				<pennation_angle_at_optimal>0.22483915</pennation_angle_at_optimal>
+				<ignore_tendon_compliance>false</ignore_tendon_compliance>
+				<fiber_damping>0.01</fiber_damping>
+				<default_activation>0.01</default_activation>
+				<minimum_activation>0.01</minimum_activation>
+				<ActiveForceLengthCurve>
+				<min_norm_active_fiber_length>0.25</min_norm_active_fiber_length>
+				<transition_norm_fiber_length>0.77</transition_norm_fiber_length>
+				<max_norm_active_fiber_length>1.9</max_norm_active_fiber_length>
+				<shallow_ascending_slope>0.75</shallow_ascending_slope>
+				<minimum_value>0</minimum_value>
+				</ActiveForceLengthCurve>
+				<ForceVelocityCurve>
+				<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
+				<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
+				<isometric_slope>5</isometric_slope>
+				<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
+				<eccentric_slope_near_vmax>0.15</eccentric_slope_near_vmax>
+				<max_eccentric_velocity_force_multiplier>1.4</max_eccentric_velocity_force_multiplier>
+				</ForceVelocityCurve>
+				<FiberForceLengthCurve>
+				<strain_at_zero_force>0</strain_at_zero_force>
+				<strain_at_one_norm_force>0.7</strain_at_one_norm_force>
+				</FiberForceLengthCurve>
+				<TendonForceLengthCurve>
+				</TendonForceLengthCurve>
+				</Millard2012EquilibriumMuscle>
+				<Millard2012EquilibriumMuscle name="fdl_l">
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="fdl_l-P1">
+				<location> -0.0023 -0.1832 0.0018</location>
+				<body>tibia_l</body>
+				</PathPoint>
+				<PathPoint name="fdl_l-P2">
+				<location> -0.0176 -0.3645 0.0124</location>
+				<body>tibia_l</body>
+				</PathPoint>
+				<PathPoint name="fdl_l-P3">
+				<location> 0.0436 0.0315 0.028</location>
+				<body>calcn_l</body>
+				</PathPoint>
+				<PathPoint name="fdl_l-P4">
+				<location> 0.0708 0.0176 0.0263</location>
+				<body>calcn_l</body>
+				</PathPoint>
+				<PathPoint name="fdl_l-P5">
+				<location> 0.1658 -0.0081 -0.0116</location>
+				<body>calcn_l</body>
+				</PathPoint>
+				<PathPoint name="fdl_l-P6">
+				<location> -0.0019 -0.0078 -0.0147</location>
+				<body>toes_l</body>
+				</PathPoint>
+				<PathPoint name="fdl_l-P7">
+				<location> 0.0285 -0.0071 -0.0215</location>
+				<body>toes_l</body>
+				</PathPoint>
+				<PathPoint name="fdl_l-P8">
+				<location> 0.0441 -0.006 -0.0242</location>
+				<body>toes_l</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects />
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> -0 0 -0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<max_isometric_force>423.177049180328</max_isometric_force>
+				<optimal_fiber_length>0.0446</optimal_fiber_length>
+				<tendon_slack_length>0.378772856793842</tendon_slack_length>
+				<pennation_angle_at_optimal>0.22483915</pennation_angle_at_optimal>
+				<ignore_tendon_compliance>false</ignore_tendon_compliance>
+				<fiber_damping>0.01</fiber_damping>
+				<default_activation>0.01</default_activation>
+				<minimum_activation>0.01</minimum_activation>
+				<ActiveForceLengthCurve>
+				<min_norm_active_fiber_length>0.25</min_norm_active_fiber_length>
+				<transition_norm_fiber_length>0.77</transition_norm_fiber_length>
+				<max_norm_active_fiber_length>1.9</max_norm_active_fiber_length>
+				<shallow_ascending_slope>0.75</shallow_ascending_slope>
+				<minimum_value>0</minimum_value>
+				</ActiveForceLengthCurve>
+				<ForceVelocityCurve>
+				<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
+				<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
+				<isometric_slope>5</isometric_slope>
+				<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
+				<eccentric_slope_near_vmax>0.15</eccentric_slope_near_vmax>
+				<max_eccentric_velocity_force_multiplier>1.4</max_eccentric_velocity_force_multiplier>
+				</ForceVelocityCurve>
+				<FiberForceLengthCurve>
+				<strain_at_zero_force>0</strain_at_zero_force>
+				<strain_at_one_norm_force>0.7</strain_at_one_norm_force>
+				</FiberForceLengthCurve>
+				<TendonForceLengthCurve>
+				</TendonForceLengthCurve>
+				</Millard2012EquilibriumMuscle>
+				<Millard2012EquilibriumMuscle name="ehl_r">
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="ehl_r-P1">
+				<location> -0.014 -0.155 0.0189</location>
+				<body>tibia_r</body>
+				</PathPoint>
+				<PathPoint name="ehl_r-P2">
+				<location> 0.0071 -0.2909 0.0164</location>
+				<body>tibia_r</body>
+				</PathPoint>
+				<PathPoint name="ehl_r-P3">
+				<location> 0.02 -0.3693 -0.0028</location>
+				<body>tibia_r</body>
+				</PathPoint>
+				<PathPoint name="ehl_r-P4">
+				<location> 0.097 0.0389 -0.0211</location>
+				<body>calcn_r</body>
+				</PathPoint>
+				<PathPoint name="ehl_r-P5">
+				<location> 0.1293 0.0309 -0.0257</location>
+				<body>calcn_r</body>
+				</PathPoint>
+				<PathPoint name="ehl_r-P6">
+				<location> 0.1734 0.0139 -0.028</location>
+				<body>calcn_r</body>
+				</PathPoint>
+				<PathPoint name="ehl_r-P7">
+				<location> 0.0298 0.0041 -0.0245</location>
+				<body>toes_r</body>
+				</PathPoint>
+				<PathPoint name="ehl_r-P8">
+				<location> 0.0563 0.0034 -0.0186</location>
+				<body>toes_r</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects />
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> -0 0 -0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<max_isometric_force>285.8675474</max_isometric_force>
+				<optimal_fiber_length>0.0748</optimal_fiber_length>
+				<tendon_slack_length>0.326795279537187</tendon_slack_length>
+				<pennation_angle_at_optimal>0.19726811</pennation_angle_at_optimal>
+				<ignore_tendon_compliance>false</ignore_tendon_compliance>
+				<fiber_damping>0.01</fiber_damping>
+				<default_activation>0.01</default_activation>
+				<minimum_activation>0.01</minimum_activation>
+				<ActiveForceLengthCurve>
+				<min_norm_active_fiber_length>0.25</min_norm_active_fiber_length>
+				<transition_norm_fiber_length>0.77</transition_norm_fiber_length>
+				<max_norm_active_fiber_length>1.9</max_norm_active_fiber_length>
+				<shallow_ascending_slope>0.75</shallow_ascending_slope>
+				<minimum_value>0</minimum_value>
+				</ActiveForceLengthCurve>
+				<ForceVelocityCurve>
+				<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
+				<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
+				<isometric_slope>5</isometric_slope>
+				<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
+				<eccentric_slope_near_vmax>0.15</eccentric_slope_near_vmax>
+				<max_eccentric_velocity_force_multiplier>1.4</max_eccentric_velocity_force_multiplier>
+				</ForceVelocityCurve>
+				<FiberForceLengthCurve>
+				<strain_at_zero_force>0</strain_at_zero_force>
+				<strain_at_one_norm_force>0.7</strain_at_one_norm_force>
+				</FiberForceLengthCurve>
+				<TendonForceLengthCurve>
+				</TendonForceLengthCurve>
+				</Millard2012EquilibriumMuscle>
+				<Millard2012EquilibriumMuscle name="ehl_l">
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="ehl_l-P1">
+				<location> -0.014 -0.155 -0.0189</location>
+				<body>tibia_l</body>
+				</PathPoint>
+				<PathPoint name="ehl_l-P2">
+				<location> 0.0071 -0.2909 -0.0164</location>
+				<body>tibia_l</body>
+				</PathPoint>
+				<PathPoint name="ehl_l-P3">
+				<location> 0.02 -0.3693 0.0028</location>
+				<body>tibia_l</body>
+				</PathPoint>
+				<PathPoint name="ehl_l-P4">
+				<location> 0.097 0.0389 0.0211</location>
+				<body>calcn_l</body>
+				</PathPoint>
+				<PathPoint name="ehl_l-P5">
+				<location> 0.1293 0.0309 0.0257</location>
+				<body>calcn_l</body>
+				</PathPoint>
+				<PathPoint name="ehl_l-P6">
+				<location> 0.1734 0.0139 0.028</location>
+				<body>calcn_l</body>
+				</PathPoint>
+				<PathPoint name="ehl_l-P7">
+				<location> 0.0298 0.0041 0.0245</location>
+				<body>toes_l</body>
+				</PathPoint>
+				<PathPoint name="ehl_l-P8">
+				<location> 0.0563 0.0034 0.0186</location>
+				<body>toes_l</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects />
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> -0 0 -0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<max_isometric_force>285.8675474</max_isometric_force>
+				<optimal_fiber_length>0.0748</optimal_fiber_length>
+				<tendon_slack_length>0.326795279537187</tendon_slack_length>
+				<pennation_angle_at_optimal>0.19726811</pennation_angle_at_optimal>
+				<ignore_tendon_compliance>false</ignore_tendon_compliance>
+				<fiber_damping>0.01</fiber_damping>
+				<default_activation>0.01</default_activation>
+				<minimum_activation>0.01</minimum_activation>
+				<ActiveForceLengthCurve>
+				<min_norm_active_fiber_length>0.25</min_norm_active_fiber_length>
+				<transition_norm_fiber_length>0.77</transition_norm_fiber_length>
+				<max_norm_active_fiber_length>1.9</max_norm_active_fiber_length>
+				<shallow_ascending_slope>0.75</shallow_ascending_slope>
+				<minimum_value>0</minimum_value>
+				</ActiveForceLengthCurve>
+				<ForceVelocityCurve>
+				<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
+				<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
+				<isometric_slope>5</isometric_slope>
+				<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
+				<eccentric_slope_near_vmax>0.15</eccentric_slope_near_vmax>
+				<max_eccentric_velocity_force_multiplier>1.4</max_eccentric_velocity_force_multiplier>
+				</ForceVelocityCurve>
+				<FiberForceLengthCurve>
+				<strain_at_zero_force>0</strain_at_zero_force>
+				<strain_at_one_norm_force>0.7</strain_at_one_norm_force>
+				</FiberForceLengthCurve>
+				<TendonForceLengthCurve>
+				</TendonForceLengthCurve>
+				</Millard2012EquilibriumMuscle>
+				<Millard2012EquilibriumMuscle name="fhl_r">
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="fhl_r-P1">
+				<location> -0.031 -0.2163 0.02</location>
+				<body>tibia_r</body>
+				</PathPoint>
+				<PathPoint name="fhl_r-P2">
+				<location> -0.0242 -0.3671 -0.0076</location>
+				<body>tibia_r</body>
+				</PathPoint>
+				<PathPoint name="fhl_r-P3">
+				<location> 0.0374 0.0276 -0.0241</location>
+				<body>calcn_r</body>
+				</PathPoint>
+				<PathPoint name="fhl_r-P4">
+				<location> 0.1038 0.0068 -0.0256</location>
+				<body>calcn_r</body>
+				</PathPoint>
+				<PathPoint name="fhl_r-P5">
+				<location> 0.1726 -0.0053 -0.0269</location>
+				<body>calcn_r</body>
+				</PathPoint>
+				<PathPoint name="fhl_r-P6">
+				<location> 0.0155 -0.0064 -0.0265</location>
+				<body>toes_r</body>
+				</PathPoint>
+				<PathPoint name="fhl_r-P7">
+				<location> 0.0562 -0.0102 -0.0181</location>
+				<body>toes_r</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects />
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> -0 0 -0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<max_isometric_force>907.839344262294</max_isometric_force>
+				<optimal_fiber_length>0.0527</optimal_fiber_length>
+				<tendon_slack_length>0.354339676836818</tendon_slack_length>
+				<pennation_angle_at_optimal>0.25802551</pennation_angle_at_optimal>
+				<ignore_tendon_compliance>false</ignore_tendon_compliance>
+				<fiber_damping>0.01</fiber_damping>
+				<default_activation>0.01</default_activation>
+				<minimum_activation>0.01</minimum_activation>
+				<ActiveForceLengthCurve>
+				<min_norm_active_fiber_length>0.25</min_norm_active_fiber_length>
+				<transition_norm_fiber_length>0.77</transition_norm_fiber_length>
+				<max_norm_active_fiber_length>1.9</max_norm_active_fiber_length>
+				<shallow_ascending_slope>0.75</shallow_ascending_slope>
+				<minimum_value>0</minimum_value>
+				</ActiveForceLengthCurve>
+				<ForceVelocityCurve>
+				<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
+				<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
+				<isometric_slope>5</isometric_slope>
+				<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
+				<eccentric_slope_near_vmax>0.15</eccentric_slope_near_vmax>
+				<max_eccentric_velocity_force_multiplier>1.4</max_eccentric_velocity_force_multiplier>
+				</ForceVelocityCurve>
+				<FiberForceLengthCurve>
+				<strain_at_zero_force>0</strain_at_zero_force>
+				<strain_at_one_norm_force>0.7</strain_at_one_norm_force>
+				</FiberForceLengthCurve>
+				<TendonForceLengthCurve>
+				</TendonForceLengthCurve>
+				</Millard2012EquilibriumMuscle>
+				<Millard2012EquilibriumMuscle name="fhl_l">
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="fhl_l-P1">
+				<location> -0.031 -0.2163 -0.02</location>
+				<body>tibia_l</body>
+				</PathPoint>
+				<PathPoint name="fhl_l-P2">
+				<location> -0.0242 -0.3671 0.0076</location>
+				<body>tibia_l</body>
+				</PathPoint>
+				<PathPoint name="fhl_l-P3">
+				<location> 0.0374 0.0276 0.0241</location>
+				<body>calcn_l</body>
+				</PathPoint>
+				<PathPoint name="fhl_l-P4">
+				<location> 0.1038 0.0068 0.0256</location>
+				<body>calcn_l</body>
+				</PathPoint>
+				<PathPoint name="fhl_l-P5">
+				<location> 0.1726 -0.0053 0.0269</location>
+				<body>calcn_l</body>
+				</PathPoint>
+				<PathPoint name="fhl_l-P6">
+				<location> 0.0155 -0.0064 0.0265</location>
+				<body>toes_l</body>
+				</PathPoint>
+				<PathPoint name="fhl_l-P7">
+				<location> 0.0562 -0.0102 0.0181</location>
+				<body>toes_l</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects />
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> -0 0 -0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<max_isometric_force>907.839344262294</max_isometric_force>
+				<optimal_fiber_length>0.0527</optimal_fiber_length>
+				<tendon_slack_length>0.354339676836818</tendon_slack_length>
+				<pennation_angle_at_optimal>0.25802551</pennation_angle_at_optimal>
+				<ignore_tendon_compliance>false</ignore_tendon_compliance>
+				<fiber_damping>0.01</fiber_damping>
+				<default_activation>0.01</default_activation>
+				<minimum_activation>0.01</minimum_activation>
+				<ActiveForceLengthCurve>
+				<min_norm_active_fiber_length>0.25</min_norm_active_fiber_length>
+				<transition_norm_fiber_length>0.77</transition_norm_fiber_length>
+				<max_norm_active_fiber_length>1.9</max_norm_active_fiber_length>
+				<shallow_ascending_slope>0.75</shallow_ascending_slope>
+				<minimum_value>0</minimum_value>
+				</ActiveForceLengthCurve>
+				<ForceVelocityCurve>
+				<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
+				<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
+				<isometric_slope>5</isometric_slope>
+				<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
+				<eccentric_slope_near_vmax>0.15</eccentric_slope_near_vmax>
+				<max_eccentric_velocity_force_multiplier>1.4</max_eccentric_velocity_force_multiplier>
+				</ForceVelocityCurve>
+				<FiberForceLengthCurve>
+				<strain_at_zero_force>0</strain_at_zero_force>
+				<strain_at_one_norm_force>0.7</strain_at_one_norm_force>
+				</FiberForceLengthCurve>
+				<TendonForceLengthCurve>
+				</TendonForceLengthCurve>
+				</Millard2012EquilibriumMuscle>
+				<Thelen2003Muscle name="ExtIC_IS10_5_L">
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="PathPoint_rib10_L">
+				<location> -0.0183304 -0.0504326 -0.0977721</location>
+				<body>rib10_L</body>
+				</PathPoint>
+				<PathPoint name="PathPoint_rib11_L">
+				<location> -0.00207032 -0.0689934 -0.101717</location>
+				<body>rib11_L</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects />
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> 0 0 0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<max_isometric_force>103.4484</max_isometric_force>
+				<optimal_fiber_length>0.0587861366128486</optimal_fiber_length>
+				<tendon_slack_length>0.000937965160267517</tendon_slack_length>
+				<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
+				</Thelen2003Muscle>
+				<Thelen2003Muscle name="ExtIC_IS11_5_L">
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="PathPoint_rib11_L">
+				<location> -0.0241015 -0.0431392 -0.0786666</location>
+				<body>rib11_L</body>
+				</PathPoint>
+				<PathPoint name="PathPoint_rib12_L">
+				<location> -0.00889772 -0.064839 -0.0750533</location>
+				<body>rib12_L</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects />
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> 0 0 0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<max_isometric_force>47.6758</max_isometric_force>
+				<optimal_fiber_length>0.0522111564396856</optimal_fiber_length>
+				<tendon_slack_length>0.000928535747652214</tendon_slack_length>
+				<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
+				</Thelen2003Muscle>
+				<Thelen2003Muscle name="IntIC_IS10_5_L">
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="PathPoint_rib10_L">
+				<location> 0.0164022 -0.120873 -0.110237</location>
+				<body>rib10_L</body>
+				</PathPoint>
+				<PathPoint name="PathPoint_rib11_L">
+				<location> 0.0387481 -0.0623203 -0.1395</location>
+				<body>rib11_L</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects />
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> 0 0 0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<max_isometric_force>163.4425</max_isometric_force>
+				<optimal_fiber_length>0.0401818056331627</optimal_fiber_length>
+				<tendon_slack_length>0.000909426090766083</tendon_slack_length>
+				<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
+				</Thelen2003Muscle>
+				<Thelen2003Muscle name="IntIC_IS11_5_L">
+				<GeometryPath>
+				<PathPointSet>
+				<objects>
+				<PathPoint name="PathPoint_rib11_L">
+				<location> -0.00604576 -0.0959867 -0.0783933</location>
+				<body>rib11_L</body>
+				</PathPoint>
+				<PathPoint name="PathPoint_rib12_L">
+				<location> 0.00923043 -0.0516056 -0.109405</location>
+				<body>rib12_L</body>
+				</PathPoint>
+				</objects>
+				<groups />
+				</PathPointSet>
+				<PathWrapSet>
+				<objects />
+				<groups />
+				</PathWrapSet>
+				<VisibleObject name="display">
+				<GeometrySet>
+				<objects />
+				<groups />
+				</GeometrySet>
+				<scale_factors> 1 1 1</scale_factors>
+				<transform> 0 0 0 0 0 0</transform>
+				<show_axes>false</show_axes>
+				<display_preference>4</display_preference>
+				</VisibleObject>
+				</GeometryPath>
+				<max_isometric_force>93.7599</max_isometric_force>
+				<optimal_fiber_length>0.0386165232030305</optimal_fiber_length>
+				<tendon_slack_length>0.000941270869715228</tendon_slack_length>
+				<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
+				</Thelen2003Muscle>
+</objects>
 							<groups />
 						</PathPointSet>
 						<PathWrapSet>
