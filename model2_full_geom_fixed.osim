@@ -7986,7 +7986,30 @@
 						<display_preference>4</display_preference>
 					</VisibleObject>
 					<WrapObjectSet>
-						<objects />
+						<objects><WrapCylinder name="elbow">
+								<display_preference>0</display_preference>
+								<xyz_body_rotation> 2.51153 -1.54654 -2.79253</xyz_body_rotation>
+								<translation> 0 0 0.0</translation>
+								<active>true</active>
+								<quadrant>y</quadrant>
+								<radius>0.019</radius>
+								<length>0.05</length>
+							</WrapCylinder><WrapCylinder name="elbow_circ">
+								<display_preference>0</display_preference>
+								<xyz_body_rotation> -0.630064 1.54654 0.0</xyz_body_rotation>
+								<translation> 0 0 0.0</translation>
+								<active>true</active>
+								<radius>0.015</radius>
+								<length>0.05</length>
+							</WrapCylinder><WrapCylinder name="pron_quad">
+								<display_preference>0</display_preference>
+								<xyz_body_rotation> 1.28805 0.232652 0.0</xyz_body_rotation>
+								<translation> 0.0365 -0.2064 -0.0577</translation>
+								<active>true</active>
+								<quadrant>y</quadrant>
+								<radius>0.007</radius>
+								<length>0.1</length>
+							</WrapCylinder></objects>
 						<groups />
 					</WrapObjectSet>
 				</Body>
@@ -8131,7 +8154,31 @@
 								<inner_radius>0.00580595715753561</inner_radius>
 								<outer_radius>0.00870893573630342</outer_radius>
 							</WrapTorus>
-						</objects>
+						<WrapCylinder name="radius">
+								<display_preference>0</display_preference>
+								<xyz_body_rotation> 1.61286 0.202284 1.77709</xyz_body_rotation>
+								<translation> 0.0035 -0.0322 -0.0003</translation>
+								<active>true</active>
+								<quadrant>-x</quadrant>
+								<radius>0.0092</radius>
+								<length>0.2</length>
+							</WrapCylinder><WrapCylinder name="supinator">
+								<display_preference>0</display_preference>
+								<xyz_body_rotation> 1.48877 -0.00174533 0.0</xyz_body_rotation>
+								<translation> 0.0034 -0.1196 -0.0069</translation>
+								<active>true</active>
+								<quadrant>-y</quadrant>
+								<radius>0.009</radius>
+								<length>0.2</length>
+							</WrapCylinder><WrapCylinder name="ulna_radius">
+								<display_preference>0</display_preference>
+								<xyz_body_rotation> -1.54095 -0.256214 -2.67035</xyz_body_rotation>
+								<translation> 0.0146 -0.0891 0.0003</translation>
+								<active>true</active>
+								<quadrant>-x</quadrant>
+								<radius>0.0071</radius>
+								<length>0.1</length>
+							</WrapCylinder></objects>
 						<groups />
 					</WrapObjectSet>
 				</Body>
@@ -8257,7 +8304,7 @@
 					</VisibleObject>
 					<WrapObjectSet>
 						<objects>
-							<WrapCylinder name="elbow_L">
+							<WrapCylinder name="elbow">
 								<display_preference>0</display_preference>
 								<xyz_body_rotation> -2.51153 1.54654 -2.79253</xyz_body_rotation>
 								<translation> 0 0 -0.0</translation>
@@ -8266,7 +8313,7 @@
 								<radius>0.019</radius>
 								<length>0.05</length>
 							</WrapCylinder>
-							<WrapCylinder name="elbow_circ_L">
+							<WrapCylinder name="elbow_circ">
 								<display_preference>0</display_preference>
 								<xyz_body_rotation> 0.630064 -1.54654 -0.0</xyz_body_rotation>
 								<translation> 0 0 -0.0</translation>
@@ -8274,7 +8321,7 @@
 								<radius>0.015</radius>
 								<length>0.05</length>
 							</WrapCylinder>
-							<WrapCylinder name="pron_quad_L">
+							<WrapCylinder name="pron_quad">
 								<display_preference>0</display_preference>
 								<xyz_body_rotation> -1.28805 -0.232652 -0.0</xyz_body_rotation>
 								<translation> 0.0365 -0.2064 0.0577</translation>
@@ -8428,7 +8475,7 @@
 								<inner_radius>0.00580595715753561</inner_radius>
 								<outer_radius>0.00870893573630342</outer_radius>
 							</WrapTorus>
-							<WrapCylinder name="radius_L">
+							<WrapCylinder name="radius">
 								<display_preference>0</display_preference>
 								<xyz_body_rotation> -1.61286 -0.202284 1.77709</xyz_body_rotation>
 								<translation> 0.0035 -0.0322 0.0003</translation>
@@ -8437,7 +8484,7 @@
 								<radius>0.0092</radius>
 								<length>0.2</length>
 							</WrapCylinder>
-							<WrapCylinder name="supinator_L">
+							<WrapCylinder name="supinator">
 								<display_preference>0</display_preference>
 								<xyz_body_rotation> -1.48877 0.00174533 0.0</xyz_body_rotation>
 								<translation> 0.0034 -0.1196 0.0069</translation>
@@ -8446,7 +8493,7 @@
 								<radius>0.009</radius>
 								<length>0.2</length>
 							</WrapCylinder>
-							<WrapCylinder name="ulna_radius_L">
+							<WrapCylinder name="ulna_radius">
 								<display_preference>0</display_preference>
 								<xyz_body_rotation> 1.54095 0.256214 -2.67035</xyz_body_rotation>
 								<translation> 0.0146 -0.0891 -0.0003</translation>
@@ -21315,7 +21362,7 @@
 								<PathWrap>
 									<wrap_object>inf_sup_sub</wrap_object>
 								</PathWrap>
-								</objects>
+								<PathWrap><wrap_object>radius</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -21355,7 +21402,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>radius</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -21395,7 +21442,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>radius</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -21435,7 +21482,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -21475,7 +21522,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -21515,7 +21562,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -21555,7 +21602,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22197,7 +22244,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22237,7 +22284,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22277,7 +22324,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22317,7 +22364,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22357,7 +22404,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22397,7 +22444,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow_circ</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22437,7 +22484,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow_circ</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22477,7 +22524,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow_circ</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22517,7 +22564,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow_circ</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22557,7 +22604,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow_circ</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22597,7 +22644,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow_circ</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22637,7 +22684,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow_circ</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22789,7 +22836,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>ulna_radius</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22829,7 +22876,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>ulna_radius</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22869,7 +22916,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>supinator</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22909,7 +22956,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>supinator</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22949,7 +22996,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>supinator</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -22989,7 +23036,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>supinator</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -23029,7 +23076,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>supinator</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -23069,7 +23116,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>pron_quad</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -23109,7 +23156,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>pron_quad</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -23149,7 +23196,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>pron_quad</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -23189,7 +23236,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -23229,7 +23276,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -23269,7 +23316,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -23309,7 +23356,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -23349,7 +23396,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -26937,7 +26984,7 @@
 								<PathWrap>
 									<wrap_object>inf_sup_sub</wrap_object>
 								</PathWrap>
-								</objects>
+								<PathWrap><wrap_object>radius</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -26977,7 +27024,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>radius</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -27017,7 +27064,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>radius</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -27057,7 +27104,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -27097,7 +27144,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -27137,7 +27184,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -27177,7 +27224,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -27819,7 +27866,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -27859,7 +27906,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -27899,7 +27946,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -27939,7 +27986,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -27979,7 +28026,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28019,7 +28066,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow_circ</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28059,7 +28106,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow_circ</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28099,7 +28146,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow_circ</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28139,7 +28186,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow_circ</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28179,7 +28226,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow_circ</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28219,7 +28266,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow_circ</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28259,7 +28306,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow_circ</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28411,7 +28458,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>ulna_radius</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28451,7 +28498,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>ulna_radius</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28491,7 +28538,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>supinator</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28531,7 +28578,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>supinator</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28571,7 +28618,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>supinator</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28611,7 +28658,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>supinator</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28651,7 +28698,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>supinator</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28691,7 +28738,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>pron_quad</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28731,7 +28778,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>pron_quad</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28771,7 +28818,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>pron_quad</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28811,7 +28858,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28851,7 +28898,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28891,7 +28938,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28931,7 +28978,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
@@ -28971,7 +29018,7 @@
 						</PathPointSet>
 						<PathWrapSet>
 							<objects>
-								</objects>
+								<PathWrap><wrap_object>elbow</wrap_object><method>hybrid</method><range>-1 -1</range></PathWrap></objects>
 						</PathWrapSet>
 						<VisibleObject name="display">
 							<GeometrySet>
